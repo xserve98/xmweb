@@ -1,0 +1,47 @@
+<ion-view class="m-register" view-title="注册">
+	<ion-nav-bar class="bar-light">
+		<ion-nav-buttons side="left">
+	    	<a class="button button-icon icon-prepage" ng-click="back();"></a>
+	  	</ion-nav-buttons>
+	</ion-nav-bar>
+	
+	<ion-content class="padding" delegate-handle="regScroll">
+		<form role="form" name="regForm" class="form-horizontal" novalidate>
+		
+		<div class="list list-inset list-theme">
+			<p>为了您的资金安全，请使用真实资料!</p>
+			
+				<div class="item item-input nopadding border-theme input-images input-name">
+					<input class="reset-field" type="text" name="username" ng-model="regData.username" placeholder="帐号" ng-pattern="/^[A-Za-z0-9]+$/" ng-minlength="6" ng-maxlength="15" required />
+				</div>
+				<p class="item-warn text-light">*帐户名由4-16个字符组成</p>
+
+				<div class="item item-input nopadding border-theme input-images input-pwd">
+					<input class="password-eye" type="password" name="password" ng-model="regData.password" placeholder="密码" ng-minlength="6" ng-maxlength="20" required />
+				</div>
+               <p class="item-warn text-light">*请使用6-15位英文或数字的组合</p>
+
+				<div class="item item-input nopadding border-theme input-images input-pwd">
+					<input class="password-eye" type="password" name="password1" ng-model="regData.password1" placeholder="确认密码" ng-minlength="6" ng-maxlength="20" required />
+ 				</div>
+               <p class="item-warn text-light">*请再次输入密码以确保输入无误</p>
+               
+				<div class="item item-input nopadding border-theme input-images input-name">
+					<input class="reset-field" type="text" name="qq" ng-model="regData.qq" placeholder="QQ号码" ng-minlength="6" ng-maxlength="15" required />
+				</div>
+				<p class="item-warn text-light">*请输入QQ号码</p>
+                
+				<div class="item item-input nopadding border-theme input-images input-pwd">
+					<input class="validcode-field" ng-model="regData.vcode" placeholder="验证码" name="vcode" type="text" required />
+				</div>
+				
+				<button type="submit" ng-disabled="usernameExist || regForm.$invalid" class="button button-block button-positive" ng-click="reg();">注册</button>
+			
+			<div class="row">
+				<div class="col text-center"><p>已有帐号?<a href="#/login">马上登录</a></p></div>
+			</div>
+		</div>  
+		
+		</form>
+	</ion-content>
+</ion-view>

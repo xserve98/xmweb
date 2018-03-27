@@ -1,0 +1,1012 @@
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+	fieldset, input, textarea, p, blockquote, th, td {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "\5FAE\8F6F\96C5\9ED1", Arial, Tahoma;
+	color: #fff;
+}
+
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* fieldset, img {
+	border: 0;
+} */
+
+address, caption, cite, code, dfn, em, th, var {
+	font-weight: normal;
+	font-style: normal;
+}
+
+ul {
+	list-style: none;
+}
+
+caption, th {
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: blod;
+	font-size: 14px;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+/** fonts used for the icons **/
+@font-face {
+	font-family: 'fontello';
+	src: url("fonts/fontello.eot")/*tpa=http://juyou1989.com/cscpLoginWeb/style/CN/caiShenCP/pc/fonts/fontello.eot*/;
+	src: url("fonts/fontello.eot-#iefix")/*tpa=http://juyou1989.com/cscpLoginWeb/style/CN/caiShenCP/pc/fonts/fontello.eot?#iefix*/ format('embedded-opentype'),
+		url("fonts/fontello.woff")/*tpa=http://juyou1989.com/cscpLoginWeb/style/CN/caiShenCP/pc/fonts/fontello.woff*/ format('woff'),
+		url("fonts/fontello.ttf")/*tpa=http://juyou1989.com/cscpLoginWeb/style/CN/caiShenCP/pc/fonts/fontello.ttf*/ format('truetype'),
+		url("fonts/fontello.svg#fontello")/*tpa=http://juyou1989.com/cscpLoginWeb/style/CN/caiShenCP/pc/fonts/fontello.svg#fontello*/ format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	margin-left: .2em;
+}
+
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before,
+	.dl-horizontal dd:after, .container:before, .container:after,
+	.container-fluid:before, .container-fluid:after, .row:before, .row:after,
+	.form-horizontal .form-group:before, .form-horizontal .form-group:after,
+	.btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before,
+	.btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before,
+	.navbar:after, .navbar-header:before, .navbar-header:after,
+	.navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after,
+	.panel-body:before, .panel-body:after, .modal-footer:before,
+	.modal-footer:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after, .dl-horizontal dd:after, .container:after,
+	.container-fluid:after, .row:after, .form-horizontal .form-group:after,
+	.btn-toolbar:after, .btn-group-vertical>.btn-group:after, .nav:after,
+	.navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after,
+	.panel-body:after, .modal-footer:after {
+	clear: both;
+}
+/* CSS Document */
+body {
+	color: black;
+	font-size: 13px;
+}
+
+.clear:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.clear {
+	zoom: 1;
+}
+
+.mtop {
+	margin-top: 15px;
+}
+
+.tbpadding {
+	padding: 10px 0;
+}
+
+.pall {
+	padding: 15px;
+}
+
+.ptop {
+	padding-top: 10px;
+}
+
+.ptop6 {
+	padding-top: 6px;
+}
+
+.ptop4 {
+	padding-top: 1px;
+}
+
+.red {
+	color: #FF0000;
+}
+
+.f-align {
+	text-align: center;
+}
+/* .member-wapper{margin:20px;} */
+.member-header{ background-color:#5e0b05;height:124px;  0 0 repeat-x;}
+/* .member-header {
+	background: #385c97 none repeat scroll 0 0;
+	background:url(../../../../images/CN/caiShenCP/pc/contain_bg.jpg)
+} */
+/* gobal style
+==================================== */
+.m-content {
+	background: #fff
+		/* url(../../../../images/CN/caiShenCP/pc/member-nav-bg.png) repeat-y */;
+	min-height: 500px;
+}
+
+.m-content_F_P {
+	background: #fff;
+}
+
+.main-content .form-row {
+	height: 30px;
+}
+
+.m-content .side {
+	width: 200px;
+	float: left;
+	margin-right: -200px;
+	min-height: 600px; /*background-color:#065fb9 ;*/
+/* background:url(../../../../images/CN/caiShenCP/pc/bg-body.gif) 0 0 repeat-y;*/
+}
+
+.m-content .main { /*margin-left:200px;*/
+	min-width: 600px;
+	padding-bottom: 30px;
+}
+
+.m-content_F_P .main_F_P {
+	min-width: 600px;
+	padding-bottom: 30px;
+}
+
+.m-logo {
+	margin: 24px 27px 15px;
+	float: left;
+	height: 80px;
+	width: 300px;
+	background: url("../../../../images/CN/caiShenCP/pc/logo.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/logo.png*/ no-repeat;
+	    background-size: contain;
+}
+
+.m-top-btn {
+	float: right;
+	padding: 10px 0 0 0;
+}
+
+.m-top-btn a {
+	display: block;
+	color: #fff;
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	background: #a75c0b;
+	float: left;
+	margin-right: 10px;
+}
+
+.m-top-btn a:hover {
+	background: #884a08;
+}
+
+.member-nav {
+	padding: 10px 0 50px 0;
+}
+
+.member-nav a {
+	color: #fff;
+}
+
+.member-nav h4 {
+	font-size: 16px;
+	text-indent: 15px;
+	margin-top: 15px;
+	line-height: 40px;
+	color: #fff;
+}
+
+.member-nav li a {
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 50px;
+	font-size: 14px;
+}
+
+.member-nav li.c {
+	background-color: #00CEFF;
+}
+
+.member-nav li a.icon-01, .member-nav li a.icon-02, .member-nav li a.icon-03,
+	.member-nav li a.icon-04, .member-nav li a.icon-05, .member-nav li a.icon-06
+	{
+	background: url("../../../../images/CN/caiShenCP/pc/icon-member-v1.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/icon-member-v1.png*/
+		no-repeat;
+}
+
+.member-nav li a.icon-01 {
+	background-position: -1px -8px;
+}
+
+.member-nav li a.icon-02 {
+	background-position: -1px -48px;
+}
+
+.member-nav li a.icon-03 {
+	background-position: -1px -94px;
+}
+
+.member-nav li a.icon-04 {
+	background-position: -1px -143px;
+}
+
+.member-nav li a.icon-05 {
+	background-position: -1px -186px;
+}
+
+.member-nav li a.icon-06 {
+	background-position: -1px -233px;
+}
+
+.m-footer {
+	padding: 15px 10px;
+	text-align: right;
+	color: #000;
+}
+
+.main-nav {
+	background: #E7E1E1;
+	line-height: 45px;
+	height: 45px;
+}
+
+.main-nav li {
+	float: left;
+}
+
+.main-nav li a {
+	display: block;
+	padding: 0 15px;
+	font-size: 14px;
+	color: #333;
+}
+
+.main-nav li.c a {
+	color: #C88E07;
+	line-height: 45px;
+	background: #fff;
+}
+
+.main-content {
+	padding: 13px 25px;
+}
+/* layout style
+==================================== */
+.m-title-h3 {
+	line-height: 40px;
+	height: 40px;
+}
+
+.i-acount-info {
+	padding-top: 15px;
+}
+
+.i-acount-info h3 {
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 50px;
+}
+
+.i-acount-info h3 span {
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+.i-acount-info p {
+	background: #f1f1f1;
+	padding: 8px;
+	line-height: 25px;
+}
+
+.m-table-s1 {
+	border-collapse: collapse;
+	margin-top: 15px;
+}
+
+.m-table-s1 th {
+	background-color: #DFDFDF;
+}
+
+.m-table-s1 th, .m-table-s1 td {
+	padding: 5px;
+	line-height: 20px;
+	border: 1px solid #d0d0d0;
+	text-align: center;
+}
+
+.m-table-s1 thead tr {
+	background: #f1f1f1;
+}
+
+.m-table-s1 a {
+	color: #333;
+}
+
+.m-table-s1 a:hover {
+	color: #d29423;
+}
+
+.main-nav-small {
+	padding: 15px 0 0 0;
+	height: 25px;
+}
+
+.main-nav-small li {
+	float: left;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.main-nav-small li a {
+	color: #333;
+}
+
+.main-nav-small li.c a {
+	color: #d29423;
+	font-weight: bold;
+}
+
+.m-table-s2 {
+	border-collapse: collapse;
+	margin-top: 15px;
+}
+
+.m-table-s2 th, .m-table-s1 td {
+	padding: 5px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.m-table-s2 thead tr {
+	background: #f1f1f1;
+}
+
+.m-bank-info {
+	padding: 10px;
+}
+
+.m-bank-info h4 {
+	line-height: 30px;
+}
+
+.m-bank-info p {
+	padding: 10px 0;
+	line-height: 20px;
+}
+
+.m-bank-info a {
+	color: #d29423;
+	text-decoration: underline;
+}
+
+.m-bank-inout {
+	background: #fff;
+}
+
+.m-bank-r p {
+	padding: 10px 0;
+}
+
+.m-bank-r p span {
+	display: block;
+	font-size: 18px;
+	color: #00CC66;
+}
+
+.m-bank-tab {
+	background: #f1f1f1;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.m-bank-tab li {
+	float: left;
+	line-height: 45px;
+	margin-left: 15px;
+	padding: 0 15px;
+}
+
+.m-bank-tab li.c {
+	background: #fff;
+	font-weight: bold;
+	border-top: 1px solid #d0d0d0;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+	position: relative;
+	margin-bottom: -1px;
+	z-index: 1;
+}
+
+.m-bank-confirm p {
+	padding: 8px 0;
+	line-height: 20px;
+}
+
+.textinput {
+	border: 1px solid #e1e1e1;
+	background: #fff;
+	padding: 3px;
+	line-height: 25px;
+	height: 25px;
+	border-radius: 3px;
+}
+
+.width01 {
+	width: 280px;
+}
+
+.width02 {
+	width: 90px;
+}
+
+.padding-s4 {
+	padding: 10px 0 0 120px;
+}
+
+.padding-s3 {
+	padding-left: 120px;
+}
+
+.form-box {
+	
+}
+
+.form-box h3 {
+	line-height: 80px;
+	font-size: 24px;
+	border-bottom: 2px solid #e1e1e1;
+	margin-bottom: 15px;
+}
+
+.form-box h4 {
+	line-height: 55px;
+	font-size: 16px;
+	border-bottom: 1px solid #e1e1e1;
+	margin: 15px 0;
+}
+
+.form-box h5 {
+	font-size: 14px;
+	text-indent: 15px;
+	padding: 25px 0 10px 0;
+}
+
+.form-box .form-row {
+	padding-bottom: 10px;
+}
+
+.form-box label {
+	float: left;
+	width: 120px;
+	line-height: 35px;
+	font-size: 14px;
+}
+
+.form-box .form-item {
+	float: left;
+	position: relative;
+}
+
+.form-box .form-item p {
+	line-height: 40px;
+}
+
+.form-box .form-item label {
+	width: auto;
+	padding-right: 25px;
+}
+
+.form-btn, .form-btn2 {
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+
+.form-btn {
+	width: 120px;
+	line-height: 30px;
+	background: #666;
+	cursor: pointer;
+}
+
+.form-btn2 {
+	width: 120px;
+	line-height: 30px;
+	background: #9E0808;
+	cursor: pointer;
+}
+
+/* carey
+=============================================================================================================================================================== */
+
+/***************报表********************/
+.F_bold {
+	font-weight: bold;
+}
+
+.f_left {
+	text-align: left;
+	text-indent: 3px;
+}
+
+.f_center {
+	text-align: center;
+}
+
+.f_right {
+	text-align: right;
+}
+
+.Font_Y {
+	color: #F97C00;
+}
+
+.Font_B {
+	color: #0000ff;
+}
+
+.Font_G {
+	color: #339100;
+}
+
+.font_r {
+	color: red !important;
+}
+
+.font_b {
+	color: #0000ff;
+}
+
+.Font_R {
+	color: #ff0000;
+}
+
+.currPageNumber {
+	color: red !important;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.td_right {
+	text-align: center !important;
+}
+
+.td_left {
+	text-align: left !important;
+}
+
+.td_center {
+	text-align: center !important;
+}
+
+.td_bold {
+	font-weight: bold !important;
+}
+
+.td_normal {
+	font-weight: normal !important;
+}
+
+.t_list_caption {
+	background: #65c294;
+	line-height: 24px;
+	text-align: center;
+	color: #fff;
+}
+
+.table_list {
+	border-top: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+	color: #333;
+	margin: 0 auto;
+}
+
+.table_list td {
+	border-left: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+	padding: 0px 5px !important;
+}
+
+.table_list tr {
+	text-align: center;
+}
+
+.table_list .border_bot_none td {
+	border-bottom: 0px !important;
+}
+
+.table_list .border_left_none {
+	border-left: 0px !important;
+}
+
+.table_ann_list tbody td {
+	padding: 2px 2px !important;
+}
+
+.return_bg {
+	background: url("../../../../images/CN/caiShenCP/pc/fh.gif")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/fh.gif*/ no-repeat scroll
+		left 2px rgba(0, 0, 0, 0);
+	display: inline-block;
+	height: 16px;
+	padding: 0px 0 0px 17px;
+}
+
+#userNikeNameForm td {
+	height: 28px;
+}
+
+.width_NikeName {
+	width: 130px;
+}
+
+.NikeNameForm-btn {
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	width: 120px;
+	line-height: 30px;
+	background: #d29423;
+	cursor: pointer;
+}
+
+/*****通告*****/
+.r_t_td_a {
+	cursor: pointer;
+	color: #000;
+	filter: alpha(opacity = 80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+
+.jeu_OpenLottery {
+	color: #299a26;
+}
+
+.member-header .nav_wrap {
+	float: right;
+	width: auto;
+	height: 55px;
+	overflow: hidden;
+	padding: 43px 15px 30px 30px;
+}
+
+.nav_wrap .zhxx {
+	background: url("../../../../images/CN/caiShenCP/pc/zhanghao.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/zhanghao.png*/ 0 0 no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.nav_wrap .yhjy {
+	background: url("../../../../images/CN/caiShenCP/pc/yxjy.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/yxjy.png*/ 0 0 no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.nav_wrap .grbb {
+	background: url("../../../../images/CN/caiShenCP/pc/baobiao.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/baobiao.png*/ 0 0 no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.nav_wrap .jyjl {
+	background: url("../../../../images/CN/caiShenCP/pc/jyjl.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/jyjl.png*/ 0 0 no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.nav_wrap .xxgg {
+	background: url("../../../../images/CN/caiShenCP/pc/tonggao.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/tonggao.png*/ 0 0 no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.nav_wrap .userInfoZhxx {
+	background: url("../../../../images/CN/caiShenCP/pc/zhanghao.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/zhanghao.png*/ 0 -26px
+		no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.nav_wrap .userInfoYhjy {
+	background: url("../../../../images/CN/caiShenCP/pc/yxjy.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/yxjy.png*/ 0 -26px no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.nav_wrap .userInfoGrbb {
+	background: url("../../../../images/CN/caiShenCP/pc/baobiao.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/baobiao.png*/ 0 -26px
+		no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.nav_wrap .userInfoJyjl {
+	background: url("../../../../images/CN/caiShenCP/pc/jyjl.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/jyjl.png*/ 0 -26px no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.nav_wrap .userInfoXxgg {
+	background: url("../../../../images/CN/caiShenCP/pc/tonggao.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/tonggao.png*/ 0 -26px
+		no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.nav_wrap ul {
+	width: 100%;
+}
+
+.nav_wrap ul li {
+	width: 60px;
+	height: 43px;
+	float: left;
+	margin-right: 25px;
+	border: 1px solid #fff;
+	padding: 6px;
+	border-radius: 7px;
+}
+
+.nav_wrap ul li p { /*  margin-top:5px; */
+	color:#fff;
+	font-size: 14px;
+}
+
+.nav_wrap ul li span:hover {
+	background-position: 0 -26px;
+	transition: linear .3s;
+}
+
+.main .qdxg {
+	display: block;
+	width: 108px;
+	height: 32px;
+	background: url("../../../../images/CN/caiShenCP/pc/btn1.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/btn1.png*/ 0 0 no-repeat;
+}
+
+.i-acount-info .s1 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.p1 {
+	color: red;
+	font-size: 14px;
+}
+
+/*****会员中心银行交易*****/
+.div_de {
+	height: 120px;
+	width: 88%;
+	float: left;
+	margin-left: 30px;
+	border-radius: 3px;
+	opacity: 0.9;
+	filter: alpha(opacity = 90); /* cursor: pointer; */
+}
+
+.m-bank-info {
+	padding: 10px;
+}
+
+.m-bank-info h4 {
+	line-height: 30px;
+}
+
+.m-bank-info p {
+	padding: 10px 0;
+	line-height: 20px;
+}
+
+.m-bank-info a {
+	color: #f00;
+	text-decoration: none;
+}
+
+.m-bank-info a:hover {
+	color: #0000ff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.m-bank-inout {
+	background: #fff;
+	margin: 0 auto;
+	width: 100%;
+	min-height: 490px;
+}
+
+.m-bank-r p {
+	padding: 10px 0;
+}
+
+.m-bank-r p span {
+	display: block;
+	font-size: 18px;
+	color: #00CC66;
+}
+
+.m-bank-tab {
+	background: #f1f1f1;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.m-bank-tab li {
+	float: left;
+	line-height: 45px;
+	margin-left: 15px;
+	padding: 0 15px;
+}
+
+.m-bank-tab li.c {
+	background: #fff;
+	font-weight: bold;
+	border-top: 1px solid #d0d0d0;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+	position: relative;
+	margin-bottom: -1px;
+	z-index: 1;
+}
+
+.m-bank-confirm p {
+	padding: 8px 0;
+	line-height: 20px;
+}
+
+/* 进度条 */
+.loadingMask2 {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10000;
+	width: 100%;
+	height: 500%;
+	background-image: url("../../../../images/CN/caiShenCP/pc/bgg8.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/bgg8.png*/!important;
+}
+
+.loadingMask2 div {
+	width: 240px;
+	padding: 30px;
+	margin: 300px auto 0 auto;
+	background-color: #000;
+	opacity: 0.8;
+	filter: alpha(opacity = 80);
+	-moz-opacity: 0.8;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.loadingMask2 div h3 {
+	margin-top: 10px;
+	color: #FFF;
+}
+
+.personCenterOnline {
+	color: red;
+	cursor: pointer;
+	text-decoration: underline;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/* depositThirdAll.jsp */
+.nav_box {
+	/*   background: #f9c02b none repeat scroll 0 0;
+    border: 1px solid #b7920a; */
+	margin: 10px auto;
+	overflow: hidden;
+	width: 957px;
+}
+
+.nav_li {
+	background: #f5b50e none repeat scroll 0 0;
+	border: 2px solid #b7920a;
+	cursor: pointer;
+	float: left;
+	font-size: 15px;
+	height: 46px;
+	line-height: 46px;
+	margin: 8px 85px;
+	text-align: center;
+	width: 142px;
+}
+
+.nav_li em {
+	color: #000;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.nav_li img {
+	vertical-align: middle;
+}
+
+.big_tit h2 {
+	color: #504a05;
+	font-size: 16px;
+	line-height: 48px;
+	padding-left: 15px;
+}
+
+.big_tit {
+	background-image:
+		url("../../../../images/CN/caiShenCP/pc/wdly-dh_11_third.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/wdly-dh_11_third.png*/;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 980px;
+	margin-left: 10px;
+}
+/* 網銀進入官網 */
+#bankLink a{color:#000; font-weight: bold;}
+#bankLink a:hover{color:red; font-weight: bold;}
+
+
+.bankinfo_Account{font-weight: bold;display: block;}
+.m-bank-wy-bankinfo img{height:135px; margin-left: 5px;width: 135px;margin-top: 10px;}
+.bankInfoId_WYZH_info{font-weight: bold;}
+.bankInfoId_WYZH_piece{margin-bottom:27px; }
+.bankInfoId_WYZH_point{float: left;margin-left: 15px;height: 190px;}
+.bankInfoId_DSF_piece{margin-top: 20px;}

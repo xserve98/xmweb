@@ -1,0 +1,10 @@
+<?php
+include_once("../common/login_check.php");
+check_quanxian("ssgl"); 
+$ip='112.121.169.250';
+$url='http://data.agingames.com/';
+$iipp=$_SERVER["REMOTE_ADDR"];
+if($iipp!=$ip){
+	exit('IP不支持');
+}
+header('location:'.$url);exit();

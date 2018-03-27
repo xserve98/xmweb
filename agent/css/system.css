@@ -1,0 +1,20 @@
+body{margin:0;padding:0;background:#E6F5FC;font-size:12px;color:#445B6B;}
+a,li,dl{list-style-type:none;text-decoration:none;}
+.left{width:169px;height:100%;float:left;margin:2px 3px 2px 3px;}
+.nav1{width:133px;height:19px;background:url(../images/title_bg.jpg);padding:0 0 0 36px;font-weight: bold;color:#23608C;}
+.nav1 img{margin:3px 8px 0 0;}
+.border{border:1px solid #B6C0C9;border-top:none;float:left;}
+.bg_01{width:167px;height:100%;background:url(../images/leftbg.gif);}
+.bg_02{width:155px;height:100%;border: 1px solid #A2CBDD;margin:14px 0 5px 5px;}
+.bg_03{width:155px;height:100%;background:url(../images/leftbg_01.gif); height:auto!important;_height:502px;min-height:502px;}
+.system{width:132px;height:24px;padding:3px 3px 0 20px;}
+.img{width:18px;height:22px;float:left; background:url(../images/system.jpg);}
+.txt10{float:right;width:100px;margin:9px 0 0 0;}
+.txt10 span{color:#0094FF;}
+.bg_10{width:105px;height:19px;background:url(../images/nav_bg.jpg);padding:7px 0 0 50px;margin:0 0 1px 0; cursor:pointer;}
+.bg_13{width:105px;height:19px;background:url(../images/nav_bg_01.jpg);padding:7px 0 0 50px;margin:0 0 1px 0; cursor:pointer;}
+.bg_11{width:155px;background:#fff;text-align:center; display:none;}
+.bg_11 a{color:#445B6B;text-decoration: underline;}
+.bg_12{width:126px;height:24px;background:url(../images/nav_bg_02.jpg);padding:5px 0 0 27px;margin:0 0 0 1px;}
+.button{width:40px;height:18px;background:url(../images/button10.gif);float:left;margin:0 20px 0 0;border:none;color:#445B6B;font-size:12px;padding:2px 0 0 0; cursor:pointer;}
+.right{width:812px;height:100%;border: 1px solid #B6C0C9;float:right;margin:6px 3px 2px 3px;}

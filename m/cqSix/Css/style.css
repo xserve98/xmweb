@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+/***
+ * uimaker
+ * http://www.uimaker.com
+ * e-mail: admin@uimaker.com
+ */
+*{font-size:9pt;border:0;margin:0;padding:0;}
+body{font-family:'微软雅黑'; margin:0 auto;min-width:780px;}
+ul{display:block;margin:0;padding:0;list-style:none;}
+li{display:block;margin:0;padding:0;list-style: none;}
+img{border:0;}
+/* dl,dt,dd,span{margin:0;padding:0;display:block;} 以下是彩票分页显示的修改*/  
+dl,dt,dd,span{margin:0;padding:0;list-style:none;list-style:none;}
+a,a:focus{text-decoration:none;color:#000;outline:none;blr:expression(this.onFocus=this.blur());}
+a:hover{color:#00a4ac;text-decoration:none;}
+/* table{border-collapse:collapse;border-spacing: 1;}*/
+cite{font-style:normal;}
+h2{font-weight:normal;}
+
+/*cloud*/
+
+#mainBody {width:100%;height:100%;position:absolute;z-index:-1;}
+.cloud {position:absolute;top:0px;left:0px;width:100%;height:100%;background:url(../images/cloud.png) no-repeat;z-index:1;opacity:0.5;}
+#cloud2 {z-index:2;}
+
+.place{margin-left:1px;height:50px; background:url(../images/lotto_right_01.png);}
+.place span{padding:3px 0px 0px 0px;line-height:50px; font-weight:500;float:left; margin-left:0px; color:#FFFFFF}
+.placeul li{float:left; line-height:40px; padding-left:0px; padding-right:12px; background:url(../images/rlist.gif) no-repeat right;}
+.placeul li:last-child{background:none;}
+.placeul li i{margin-left:0px; }
+.bfglinfo{padding:8px; }
+.bfglnav{float:left; margin:0px 15px 0px 0px;}
+.bfglnav li{margin:3px 0px 0px 0px; width:62px; background:url(../images/lotto_right_03.png) repeat-x;  float:left;height:30px; line-height:30px; height:30px; border:solid 1px #753911; float:left; padding-right:6px; margin-right:5px;border-radius: 3px; behavior:url(js/pie.htc); cursor:pointer;}
+.bfglnav li a{display:block; width:62px; height:30px;-moz-transition: none; transition: background-color 0.3s linear; -moz-transition: background-color 0.3s linear; -webkit-transition: background-color 0.3s linear; -o-transition: background-color 0.3s linear; }
+.bfglnav li a.selected{background:url(../images/lotto_right_05.png) no-repeat; padding-left:20px;}
+.bfglnav li a:hover{background:url(../images/lotto_right_05.png) no-repeat;}
+.bfglnav li img{float:left; margin-left:5px; margin-right:5px; margin-top:5px;}
+.bfglnav li a{padding-left:8px; color:#fff}
+.bfglnav li a.jj1{padding-left:20px;}
+.bfglnav li a.jj2{padding-left:18px;}
+.bfglnav li a.selected1{background:url(../images/lotto_right_05.png) no-repeat; }
+.bfglnav li a.selected2{background:url(../images/lotto_right_05.png) no-repeat; padding-left:18px;}
+
+.place2{margin-left:4px;height:50px; background:url(../images/lotto_right_01.png);}
+.bfglnav2{float:left; margin:0px 0px 0px 0px;}
+.bfglnav2 li{margin:3px 0px 0px 0px; width:62px; background:url(../images/lotto_right_02.png) repeat-x;  float:left;height:30px; line-height:30px; height:30px; border:solid 1px #753911; float:left; padding-right:8px; margin-right:5px;border-radius: 3px; behavior:url(js/pie.htc); cursor:pointer;}
+.bfglnav2 li a{display:block; width:62px; height:30px;-moz-transition: none; transition: background-color 0.3s linear; -moz-transition: background-color 0.3s linear; -webkit-transition: background-color 0.3s linear; -o-transition: background-color 0.3s linear; }
+.bfglnav2 li a.selected{background:url(../images/lotto_right_02_1.png) no-repeat; }
+.bfglnav2 li a:hover{background:url(../images/lotto_right_02_1.png) no-repeat;}
+.bfglnav2 li img{float:left; margin-left:5px; margin-right:5px; margin-top:5px;}
+.bfglnav2 li a{padding-left:11px; color:#fff}
+
+.lotto_main{ width:776px; margin:0px 0px 0px 4px;}
+.lotto_main2{ width:776px; margin:0px 0px 0px 7px;}

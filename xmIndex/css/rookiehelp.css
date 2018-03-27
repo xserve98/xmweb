@@ -1,0 +1,74 @@
+/* ::::: http://www.988cp.com/css/main.css ::::: */
+
+body { font-family: "Microsoft YaHei",Tahoma,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif; width: 100%; background-color: rgb(255, 255, 255); margin: 0px; }
+div, ul, ol, li, form, img, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, pre, code, form, fieldset, legend, button, input, textarea { margin: 0px; padding: 0px; border: 0px none; list-style: outside none none; overflow: hidden; }
+a { text-decoration: none; }
+/* ::::: http://www.988cp.com/css/style.css ::::: */
+
+body { font-family: "Microsoft YaHei",Tahoma,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif; width: 100%; background-color: rgb(255, 255, 255); }
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+.clearfix::after { clear: both; }
+.game-panel-1 div.drawDescription::before, .game-panel-2 div.drawDescription::before, .game-panel-3 div.drawDescription::before { content: " "; clear: both; }
+@media screen and (max-width: 1044px) {
+}
+/* ::::: http://www.988cp.com/css/index.css ::::: */
+
+* { margin: 0px; padding: 0px; }
+*::-moz-selection { background: rgb(0, 122, 255) none repeat scroll 0% 0%; color: white; text-shadow: none; }
+body { font-size: 13px; background-color: rgb(255, 255, 255); font-family: "Microsoft YaHei",Arial; }
+body, button, input, select, textarea { font: 13px/1 Tahoma,"微软雅黑",sans-serif,Arial,Helvetica,"宋体"; }
+ul, li { list-style: outside none none; }
+a { text-decoration: none; color: black; }
+a:hover { text-decoration: underline; }
+a:visited { text-decoration: none; }
+a:link { text-decoration: none; }
+a { cursor: pointer; }
+img { border: medium none; }
+body { min-width: 1000px; }
+.g_w1 { width: 1000px; margin: 0px auto; position: relative; overflow: visible; }
+.topmenu { height: 80px; width: 100%; background: rgb(33, 97, 179) none repeat scroll 0% 0%; }
+.logo { float: left; margin-left: 90px; height: 90px; }
+.logo img { width: 200px; height: 70px; }
+.menulinks { float: right; margin-top: 20px; margin-right: -17px; }
+.sublinks { float: left; width: 93px; padding: 8px 0px; text-align: center; color: rgb(255, 255, 255); text-decoration: none !important; border-radius: 17px; margin-right: 3px; font-size: 15px; margin-top: 0px; text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3); }
+.sublinks:hover { float: left; width: 93px; text-align: center; color: rgb(33, 97, 179); background-color: rgb(255, 255, 255); }
+.g_w1 span { padding: 0px 10px; }
+.bannerpromo { background-image: url('../img/promotiontile.jpg'); background-repeat: repeat-x; }
+.footerindex2 { height: 25px; padding-top: 15px; text-align: center; font-size: 14px; color: rgb(102, 102, 102); background: rgb(246, 245, 250) none repeat scroll 0% 0%; }
+/* ::::: http://www.988cp.com/css/login_index.css ::::: */
+
+/* ::::: http://www.988cp.com/css/jquery.bxslider.css ::::: */
+
+/* ::::: http://www.988cp.com/css/jquery-ui.css ::::: */
+
+.ui-helper-clearfix::before, .ui-helper-clearfix::after { content: ""; display: table; border-collapse: collapse; }
+.ui-helper-clearfix::after { clear: both; }
+input.ui-button::-moz-focus-inner, button.ui-button::-moz-focus-inner { border: 0px none; padding: 0px; }
+/* ::::: http://www.988cp.com/css/remodal.min.css ::::: */
+
+.remodal-wrapper::after { display: inline-block; height: 100%; margin-left: -0.05em; content: ""; }
+.remodal, .remodal-wrapper::after { vertical-align: middle; }
+.remodal-close::before { font-family: Arial,"Helvetica CY","Nimbus Sans L",sans-serif !important; font-size: 25px; line-height: 35px; position: absolute; top: 0px; left: 0px; display: block; width: 35px; content: "×"; text-align: center; }
+.remodal-confirm::-moz-focus-inner, .remodal-cancel::-moz-focus-inner, .remodal-close::-moz-focus-inner { padding: 0px; border: 0px none; }
+@media only screen and (min-width: 641px) {
+}
+/* ::::: http://www.988cp.com/css/faq.css ::::: */
+
+body { background-color: rgb(231, 238, 245); }
+.headertxt { font-size: 34px; color: rgb(33, 97, 179); position: absolute; top: 85px; left: 3px; }
+.headersubtxt { font-size: 20px; color: rgb(162, 162, 162); position: absolute; top: 130px; left: 3px; }
+.faqcontent { background-color: rgb(255, 255, 255); }
+.faqcontent .col1 { float: left; width: 200px; }
+.faqcontent .col2 { float: left; width: 718px; margin-left: -1px; padding: 25px 40px; border: 1px solid rgb(31, 95, 178); color: rgb(102, 102, 102); display: none; margin-bottom: 10px; }
+.faqcontent .col1 .itms { width: 198px; height: 58px; border-width: 1px; border-style: solid; border-color: rgb(153, 153, 153) rgb(31, 95, 178) rgb(153, 153, 153) rgb(153, 153, 153); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; position: relative; margin-top: -1px; cursor: pointer; color: rgb(102, 102, 102); }
+.faqcontent .col1 .itms:first-child { margin-top: 0px; border-width: 1px; border-style: solid; border-color: rgb(31, 95, 178) rgb(255, 255, 255) rgb(31, 95, 178) rgb(31, 95, 178); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; z-index: 9; color: rgb(31, 95, 178); }
+.col2 h1 { font-size: 24px; margin-top: 30px; margin-bottom: 25px; }
+.col2 h1:first-child { margin-top: 0px; }
+.col2 p { font-size: 16px; margin-top: 0px; margin-bottom: 20px; line-height: 22px; }
+.sprite { background: transparent url('../img/faqsprite.png') no-repeat scroll left top; width: 33px; height: 24px; float: left; margin-top: 14px; margin-left: 22px; }
+.itmstxt { font-size: 16px; float: left; margin-top: 20px; margin-left: 10px; }
+.sprite.icon1a { background-position: -33px 0px; }
+.sprite.icon2a { background-position: -99px 0px; }
+.sprite.icon3a { background-position: -165px 0px; }
+.sprite.icon4a { background-position: -231px 0px; }
+.sprite.icon5a { background-position: -297px 0px; }

@@ -1,0 +1,10 @@
+/* 整体样式 */
+
+body{ font-size:14px; font-family:font-Arial,sans-serif; margin:0; padding:0; background:#e7e6e2;}
+
+div,ul,ol,li,form,img,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,pre,code,form,fieldset,legend,button,input,textarea{ margin:0; padding:0; border:0; list-style:none; overflow:hidden;}
+
+a{ text-decoration:none;}
+
+.body_bg{ background:white;}
+

@@ -1,0 +1,39 @@
+/*
+*  DAVID UPDATE 2016-03
+* D5DFE5-ccc-灰色  fe7c31-背景黄色
+*
+*/
+/*
+    通用   字体大小、颜色、加粗、链接、页面背景颜色、清除浮动、隐藏、边距、间距...
+    */
+* html, * html body { _background-image: url(about:blank); _background-attachment: fixed; }
+/* 修正IE6振动bug */
+body { margin: 0px; padding: 0px; width: 100%; min-height: 100%; font-size: 12px; background: #fff; color: #333; font-family:  '微软雅黑',Tahoma,Consolas,Arial,Simsun; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {font-size:100%; font-weight:normal; margin: 0; padding: 0; }
+ul, ul li { list-style: none outside none; padding: 0; margin: 0; }
+select { vertical-align: middle; }
+input, select, textarea{ font-size: 100%;}
+fieldset { -moz-border-radius: 2px; -webkit-border-radius: 2px; border: #D5DFE5 1px solid; }
+table { border-collapse: collapse; border-spacing: 0; border: 0 none; }
+em {  font-style: normal; }
+i, img{ vertical-align: middle; display: inline-block; border: none; margin: 0; }
+input, select {vertical-align: middle; display: inline-block; margin: 0; padding: 0; font-family: '微软雅黑',Tahoma,Consolas,Arial,Simsun;border: 1px solid #ccc;outline:none;}
+input:focus,select:focus{outline:0}
+textarea { font-size: small; padding: 3px;outline:none;resize: none;overflow: auto;border: 1px solid #ccc; }
+.clear { clear: both; float: none; }
+.clearfix { zoom: 1; }
+.clearfix:after { clear: both; content: " "; display: block; visibility: hidden; }
+.hide { display: none !important; }
+.check { vertical-align: -2px; margin-right: 2px;border: 0; }
+.fl { float: left; }
+.fr { float: right; }
+.pr { position: relative; }
+.bold{ font-weight: bold;}
+.center{ text-align: center;}
+/* 链接样式 */
+a{ cursor: pointer; text-decoration: none; color: #444;outline: 0; }
+a:hover { cursor: pointer; text-decoration: underline; color: #fe7c31; }
+.pageBady{ width: 100%;background: #fbfbfb;position: relative;z-index: 1;padding-bottom: 18px;}
+.w1200{ width: 1200px;margin: 0 auto;display: block;}
+.none{display: none;}
+.mt10{ margin-top: 10px;}

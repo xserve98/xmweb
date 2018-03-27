@@ -1,0 +1,182 @@
+
+body{text-align:center}
+.cx_tabmenu {
+	PADDING-TOP: 2px; BACKGROUND-COLOR: #474747;WIDTH: 100%;
+}
+#ddimagetabs {
+	PADDING-LEFT: 185px;
+	text-align: right;
+}
+#ddimagetabs A {
+	PADDING-RIGHT: 10px; BORDER-TOP: #666666 1px solid; DISPLAY: inline; PADDING-LEFT: 10px; FONT-SIZE: 12px; BACKGROUND: #363636; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #FFFFFF; LINE-HEIGHT: 33px; MARGIN-RIGHT: 2px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 33px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#ddimagetabs A:hover {
+	BORDER-TOP: #ffffff 1px solid;
+	COLOR: #fff;
+	background-color: #363636;
+	background-image: url(../images/cx_menu_hover.jpg);
+	background-repeat: no-repeat;
+}
+#ddimagetabs A.current {
+	BORDER-TOP: #ffffff 1px solid; BACKGROUND: url(../images/cx_menu_hover.jpg) #363636 no-repeat center bottom; COLOR: #333333
+}
+A.sclink:link {
+	color: #FFFFFF;
+	
+}
+A.sclink:visited {
+		color: #FFFFFF;
+}
+A.sclink:hover {
+		color: #FFFFFF;
+}
+#sclink1 {
+		color: #FFFFFF;
+}
+#ddimagetabs #sclink1 {
+	
+}
+#ddimagetabs #sclink1:hover {
+	BORDER-TOP: #ff9900 1px solid
+}
+#ddimagetabs .current#sclink1 {
+	BORDER-TOP: #ff9900 1px solid
+}
+#sc1 A:link {
+	
+}
+#sc1 A:visited {
+	
+}
+#sc1 A:hover {
+	
+}
+#ddimagetabs #sclink2 {
+	
+}
+#ddimagetabs #sclink2:hover {
+	BORDER-TOP: #990099 1px solid
+}
+#ddimagetabs .current#sclink2 {
+	BORDER-TOP: #990099 1px solid
+}
+#sc2 A:link {
+	
+}
+#sc2 A:visited {
+	
+}
+#sc2 A:hover {
+	
+}
+#ddimagetabs #sclink3 {
+	
+}
+#ddimagetabs #sclink3:hover {
+	BORDER-TOP: #0099cc 1px solid
+}
+#ddimagetabs .current#sclink3 {
+	BORDER-TOP: #0099cc 1px solid
+}
+#sc3 A:link {
+	
+}
+#sc3 A:visited {
+	
+}
+#sc3 A:hover {
+	
+}
+#ddimagetabs #sclink4 {
+	
+}
+#ddimagetabs #sclink4:hover {
+	BORDER-TOP: #78ba00 1px solid
+}
+#ddimagetabs .current#sclink4 {
+	BORDER-TOP: #78ba00 1px solid
+}
+#sc4 A:link {
+	
+}
+#sc4 A:visited {
+	
+}
+#sc4 A:hover {
+	
+}
+#ddimagetabs #sclink5 {
+	
+}
+#ddimagetabs #sclink5:hover {
+	BORDER-TOP: #99cccc 1px solid
+}
+#ddimagetabs .current#sclink5 {
+	BORDER-TOP: #99cccc 1px solid
+}
+#sc5 A:link {
+	
+}
+#sc5 A:visited {
+	
+}
+#sc5 A:hover {
+	
+}
+#ddimagetabs #sclink6 {
+	
+}
+#ddimagetabs #sclink6:hover {
+	BORDER-TOP: #999999 1px solid
+}
+#ddimagetabs .current#sclink6 {
+	BORDER-TOP: #999999 1px solid
+}
+#sc6 A:link {
+	
+}
+#sc6 A:visited {
+	
+}
+#sc6 A:hover {
+	
+}
+#ddimagetabs #sclink7 {
+	PADDING-RIGHT: 30px; BORDER-TOP: #ff0000 1px solid; PADDING-LEFT: 30px; BACKGROUND: #363636; MARGIN-LEFT: 100px; COLOR: #d7dcbe
+}
+#ddimagetabs #sclink7:hover {
+	BORDER-TOP: #ef7777 1px solid; BACKGROUND: url(../images/cx_menu_hover_my.jpg) #cf1919 no-repeat center bottom
+}
+#ddimagetabs .current#sclink7 {
+	BORDER-TOP: #ef7777 1px solid; BACKGROUND: url(../images/cx_menu_hover_my.jpg) #cf1919 no-repeat center bottom
+}
+#sc7 A:link {
+	
+}
+#sc7 A:visited {
+	
+}
+#sc7 A:hover {
+	
+}
+#tabcontentcontainer {
+	BACKGROUND: url(../images/sub_menu_bg.jpg) #fcfcfa repeat-x;
+	WIDTH: 100%;
+	HEIGHT: 27px;
+	padding-left: 80px;
+}
+.tabcontent {
+	DISPLAY: none; PADDING-TOP: 4px
+}
+.tabcontent A:link {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 11px; FLOAT: left; PADDING-BOTTOM: 4px; MARGIN-LEFT: 3px; CURSOR: pointer; LINE-HEIGHT: 18px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 18px; TEXT-DECORATION: none
+}
+.tabcontent A:visited {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 11px; FLOAT: left; PADDING-BOTTOM: 4px; MARGIN-LEFT: 3px; CURSOR: pointer; LINE-HEIGHT: 18px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 18px; TEXT-DECORATION: none
+}
+.tabcontent A:hover {
+	BACKGROUND: url(../images/cx_submenu_hover_grey.jpg) no-repeat center bottom; COLOR: #000000
+}
+#active_submenu {
+	BACKGROUND: url(../images/cx_submenu_hover.jpg) #666666 no-repeat center bottom; COLOR: #fff
+}

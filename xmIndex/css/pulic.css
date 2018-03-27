@@ -1,0 +1,19 @@
+﻿/*-----------头部--------------*/
+.header-box{width: 100%;}
+.header-ts{width: 100%;background: #ededed;}
+.ts-play{box-sizing: border-box;width: 1180px;margin:auto;height: 30px;line-height: 30px;color: #fe1212;font-size: 12px;font-family: "微软雅黑";}
+.ts-play img{vertical-align: middle; margin:7px 10px 0 0; float:left}
+.notice{ width:962px;}.notice1{ width:965px;}
+/*------------------公告滚动-------------------*/
+.NewSlides{width:1150px;height:28px;left:50%;bottom:0;z-index:999; float:left}
+#NewSl{margin:0 auto;overflow:hidden;white-space:nowrap;position:relative;}
+.NewSlides ul{min-width: 965px; display:inline-block;}
+.NewSlides li{font-size:15px;line-height:28px;padding:0 10px;margin-right:20px;display:inline;}
+.NewSlides li span{color:red;vertical-align:top;}
+.NewSlides li span a{margin-right:6px;color:red;}
+.IndexADbox{width:100% !important;margin:0 auto;background-color:#6675d4;}
+#NeWfull-screen-slider { width:100%;position:relative; }
+#NeWslides { display:block; width:100%; height:436px; list-style:none; padding:0; margin:0; position:relative; }
+#NeWslides li { display:block; width:100%; height:100%; list-style:none; padding:0; margin:0; position:absolute; overflow: hidden;}
+#NeWslides li a { display:block; width:100%; height:100%;text-align:center;position:absolute;left:0;top:0;}
+.methods{ padding:0px 17px;}

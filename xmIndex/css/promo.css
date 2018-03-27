@@ -1,0 +1,165 @@
+/*promotion */
+
+body {
+	background-color: #e7eef5;
+}
+
+.promocontent {
+	margin-top: -15px;
+	overflow: visible;
+}
+
+.promocontent .date{
+	float:left;
+	width: 65px;
+	text-align: right;
+	color: #2161b3;
+	margin-top: -16px;
+}
+
+.promocontent .date h1{
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.promocontent .date p{
+	font-size: 20px;
+	margin: 0;
+}
+
+.promocontent .bullet {
+	float: left;
+	width: 	35px;
+	position: absolute;
+	left: 67px;
+	top: 0;
+}
+
+
+.promocontent .arrow {
+	margin-top: 10px;
+	margin-left: 35px;
+	float: left;
+	width: 18px;	
+	position: relative;
+	z-index: 999;
+}
+
+.promocontent .content {
+	margin-top: 10px;
+	float: left;
+	width: 815px;
+	height: auto;
+	padding: 28px;
+	border: 1px solid #ccc;
+	position: relative;
+	margin-left: -1px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+
+.margintop10 {
+	margin-top: 10px!important;
+}
+
+.margintop20 {
+	margin-top: 20px!important;
+}
+
+.promocontenthead {
+	font-size: 25px;
+	color: #666;	
+}
+
+.headtxt {
+	font-size: 14px;
+}
+
+.promocontent p {
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.tabcontainer {
+	position: absolute;
+	bottom: 40px;
+	left: 30px;
+}
+
+.tabs {
+	width: 104px;
+	height: 100px;
+	float: left;
+	
+}
+
+.tabsmall {
+	margin: 20px;
+	padding-top: 23px;
+	width: 60px;
+	height: 37px;
+	border: 4px solid #fff;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	background-color: #2161b3;
+	 -webkit-box-shadow: rgba(0,0,0,0.3) 0px 0 10px;
+	 -moz-box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+ 	box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+	cursor: pointer;
+	
+}
+
+.tabbig {
+	margin: 5px;
+	padding-top: 30px;
+	width: 85px;
+	height: 55px;
+	border: 4px solid #fff;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background-color: #2161b3;
+	 -webkit-box-shadow: rgba(0,0,0,0.3) 0px 0 10px;
+	 -moz-box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+ 	box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+}
+
+.hline1 {
+	position: absolute;
+    bottom: -6px;
+    left: 78px;
+    height: 45px;
+    border-right: 4px solid #2161b3;
+    border-style: dotted;
+}
+
+.hline2 {
+	position: absolute;
+    top: 14px;
+    left: 78px;
+    height: 2800px;
+    border-right: 4px solid #2161b3;
+    border-style: dotted;
+}
+
+.overflowhd {
+	overflow: hidden;
+}
+
+.headertxt {
+	font-size: 50px;
+    color: #2161b3;
+    position: absolute;
+    top: 49px;
+    left: 260px;
+}

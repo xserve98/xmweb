@@ -1,0 +1,34 @@
+<ion-view view-title="即时注单">
+	<ion-nav-buttons side="left">
+    	<a class="button button-icon icon-prepage" ng-click="back();"></a>
+  	</ion-nav-buttons>
+  	
+	<ion-content class="has-header lottery-list" scroll="false">
+		<div class="tips"><a>{{gameName}} &gt;</a><span><a>下注明细</a></span></div>
+		
+		<div class="row text-center no-title pm">
+			<div class="col col-31 radiu">期号</div>
+			<div class="col col-23 radiu">下注明细</div>
+			<div class="col col-23 radiu">下注金额</div>
+			<div class="col col-23 radiu">可赢金额</div>
+		</div>
+		
+		<ion-content class="list detail">
+			<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+			<div ng-repeat="data in dataList" class="row text-center" ng-click="detail(data.id, data.name, data.count);">
+				<div class="col col-31 text-left tal ti"><div>{{data.turnNum}}</div></div>
+				<div class="col col-23 text-center tal ti"><div>{{(playMap[data.playId] | playCate) + playMap[data.playId].name + ' ' + data.betInfo}}</br>@{{playMap[data.playId].odds}}</div></div>
+				<div class="col col-23 text-center tal ti"><div>{{data.money|money}}</div></div>
+				<div class="col col-23 text-center tal ti"><div>{{data.resultMoney|money}}</div></div>
+			</div>
+			<div ng-show="!dataList" class="spinner-warp"><ion-spinner class="spinner spinner-ios"></ion-spinner></div>
+		</ion-content>
+	
+	</ion-content>
+	
+	<ion-footer-bar>
+		<div class="row">
+			<div class="col text-right pdr-15 pdt-10">总下注金额： <span class="t-green">{{totalBetMoney}}</span></div>
+		</div>
+	</ion-footer-bar>
+</ion-view>

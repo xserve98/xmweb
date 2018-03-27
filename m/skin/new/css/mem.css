@@ -1,0 +1,1438 @@
+/* CSS Document */
+
+.memberMod {
+	padding-top: 16px;
+}
+
+.acc-info .acc-ico,.bank-list li.on i,.fastPay-ico,.member-content-box .content-table td.txtMsg i,.member-form .money-item-on i,.menu-record .ico-acc,.menu-record .ico-buy,.menu-record .ico-chase,.menu-record .ico-info,.menu-record .ico-mes,.menu-record .ico-mx,.menu-record .ico-safe,.safe-test .ico-box .safeIco {
+	background: url(/images/new/mem_base.png) no-repeat;
+}
+
+.memberMod .aside {
+	float: left;
+	width: 253px;
+	height: 601px;
+	border: 1px solid #ecebeb;
+	background: #f3f4f4;
+	color: #666;
+}
+
+.aside .menu-record {
+	margin-top: 13px;
+}
+
+.aside .menu-record li {
+	position: relative;
+	margin-top: 5px;
+	margin-left: 10px;
+	padding-left: 70px;
+	width: 162px;
+	height: 38px;
+	line-height: 38px;
+}
+
+.aside .menu-record li.cur {
+	height: 36px;
+	border: 1px solid #ebeaea;
+	background: #fff;
+	line-height: 36px;
+}
+
+.aside .menu-record li a {
+	display: inline-block;
+	width: 100%;
+	font-size: 14px;
+}
+
+.aside .menu-record li a:hover {
+	background:#E4E4E4; 
+	text-decoration: none;
+}
+
+.aside .menu-record .ico {
+	position: absolute;
+	top: 7px;
+	left: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 0;
+}
+
+.aside .menu-record .ico-acc {
+	width: 24px;
+	height: 24px;
+}
+
+.aside .menu-record .ico-buy {
+	width: 21px;
+	height: 24px;
+	background-position: 0 -29px;
+}
+
+.aside .menu-record .ico-chase {
+	top: 10px;
+	width: 31px;
+	height: 18px;
+	background-position: 0 -57px;
+}
+
+.aside .menu-record .ico-mx {
+	width: 27px;
+	height: 20px;
+	background-position: 0 -83px;
+}
+
+.aside .menu-record .ico-safe {
+	width: 23px;
+	height: 26px;
+	background-position: 0 -108px;
+}
+
+.aside .menu-record .ico-info {
+	top: 11px;
+	width: 26px;
+	height: 22px;
+	background-position: 0 -139px;
+}
+
+.aside .menu-record .ico-mes {
+	top: 11px;
+	width: 24px;
+	height: 17px;
+	background-position: 0 -166px;
+}
+
+.aside .link {
+	margin: 10px 0 20px;
+	width: 253px;
+	text-align: center;
+}
+
+.aside .link a {
+	display: inline-block;
+	width: 108px;
+	height: 36px;
+	background: #53c27d;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.aside .link a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.aside .link .pay {
+	background: #fe7c31;
+}
+
+.article {
+	float: left;
+	width: 932px;
+	font-weight:normal;
+}
+
+.article .user-hd {
+	margin-bottom: 13px;
+	padding: 14px 0 10px 16px;
+	width: 916px;
+	border: 1px solid #ecebeb;
+	background: #fff;
+	font-family: 'Î¢ÈíÑÅºÚ';
+}
+
+.user-hd .acc-info {
+	padding-bottom: 13px;
+	width: 315px;
+	border-right: 1px solid #ecebeb;
+}
+
+.acc-info .acc-l {
+	width: 75px;
+	height: 68px;
+	border: 1px solid #ecebeb;
+	text-align: center;
+	line-height: 68px;
+}
+
+.acc-info .acc-ico {
+	display: inline-block;
+	width: 57px;
+	height: 60px;
+	background-image:url('/images/new/boe.png');
+}
+
+.acc-info .acc-b {
+	overflow: hidden;
+	margin-left: 18px;
+	width: 215px;
+	text-align: left;
+	line-height: 24px;
+}
+
+.acc-info .acc-b p {
+	font-size: 14px;
+}
+
+.acc-info .safe {
+	padding-left: 5px;
+	width: 100%;
+}
+
+.acc-info .safe p {
+	margin-top: 14px;
+}
+
+.acc-info .safe .pre {
+	display: inline-block;
+	margin-top: 3px;
+	width: 120px;
+	height: 12px;
+	background: #e0e2e2;
+	vertical-align: top;
+}
+
+.acc-info .safe .pre em {
+	display: inline-block;
+	height: 100%;
+	background: #53c27d;
+}
+
+.acc-info .safe .pl {
+	margin-left: 74px;
+}
+
+.acc-info .safe .pl span {
+	margin-right: 10px;
+}
+
+.acc-info .safe .pl i {
+	margin-top: 1px;
+	margin-right: 3px;
+	vertical-align: top;
+}
+
+.grow-info {
+	margin-left: 28px;
+	color: #666;
+	text-align: left;
+}
+
+.grow-info p {
+	margin-bottom: 11px;
+}
+
+.grow-info .pre {
+	display: inline-block;
+	margin-top: 1px;
+	width: 150px;
+	height: 12px;
+	background: #e0e2e2;
+	vertical-align: top;
+}
+
+.grow-info .pre em {
+	display: inline-block;
+	height: 100%;
+	background: #fe7c31;
+}
+
+.grow-info .vipDes {
+	width: 291px;
+	height: 22px;
+	border: 1px solid #ebeaea;
+	text-align: center;
+	line-height: 22px;
+}
+
+.grow-info .vipAdd span {
+	display: inline-block;
+	margin-right: 6px;
+	width: 120px;
+	height: 26px;
+	border: 1px solid #ebeaea;
+	background: #f8f8f8;
+	text-align: center;
+	line-height: 26px;
+}
+
+.memberMod .article .member-content-box {
+	padding: 5px 20px 36px;
+	width: 892px;
+	border: 1px solid #ecebeb;
+	background: #fff;
+	font-family: 'Î¢ÈíÑÅºÚ';
+}
+
+.member-content-box .content-tit {
+	display: block;
+	height: 29px;
+	font-size: 14px;
+	line-height: 29px;
+}
+
+.member-content-box .content-tit a {
+	float: right;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.member-content-box .content-head {
+	margin-bottom: 8px;
+	padding-left: 31px;
+	height: 31px;
+	border: 1px solid #ecebeb;
+	background: #f8f8f8;
+	line-height: 31px;
+}
+
+.member-content-box .content-explain {
+	height: 34px;
+	border-top: 1px dashed #ebeaea;
+	color: #999;
+	text-align: left;
+	line-height: 34px;
+}
+
+.member-content-box .content-table {
+	color: #666;
+}
+
+.member-content-box .content-table th {
+	height: 33px;
+	background: #f3f4f4;
+	text-align: center;
+	font-weight: 400;
+}
+
+.member-content-box .content-table td {
+	height: 46px;
+	border-bottom: 1px dashed #ebeaea;
+	text-align: center;
+}
+
+.member-content-box .content-table td.txtLeft {
+	padding-left: 24px;
+	text-align: left;
+	line-height: 18px;
+}
+
+.member-content-box .content-table td.txtMsg {
+	text-align: left;
+}
+
+.member-content-box .content-table td.txtMsg i {
+	display: inline-block;
+	margin: 0 15px;
+	width: 10px;
+	height: 11px;
+	background-position: -122px 0;
+}
+
+.member-content-box .content-table td.txtMsg-on i {
+	background-position: -106px 0;
+}
+
+.member-content-box .content-table-td55 td {
+	height: 55px;
+}
+
+.accountDetails {
+	margin-bottom: 16px;
+	padding: 15px 15px 13px 30px;
+	border: 1px solid #ebeaea;
+	background: #f8f8f8;
+}
+
+.accountDetails p {
+	height: 27px;
+	text-align: left;
+	line-height: 27px;
+}
+
+.accountDetails .tit {
+	display: inline-block;
+	width: 48px;
+	color: #999;
+	text-align: left;
+}
+
+.accountDetails .item {
+	display: inline-block;
+	width: 172px;
+	color: #666;
+	text-align: left;
+}
+
+.safe-test {
+	overflow: hidden;
+	margin-bottom: 13px;
+	padding: 30px 15px 32px 50px;
+	border: 1px solid #ebeaea;
+	background: #fff;
+}
+
+.safe-test .ico-box {
+	float: left;
+	width: 369px;
+	text-align: left;
+}
+
+.safe-test .ico-box .safeIco {
+	display: inline-block;
+	width: 296px;
+	height: 98px;
+	background-position: -36px -59px;
+}
+
+.safe-test .test-box {
+	float: left;
+	margin-top: 13px;
+	text-align: left;
+	font-family: 'Î¢ÈíÑÅºÚ';
+}
+
+.safe-test .test-box p {
+	height: 27px;
+	color: #666;
+}
+
+.safe-test .test-box .pre {
+	display: inline-block;
+	margin-top: 3px;
+	width: 120px;
+	height: 12px;
+	background: #e0e2e2;
+	vertical-align: middle;
+	vertical-align: top;
+}
+
+.safe-test .test-box .pre em {
+	display: inline-block;
+	height: 100%;
+	background: #53c27d;
+}
+
+.safe-info {
+	overflow: hidden;
+	padding: 7px 19px 18px;
+	border: 1px solid #ebeaea;
+	background: #fff;
+	font-family: 'Î¢ÈíÑÅºÚ';
+}
+
+.safe-info .tit {
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.safe-info li {
+	margin-top: 6px;
+	width: 100%;
+	height: 64px;
+	background: #f3f4f4;
+	color: #666;
+	line-height: 64px;
+}
+
+.safe-info li span {
+	display: inline-block;
+	text-align: left;
+}
+
+.safe-info li .span1 {
+	width: 85px;
+}
+
+.safe-info li .span2 {
+	width: 626px;
+}
+
+.safe-info li .span0 {
+	padding-left: 16px;
+	width: 48px;
+}
+
+.messageSet {
+	margin: 40px auto 0;
+	width: 330px;
+	text-align: left;
+}
+
+.messageSet p {
+	height: 42px;
+	line-height: 42px;
+}
+
+.messageSet p span {
+	display: inline-block;
+	padding-left: 19px;
+	font-size: 14px;
+}
+
+.messageSet .btn {
+	display: inline-block;
+	margin-top: 18px;
+	width: 242px;
+	height: 39px;
+	background: #fe7c31;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 39px;
+}
+
+.messageSet .btn:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.member-accountInfo {
+	margin-bottom: 11px;
+	padding-left: 21px;
+	height: 37px;
+	border: 1px solid #ebeaea;
+	background: #f3f4f4;
+	color: #666;
+	line-height: 37px;
+}
+
+.member-accountInfo a {
+	float: left;
+	padding-right: 22px;
+}
+
+.member-form {
+	margin: 6px 0 18px 11px;
+}
+
+.member-form .member-form-item {
+	padding: 7px 0;
+	line-height: 26px;
+	zoom: 1;
+}
+
+.member-form .member-form-item:after {
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+	content: " ";
+}
+
+.member-form .member-form-v {
+	float: left;
+	width: 87px;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.member-form .box .member-form-v {
+	line-height: 39px;
+}
+
+.member-form .member-form-k {
+	float: left;
+}
+
+.member-form .warn-box {
+	display: inline-block;
+	width: 149px;
+	height: 25px;
+	border: 1px solid #fbb784;
+	background: #fff3ea;
+	color: #a9a9a9;
+	text-align: center;
+	line-height: 25px;
+}
+
+.member-form .explain-span {
+	position: absolute;
+	top: 2px;
+	left: 295px;
+	width: 182px;
+}
+
+.member-form .postBtn {
+	display: inline-block;
+	margin-top: 10px;
+	width: 152px;
+	height: 39px;
+	background: #fe7c31;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 39px;
+}
+
+.member-form .postBtn:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.member-form .money-item {
+	float: left;
+	display: inline-block;
+	margin-left: 11px;
+	width: 82px;
+	height: 39px;
+	border: 1px solid #ecebeb;
+	background: #fff;
+	color: #666;
+	text-align: center;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 39px;
+	cursor: pointer;
+}
+
+.member-form .money-item-on,.member-form .money-item:hover {
+	position: relative;
+	width: 80px;
+	height: 37px;
+	border: 2px solid #fe7c31;
+	background: #fff6e9;
+	line-height: 37px;
+}
+
+.member-form .money-item-on i {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background-position: -139px 0;
+}
+
+.member-form .payBtn {
+	width: 290px;
+}
+
+.member-form .payBtn:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.member-form .fetch .ui-form-item {
+	width: 149px;
+}
+
+.member-form .fetch .ui-form-item .ui-input {
+	padding-left: 10px;
+	width: 133px;
+}
+
+.member-form .fetch .ui-form-explain {
+	left: 168px;
+}
+
+.member-form .fetch .money-text {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.member-from-explain {
+	display: inline-block;
+	margin-left: 10px;
+	line-height: 39px;
+}
+
+.member-pay-tab {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.member-pay-tab li {
+	float: left;
+	width: 111px;
+	height: 35;
+	border: 1px solid #ebeaea;
+	border-right: 0;
+	background: #f3f4f4;
+	color: #666;
+	text-align: center;
+	line-height: 35px;
+	cursor: pointer;
+}
+
+.member-pay-tab li.b {
+	border-right: 1px solid #ebeaea;
+}
+
+.member-pay-tab li a {
+	display: block;
+}
+
+.member-pay-tab li a:hover {
+	color: #fe7c31;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.member-pay-tab li.on {
+	border-bottom: 0;
+	background: #fff;
+	font-weight: 700;
+}
+
+.member-pay-tab li.on a {
+	color: #fe7c31;
+}
+
+.member-pay-tab .explain {
+	display: inline-block;
+	margin-left: 15px;
+	height: 36px;
+	color: #c6c6c6;
+	line-height: 20px;
+}
+
+.fastPay-ico {
+	display: inline-block;
+	width: 61px;
+	height: 14px;
+	background-position: -172px 0;
+	vertical-align: top;
+}
+
+.bank-ico {
+	display: inline-block;
+	background: url(/images/new/bank-ico.png) no-repeat;
+	cursor: pointer;
+}
+
+.bank-list {
+	overflow: hidden;
+	width: 706px;
+	zoom: 1;
+}
+
+.bank-list li {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 13px;
+	width: 148px;
+	height: 39px;
+	border: 1px solid #eae9e9;
+	background: #fff;
+	text-align: left;
+	line-height: 39px;
+	cursor: pointer;
+}
+
+.bank-list li.on,.bank-list li:hover {
+	position: relative;
+	width: 146px;
+	height: 37px;
+	border: 2px solid #fe7c31;
+	line-height: 37px;
+}
+
+.bank-list li.on i {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background-position: -139px 0;
+}
+
+.bank-list .bank-ico {
+	margin: 0 9px 0 10px;
+	vertical-align: middle;
+}
+
+.bank-list li.on .bank-ico,.bank-list li:hover .bank-ico {
+	margin-left: 9px;
+}
+
+.bank-list .showAll {
+	border: 0;
+	line-height: 36px;
+}
+
+.bank-list .showAll:hover {
+	border: 0;
+	background: 0;
+	line-height: 36px;
+}
+
+.bank-list .alipay {
+	width: 60px;
+	height: 20px;
+	background-position: -76px -108px;
+}
+
+.bank-list .alipay-sm {
+	width: 112px;
+	height: 26px;
+	background-position: -89px -132px;
+}
+
+.bank-list .tenpay {
+	width: 75px;
+	height: 25px;
+	background-position: -143px -103px;
+}
+
+.bank-list .yeepay {
+	margin: 0 9px 0 5px;
+	width: 83px;
+	height: 25px;
+	background-position: -1px -135px;
+}
+
+.bank-list li.on .yeepay,.bank-list li:hover .yeepay {
+	margin-left: 4px;
+}
+
+.bank-list .CMB {
+	width: 98px;
+	height: 26px;
+	background-position: 0 -164px;
+}
+
+.bank-list .BOC {
+	width: 97px;
+	height: 29px;
+	background-position: 0 -195px;
+}
+
+.bank-list .ICBC {
+	width: 111px;
+	height: 22px;
+	background-position: 0 -229px;
+}
+
+.bank-list .CCB {
+	width: 124px;
+	height: 23px;
+	background-position: 0 -255px;
+}
+
+.bank-list .BCOM {
+	width: 111px;
+	height: 26px;
+	background-position: 0 -283px;
+}
+
+.bank-list .SPDB {
+	width: 104px;
+	height: 29px;
+	background-position: 0 -314px;
+}
+
+.bank-list .ABC {
+	width: 119px;
+	height: 25px;
+	background-position: 0 -350px;
+}
+
+.bank-list .PSBC {
+	width: 140px;
+	height: 24px;
+	background-position: 0 -383px;
+}
+
+.bank-list .CEB {
+	width: 129px;
+	height: 23px;
+	background-position: 0 -414px;
+}
+
+.bank-list .CMBC {
+	width: 134px;
+	height: 21px;
+	background-position: 0 -444px;
+}
+
+.bank-list .CITIC {
+	width: 94px;
+	height: 23px;
+	background-position: 0 -471px;
+}
+
+.bank-list .GDB {
+	width: 129px;
+	height: 23px;
+	background-position: 0 -501px;
+}
+
+.bank-list .CIB {
+	width: 104px;
+	height: 20px;
+	background-position: 0 -530px;
+}
+
+.bank-list .BOB {
+	width: 108px;
+	height: 25px;
+	background-position: 0 -556px;
+}
+
+.bank-list .HXB {
+	width: 99px;
+	height: 22px;
+	background-position: 0 -586px;
+}
+
+.bank-list .PAB {
+	width: 118px;
+	height: 22px;
+	background-position: 0 -614px;
+}
+
+.bank-list .NBCB {
+	width: 97px;
+	height: 27px;
+	background-position: 0 -641px;
+}
+
+.bank-list .NJCB {
+	width: 96px;
+	height: 24px;
+	background-position: 0 -672px;
+}
+
+.bank-list .BJRCB {
+	width: 114px;
+	height: 24px;
+	background-position: 0 -700px;
+}
+
+.bank-list .CBHB {
+	width: 106px;
+	height: 19px;
+	background-position: 0 -729px;
+}
+
+.bank-list .BEA {
+	width: 127px;
+	height: 21px;
+	background-position: 0 -753px;
+}
+
+.bank-list .no-net {
+	width: 117px;
+	height: 23px;
+	background-position: 0 -783px;
+}
+
+.bank-list-b li {
+	margin-right: 11px;
+	height: 36px;
+	line-height: 34px;
+}
+
+.bank-list-b li.on,.bank-list-b li:hover {
+	height: 34px;
+	line-height: 32px;
+}
+
+.bank-list-b .bank-ico {
+	margin: 0 0 0 4px;
+}
+
+.bank-list-b li.on .bank-ico,.bank-list-b li:hover .bank-ico {
+	margin-left: 3px;
+}
+
+.bank-list-icoBox {
+	padding: 8px;
+	width: 523px;
+	border: 1px solid #eae9e9;
+}
+
+.bank-list-ico .bank-item {
+	float: left;
+	margin: 1px 5px 1px 0;
+	padding-left: 8px;
+	width: 86px;
+	height: 28px;
+	border: 1px solid #eae9e9;
+	background: #fff;
+	color: #919191;
+	line-height: 28px;
+	cursor: pointer;
+}
+
+.bank-list-ico .bank-item:hover {
+	border-color: #fe7c31;
+}
+
+.bank-list-ico .bank-ico {
+	margin-right: 4px;
+}
+
+.bank-list-ico .ICBC {
+	width: 24px;
+	height: 24px;
+	background-position: -5px -4px;
+}
+
+.bank-list-ico .ABC {
+	width: 24px;
+	height: 24px;
+	background-position: -39px -5px;
+}
+
+.bank-list-ico .CMB {
+	width: 25px;
+	height: 24px;
+	background-position: -106px -4px;
+}
+
+.bank-list-ico .CCB {
+	width: 24px;
+	height: 24px;
+	background-position: -73px -4px;
+}
+
+.bank-list-ico .BOC {
+	width: 24px;
+	height: 24px;
+	background-position: -140px -5px;
+}
+
+.bank-list-ico .BCOM {
+	width: 22px;
+	height: 24px;
+	background-position: -245px -3px;
+}
+
+.bank-list-ico .PSBC {
+	width: 26px;
+	height: 24px;
+	background-position: -174px -5px;
+}
+
+.bank-list-ico .CEB {
+	width: 31px;
+	height: 13px;
+	background-position: -173px -45px;
+}
+
+.bank-list-ico .SPDB {
+	width: 26px;
+	height: 22px;
+	background-position: -72px -40px;
+}
+
+.bank-list-ico .GDB {
+	width: 28px;
+	height: 24px;
+	background-position: -172px -72px;
+}
+
+.bank-list-ico .CMBC {
+	width: 26px;
+	height: 20px;
+	background-position: -106px -41px;
+}
+
+.bank-list-ico .CIB {
+	width: 28px;
+	height: 18px;
+	background-position: -207px -9px;
+}
+
+.bank-list-ico .CITIC {
+	width: 24px;
+	height: 24px;
+	background-position: -4px -38px;
+}
+
+.bank-list-ico .BJRCB {
+	width: 21px;
+	height: 18px;
+	background-position: -272px -5px;
+}
+
+.bank-list-ico .HXB {
+	width: 25px;
+	height: 24px;
+	background-position: -242px -38px;
+}
+
+.bank-list-ico .PAB {
+	width: 30px;
+	height: 16px;
+	background-position: -70px -77px;
+}
+
+.bank-list-ico .BOB {
+	width: 20px;
+	height: 20px;
+	background-position: -274px -40px;
+}
+
+.bank-list-ico .NBCB {
+	width: 24px;
+	height: 24px;
+	background-position: -4px -108px;
+}
+
+.bank-list-ico .NJCB {
+	width: 24px;
+	height: 24px;
+	background-position: -140px -38px;
+}
+
+.bank-list-ico .CBHB {
+	width: 28px;
+	height: 17px;
+	background-position: -37px -77px;
+}
+
+.bank-list-ico .BEA {
+	width: 18px;
+	height: 28px;
+	background-position: -246px -72px;
+}
+
+.member-explain {
+	padding: 10px 34px;
+	background: #f3f4f4;
+	color: #666;
+	text-align: left;
+}
+
+.member-explain p {
+	line-height: 25px;
+}
+
+.orderDetails {
+	border: 1px solid #eae9e9;
+	background: #fff;
+}
+
+.orderStatus {
+	margin-left: 188px;
+}
+
+.orderTit {
+	padding: 25px 0 30px 117px;
+}
+
+.orderTit span {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.orderTit .order-name {
+	padding: 15px 20px 0;
+	color: #646464;
+	line-height: 22px;
+}
+
+.orderTit .buyBtn {
+	display: inline-block;
+	margin: 20px 20px 0;
+	width: 108px;
+	height: 36px;
+	background: #fe7c31;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 36px;
+}
+
+.orderTit .buyBtn:hover {
+	text-decoration: none;
+}
+
+.orderLot {
+	color: #646464;
+	font-family: 'Î¢ÈíÑÅºÚ';
+}
+
+.orderLot .detail {
+	float: left;
+	width: 799px;
+	border-right: 1px solid #eae9e9;
+}
+
+.orderLot .detail-head {
+	height: 39px;
+	border-top: 1px solid #eae9e9;
+	border-bottom: 1px solid #eae9e9;
+	line-height: 39px;
+}
+
+.orderLot .detail-head h2 {
+	padding-left: 14px;
+}
+
+.orderLot .detail-head .ml {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.orderLot .betCon {
+	padding: 28px 22px;
+}
+
+.orderLot .betCon p {
+	line-height: 35px;
+}
+
+.orderLot .betCon .v {
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.orderLot .betCon .k {
+	display: inline-block;
+	text-align: left;
+	font-size: 14px;
+}
+
+.orderLot .betCon .cp-detail span {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.orderLot .betCon .lotDetail {
+	margin: 23px 0 50px 44px;
+}
+
+.orderLot .betCon .lotDetail .tit {
+	margin-top: 2px;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.orderLot .betCon .lotDetail li {
+	margin-bottom: 10px;
+	line-height: 22px;
+}
+
+.orderLot .betCon .lotDetail li span {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.orderLot .betCon .lotDetail li .ball {
+	margin-right: 50px;
+	max-width: 395px;
+}
+
+.orderLot .betCon .lotDetail li .ball em {
+	margin-right: 6px;
+	font-weight: 700;
+}
+
+.orderLot .award {
+	float: left;
+	width: 398px;
+	color: #666;
+}
+
+.orderLot .award .head {
+	height: 39px;
+	border-top: 1px solid #eae9e9;
+	border-bottom: 1px solid #eae9e9;
+	background: #f3f4f4;
+	line-height: 39px;
+}
+
+.orderLot .award .head h2 {
+	float: left;
+	padding-left: 14px;
+}
+
+.orderLot .award .head .more {
+	float: right;
+	margin-right: 9px;
+	color: #666;
+}
+
+.orderLot .award .period {
+	padding: 18px 0 1px 19px;
+}
+
+.orderLot .award .period p {
+	margin-bottom: 10px;
+	line-height: 23px;
+}
+
+.orderLot .award .period p .lot {
+	display: inline-block;
+	width: 200px;
+}
+
+.orderLot .award .period p .ico-ball {
+	margin-right: 6px;
+}
+
+.orderLot .award-list span {
+	display: inline-block;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+}
+
+.orderLot .award-list .s1 {
+	width: 96px;
+}
+
+.orderLot .award-list .s2 {
+	width: 97px;
+}
+
+.orderLot .award-list .s3 {
+	width: 180px;
+}
+
+.orderLot .award-zst {
+	padding-top: 15px;
+	padding-left: 23px;
+}
+
+.orderLot .award-zst li {
+	float: left;
+	width: 83px;
+	height: 32px;
+	color: #4b9cdd;
+	line-height: 32px;
+}
+
+.orderLot .award-zst li a {
+	color: #4b9cdd;
+}
+
+.orderSpeed {
+	height: 155px;
+}
+
+.ui-speed-order .ico-status,.ui-speed-order .on .ico-status {
+	overflow: hidden;
+	background: url(/images/new/ico_base.png) no-repeat;
+}
+
+.ui-speed-order .ico-status {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-position: -124px 0;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+}
+
+.ui-speed-order .on .ico-status {
+	background-position: -124px -28px;
+}
+
+.orderSpeed-org .on .ico-status {
+	background-position: -155px 0;
+}
+
+.ui-speed-order {
+	margin-bottom: 24px;
+	margin-left: 50px;
+}
+
+.ui-speed-order li {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-right: 7px;
+	color: #818181;
+	font-size: 14px;
+}
+
+.ui-speed-order li .tit {
+	position: absolute;
+	top: 28px;
+	left: -48px;
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.ui-speed-order li.on .tit {
+	color: #73c238;
+}
+
+.orderSpeed-org li.on .tit {
+	color: #fe7c31;
+}
+
+.ui-speed-order li .bor {
+	display: inline-block;
+	margin-top: 12px;
+	width: 175px;
+	border-top: 1px solid #bfbfbf;
+}
+
+.ui-speed-order li .desc {
+	position: absolute;
+	top: 58px;
+	left: -54px;
+	display: inline-block;
+	width: 209px;
+	color: #818181;
+	text-align: left;
+	font-size: 12px;
+}
+
+.ui-speed-order li .desc p {
+	line-height: 22px;
+}
+
+.lotTab .lotTab-tit {
+	margin-bottom: 8px;
+	margin-left: 45px;
+}
+
+.lotTab .mod-table {
+	margin: 0 43px;
+}
+
+.lotTab .mod-table table {
+	border: 1px solid #ebeaea;
+}
+
+.lotTab .mod-table table th {
+	height: 39px;
+	border-bottom: 1px solid #ebeaea;
+	background: #f3f4f4;
+	text-align: center;
+	line-height: 25px;
+}
+
+.lotTab .mod-table table td {
+	height: 55px;
+	border-bottom: 1px solid #ebeaea;
+	text-align: center;
+	line-height: 25px;
+}
+
+.lotTab .mod-table table .text-p {
+	padding-left: 40px;
+	text-align: left;
+}
+
+.lotExplain {
+	margin: 100px 22px 30px;
+	text-align: left;
+}
+
+.lotExplain p {
+	color: #646464;
+	line-height: 23px;
+}

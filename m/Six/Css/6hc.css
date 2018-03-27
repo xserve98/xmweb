@@ -1,0 +1,75 @@
+.ssc_top .kjls{height: 60px;line-height: 60px;padding: 0;overflow: hidden}
+.sqlh{margin-left: 5px}
+.sqlh em{margin-right: 10px;display: inline-block;vertical-align: middle;position: relative;top: -1px}
+.sqlh em:last-child{margin-right: 0}
+.kj_div{height: 27px;line-height: 27px;overflow: hidden}
+.kj_div .kjfl{float: right}
+.kj_div .kjfl a{display: block;float: left;background-color: #A69B91;color: #fff;padding: 5px;margin-left: 5px;border-radius: 4px;height: 17px;line-height: 17px;text-decoration: none}
+.kj_div .kjfl a:hover{background-color: #B73638}
+.kj_div .kjfl a.on{background-color: #B73638}
+
+.ssc_left .touzhu .bian .bian_tr_tit{height: 33px;line-height: 33px}
+.ssc_left .touzhu .bian .bian_tr_txt{height: 33px;line-height: 33px}
+.ssc_left .touzhu .bian .bian_tr_txt input[type="radio"]{vertical-align: -2px}
+.bian_td_qiu span, .bian_td_hms span{display: inline-block}
+.bian_td_hms span{vertical-align: middle;position: relative;top: -2px}
+
+.hm_ball{width: 27px;height: 27px;line-height:27px;text-align: center;background: url("../Images/ball.png") no-repeat}
+.hm_ball.ball_01{background-position: 0 0}
+.hm_ball.ball_02{background-position: 0 -27px}
+.hm_ball.ball_03{background-position: 0 -54px}
+.hm_ball.ball_04{background-position: 0 -81px}
+.hm_ball.ball_05{background-position: 0 -108px}
+.hm_ball.ball_06{background-position: 0 -135px}
+.hm_ball.ball_07{background-position: 0 -162px}
+.hm_ball.ball_08{background-position: 0 -189px}
+.hm_ball.ball_09{background-position: 0 -216px}
+.hm_ball.ball_10{background-position: 0 -243px}
+.hm_ball.ball_11{background-position: -27px 0}
+.hm_ball.ball_12{background-position: -27px -27px}
+.hm_ball.ball_13{background-position: -27px -54px}
+.hm_ball.ball_14{background-position: -27px -81px}
+.hm_ball.ball_15{background-position: -27px -108px}
+.hm_ball.ball_16{background-position: -27px -135px}
+.hm_ball.ball_17{background-position: -27px -162px}
+.hm_ball.ball_18{background-position: -27px -189px}
+.hm_ball.ball_19{background-position: -27px -216px}
+.hm_ball.ball_20{background-position: -27px -243px}
+.hm_ball.ball_21{background-position: -54px 0}
+.hm_ball.ball_22{background-position: -54px -27px}
+.hm_ball.ball_23{background-position: -54px -54px}
+.hm_ball.ball_24{background-position: -54px -81px}
+.hm_ball.ball_25{background-position: -54px -108px}
+.hm_ball.ball_26{background-position: -54px -135px}
+.hm_ball.ball_27{background-position: -54px -162px}
+.hm_ball.ball_28{background-position: -54px -189px}
+.hm_ball.ball_29{background-position: -54px -216px}
+.hm_ball.ball_30{background-position: -54px -243px}
+.hm_ball.ball_31{background-position: -81px 0}
+.hm_ball.ball_32{background-position: -81px -27px}
+.hm_ball.ball_33{background-position: -81px -54px}
+.hm_ball.ball_34{background-position: -81px -81px}
+.hm_ball.ball_35{background-position: -81px -108px}
+.hm_ball.ball_36{background-position: -81px -135px}
+.hm_ball.ball_37{background-position: -81px -162px}
+.hm_ball.ball_38{background-position: -81px -189px}
+.hm_ball.ball_39{background-position: -81px -216px}
+.hm_ball.ball_40{background-position: -81px -243px}
+.hm_ball.ball_41{background-position: -108px 0}
+.hm_ball.ball_42{background-position: -108px -27px}
+.hm_ball.ball_43{background-position: -108px -54px}
+.hm_ball.ball_44{background-position: -108px -81px}
+.hm_ball.ball_45{background-position: -108px -108px}
+.hm_ball.ball_46{background-position: -108px -135px}
+.hm_ball.ball_47{background-position: -108px -162px}
+.hm_ball.ball_48{background-position: -108px -189px}
+.hm_ball.ball_49{background-position: -108px -216px}
+
+.hygllelist th, .hygllelist td{height: 33px;line-height: 33px}
+.hygllelist td span{display: inline-block}
+
+/*投注页面CSS*/
+.order_div{ width:598px; margin:0 auto;max-height:350px;_height:expression((document.documentElement.clientHeight||document.body.clientHeight)<350?"350px":""); overflow:hidden; padding:1px 0; overflow-y:auto;}
+.order_list{ width:100%; font-size:12px; background-color:#77421d}
+.order_list th{color:#FFF; background-color:#77421d; height:30px; line-height:30px; background-image:url(../Images/lotto_th.gif);}
+.order_list td{color:#000; background-color:#FFF; height:25px; line-height:25px; text-align:center;}

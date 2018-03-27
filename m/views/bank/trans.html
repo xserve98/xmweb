@@ -1,0 +1,89 @@
+<ion-view view-title="资金管理">
+<ion-nav-buttons side="left">
+   	<a class="button button-icon icon-prepage" href="#/ucenter/index"></a>
+</ion-nav-buttons>
+
+<ion-content class="m-center m-info m-cash" scroll="false">
+	<div class="cash-top">
+		<div class="row sub-header">
+			<div class="col col-33">
+				<img class="avatar" src="/images/avatar.png">
+			</div>
+			<div class="col col-66">
+				<h5>{{My.getUserName()}}</h5>
+				<p >
+					用户余额：<span  style=""><span class="money">{{My.getMoney()}}</span>RMB</span>
+					<a class="refresh" ng-click="refreshMoney();"><img src="/images/icon-refresh.png"></a>
+				</p>
+			</div>
+		</div>
+		<div class="tabs-striped tabs-top">
+			<div class="tabs tabs-theme">
+				<a class="tab-item tab-item-25" href="#/bank/deposit">存款</a>
+				<a class="tab-item tab-item-25" href="#/bank/withdraw">取款</a>
+				<a class="tab-item tab-item-25" ng-class="{active:type==1}" href="#/bank/trans/1">存款记录</a>
+				<a class="tab-item tab-item-25" ng-class="{active:type==2}" href="#/bank/trans/2">取款记录</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="tab-content text-center table-list t-white">
+		<div class="row text-center no-title pm">
+			<div class="col col-40 radiu">时间</div>
+			<div class="col col-30 radiu">金额</div>
+			<div class="col col-30 radiu">状态</div>
+		</div>
+		
+		<ion-content class="list" style="top: 8rem">
+			<div ng-if="type == 1" ng-repeat="item in dataList" class="row text-center" ng-click="showDetail(item);">
+				<div class="col col-40 text-center tal ti">{{item.rechTime|stime}}</div>
+				<div class="col col-30 text-center tal ti">{{item.rechMoney}}</div>
+				<div class="col col-30 text-center tal ti">{{RECH_STATUS[item.status]}}</div>
+			</div>
+			<div ng-if="type == 2" ng-repeat="item in dataList" class="row text-center" ng-click="showDetail(item);">
+				<div class="col col-40 text-center tal ti">{{item.applyTime|stime}}</div>
+				<div class="col col-30 text-center tal ti">{{item.applyMoney}}</div>
+				<div class="col col-30 text-center tal ti">{{CHECK_STATUS[item.checkStatus]}}</div>
+			</div>
+			<div ng-if="dataList.length == 0" class="empty-tip">暂无数据</div>
+			<div ng-show="!dataList" class="spinner-warp"><ion-spinner class="spinner spinner-ios"></ion-spinner></div>
+			<ion-infinite-scroll ng-if="isMore" on-infinite="queryData()" icon="ion-loading-c" distance="1%"></ion-infinite-scroll>
+		</ion-content>
+	</div>
+
+
+	<script id="rech-detail.html" type="text/ng-template">
+	<div class="trans-detail">
+		<p>交易编号：{{item.orderNo}}</p>
+		<p>发起时间：{{item.addTime}}</p>
+		<p>交易类型：{{item.rechType=='adminAddMoney'?"系统加钱":"充值"}} </p>
+		<p>交易金额：{{item.rechMoney||0}}</p>
+		<p ng-if="item.rebateMoney">活动奖励金额：{{item.rebateMoney}}</p>
+		<p>手续费用：0</p>
+		<p>交易状态：{{RECH_STATUS[item.status]}} </p>
+		<p>充值方式：{{RECH_TYPE[item.rechType]}}</p>
+		<p>卡号：{{item.payee}}</p>
+		<p>持卡人：{{item.payeeName || ThirdChannels[rechDescData.thirdChannel]}}</p>
+		<p>存款人：{{item.userName}}</p>
+		<p>存款时间：{{item.rechTime}}</p>
+		<p ng-if="item.remark">备注：{{item.remark}}</p>
+	</div>
+	</script>
+	
+	<script id="withdraw-detail.html" type="text/ng-template">
+	<div class="trans-detail">
+		<p>交易编号：{{item.orderNo}}</p>
+		<p>发起时间：{{item.applyTime}}</p>
+		<p>交易类型：{{item.channel==2?"系统扣钱":"提现"}} </p>
+		<p>交易金额：{{item.applyMoney||0}}</p>
+		<p>手续费用：0</p>
+		<p>交易状态：{{CHECK_STATUS[item.checkStatus]}} </p>
+		<p>提现银行：{{item.bankName}} </p>
+		<p>提款卡号：{{item.bankCard}}</p>
+		<p>持卡人：{{item.bankAccount}}</p>
+		<!--<p>审核时间：{{item.operatorTime||"未审核"}}</p>-->
+		<p ng-if="item.reason">备注：{{item.reason}}</p>
+	</div>
+	</script>
+</ion-content>
+</ion-view>

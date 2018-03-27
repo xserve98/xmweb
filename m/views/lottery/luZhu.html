@@ -1,0 +1,46 @@
+<ion-view view-title="路珠" class="lu-zhu">
+	<ion-nav-buttons side="left">
+    	<a class="button button-icon icon-prepage" ng-click="back();"></a>
+  	</ion-nav-buttons>
+  	
+	<ion-content scroll="true" class="history ball-temp">
+		<div class="row pd item-select my-select row-width">
+			<select ng-model="queryData.gameId" ng-options="game.id as game.name for game in gameList" ng-change="onQuery()" class="disable-user-behavior"></select>
+			<button ng-click="reLoadCfg()" class="ng-binding">刷新</button>
+		</div>
+		
+		<div ng-if="luZhuRow1 != null">
+			<div class="row title">
+				<div class="col side-item radiu" ng-repeat="lzCfg1 in luZhuRow1" ng-click="loadData1(lzCfg1.code)" ng-class="{selected:lzCfg1.code==curCode1}">{{lzCfg1.name}}</div>
+			</div>
+			<div class="content">
+				<div class="row" >
+					<div class="col col-10 following" ng-repeat="hds in htmlData1"> 
+					    <div ng-repeat="hd in hds track by $index" >
+					     {{hd}}
+					    </div>
+					 </div>
+				 </div>
+			</div>
+		</div>
+		<div ng-if="luZhuRow2 != null">
+			<div class="row title">
+				<div class="col side-item radiu" ng-repeat="lzCfg2 in luZhuRow2" ng-click="loadData2(lzCfg2.code)" ng-class="{selected:lzCfg2.code==curCode2}">{{lzCfg2.name}}</div>
+			</div>
+			<div ng-repeat="htmlData in htmlData2">
+				<p class="middle ng-binding">{{htmlData.name}}</p>
+				<div class="content">
+					<ion-scroll direction="x" class="scroll-view ionic-scroll">
+							<div class="row" >
+								<div class="col col-10 following" ng-repeat="hds in htmlData.data"> 
+								    <div ng-repeat="hd in hds track by $index" >
+								     {{hd}}
+								    </div>
+								 </div>
+							 </div>
+					</ion-scroll>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

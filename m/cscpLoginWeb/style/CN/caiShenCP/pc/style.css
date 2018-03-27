@@ -1,0 +1,453 @@
+/* 
+
+关于我们
+.foot_About_Us{height:112px; background:url(../../../../images/CN/fuGuiCP/pc/foot_bj.jpg);}
+.foot_top{height:60px; line-height:50px; background:url(../../../../images/CN/fuGuiCP/pc/partner_btn.png) center no-repeat;}
+.foot_top_hover{ margin-left:80px;}
+.foot_hover1{width:50px; height:50px; float:left; display:block;}
+.foot_hover{width:50px; height:50px; float:left; display:block; margin-left:10px;}
+.foot_hover3{ margin-left:5px;}
+.foot_hover4{ margin-left:10px;}
+.foot_hover5{ margin-left:5px; width:65px;}
+.foot_hover6{ margin-left:15px;}
+.foot_hover7{ margin-left:15px; width:52px;}
+.foot_hover8{ margin-left:23px;}
+.foot_hover9{ margin-left:18px; width:52px;}
+.foot_hover10{ margin-left:18px;}
+.foot_hover11{ margin-left:8px; width:72px;}
+.foot_hover12{ margin-left:10px;}
+.foot_hover13{ margin-left:7px; width:57px;}
+#lotteryiframeerror {
+    height: 6630px!important;
+}
+
+
+
+
+
+.foot_top_hover .foot_hover1:hover{}
+.foot_top_w{height:60px;}
+.foot_botoom_w{ height:52px; margin-left:160px;}
+.foot_botoom_w ul{width:625px; margin:0 auto; overflow:hidden; float:left; padding-left:60px;}
+.foot_botoom_w ul li{float:left; color:#fff; overflow:hidden;}
+.foot_botoom_w ul li a{ display:block; float:left; width:80px; text-align:center; color:#fff; overflow:hidden; font-size:14px;}
+.foot_botoom_w ul li a:hover{color:#aeaeae;}
+
+我们的优势
+.superiority{height:520px;}
+.superiority_w{height:518px;}
+.ww{width:310px; float:left; height:480px; margin-top:15px;}
+.superiority_left dl dt{border-bottom:1px #323941 solid; height:50px;}
+.superiority_left dl dt p span{font-size:18px; color:#000;}
+.superiority_left dl dt p{color:#000;}
+.superiority_left dl dd{height:130px; overflow:hidden;}
+.superiority_left dl dd  #title_h{float:left; height:30px; line-height:30px; font-size:16px; color:#999;}
+.superiority_left dl dd  #title_h p{font-size:12px; height:20px;}
+.right{font-size:38px; float:right; color:#000;}
+.right span{font-size:14px; position:relative; top:-17px;  color:#000;}
+.partnerss{ background:url(../../../../images/CN/fuGuiCP/pc/good_luck.png) no-repeat; height:100px; background-position:-8px 0px; }
+.partnerss .partnerss_link a{float:left; display:block; width:35px; height:25px;}
+.partnerss .partnerss_link .link_service1{ width:35px; height:24px; margin-top:14px;}
+.partnerss .partnerss_link .link_service2{ width:35px; height:24px; margin-top:14px; margin-left:1px;}
+.partnerss .partnerss_link .link_service3{ width:38px; height:24px; margin-top:14px; margin-left:2px;}
+.partnerss .partnerss_link .link_service4{ width:35px; height:24px; margin-top:14px; margin-left:4px;}
+.partnerss .partnerss_link .link_service5{ width:37px; height:24px; margin-top:14px; margin-left:1px;}
+.partnerss .partnerss_link .link_service6{ width:37px; height:24px; margin-top:14px; margin-left:1px;}
+.partnerss .partnerss_link .link_service7{ width:37px; height:24px; margin-top:14px; margin-left:1px;}
+.partnerss .partnerss_link .link_service8{ width:38px; height:24px; margin-top:14px; margin-left:1px;}
+.partnerss .partnerss_link .link_service9{ width:36px; height:26px; margin-top:2px;}
+.partnerss .partnerss_link .link_service10{ width:37px; height:26px; margin-top:2px;}
+.partnere{ background:url(../../../../images/CN/fuGuiCP/pc/good_luck.png) no-repeat; height:30px; background-position:-8px -70px;}
+
+
+
+.superiority_center{margin-left:30px;}
+.superiority_center dl dt{border-bottom:1px #323941 solid; height:50px;}
+.superiority_center dl dt p span{font-size:18px; color:#000;}
+.superiority_center dl dt p{color:#000;}
+.superiority_center dl dd{height:130px; overflow:hidden;}
+.superiority_center dl dd p{}
+
+
+
+
+.superiority_right{ float:right;}
+.superiority_right dl dt{border-bottom:1px #323941 solid; height:50px;}
+.superiority_right dl dt p span{font-size:18px; color:#000;}
+.superiority_right dl dt p{color:#000;}
+.superiority_right dl dd{height:150px; overflow:hidden;}
+.title_h{height:30px; line-height:30px; font-size:18px; color:#000;}
+.superiority_right dl dd .partner{ background:url(../../../../images/CN/fuGuiCP/pc/good_luck.png) no-repeat; height:100px; background-position:-8px -95px;}
+.hezuo_huoban a{  display:block; float:left;}
+.hezuo1{width:100px; height:35px;}
+.hezuo2{width:105px; height:35px;}
+.hezuo3{width:90px; height:35px;}
+.hezuo4{width:100px; height:28px;}
+.hezuo5{width:105px; height:28px;}
+.hezuo6{width:97px; height:28px;}
+.hezuo7{width:100px; height:35px;}
+.hezuo8{width:105px; height:28px;}
+.hezuo9{width:90px; height:28px;}
+.superiority_right dl dd p span{color:#999; line-height:30px; font-size:12px;}
+.p_line{line-height:30px; color:#000; margin-top:10px;font-size:13px;}
+版权
+
+
+
+
+.faq_lefts dl dd a:hover,.faq_lefts dl dd a.active{color:#fff; background-position:182px 16px;}
+.faq_lefts dl span{ position:absolute; left:34px; bottom:-48px;}
+.faq_right{margin-bottom:50px; width:750px;min-height:485px; border-radius:3px; float:right; opacity:0.8;cursor: default;}
+.faq_right dl{width:90%;  margin:0 auto; }
+.faq_right dl dt{height:42px; line-height:42px; font-size:16px; color:#ffffff;}
+.faq_title{color:#bcbdc0 !important;}
+.faq_right dl dd{ margin-top:15px; color:white; font-size:14px;}
+
+
+代理加盟
+.agent_color{color:#deae6a;}
+.agency{min-height:689px;}
+.agency_w{min-height:720px;   opacity:0.9; overflow:hidden; border-radius: 5px;}
+.agency_w form{width:700px; margin:0 auto;}
+.agency_w form p{font-size:18px; font-weight:400;}
+.agency_w ul{}
+.agency_w ul li{margin:10px 0px;}
+.agency_w ul li label{ display:block; float:left; text-align:left; width:130px; font-size:14px;padding-top:4px;}
+.agency_w ul li label span{color:#F00;}
+.agency_w ul li input{margin-top:6	px; border:none; border-radius:3px; background:#1f2938; height:26px; width:220px; color:#fff; border:1px #444d5b solid;}
+.agency_w ul li span{color: #bcbdc0; font-size:13px;}
+.form-item{margin-left:150px;}
+.padding-s4{display: block; cursor: pointer; margin-left:150px; margin-top:30px;}
+.form-btn3 { width: 280px;line-height: 40px;background: #2394e1;text-align:center;border-radius:3px;border: none;color: #fff;font-size: 14px;}
+#agency_h{ height:800px;}
+.agency_top{height:60px; line-height:60px; border-bottom: 1px #353d4a solid; font-size:16px;color:white;}
+.agency_bottom{height:50px; line-height:15px; border-bottom: 1px #353d4a solid;}
+.agency_bottom ul li{float:left; height:50px;}
+.agency_bottom ul li a{font-size:14px; color:#bcbdc0;}
+.agency_bottom ul li a:hover{color:#fff; cursor:pointer;}
+
+
+注册
+.register{height:585px; }
+.main_register_w{height:585px;  border-radius:5px; margin-top:25px;background:#19273d;}
+.column1, .inRightsider .column2 {border-radius:5px;padding: 20px 20px 20px 80px; width:800px;}
+.column1 legend{font-size:18px; color:#FFF;}
+.form-box .form-row {padding-bottom: 10px;}
+.form-box .form-row span{font-size:14px;}	
+.reg_row span{font-size:14px;}
+.control-grouptxt p{font-size:14px;}
+.form-box label {float: left;width: 100px;line-height: 34px;font-size: 14px;color:#bcbdc0;}
+.reg-width01 { width: 280px;}
+.reg-textinput { border: 1px solid #e1e1e1;background: #fff;color: #999; padding: 3px;line-height: 25px;height: 25px; border-radius: 3px;}
+.btn-primary{ display:block; width:150px; text-align:center; height:40px; line-height:40px; float:left; background:#2394e1; border-radius:5px; font-size:16px; color:#fff;}
+.red{color:#F00;}
+.btn_reset {width: 150px;height: 40px;display: inline-block;font-size: 16px;line-height: 18px;color: #fff;text-align: center;background:#f13c51;border:none;border-radius:5px;margin-left:20px;}
+
+
+彩票
+#lottery{ background:url(../../../../images/CN/fuGuiCP/pc/lotterybj.jpg) top center no-repeat; width:100%;}
+.lottery_main{border:30px #a6deef solid; min-height:600px; background:url(../../../../images/CN/fuGuiCP/pc/lottery_bj.jpg) center no-repeat; border-collapse:collapse; width:940px; margin:0 auto;	}
+.lottery_main  .lotterys{width:215px; height:262px; position:relative;  margin-left:15px; float:left; overflow:hidden;}
+.lottery_main .lotterys a{ display:block; float:left;}
+.lotterys img{ position:absolute; left:0; top:0; cursor:pointer;}
+.lottery_main .lotterys a:hover{ height:260px; display:block; width:213px;  border:1px #d9bccd solid;  }
+
+真人娱乐
+#live{ background:url(../../../../images/CN/fuGuiCP/pc/livebj.jpg) top center no-repeat; width:100%; padding-bottom:30px; }
+.live_main{border:30px #a6deef solid; min-height:600px; background:url(../../../../images/CN/fuGuiCP/pc/live_bj.jpg) center no-repeat; border-collapse:collapse; width:940px; margin:0 auto;	}
+.live_main .public_liev{float:left; width:260px; height:270px; margin-left:40px; margin-top:20px; }
+
+.public_op {
+	margin:0 auto;
+	overflow:hidden;
+}
+.public_liev dl dd {
+	width:260px;
+	height:270px;
+	float:left;
+	position:relative;
+	overflow:hidden;
+}
+.public_liev dl dd .dask {
+	width:260px;
+	height:270px;
+	background:#000;
+	opacity:0.8;
+	position:absolute;
+	top:-340px;
+	left:0;
+}
+body, ul, li, p, h1, h2, input, form, h3, h4, h5, h6 {
+    color: #fff;
+    font-family: "微软雅黑",Arial,Tahoma;
+    font-size: 12px;
+    list-style: outside none none;
+}
+
+.ce_imgs p{ text-align:center; font-family:  "微软雅黑"; }
+.ce_imgs .live_logo{ margin-top:47px;}
+.ce_imgs p a{color:#fff; display:block; width:120px; height:35px; line-height:35px; text-align:center;}
+.ce_imgs p .btn_color{ margin:70px 0px 0px 70px; background:#c72e2f; border-radius:5px; color:#fff; *margin-left:0px; _margin-left:0px;}
+.ce_imgs p .btn_color:hover{ background:#de2927;}
+
+规则说明
+#tab_cc dl dt {
+    color: #a3a3a3;
+    font-size: 12px;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 630px;
+}
+#tab_cc dl dd {
+    color: #a3a3a3;
+    font-size: 12px;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 630px;
+    padding-bottom: 8px;
+}
+#tab_cc dl dd span {
+    color: #fff;
+}
+
+
+电子游戏
+.game_banner{height:260px; background:url(../../../../images/CN/fuGuiCP/pc/game_banner.jpg) center no-repeat;}
+.game_main{ min-height:500px; background:url(../../../../images/CN/fuGuiCP/pc/game_bj-.jpg) no-repeat; padding: 10px;}
+
+
+.tab1{margin-top: 5px; margin-bottom: 30px;margin-left:30px;}
+.tab1 tbody tr th{color: white !important;}
+.tab1 tbody tr td{color: white !important; padding-top: 5px;}
+
+
+
+
+电子游戏
+
+
+.con_wrap {
+    margin: 0 auto;
+    padding: 20px;
+    width: 1000px;
+}
+
+.con {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+ .con .list4 {
+    display: none;
+    height: 518px;
+    width: 1000px;
+}
+
+con .list4-con .list4-list {
+    height: 518px;
+    width: 1000px;
+}
+
+
+.a-main-info h4 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 10px 0;
+    padding-left:20px;
+}
+
+.a-main-info ol li {
+    color: #fff;
+    line-height: 25px;
+    padding: 8px 20px;
+        padding-left:55px;
+}
+
+
+.a-main-info p{
+	line-height: 30px;
+	font-size: 14px;
+    padding: 10px 20px;
+}
+
+.a-main-info p b {
+    color: #decaa7;
+    display: block;
+    padding-bottom: 10px;
+}
+
+最新优惠
+
+.special_offer a {
+    display: block;
+    height: 198px;
+    margin-top: 15px;
+    width: 1000px;
+}
+.special_offer1 {
+    background:  url(../../../../images/CN/fuGuiCP/pc/special_bj1.png) no-repeat scroll 0 0;
+     padding-top:50px;
+}
+.special_offer2 {
+    background: url(../../../../images/CN/fuGuiCP/pc/special_bj1.png) no-repeat scroll 0 0;
+     padding-top:50px;
+}
+.special_offer3 {
+    background: url(../../../../images/CN/fuGuiCP/pc/special_bj1.png) no-repeat scroll 0 0;
+     padding-top:50px;
+}
+
+
+弹出注册
+.pop-box {
+    background:  url(../../../../images/CN/fuGuiCP/pc/login_bg.jpg) no-repeat scroll 0 0;
+    height: 462px;
+    margin: 0;
+    padding-left: 38px;
+    padding-right: 38px;
+    position: fixed;
+    width: 244px;
+    z-index: 9999;
+}
+
+
+.login_password {
+    border: medium none;
+    border-radius: 3px;
+    color: #aca9a9;
+    font-size: 14px;
+    height: 37px;
+    line-height: 37px;
+    margin-bottom: 12px;
+    padding-left: 17px;
+    width: 227px;
+}
+
+.pop-box_header {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.loginon_btn a {
+    background: #1a1a1a none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #939090;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 47px;
+    line-height: 47px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 244px;
+}
+
+
+.hezi_left a {
+    color: #b4b4b4;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+}
+
+
+.hezi_right a {
+    color: #b4b4b4;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+
+.a-main-content ul li {
+    margin-top: 0;
+}
+
+.a-main-content-nav li {
+    float: left;
+    padding: 10px 15px;
+}
+
+.c {
+    background-color: #cecbc3;
+}
+
+.c a{
+   color:#000;
+}
+
+
+.a-main-content h3 {
+    border-bottom: 1px solid white;
+    color: #decaa7;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 50px;
+    text-indent: 15px;
+    width: 700px;
+}	
+
+
+.clear::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.a-main-content ul {
+    width: 700px;
+}
+.aboutus_right ul {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.a-main-content-nav {
+    border-bottom: 1px solid white;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+.mask {
+    background:  url("../../../../images/CN/fuGuiCP/pc/bgg8.png") repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+
+.promotion_d { 
+	height: 100%;
+    margin: 10px auto;
+    width: 1000px;
+}
+
+.menuss ul ul li {clear:both;text-align:left;font-size:12px; margin:0;} 
+.menuss ul ul li a{display:block; width: 105px;height:35px; line-height:35px; margin:0;border:0;font-size:16px; font-weight:normall;} 
+.menuss ul ul li a:hover{border:none;}
+.backg{ background:#14b5e5;}
+
+
+#forgetPW {
+    color: #aa0909;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    background: none!important;
+} */

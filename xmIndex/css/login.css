@@ -1,0 +1,143 @@
+/* login */
+
+body {
+	background-color: #e7eef5;
+}
+
+.headertxt {
+	font-size: 50px;
+	color: #2161b3;
+	position: absolute;
+	top: 67px;
+	left: 202px;
+}
+
+.headersubtxt {
+	font-size: 20px;
+    color: #a2a2a2;
+    position: absolute;
+    top: 130px;
+    left: 3px;
+}
+
+.stepitm {
+	width: 	332px;
+	height: 60px;
+	border: 1px solid #999;
+	color: #999;
+	position: relative;
+	overflow:visible;
+	float: left;
+	margin-right: -1px;
+}
+
+.stepactive {
+	border: 1px solid #1f5fb2;
+	color: #1f5fb2;	
+}
+
+.stepno {
+	font-family: 'Helvetica Neue LT Std';
+	font-size: 	40px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+	font-weight: normal;
+}
+
+.stepnotxt {
+	font-size: 20px;
+	float: left;
+	margin-top: 18px;
+	margin-left: 15px;
+}
+
+.hlfcircle {
+	position: absolute;
+	width: 19px;
+	height: 36px;
+	background-image: url(../img/hlfcircle1a.png);
+	right: -19px;
+	top: 13px;
+}
+
+.hlfcircleactive {
+	background-image:url(../img/hlfcircle1.png)!important;
+}
+
+.mt35 {
+	margin-top: 35px;
+}
+
+.ml90 {
+	margin-left: 90px;
+}
+
+.row {
+	color: #0f0f0f;
+	margin-bottom: 15px;
+}
+
+.col1 {
+	width: 142px;
+	float: left;
+	font-size: 14px;	
+	text-align: right;
+	padding-top: 10px;
+}
+
+.col2 { 
+	width: 280px;
+	margin-left: 10px;
+	float: left;
+	
+}
+
+.col3 {
+	width: 390px;
+	margin-left: 15px;
+	float: left;
+	color: red;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.textbox1 {
+	width: 250px;
+    height: 18px;
+	padding:9px;
+	border: 1px solid #B9B4B4;
+	font-size: 14px;
+	color: #666;
+	border-radius: 2px;
+}
+
+
+.textbox2 {
+	float:left;
+	width: 150px;
+	height: 18px;
+	padding:9px;
+	border: 1px solid #B9B4B4;
+	font-size: 14px;
+	color: #666;
+	border-radius: 2px;
+}
+
+.capcha {
+	float: left; 
+	margin-left: 20px;
+	margin-top: 5px;	
+}
+
+.submitbtn {
+	height: 44px;
+	width: 270px;
+	text-align:center;
+	padding: 10px 0;
+	color: #fff;
+	background-color: #2161b3;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 2px;
+}

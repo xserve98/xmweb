@@ -1,0 +1,43 @@
+<ion-view view-title="在线支付">
+	<ion-nav-buttons side="left">
+    	<a class="button button-icon icon-prepage" ng-click="back();"></a>
+  	</ion-nav-buttons>
+  	
+	<ion-content>
+
+	<div class="item-online">
+		<form id="onlinepay-form" name="onlinepayForm" novalidate action="/userrech/onlinePay.do"
+		 method="post" target="_blank">
+			<input name="x-session-token" type="hidden" ng-value="xSessionToken" />
+			<input name="token" type="hidden" ng-value="xSessionToken" />
+			<div class="item item-input">
+				<input type="text" name="amount" ng-model="onlinepayData.depositMoney"
+				 placeholder="请填写存款金额" 
+				 ng-keyup="parseFloatMoneyInDepositPage($event)" required class="reset-field">
+			</div>
+			<!--<p class="item-warn text-light">单笔下限<span class="red">10</span>,单笔上限<span class="red">50000</span></p>-->
+			<div class="item item-select">
+				<select ng-model="onlinepayData.payWay" ng-options="('在线支付' + v.order) for v in rechTypeList track by v.id">
+					<option value="">选择在线渠道</option>
+				</select>
+				<input type="hidden" name="rechId" ng-value="onlinepayData.payWay.id" required />
+			</div>
+			<!-- <div class="item item-select">
+				<select name="payId" ng-model="onlinepayData.bank" ng-options="v.code as v.name for v in bankMap[onlinepayData.payWay.onlineType] track by v.code" required>
+					<option value="">选择支付银行</option>
+				</select>
+			</div> -->
+			<input ng-disabled="onlinepayForm.$invalid" type="button" ng-click="onlinePay()" class="button button-block button-positive button-positive-theme" value="开始充值">
+		</form>
+	</div>
+	</ion-content>
+	
+<script id="submitData-template" type="text/ng-template">
+	<p>支付方式: 在线支付</p>
+	<p>支付金额: <font color="red">¥{{onlinepayData.depositMoney}}</font></p>
+	<p>1.成功付款后将会自动到账。</p>
+	<p>2.长时间无反应，请联系客服。</p>
+</script>
+
+
+</ion-view>

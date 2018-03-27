@@ -1,0 +1,202 @@
+@CHARSET "UTF-8";
+
+#drawTable table {
+	width: 100%;
+}
+
+#drawTable .page_info {
+	width: 590px;
+}
+
+.table_ball .name {
+	width: 27px;
+}
+
+.table_lm .name {
+	width: 50px;
+}
+
+.split_panel table {
+	float: left;
+	width: 163px;
+	margin: 10px 2.25px 10px 0px;
+}
+
+.split_panel .odds {
+  width: 55px;
+}
+
+.table_ts .odds {
+  width: 55px;
+}
+
+.table_ball .name span,#drawInfo .balls b {
+	background: url("images/ball_2.png") no-repeat;
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	font-size: 0px;
+	text-indent: -99999px;
+	  margin-top: 4px;
+}
+
+.table_ball .name .b0,#drawInfo .balls .b0 {
+	background-position: 0 0;
+}
+
+.table_ball .name .b1,#drawInfo .balls .b1 {
+	background-position: 0 -27px;
+}
+
+.table_ball .name .b2,#drawInfo .balls .b2 {
+	background-position: 0 -54px;
+}
+
+.table_ball .name .b3,#drawInfo .balls .b3 {
+	background-position: 0 -81px;
+}
+
+.table_ball .name .b4,#drawInfo .balls .b4 {
+	background-position: 0 -108px;
+}
+
+.table_ball .name .b5,#drawInfo .balls .b5 {
+	background-position: 0 -135px;
+}
+
+.table_ball .name .b6,#drawInfo .balls .b6 {
+	background-position: 0 -162px;
+}
+
+.table_ball .name .b7,#drawInfo .balls .b7 {
+	background-position: 0 -189px;
+}
+
+.table_ball .name .b8,#drawInfo .balls .b8 {
+	background-position: 0 -216px;
+}
+
+.table_ball .name .b9,#drawInfo .balls .b9 {
+	background-position: 0 -243px;
+}
+
+#resultPanel .ballTable th,#resultPanel .ballTable td {
+	width: 10%;
+}
+
+
+.split_panel table .name span,#drawInfo .balls b {
+	background: url("images/ball_2.png") no-repeat;
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	font-size: 0px;
+	text-indent: -99999px;
+	margin-top: 4px;
+}
+
+.split_panel table .name .b0,#drawInfo .balls .b0 {
+	background-position: 0 0;
+}
+
+.split_panel table .name .b1,#drawInfo .balls .b1 {
+	background-position: 0 -27px;
+}
+
+.split_panel table .name .b2,#drawInfo .balls .b2 {
+	background-position: 0 -54px;
+}
+
+.split_panel table .name .b3,#drawInfo .balls .b3 {
+	background-position: 0 -81px;
+}
+
+.split_panel table .name .b4,#drawInfo .balls .b4 {
+	background-position: 0 -108px;
+}
+
+.split_panel table .name .b5,#drawInfo .balls .b5 {
+	background-position: 0 -135px;
+}
+
+.split_panel table .name .b6,#drawInfo .balls .b6 {
+	background-position: 0 -162px;
+}
+
+.split_panel table .name .b7,#drawInfo .balls .b7 {
+	background-position: 0 -189px;
+}
+
+.split_panel table .name .b8,#drawInfo .balls .b8 {
+	background-position: 0 -216px;
+}
+
+.split_panel table .name .b9,#drawInfo .balls .b9 {
+	background-position: 0 -243px;
+}
+
+.table_ball .ballname {
+	padding:0 5px;
+}
+
+.table_ball .GDS {
+	padding:0 13px;
+}
+
+.result_button {
+	cursor:pointer;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.num_button {
+	float:left;
+	margin-right: 2px;
+	width:34px;
+}
+.zhlh_button {
+	width:65px;
+}
+.result_button:hover {
+	background-color:#2161b3;
+	color:white;
+}
+
+.table_ball .big_small span, .table_ball .odd_even span {
+	background: url("images/SSC_dx.png") no-repeat;
+	width: 24px;
+	height: 27px;
+	margin: 0 1px;
+	font-size: 0px;
+	text-indent: -99999px;
+	display: inline-block;
+	margin-top: 4px;
+	padding-left:1px;
+}
+#SSCResult .GDX_X, #SSCResult .GDX_D, #SSCResult .GDS_D, #SSCResult .GDS_S {
+	background: url("images/SSC_dx.png") no-repeat center;
+	width: 24px;
+	height: 27px;
+	margin:0 13px;
+}
+#SSCResult .other{
+	padding:4px 0 0 0;
+}
+#SSCResult .GLHT_L, #SSCResult .GLHT_H, #SSCResult .GLHT_T {
+	padding:0;
+	text-align:center;
+}
+#SSCResult .GDX_X, .table_ball .big_small .b1, .table_ball .big_small .b2, .table_ball .big_small .b3, .table_ball .big_small .b4, .table_ball .big_small .b0 {
+	background-position: 0 -27px;
+}
+
+#SSCResult .GDX_D, .table_ball .big_small .b6, .table_ball .big_small .b7, .table_ball .big_small .b8, .table_ball .big_small .b9, .table_ball .big_small .b5 {
+	background-position: 0 0;
+}
+
+#SSCResult .GDS_D, .table_ball .odd_even .b1, .table_ball .odd_even .b3, .table_ball .odd_even .b5, .table_ball .odd_even .b7, .table_ball .odd_even .b9 {
+	background-position: 0 -54px;
+}
+
+#SSCResult .GDS_S, .table_ball .odd_even .b2, .table_ball .odd_even .b4, .table_ball .odd_even .b6, .table_ball .odd_even .b8, .table_ball .odd_even .b0 {
+	background-position: 0 -81px;
+}

@@ -1,0 +1,228 @@
+.security-tab {
+	padding: 12px;
+	color: #646464;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.security-tab-ico {
+	position: absolute;
+	bottom: -1px;
+	left: 32px;
+	display: inline-block;
+	width: 18px;
+	height: 9px;
+	background: url("../../../images/new/tab.png") no-repeat;
+}
+
+.security-mod {
+	width: 100%;
+	background: #fff;
+	color: #646464;
+}
+
+.security-head {
+	background: #48c39a;
+}
+
+.security-head img {
+	margin-left: 40px;
+}
+
+.security-data {
+	padding: 40px 0;
+}
+
+.security-data-tit {
+	margin-bottom: 30px;
+	color: #646464;
+	font-size: 26px;
+}
+
+.security-data-con {
+	margin-right: 78px;
+	width: 497px;
+	text-align: left;
+}
+
+.security-data-con h2 {
+	font-size: 16px;
+}
+
+.security-data-con p {
+	height: 171px;
+	font-size: 14px;
+	line-height: 31px;
+}
+
+.security-data-w {
+	margin: 0 auto;
+	width: 1073px;
+}
+
+.security-pay {
+	padding: 40px 0;
+	border-top: 1px solid #ebebeb;
+	background: #f2f2f2;
+}
+
+.security-pay p {
+	margin-top: 15px;
+	line-height: 32px;
+}
+
+.security-pay li {
+	float: left;
+	margin-right: 54px;
+	width: 164px;
+	height: 84px;
+}
+
+.security-pay .ico {
+	width: 164px;
+	height: 66px;
+	background: url("../../../images/new/bank_ico.png") no-repeat;
+}
+
+.security-pay .b01 {
+	background-position: 0 0;
+}
+
+.security-pay .b02 {
+	background-position: -220px 0;
+}
+
+.security-pay .b03 {
+	background-position: -443px 0;
+}
+
+.security-pay .b04 {
+	background-position: -660px 0;
+}
+
+.security-pay .b05 {
+	margin-right: 0;
+	background-position: -888px 0;
+}
+
+.security-pay .b06 {
+	background-position: 0 -84px;
+}
+
+.security-pay .b07 {
+	background-position: -220px -84px;
+}
+
+.security-pay .b08 {
+	background-position: -443px -84px;
+}
+
+.security-pay .b09 {
+	background-position: -660px -84px;
+}
+
+.security-pay .b10 {
+	margin-right: 0;
+	background-position: -882px -84px;
+}
+
+.security-pay ul {
+	margin: 50px auto 30px;
+	width: 1056px;
+}
+
+.security-brand {
+	padding: 37px 0 67px;
+}
+
+.security-brand p {
+	margin-top: 30px;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.security-brand img {
+	margin-top: 30px;
+}
+
+.security-fetch {
+	height: 541px;
+	background: url("../../../images/new/s06-1.png") top center no-repeat #0d0807;
+}
+
+.security-lot h2 {
+	padding: 45px 0;
+}
+
+.security-lot ul {
+	margin: 0 auto;
+	width: 1101px;
+}
+
+.security-lot li {
+	float: left;
+	margin: 0 13px 15px 0;
+}
+
+.security-lot .ico {
+	display: inline-block;
+	width: 207px;
+	height: 98px;
+	background: url("../../../images/new/cp_ico.png") no-repeat;
+}
+
+.security-lot .c01 {
+	background-position: 0 0;
+}
+
+.security-lot .c02 {
+	background-position: -221px 0;
+}
+
+.security-lot .c03 {
+	background-position: -441px 0;
+}
+
+.security-lot .c04 {
+	background-position: -662px 0;
+}
+
+.security-lot .c05 {
+	background-position: -882px 0;
+}
+
+.security-lot .c06 {
+	background-position: 0 -114px;
+}
+
+.security-lot .c07 {
+	background-position: -221px -114px;
+}
+
+.security-lot .c08 {
+	background-position: -441px -114px;
+}
+
+.security-lot .c09 {
+	background-position: -662px -114px;
+}
+
+.security-lot .c10 {
+	background-position: -882px -114px;
+}
+
+.security-lot .reg {
+	display: inline-block;
+	margin: 46px auto;
+	width: 205px;
+	height: 47px;
+	background: #fe7c31;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 47px;
+}
+
+.security-lot .reg:hover {
+	text-decoration: none;
+}

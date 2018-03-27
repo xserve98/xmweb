@@ -1,0 +1,1261 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}
+html{overflow-y:scroll; overflow-x:hidden; }
+fieldset,img{border:0; vertical-align: middle;}
+address,caption,cite,code,dfn,em,th,var{font-weight: normal;font-style: normal;}
+ul{list-style: none;}
+.clearfix{ display:inline;}
+.clear:after{clear:both;content:"";display:block;}
+*+html .clear{*clear:both;}
+.clear{zoom:1; _overflow:hidden;}
+.container{padding:15px 0;}
+.l{float:left;}
+.r{float:right;}
+.wrapper{width:1000px;margin:0 auto;}
+.clear{ clear:both;}
+a { color: #fff;text-decoration: none; font-family:"微软雅黑";}
+.box{color:#00F;}
+.resd{color:#FF0;}  
+.wrap_in::after {display: table;}
+.ball-group, .ball-group-b, .ball-group-s, .cf, .hongbao ul, .hongbao-s ul, .l-concise-bd, .l-concise-col .l-concise-bd, .mod-box-hd, .mod-tab, .multi-modifier, .multi-modifier-s, .num-group, .set-rebates .pop-body, .steps ol, .steps2 ol {*zoom: 1;}
+.clearfix::after, .wrap_in::after {content: "";clear: both;}
+table {border-collapse: collapse; border-spacing: 0;}
+body {
+    background: #660000;
+    font-size: 0.8rem;
+    min-width: 1000px;
+	font: 14px"微软雅黑","Arial",HELVETICA;
+	-webkit-text-size-adjust: 100%;
+	color: #fff; 
+}
+/*在线客服*/
+.TplFloatSet a{display:block;margin:0 auto;text-align:center;}
+.TplFloatSet img{vertical-align:bottom;}
+.TplFloatSet li{list-style: none;font-size:0px;text-align:center;}
+/* 二維碼上傳 */
+.ewm_sc{width:141px!important; height:212px!important;background-image:url("../../../../images/CN/caiShenCP/pc/left001.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/left001.png*/;}
+ .ewm_sc1{width:141px!important; height:135px!important;background-image:url("../../../../images/CN/caiShenCP/pc/left002.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/left002.png*/;} 
+.ewm_sc img{margin-top: 81px;margin-left:3px;}
+.ewm_sc1 img{margin-top: 5px;margin-left:3px;}
+
+/*header*/
+.header{}
+.header .header-top{height:31px; border-bottom:1px #df0001 solid; background:#fff; line-height:31px;}
+.header .header-top .header-l{float:left;}
+.header .header-top .header-l dl dt{float:left; color:#000; font-weight:bold;}
+.header .header-top .header-l dl dd{float:left; color:#636363; margin-left:5px;}
+.header .header-top .header-l dl dd span{color:#660000;}
+.header .header-top .header-r{float:right; }
+.header .header-top .header-r ul li{float:left; margin-left:10px;color:#636363;}
+.header .header-top .header-r ul li a{color:#333;}
+/*logo、login*/
+.header-center{height:110px; background:#660000;}
+.logo{float:left; width:290px; background:url("../../../../images/CN/caiShenCP/pc/logo.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/logo.png*/ center left no-repeat; height:110px;}
+/*登录*/
+.login-r{float:right; width:700px; height:110px;}
+.login-r .login-title{width:700px; background:url("../../../../images/CN/caiShenCP/pc/arrow-l.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/arrow-l.png*/ center left no-repeat; height:40px; line-height:40px; font-size:16px; padding-left:20px; margin-top:10px;}
+.login-r .login{height:50px; line-height:50px;}
+.login-r .login ul{ position:relative;}
+.login-r .login ul li{float:left; height:50px; line-height:50px;} 
+.login-r .login ul li input{border:noen; height:32px; background:url("../../../../images/CN/caiShenCP/pc/text_input.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/text_input.png*/ center no-repeat; width:160px; margin-right:10px; overflow:hidden;text-indent: 8px;}
+.login-r .login ul li a{ display:block; width:84px; height:36px; line-height:36px; text-align:center; float:left; background:#e09e00;  margin-top:8px;}
+.login-r .login ul .login-p{ position:absolute; top:-45px; right:0px;}
+.login-r .login ul .login-p span{margin-left:10px; font-size:14px; cursor:pointer;}
+
+/* header-middle */
+.fixed .header-middle-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1000px;
+    z-index: 100;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.7);
+    background:url("../../../../images/CN/caiShenCP/pc/header_bj.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/header_bj.png*/;
+}
+.header-middle-wrap {
+	z-index: 100;
+}
+.header-middle-placeholder,
+.header-middle-wrap,
+.header-middle {
+    height: 130px;
+}
+.header-middle {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/* logo */
+.header-logo {
+	width:300px;
+	height:130px;
+	float:left;
+	background:url("../../../../images/CN/caiShenCP/pc/logo.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/logo.png*/ center left no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ele-logo-img{ display:block;  width:308px; height:90px; background:url("../../../../images/CN/caiShenCP/pc/logo.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/logo.png*/ center no-repeat;}
+
+/* 主選單 */
+
+.menu-top{height:40px; line-height:40px;}
+.menu-top ul{float:right;}
+.menu-top ul li{float:left; margin-left:10px; font-size:12px;}
+.menu-top ul li a{font-size:12px;}
+.menu-top ul li a:hover{color:#fbdc51;}
+.mainnav {
+    float: right;
+    position: relative;
+    width: 680px;
+    height: 90px;
+}
+.mainnav li {
+    float: left;
+	position:relative;
+}
+.mainnav li.mainnav-back {
+    position: absolute;
+    left: 0px;
+    width: 75px;
+    height: 90px;
+    z-index: 8;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: 3px #cc2200 solid;
+}
+.mainnav ul a {
+    position: relative;
+    z-index: 9;
+    display: block;
+    width: 75px;
+    height: 90px;
+	line-height:90px;
+    color: #747479;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.mainnav .mainnav-ul ul{visibility:hidden;position:absolute;left:-17px; top:90px;background:#8e2b28; width:110px; display:block; z-index:333;}
+.mainnav ul li:hover ul, 
+.mainnav ul a:hover ul{visibility:visible;} 
+.mainnav ul ul li a:hover{} 
+.mainnav ul ul{} 
+
+.mainnav .mainnav-ul ul li {clear:both;font-size:12px; margin:0; height:30px; line-height:30px;} 
+.mainnav .mainnav-ul ul li a{display:block; width:110px;height:30px; line-height:30px;margin:0;border:0;border-bottom:1px solid #6e241e;
+font-size:14px; font-weight:normal; color:#fff;} 
+.mainnav .mainnav-ul ul li a:hover{border:none; background:#2c0804; color:#f2e9a9;}
+
+.mainnav ul li a .ico_new {
+    position: absolute;
+    top: 32px;
+    right:-8px;
+}
+
+
+
+
+
+/* 導覽文字 */
+.mainnav ul a span {
+    display: block;
+    color: #FFF;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+ .mainnav ul a span,
+ .mainnav ul a span {
+}
+.en .mainnav ul a span {
+    line-height:90px;
+    padding: 0 2px;
+}
+
+.mainnav ul a:after {
+    display: inline-block;
+    -webkit-transform: scale(0.83);
+    white-space: nowrap;
+}
+*::-ms-backdrop, .mainnav ul a:after {
+    font-size: 10px;
+}
+.en .mainnav ul li a:after {
+    content: none;
+}
+
+.swiper{position:relative;width:100%;left:0!important;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0);-o-transform:translate(0,0);-webkit-perspective:1000px;-webkit-backface-visibility:hidden;overflow:hidden}
+.swiper .slides{overflow:hidden;position:relative;height:435px}
+.swiper .slides li{position:absolute;left:0;top:0;width:100%;height:100%}
+.swiper .slides li.active{z-index:5}
+.swiper .slides li a,.swiper .slides li img{display:block;width:100%;height:100%}
+.swiper .flex-control-nav{position:absolute;bottom:42px;margin-left:-40px;right:74%;padding:0 6px;border-radius:15px;z-index:5}
+.swiper .flex-control-nav:after{content:'';display:inline-block;vertical-align:middle;height:100%}
+.swiper .flex-control-nav li,.swiper .flex-control-nav li a{height:15px;display:inline-block;margin:3px;font-size:12px;color:#fff558;font-family:Arial;border-radius:50%;background:#fff558;margin-bottom:3px;cursor:pointer;padding:0}
+.swiper .flex-control-nav li a{margin:0;padding:0px 4px;content: "";}
+.swiper .flex-control-nav a.flex-active{background:#f45b25;color:#f45b25;}
+.swiper .icon-control a{position:absolute;z-index:10;top:375px;width:64px;height:64px;background-color:rgba(255,255,255,.4)}
+.swiper .icon-control a:hover{background-color:rgba(255,255,255,.8)}
+.flex-direction-nav li{position:absolute;z-index:10;top:50%;right:50%;margin-right:-500px;margin-top:-32px;width:64px;height:64px;cursor:pointer}
+.flex-direction-nav li:first-child{left:50%;margin-left:-500px}
+.flex-direction-nav li a{display:block;font-family:icomoon!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;font-size:24px;background-color:transparent!important;line-height:66px;position:absolute;padding-right:0;left:14px;color:#fff}
+.swiper .flex-direction-nav li:hover a{color:#c6c6c6}
+/* .swiper .flex-direction-nav li a.flex-prev:before{ content:"<"; font-size:40px;margin-left:6px}
+.swiper .flex-direction-nav li a.flex-next{right:0;left:auto;display:block;width:100%;text-indent:1em}
+.swiper .flex-direction-nav li a.flex-next:before{ content:">"; font-size:40px;margin-left:3px;}
+
+/* .in-login{ position:absolute; height:350px; width:285px; top:118px; left:53%; margin:30px 0px 0px 154px; background:url(../../../../images/CN/caiShenCP/pc/login_b.png);}
+.in-login .in-title{height:50px; line-height:50px; width:230px; margin:0 auto; font-weight:bold; color:#FF0; font-size:1.4rem; background:url(../../../../images/CN/caiShenCP/pc/login-title.png) left no-repeat;}
+.in-top{margin-top:15px; margin-left:40px;}
+.in-h{margin-top:25px;}
+.in-w a:hover{color:#FF0;}
+.in-top span{ margin-left:100px; color:#FF0; cursor:pointer;}
+.in-top a{color:#fff;}
+.in-top .in-left{color:#FFF; margin-left:20px;}
+.in-login form ul li{ position:relative;}
+.in-login form ul li input{ height:35px; line-height:35px; border-radius:3px; width:217px; margin:10px 0px 0px 30px; border:none; padding-left:10px; background:#000; border:1px #645342 solid; color:#747474;}
+.in-login form ul li a{display:block; width:226px; height:40px; border-radius:3px;text-align:center; line-height:40px; margin-top:10px;}
+.in-login form ul li span{ position:absolute; top:13px; left:34px;}
+.in-login form ul li .code-img{ position:absolute; right:30px; top:13px;}
+.dl-btn{border:1px #cc2200 solid; color:#fff;  margin-left:30px; font-size:1rem;}
+.dl-btn:hover{background:#cc2200; color:#fff;}
+
+.login-bottom{height:40px; border-top:1px #6e6155 solid; margin-top:18px;}
+.btn-password{ border-right:1px #6e6155 solid; }
+.login-bottom ul li{float:left; width:141px; height:40px; line-height:40px;  text-align:center; }
+.login-bottom ul li a{color:#c4c1be; display:block; float:left; width:141px; height:40px; line-height:40px;  text-align:center;}
+.login-bottom ul li a:hover{ background:#cc2200; color:#fff;}
+
+
+
+
+main
+.main{min-height:621px; background:#000 url(../../../../images/CN/caiShenCP/pc/lott-bj.jpg) center top no-repeat; overflow:hidden;}
+
+.lottery-w{width:1000px; margin:0 auto; background:url(../../../../images/CN/caiShenCP/pc/page-bj.png); height:524px; overflow:hidden; margin-top:40px;}
+.wrap-h{height:70px; margin:10px 10px 10px 10px; width:777px; }
+.wrap-h ul li{float:left;}
+.wrap-h ul li a{ display:block; float:left; width:258px; height:70px;}
+.btn-ctc{ background:url(../../../../images/CN/caiShenCP/pc/btn-ctc.jpg) top no-repeat;}
+.btn-ctc:hover{background:url(../../../../images/CN/caiShenCP/pc/btn-ctc.jpg) bottom no-repeat;}
+.btn-gfc{ background:url(../../../../images/CN/caiShenCP/pc/btn-gfc.jpg) top no-repeat; margin-left:1px;}
+.btn-gfc:hover{ background:url(../../../../images/CN/caiShenCP/pc/btn-gfc.jpg) bottom no-repeat;}
+.btn-xgc{ background:url(../../../../images/CN/caiShenCP/pc/btn-xgc.jpg) top no-repeat; margin-left:2px;}
+.btn-xgc:hover{ background:url(../../../../images/CN/caiShenCP/pc/btn-xgc.jpg) bottom no-repeat;}
+
+.in-login .in-titlen {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #FF0;
+    font-size: 1.4rem;
+    background: url(../../../../images/CN/caiShenCP/pc/login-titleh.png)left no-repeat;
+    width: 226px;
+    margin-left: 30px;
+}
+ */
+ 
+ 
+/*登录后*/
+
+.header-rights{width:41%; float:right; margin:20px 0px 0px 0px;}
+.header_rights{float:right; width:910px; height:38px; _width:590px; }
+.login-top{height:38px;}
+.name_users{width:205px; height:38px; line-height:38px; background:url("../../../../images/CN/caiShenCP/pc/people.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/people.png*/ left center no-repeat; float:left; color:#fff;}
+.balance_left{float:left; height:38px; line-height:38px; width:205px;color:#fff; position:relative;}
+.balance_left a{ position:absolute;height:38px; width:30px; display:block;  background:url("../../../../images/CN/caiShenCP/pc/shuaxin.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/shuaxin.png*/ center no-repeat; top:0; right:-8px; cursor:pointer;}
+.header_right dl{width:275px;}
+.haeder-ul dl dd{float:left; margin-left:10px; color:#fff; height:38px; line-height:38px; font-size:13px;}
+.haeder-ul dl dd a{color:#fff; font-size:13px;}
+.login_line{width:5px;float:left;}
+.haeder-ul dl dd a:hover{color:#ffb400;}
+
+
+ 
+ 
+.hide{display:none;}
+.wrap{width:1000px; height:524px;}
+.wrap .mian-lott{width:788px; float:left;}
+
+#tab_c{width:777px; height:424px; float:left; margin-left:10px;}
+
+#tab_c dl{width:100%; height:207px;}
+#tab_c dl dd{float:left; cursor:pointer;}
+#tab_c dl .dd-l{margin-left:8px;}
+#tab_c dl .btn-cq{width:188px; height:207px; background:url("../../../../images/CN/caiShenCP/pc/lottery-1.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-1.jpg*/ top no-repeat;}
+#tab_c dl .btn-cq:hover{ background:url("../../../../images/CN/caiShenCP/pc/lottery-1.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-1.jpg*/ bottom no-repeat;}
+#tab_c dl .btn-jx{width:188px; height:207px; background:url("../../../../images/CN/caiShenCP/pc/lottery-jx.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-jx.jpg*/ top no-repeat;}
+#tab_c dl .btn-jx:hover{background:url("../../../../images/CN/caiShenCP/pc/lottery-jx.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-jx.jpg*/ bottom no-repeat;}
+#tab_c dl .btn-xj{width:188px; height:207px; background:url("../../../../images/CN/caiShenCP/pc/lottery-xj.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-xj.jpg*/ top no-repeat;}
+#tab_c dl .btn-xj:hover{background:url("../../../../images/CN/caiShenCP/pc/lottery-xj.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-xj.jpg*/ bottom no-repeat;}
+#tab_c dl .btn-tj{width:188px; height:207px; background:url("../../../../images/CN/caiShenCP/pc/lottery-tj.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-tj.jpg*/ top no-repeat;}
+#tab_c dl .btn-tj:hover{ background:url("../../../../images/CN/caiShenCP/pc/lottery-tj.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-tj.jpg*/ bottom no-repeat;}
+#tab_c dl .btn-sh{width:188px; height:207px; background:url("../../../../images/CN/caiShenCP/pc/lottery-sh.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-sh.jpg*/ top no-repeat;}
+#tab_c dl .btn-sh:hover{background:url("../../../../images/CN/caiShenCP/pc/lottery-sh.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-sh.jpg*/ bottom no-repeat;}
+#tab_c dl .btn-xg{width:188px; height:207px; background:url("../../../../images/CN/caiShenCP/pc/lottery-xg.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-xg.jpg*/ top no-repeat;}
+#tab_c dl .btn-xg:hover{ background:url("../../../../images/CN/caiShenCP/pc/lottery-xg.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-xg.jpg*/ bottom no-repeat;}
+#tab_c dl .btn-pk{width:188px; height:207px; background:url("../../../../images/CN/caiShenCP/pc/lottery-pk.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-pk.jpg*/ top no-repeat;}
+#tab_c dl .btn-pk:hover{background:url("../../../../images/CN/caiShenCP/pc/lottery-pk.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-pk.jpg*/ bottom no-repeat;}
+#tab_c dl .btn-klsf{width:188px; height:207px; background:url("../../../../images/CN/caiShenCP/pc/lottery_klsf.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery_klsf.jpg*/ top no-repeat;}
+#tab_c dl .btn-klsf:hover{background:url("../../../../images/CN/caiShenCP/pc/lottery_klsf.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery_klsf.jpg*/ bottom no-repeat;}
+#tab_c dl .btn-cqss{width:188px; height:207px; background:url("../../../../images/CN/caiShenCP/pc/lottery-cqss.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-cqss.jpg*/ top no-repeat;}
+#tab_c dl .btn-cqss:hover{background:url("../../../../images/CN/caiShenCP/pc/lottery-cqss.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-cqss.jpg*/ bottom no-repeat;}
+#tab_c dl .btn-cqs{width:188px; height:207px; background:url("../../../../images/CN/caiShenCP/pc/lottery-cq.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-cq.jpg*/ top no-repeat;}
+#tab_c dl .btn-cqs:hover{background:url("../../../../images/CN/caiShenCP/pc/lottery-cq.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lottery-cq.jpg*/ bottom no-repeat;}
+
+.wrap .mian-lott1{float:right; width:190px;}
+.wrap .mian-lott1 ul li{}
+.wrap .mian-lott1 ul li a{ display:block; width:190px; height:116px; margin-top:10px; margin-bottom:13px;}
+.wrap .mian-lott1 ul li .about-btn{ background:#770000 url("../../../../images/CN/caiShenCP/pc/about_btn.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/about_btn.png*/ center no-repeat;}
+.wrap .mian-lott1 ul li .about-btn:hover{width:188px; height:114px; border:1px #770000 solid; background:#4b0000 url("../../../../images/CN/caiShenCP/pc/about_btn.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/about_btn.png*/ center no-repeat;}
+.wrap .mian-lott1 ul li .zc-btn{ background:#770000 url("../../../../images/CN/caiShenCP/pc/zc_btn.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/zc_btn.png*/ center no-repeat;}
+.wrap .mian-lott1 ul li .zc-btn:hover{ width:188px; height:114px; border:1px #770000 solid; background:#4b0000 url("../../../../images/CN/caiShenCP/pc/zc_btn.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/zc_btn.png*/ center no-repeat;}
+.wrap .mian-lott1 ul li .yh-btn{ background:#770000 url("../../../../images/CN/caiShenCP/pc/yh_btn.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/yh_btn.png*/ center no-repeat;}
+.wrap .mian-lott1 ul li .yh-btn:hover{ width:188px; height:114px; border:1px #770000 solid; background:#4b0000 url("../../../../images/CN/caiShenCP/pc/yh_btn.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/yh_btn.png*/ center no-repeat;}
+.wrap .mian-lott1 ul li .dl_btn{ background:#770000 url("../../../../images/CN/caiShenCP/pc/dl_btn.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/dl_btn.png*/ center no-repeat;}
+.wrap .mian-lott1 ul li .dl_btn:hover{ width:188px; height:114px; border:1px #770000 solid; background:#4b0000 url("../../../../images/CN/caiShenCP/pc/dl_btn.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/dl_btn.png*/ center no-repeat;}
+.wrap .mian-lott1 ul li .xz-btn{ background:#770000 url("../../../../images/CN/caiShenCP/pc/xz_btn.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/xz_btn.png*/ center no-repeat;}
+.wrap .mian-lott1 ul li .xz-btn:hover{ width:188px; height:114px; border:1px #770000 solid; background:#4b0000 url("../../../../images/CN/caiShenCP/pc/xz_btn.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/xz_btn.png*/ center no-repeat;}
+ /*
+casino
+.casino{min-height:715px; background:url(../../../../images/CN/caiShenCP/pc/casino-bj.jpg) center top no-repeat; overflow:hidden;}
+.casino ul li{float:left;}
+.casino ul li a{ display:block; width:313px; height:527px; float:left; margin-top:80px;}
+.casino ul li .casino-slots{background:url(../../../../images/CN/caiShenCP/pc/casino-slots.png) left bottom no-repeat;}
+.casino ul li .casino-live{background:url(../../../../images/CN/caiShenCP/pc/casino-live.png) left bottom no-repeat; margin:80px 30px 0px 30px;}
+.casino ul li .casino-sports{background:url(../../../../images/CN/caiShenCP/pc/casino-sports.png) left bottom no-repeat;}
+.casino ul li a:hover{ background-position:-313px 0px;}
+
+
+
+
+
+到账时间
+.page-time{min-height:330px; width:100%; background:url(../../../../images/CN/caiShenCP/pc/page-time.jpg) center no-repeat; }
+.page-time-w{width:1000px; margin:0 auto;}
+.page-times{width:680px; height:152px; float:left; margin-top:85px;}
+.page-times ul li{float:left; height:152px;  text-align:center;}
+.page-times ul .time{width:152px; height:152px; background:url(../../../../images/CN/caiShenCP/pc/foot-quan.png) center no-repeat; float:left;}
+.page-times ul .time h1{font-size:38px; color:#cc2200; margin-top:30px;}
+.page-times ul .time p{color:#fff;}
+.link-time{width:86px; background:url(../../../../images/CN/caiShenCP/pc/link-time.png) center no-repeat;}
+
+.page-timess{width:310px; float:left; height:250px; margin-top:65px; *width:320px;}
+.page-timess dl dt{font-size:20px; color:#fff; }
+.page-timess dl dt span{font-size:20px; font-weight:bold; color:#cc2200;}
+.page-timess dl dd{ height:25px; line-height:25px; margin-top:15px; color:#fff; font-size:12px;}
+.progress-bar{ background:url(../../../../images/CN/caiShenCP/pc/progress-bar.png) right no-repeat;}
+.progress-bar1{ background:url(../../../../images/CN/caiShenCP/pc/progress-bar1.png) right no-repeat;}
+.progress-bar2{ background:url(../../../../images/CN/caiShenCP/pc/progress-bar2.png) right no-repeat;}
+.progress-bar3{ background:url(../../../../images/CN/caiShenCP/pc/progress-bar3.png) right no-repeat;}
+.page-timess dl dd span{margin-left:25px; color:#fff;}
+
+
+
+联系方式
+.foot-lx{height:56px; background:#222222 url(../../../../images/CN/caiShenCP/pc/foot-lx.jpg) center no-repeat;}
+
+
+版权
+.page-foot{min-height:150px;}
+.page-foot-bottom{min-height:149px; background:#4b0000;}
+.foot-w{width:1000px; margin:0 auto;}
+.page-foot-bottom .foot-logo{ background:url(../../../../images/CN/caiShenCP/pc/foot-logo.jpg) center no-repeat; height:80px;}
+.foot-gywm{height:40px; line-height:40px;}
+.foot-gywm ul{ margin-left:100px;}
+.foot-gywm ul li{float:left; color:#fff; font-size:13px;}
+.foot-gywm ul li a{ display:block; width:100px; text-align:center; float:left; color:#fff; font-size:13px;}
+.foot-gywm ul li a:hover{color:#f2e9a9;}
+.foot-copyright{height:40px; line-height:40px; text-align:center; color:#fff;}
+
+
+
+
+电子游艺
+.slots-banner{height:419px; background:url(../../../../images/CN/caiShenCP/pc/slots-banner.jpg) center no-repeat; position:relative;}
+登录前
+.login-h{height:49px; background:#5e0b05; border-bottom:1px #8d1108 solid;}
+.login-w{width:1000px; margin:0 auto; line-height:45px; height:45px;}
+.login-w ul li{float:left; position:relative; color:#ae7062;}
+.login-w ul li input{border:none; border-radius:3px; height:25px; line-height:25px; margin-left:10px; background:#4b0904; border:1px #6e241e solid; color:#fff; padding-left:5px; margin-top:10px; *margin-top:1px;}
+.login-w ul li span{ position:absolute; top:-4px; right:-62px;}
+.login-w ul li .btn-login{ display:block; width:80px; height:25px; line-height:25px; border-radius:3px; text-align:center; float:left; background:#fff458; margin-left:10px; margin-top:11px; color:#000;}
+.login-w ul li .btn-login:hover{ background:#e7da27; color:#000;}
+.login-w ul li .a-btn{color:#ae7062;}
+.login-w ul li .a-btn:hover{color:#f2e9a9;}
+
+
+.slots-main{min-height:500px; background:#760e06;}
+
+ */
+
+
+.faq_lefts dl dd a:hover,.faq_lefts dl dd a.active{color:#fff; background-position:182px 16px;}
+.faq_lefts dl span{ position:absolute; left:34px; bottom:-48px;}
+.faq_right{margin-bottom:50px; width:750px;min-height:485px; border-radius:3px; float:right; opacity:0.8;cursor: default;}
+.faq_right dl{width:90%;  margin:0 auto; }
+.faq_right dl dt{height:42px; line-height:42px; font-size:16px; color:#ffffff;}
+.faq_title{color:#bcbdc0 !important;}
+.faq_right dl dd{ margin-top:15px; color:white; font-size:14px;}
+
+
+.agent_color{color:#deae6a;}
+.agency{min-height:689px;}
+.agency_w{min-height:720px;   opacity:0.9; overflow:hidden; border-radius: 5px;}
+.agency_w form{width:700px; margin:0 auto;}
+.agency_w form p{font-size:18px; font-weight:400;}
+.agency_w ul{}
+.agency_w ul li{margin:10px 0px;}
+.agency_w ul li label{ display:block; float:left; text-align:left; width:130px; font-size:14px;padding-top:4px;}
+.agency_w ul li label span{color:#F00;}
+.agency_w ul li input{margin-top:6	px; border:none; border-radius:3px; background:#1f2938; height:26px; width:220px; color:#fff; border:1px #444d5b solid;}
+.agency_w ul li span{color: #bcbdc0; font-size:13px;}
+.form-item{margin-left:150px;}
+.padding-s4{display: block; cursor: pointer; margin-left:150px; margin-top:30px;}
+.form-btn3 { width: 280px;line-height: 40px;background: #2394e1;text-align:center;border-radius:3px;border: none;color: #fff;font-size: 14px;}
+#agency_h{ height:800px;}
+.agency_top{height:60px; line-height:60px; border-bottom: 1px #353d4a solid; font-size:16px;color:white;}
+.agency_bottom{height:50px; line-height:15px; border-bottom: 1px #353d4a solid;}
+.agency_bottom ul li{float:left; height:50px;}
+.agency_bottom ul li a{font-size:14px; color:#bcbdc0;}
+.agency_bottom ul li a:hover{color:#fff; cursor:pointer;}
+
+
+.register{height:585px; }
+.main_register_w{height:585px;  border-radius:5px; margin-top:25px;background:#19273d;}
+.column1, .inRightsider .column2 {border-radius:5px;padding: 20px 20px 20px 80px; width:800px;}
+.column1 legend{font-size:18px; color:#FFF;}
+.form-box .form-row {padding-bottom: 10px;}
+.form-box .form-row span{font-size:14px;}	
+.reg_row span{font-size:14px;}
+.control-grouptxt p{font-size:14px;}
+.form-box label {float: left;width: 100px;line-height: 34px;font-size: 14px;color:#bcbdc0;}
+.reg-width01 { width: 280px;}
+.reg-textinput { border: 1px solid #e1e1e1;background: #fff;color: #999; padding: 3px;line-height: 25px;height: 25px; border-radius: 3px;}
+.btn-primary{ display:block; width:150px; text-align:center; height:40px; line-height:40px; float:left; background:#2394e1; border-radius:5px; font-size:16px; color:#fff;}
+.red{color:#F00;}
+.btn_reset {width: 150px;height: 40px;display: inline-block;font-size: 16px;line-height: 18px;color: #fff;text-align: center;background:#f13c51;border:none;border-radius:5px;margin-left:20px;}
+
+/*真人*/
+.live-banner{height:250px; background:url("../../../../images/CN/caiShenCP/pc/live-banner.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/live-banner.jpg*/ center no-repeat; position:relative;}
+.live-main{min-height:730px; background:#760e06; overflow:hidden;}
+.ele-live-wrap {
+    font-size: 0;
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+	margin-top:40px;
+}
+.ele-live-align{
+    position: relative;
+    height: 650px;
+}
+.ele-live-align a{
+    position: absolute;
+    box-sizing: border-box;
+    height: 650px;
+}
+
+
+.ele-live-align a.ele-live-bb {
+    left: 0;
+}
+.ele-live-obg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: opacity 0.25s linear 0s;
+    -moz-transition: opacity 0.25s linear 0s;
+    -webkit-transition: opacity 0.25s linear 0s;
+    -o-transition: opacity 0.25s linear 0s;
+}
+.ele-current .ele-live-obg{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.ele-live-cbg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.ele-live-bb .ele-live-obg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/sa450_n.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/sa450_n.jpg*/;
+}
+.ele-live-bb .ele-live-cbg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/sa450_h.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/sa450_h.jpg*/;
+}
+.ele-live-ag .ele-live-obg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/allbet450_n.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/allbet450_n.jpg*/;
+}
+.ele-live-ag .ele-live-cbg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/allbet450_h.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/allbet450_h.jpg*/;
+}
+.ele-live-ab .ele-live-obg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/gd450_n.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/gd450_n.jpg*/;
+}
+.ele-live-ab .ele-live-cbg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/gd450_h.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/gd450_h.jpg*/;
+}
+.ele-live-og .ele-live-obg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/ag450_n.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/ag450_n.jpg*/;
+}
+.ele-live-og .ele-live-cbg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/ag450_h.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/ag450_h.jpg*/;
+}
+.ele-live-gd .ele-live-obg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/bbin450_n.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/bbin450_n.jpg*/;
+}
+.ele-live-gd .ele-live-cbg {
+    background-image: url("../../../../images/CN/caiShenCP/pc/bbin450_h.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/bbin450_h.jpg*/;
+}
+.ele-live-sa .ele-live-obg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/og450_n.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/og450_n.jpg*/;
+}
+.ele-live-sa .ele-live-cbg {
+    background-image: url("../../../../images/CN/caiShenCP/pc/og450_h.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/og450_h.jpg*/;
+}
+
+
+.ele-live-zj .ele-live-obg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/zj450_n.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/zj450_n.jpg*/;
+}
+.ele-live-zj .ele-live-cbg {
+    background-image:url("../../../../images/CN/caiShenCP/pc/zj450_h.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/zj450_h.jpg*/;
+}
+
+.ele-live-obg,
+.ele-live-cbg{
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.change-bg-pos .ele-live-cbg{
+    background-position: -125px 0;
+}
+
+
+
+/*体育投注*/
+.sports-banner{height:250px; background:url("../../../../images/CN/caiShenCP/pc/sports-banner.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/sports-banner.jpg*/ center no-repeat; position:relative;}
+.sports-main{min-height:500px;background:#760e06; overflow:hidden;}
+
+/*捕鱼王*/
+.byw-banner{height:250px; background:url("../../../../images/CN/caiShenCP/pc/byw-banner.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/byw-banner.jpg*/ center no-repeat; position:relative;}
+.byw-main{min-height:500px;background:#760e06; overflow:hidden;}
+.byw-main ul li{float:left;}
+.byw-main ul li a{ display:block; width:312px; height:323px; float:left; margin-top:40px;}
+.byw-main ul li .byw-ag{background:url("../../../../images/CN/caiShenCP/pc/slots02/img01.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/slots02/img01.jpg*/ left no-repeat;}
+.byw-main ul li .byw-yy{background:url("../../../../images/CN/caiShenCP/pc/slots02/img02.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/slots02/img02.jpg*/ left no-repeat; margin:40px 20px 0px 20px;}
+.byw-main ul li .byw-gg{background:url("../../../../images/CN/caiShenCP/pc/slots02/img03.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/slots02/img03.jpg*/ left no-repeat;}
+.byw-main ul li a:hover{border: 3px solid #e09e00;}
+
+
+
+/*关于我们*/
+.about-banner{height:250px; background:url("../../../../images/CN/caiShenCP/pc/welcome-banner.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/welcome-banner.jpg*/ center no-repeat; position:relative;}
+.about-main{ background:url("../../../../images/CN/caiShenCP/pc/about_bj.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/about_bj.jpg*/ repeat; padding-bottom:50px; overflow:hidden; *padding-bottom:0px;}
+.about-w{width:1000px; margin:0 auto; overflow:hidden; background:#800000; margin-top:40px;}
+.about-w-contin{}
+.about-w .about-left{width:250px; float:left; background:#800000;}
+.about-w .about-left p{height:78px;}
+.about-w .about-left ul li{height:44px; line-height:44px; border-bottom:1px #8a1414 solid;}
+.about-w .about-left ul li a{ display:block; color:#fff; height:44px; line-height:44px; background:url("../../../../images/CN/caiShenCP/pc/nav_h.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/nav_h.jpg*/ no-repeat; padding-left:30px;}
+.about-w .about-left ul li a:hover{ background:url("../../../../images/CN/caiShenCP/pc/nav_hover.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/nav_hover.jpg*/ no-repeat;}
+
+.about-right{width:750px; float:left; background:#5e0b05; padding-bottom:30px;}
+.about-right dl{width:680px; margin:0 auto;}
+.about-right dl dt{margin-top:20px;color:#f2e9a9; font-size:18px;}
+.about-right dl dt p{color:#f2e9a9; font-size:24px;}
+.about-right dl dd{margin-top:10px; color:#ae7062;}
+.about-right dl dt h1{color:#f2e9a9; font-size:24px;}
+
+
+
+/*注册*/
+.welcome-banner{height:250px; background:url("../../../../images/CN/caiShenCP/pc/welcome-banner.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/welcome-banner.jpg*/ center no-repeat; position:relative;}
+.regis-main{ background:url("../../../../images/CN/caiShenCP/pc/regis_bj.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/regis_bj.jpg*/ center top no-repeat; padding-bottom:26px; overflow:hidden; *padding-bottom:0px;}
+.regis-w{width:1000px; margin:0 auto; overflow:hidden; margin-top:40px;}
+.regis-w .about-left{width:250px; float:left; background:#800000;}
+.regis-w .about-left p{height:78px;}
+.regis-w .about-left ul li{height:44px; line-height:44px; border-bottom:1px #8a1414 solid; padding-left:25px;}
+.regis-w .about-left ul li a{color:#fff;}
+.registered-right{width:750px; float:left; background:#5e0b05; padding-bottom:30px; }
+.registered-right .memCash_tit {background:url("../../../../images/CN/caiShenCP/pc/welcome.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/welcome.png*/ no-repeat;padding-left: 140px;color: #fff20d;line-height: 65px;text-align: left;text-shadow: 2px 1px 1px black; margin:10px 0px 0px 0px;}
+.regis-right-w{width:680px; margin:0 auto;}
+.regis-right-w dl dd{ margin-top:5px; color:#ae7062;}
+.regis-right-w fieldset {
+    border: 1px solid #6e241e;
+	border-radius:3px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.join-acc{color:#f2e9a9;}
+.regis-con ul li{ margin-top:10px; color:#ae7062;}
+.regis-con ul li label{color:#ae7062; display:block; width:80px; float:left;}
+.regis-con .red{ color:#ff0300;}
+.regis-con ul li input{border:none; border-radius:3px; height:25px; line-height:25px;}
+.text_left{ margin-left:80px; color:#ae7062;}
+.regis-con p{height:30px; line-height:30px;}
+.btn-left{ margin:10px 0px 10px 150px;}
+.regis-con p .btn{ display:block; float:left; width:80px; height:30px; text-align:center; line-height:30px; background:#fff; border-radius:3px; color:#000; margin-left:15px;}
+.regis-con dl dt{color:#f2e9a9;}
+
+
+
+/*代理注册*/
+
+.agent-right{width:750px; float:left; background:#5e0b05; padding-bottom:30px;  *padding-bottom:0px;}
+.agent-right-w{width:680px; margin:0 auto; }
+.agency_top{height:60px; line-height:60px; border-bottom: 1px #6e241e solid; font-size:24px;color:#f2e9a9;}
+.agency_bottom{height:50px; line-height:15px; border-bottom: 1px #6e241e solid;}
+.agency_bottom ul li{float:left; height:20px;}
+.agency_bottom ul li a{font-size:14px; color:#ae7062;}
+.agency_bottom ul li a:hover{color: #f8eeab; cursor:pointer;}
+.matab{color: #f8eeab!important;}
+.agent-right .agent-right-w fieldset {
+    border: 1px solid #6e241e;
+	border-radius:3px;
+    margin: 10px 0px;
+    padding: 10px;
+	color:#f2e9a9 !important;
+}
+.agent-right-w ul{}
+.agent-right-w ul li{margin:15px 0px;}
+.agent-right-w ul li label{ display:block; float:left; text-align:left; width:130px; font-size:14px; color:#ae7062;}
+.agent-right-w ul li label span{color:#F00;}
+.agent-right-w ul li input{border:none; border-radius:3px; background:#fff; height:26px; width:220px; color:#fff;}
+.agent-right-w ul li span{color:#ae7062; font-size:14px;}
+
+.form-item{margin-left:150px;}
+.form-item p{color:#ae7062;}
+.padding-s4{display: block; cursor: pointer; margin-left:150px; margin-top:30px;}
+.form-btn3 { width: 280px;line-height: 40px;background: #cc2200;text-align:center;border-radius:3px;border: none;color: #fff;font-size: 14px;}
+
+
+
+
+/*传统彩*/
+.lottery-banner{height:250px; background:url("../../../../images/CN/caiShenCP/pc/lott-banner.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lott-banner.jpg*/ center no-repeat; position:relative;}
+.lott-main{background:#760e06; overflow:hidden;}
+
+
+
+/*官方彩*/
+.lott1-banner{height:250px; background:url("../../../../images/CN/caiShenCP/pc/lott1-banner.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lott1-banner.jpg*/ center no-repeat;position:relative;}
+.lott1-main{min-height:500px; background:#760e06; overflow:hidden;padding-top:10px;}
+
+.slots-main {
+    min-height: 500px;
+    background: #760e06;
+}
+.slots-banner{height:250px; background:url("../../../../images/CN/caiShenCP/pc/slots-banner.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/slots-banner.jpg*/ center no-repeat; position:relative;}
+
+/*香港彩*/
+.lott2-banner{height:250px; background:url("../../../../images/CN/caiShenCP/pc/lott2-banner.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/lott2-banner.jpg*/ center no-repeat;position:relative;}
+.lott2-main{min-height:360px; background:#760e06; overflow:hidden;}
+
+.lotteryog{background-color:#F0F0F0;}
+.lotteryog ul {}
+.lotteryog ul li{ width:298px; height:134px; padding: 8px 0px 8px 0px; border:3px solid #E5E5E5;float:left; overflow:hidden; zoom:1; text-align:center; position:relative; transition:all 0.3s; margin-bottom: 20px;background-color:#fff;}
+.lotteryog ul li a{ display:block;}
+.lotteryog ul li img{ display:block; float: left; margin:10px 0px 0px 20px;}
+.lotteryog ul li .info { float:	 right; width: 146px; text-align: center; }
+.lotteryog ul li h2{ margin:19px 0 10px; height:20px; line-height:18px; color:#EA0D0D; font-size:22px; font-family:"Microsoft Yahei"}
+.lotteryog ul li span{color:#959595; font-size:12px; font-family:Arial; line-height:30px; display: block;text-align: center;height: 30px;}
+.lotteryog ul li .info{margin-right:15px;}
+.lotteryog ul li .info a { font-size: 13px;padding: 5px 0; display: block; width: 100px; margin: 0 auto 8px; color: #fff;border: 2px solid #898989;border-radius: 20px;transition:all 0.3s; color:#898989; }
+.lotteryog ul li .info a:hover { color: #000; border:2px solid #fbdc51; background:#fbdc51;}
+
+.lot_two{
+	margin: auto 43px;
+}
+.lot_two_39{
+	margin: auto 39px;
+}
+
+.lotteryog ul li:hover{ border:3px solid #fbdc51;}
+.lotteryog ul .last img { margin: 0; }
+
+
+
+.margin-l{ margin-left:10px;}
+.margin-t{ margin-top:10px;}
+
+
+/*优惠活动*/
+.yh-banner{height:250px; background:url("../../../../images/CN/caiShenCP/pc/yh-banner.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/yh-banner.jpg*/ center no-repeat;position:relative;}
+.yh-main{min-height:500px; background:#760e06; overflow:hidden;}
+
+
+/*登陆后*/
+.in-titles{font-size:22px; font-weight:bold; color:#fff458; border-left:4px #fff458 solid; padding-left:15px; margin:20px 0px 0px 13px;}
+.in-login .login-p{ margin-top:15px; margin-left:15px; color:#c9c1a5;}
+.login-hou{ margin-top:10px; height:80px;}
+.login-hou ul li{float:left; height:30px; line-height:30px;}
+.login-z{width:80px; text-align:center;}
+.login-hou ul .link-hou{width:4px;}
+.login-hou ul li a{color:#c9c1a5;}
+.login-hou ul li a:hover{color:#fff458;}
+.btn-logins{ width:235px; margin:0 auto;}
+.btn-logins p{ border-radius:3px; height:35px; line-height:35px; text-align:center; border:1px #fff458 solid; margin-top:10px; color:#fff458; font-size:1rem;}
+.btn-logins p:hover{ background:#fff458; color:#000;font-size:1rem;}
+
+/*登录后*/
+.login-w ul li{float:left;color:#eae3c3;}
+.login-w ul .loin-w{float:left; width:227px;}
+.login-w ul li a:hover{color:#ae7062;}
+.lon-w{width:90px !important; text-align:center;}
+.login-w ul li a{ color:#eae3c3;}
+.login-w ul li .login-drop{ display:block; width:80px; height:30px; line-height:30px; border-radius:3px; background:#fff458; text-align:center; color:#000; margin-top:8px;}
+.login-w ul li img{ position:absolute; top:16px; right:65px;}
+
+/*最新消息*/
+.news-bg{position: absolute;z-index:0;bottom:0px;width: 100%;background:url("../../../../images/CN/caiShenCP/pc/news_bg_x.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/news_bg_x.png*/ repeat-x center top; height:40px;margin-b}
+.news-wrap{width:1000px; height:40px; line-height:40px; margin:0 auto;}
+.new-title{width:90px; float:left; height:40px;  color:#fff;}
+.new-contion{width:900px; float:right;}
+
+
+
+
+    
+/* 弹出注册 */
+.pop-box {
+    background:  url("../../../../images/CN/caiShenCP/pc/login-bj.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/login-bj.jpg*/ no-repeat scroll 0 0;
+    height: 462px;
+    margin: 0;
+    padding-left: 38px;
+    padding-right: 38px;
+    position: fixed;
+    width: 263px;
+    z-index: 9999;
+    background-size: cover;
+}
+
+
+.login_password {
+    border: medium none;
+    border-radius: 3px;
+    color: #000;
+    font-size: 14px;
+    height: 37px;
+    line-height: 37px;
+    margin-bottom: 12px;
+    padding-left: 17px;
+    width: 227px;
+}
+
+.pop-box_header {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.loginon_btn a {
+    background: #CC2200 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 47px;
+    line-height: 47px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 244px;
+}
+
+
+.hezi_left a {
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+}
+
+
+.hezi_right a {
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-right: 6px;
+}
+
+
+.a-main-content ul li {
+    margin-top: 0;
+}
+
+.a-main-content-nav li {
+    float: left;
+    padding: 10px 15px;
+}
+
+.c {
+    background-color: #cecbc3;
+}
+
+.c a{
+   color:#000;
+}
+
+
+.a-main-content h3 {
+    border-bottom: 1px solid white;
+    color: #decaa7;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 50px;
+    text-indent: 15px;
+    width: 700px;
+}	
+
+
+.clear::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.a-main-content ul {
+    width: 700px;
+}
+.aboutus_right ul {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.a-main-content-nav {
+    border-bottom: 1px solid white;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+.mask {
+    background:  url("../../../../images/CN/caiShenCP/pc/bgg8.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/bgg8.png*/ repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 888;
+}
+
+
+
+.promotion_d { 
+	height: 100%;
+    margin: 10px auto;
+    width: 1000px;
+}
+
+
+
+#forgetPW {
+    color: #aa0909;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    background: none!important;
+}
+/*游戏  */
+
+
+/* .mian_game {
+    background: rgba(0, 0, 0, 0) url("../../../../images/CN/caiShenCP/pc/game_banner.jpg") no-repeat scroll 0 0;
+    margin-top: 194px;
+}
+.game_banner {
+    background: rgba(0, 0, 0, 0) url("../../../../images/CN/caiShenCP/pc/game_banner.png") no-repeat scroll center center;
+    height: 200px;
+} */
+.main_menu {
+    height: 100px;
+        width: 1000px;
+    margin: 0 auto;
+    padding-top:50px;
+}
+.main_menu ul li {
+    background: #970E06 none repeat scroll 0 0;
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    text-align: center;
+    width: 165px;
+}
+.main_menu ul li:hover {
+    background: #5E0B05 none repeat scroll 0 0;
+}
+.main_menu ul li p {
+    left: 18px;
+    position: absolute;
+    top: 10px;
+}
+.game_left {
+    margin-left: 1px;
+}
+.main_menu ul li a {
+    color: #fff;
+    display: block;
+    height: 100px;
+    line-height: 150px;
+    width: 165px;
+}
+
+.refresh2 {
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url("../../../../images/CN/caiShenCP/pc/refresh.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/refresh.png*/ center no-repeat;
+    position: absolute;
+    right: 0px!important;
+    top: 18px!important;
+    cursor: pointer;
+}
+
+
+/* x0popup - v0.1.1 | http://gao-sun.github.io/x0popup */
+.x0l,.x0l .ball{position:absolute}.xi-error span::before,.xi-info span::before,.xi-ok span::before,.xi-warning span::before{content:'';box-sizing:border-box}.x0l{width:120px;height:10px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.x0l .ball{width:0;height:0;border:5px solid #000;border-radius:30%;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease;animation-timing-function:ease;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.x0l .ball-1{border-color:#555;-webkit-animation-name:BallFly-1;animation-name:BallFly-1}.x0l .ball-2{border-color:#777;-webkit-animation-name:BallFly-2;animation-name:BallFly-2}.x0l .ball-3{border-color:#999;-webkit-animation-name:BallFly-3;animation-name:BallFly-3}.x0l .ball-4{border-color:#bbb;-webkit-animation-name:BallFly-4;animation-name:BallFly-4}@-webkit-keyframes BallFly-1{88%,from,to{margin-left:0}38%,50%{margin-left:110px}}@keyframes BallFly-1{88%,from,to{margin-left:0}38%,50%{margin-left:110px}}@-webkit-keyframes BallFly-2{4%,92%,from,to{margin-left:0}42%,54%{margin-left:110px}}@keyframes BallFly-2{4%,92%,from,to{margin-left:0}42%,54%{margin-left:110px}}@-webkit-keyframes BallFly-3{8%,96%,from,to{margin-left:0}46%,58%{margin-left:110px}}@keyframes BallFly-3{8%,96%,from,to{margin-left:0}46%,58%{margin-left:110px}}@-webkit-keyframes BallFly-4{12%,from,to{margin-left:0}50%,62%{margin-left:110px}}@keyframes BallFly-4{12%,from,to{margin-left:0}50%,62%{margin-left:110px}}.x0p-overlay{position:fixed;left:0;top:0;width:100%;height:100%;background-color:rgba(180,180,180,.8);z-index:99998;-webkit-animation:x0pfadeIn .5s ease;animation:x0pfadeIn .5s ease}.x0p,.xi{left:50%}.x0p{position:fixed;top:50%;font-size:16px;background-color:#fff;-webkit-transform:translate(-50%,-60%);transform:translate(-50%,-60%);font-family:STHeiti,Helvetica;-webkit-animation:x0ppop .45s ease;animation:x0ppop .45s ease;z-index:99999}.x0p-overlay.no-animation,.x0p.no-animation,.x0p.no-animation .xi>span::before{-webkit-animation:none;animation:none}@-webkit-keyframes x0pfadeIn{from{opacity:0}to{opacity:1}}@keyframes x0pfadeIn{from{opacity:0}to{opacity:1}}@-webkit-keyframes x0ppop{from{-webkit-transform:scale(.9) translate(-55%,-60%);transform:scale(.9) translate(-55%,-60%);opacity:.3}50%{-webkit-transform:scale(1.1) translate(-45%,-60%);transform:scale(1.1) translate(-45%,-60%);opacity:.7}to{-webkit-transform:scale(1) translate(-50%,-60%);transform:scale(1) translate(-50%,-60%);opacity:1}}@keyframes x0ppop{from{-webkit-transform:scale(.9) translate(-55%,-60%);transform:scale(.9) translate(-55%,-60%);opacity:.3}50%{-webkit-transform:scale(1.1) translate(-45%,-60%);transform:scale(1.1) translate(-45%,-60%);opacity:.7}to{-webkit-transform:scale(1) translate(-50%,-60%);transform:scale(1) translate(-50%,-60%);opacity:1}}@-webkit-keyframes x0pslideUp{from{-webkit-transform:translate(-50%,200%);transform:translate(-50%,200%);opacity:0}to{-webkit-transform:translate(-50%,-60%);transform:translate(-50%,-60%);opacity:1}}@keyframes x0pslideUp{from{-webkit-transform:translate(-50%,200%);transform:translate(-50%,200%);opacity:0}to{-webkit-transform:translate(-50%,-60%);transform:translate(-50%,-60%);opacity:1}}@-webkit-keyframes x0pslideDown{from{-webkit-transform:translate(-50%,-260%);transform:translate(-50%,-260%);opacity:0}to{-webkit-transform:translate(-50%,-60%);transform:translate(-50%,-60%);opacity:1}}@keyframes x0pslideDown{from{-webkit-transform:translate(-50%,-260%);transform:translate(-50%,-260%);opacity:0}to{-webkit-transform:translate(-50%,-60%);transform:translate(-50%,-60%);opacity:1}}.xi{position:absolute;width:80px;height:80px;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.xi-ok span::before{position:absolute;height:8%;border-radius:10px;background-color:#60BF80}.xi-ok-left::before{width:40%;left:15%;top:50%;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:showOKLeft .6s ease;animation:showOKLeft .6s ease}.xi-ok-right::before{width:60%;left:35%;top:42%;-webkit-transform:rotate(-50deg);transform:rotate(-50deg);-webkit-animation:showOKRight .75s ease;animation:showOKRight .75s ease}@-webkit-keyframes showOKLeft{75%,from{-webkit-transform:rotate(45deg);transform:rotate(45deg);width:0;left:21%;top:37%}to{-webkit-transform:rotate(45deg);transform:rotate(45deg);width:40%;left:15%;top:50%}}@keyframes showOKLeft{75%,from{-webkit-transform:rotate(45deg);transform:rotate(45deg);width:0;left:21%;top:37%}to{-webkit-transform:rotate(45deg);transform:rotate(45deg);width:40%;left:15%;top:50%}}@-webkit-keyframes showOKRight{80%,from{-webkit-transform:rotate(-50deg);transform:rotate(-50deg);width:0;left:46%;top:65%}to{-webkit-transform:rotate(-50deg);transform:rotate(-50deg);width:60%;left:35%;top:42%}}@keyframes showOKRight{80%,from{-webkit-transform:rotate(-50deg);transform:rotate(-50deg);width:0;left:46%;top:65%}to{-webkit-transform:rotate(-50deg);transform:rotate(-50deg);width:60%;left:35%;top:42%}}.xi-info span::before{position:absolute;background-color:#5080DF}.xi-info-circle::before{width:11%;height:11%;border-radius:50%;left:50%;top:15%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.xi-info-line::before{width:8%;height:45%;border-radius:10px;left:50%;top:35%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.xi-warning span::before{position:absolute;background-color:#F29F3F}.xi-warning-circle::before{width:11%;height:11%;border-radius:50%;left:50%;top:71%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.xi-warning-line::before{width:8%;height:45%;border-radius:10px;left:50%;top:15%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.xi-error span::before{position:absolute;background-color:#EF6080;width:8%;border-radius:10px}.xi-error-right::before{height:80%;top:10%;left:50%;-webkit-transform:translateX(-50%) rotate(45deg);transform:translateX(-50%) rotate(45deg);-webkit-animation:errorDrawRight .6s ease;animation:errorDrawRight .6s ease}.xi-error-left::before{height:80%;top:10%;left:50%;-webkit-transform:translateX(-50%) rotate(-45deg);transform:translateX(-50%) rotate(-45deg);-webkit-animation:errorDrawLeft .75s ease;animation:errorDrawLeft .75s ease}@-webkit-keyframes errorDrawLeft{75%,from{height:0;top:22%;left:23%}to{height:80%;top:10%;left:50%}}@keyframes errorDrawLeft{75%,from{height:0;top:22%;left:23%}to{height:80%;top:10%;left:50%}}@-webkit-keyframes errorDrawRight{80%,from{height:0;top:22%;left:76%}to{height:80%;top:10%;left:50%}}@keyframes errorDrawRight{80%,from{height:0;top:22%;left:76%}to{height:80%;top:10%;left:50%}}
+.x0p.default .icon-wrapper,.x0p.default .text-pure-wrapper,.x0p.default .text-wrapper{position:relative;height:100%;vertical-align:top;display:inline-block}.x0p.default .icon-wrapper{width:35%}.x0p.default .text-wrapper{width:65%;margin:0 auto}.x0p.default .text-pure-wrapper{width:100%}.x0p.default .text-anchor{position:absolute;top:50%;width:100%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.x0p.default .content{width:100%;height:80%;height:calc(100% - 40px)}.x0p.default.no-button .content{height:100%}.x0p.default .buttons{width:100%;height:40px;position:absolute;bottom:0;background-color:#eee}.x0p.default .text-wrapper .input,.x0p.default .text-wrapper .text,.x0p.default .text-wrapper .title{padding-left:0}.x0p.default .title{padding:0 25px;box-sizing:border-box;font-size:28px;font-weight:700;color:#333}.x0p.default .text{margin-top:5%;padding:0 25px;font-size:18px;color:#777}.x0p.default .error{margin-top:1px;margin-right:30px;padding:5px 10px;font-size:13px;background-color:#fe9999;color:#fcfcfc}.x0p.default .input{padding:0 30px}.x0p.default input[type=text],.x0p.default input[type=password]{margin-top:7%;padding:8px 10px;outline:0;background-color:#f9f9f9;border-width:0 0 1px;border-style:solid;border-color:#aaa;font-size:18px;box-sizing:border-box;width:100%;color:#aaa;-webkit-transition:all ease .3s;transition:all ease .3s}.x0p.default input[type=text]:focus,.x0p.default input[type=password]:focus{border-color:#5080DF;color:#5080DF}.x0p.default .button{display:inline-block;text-align:center;padding:12px 0;font-size:16px;vertical-align:bottom;margin-bottom:0}.x0p.default .button:hover{cursor:pointer}.x0p.default .button-ok{background-color:#60BF80;color:#fefefe}.x0p.default .button-ok:hover{background-color:#50AF70}.x0p.default .button-cancel{background-color:#eee;color:#666}.x0p.default .button-cancel:hover{background-color:#e3e3e3}.x0p.default .button-warning{background-color:#F29F3F;color:#fefefe}.x0p.default .button-warning:hover{background-color:#E28F2F}.x0p.default .button-info{background-color:#6090EF;color:#fefefe}.x0p.default .button-info:hover{background-color:#5080DF}.x0p.default .button-error{background-color:#EF6080;color:#fefefe}.x0p.default .button-error:hover{background-color:#DF5070}
+
+
+.x0p {
+    position: absolute!important;
+    top: 50%;
+    top: 25%\9;
+    font-size: 16px;
+    background-color: #fff;
+    -webkit-transform: translate(-50%,-60%);
+    transform: translate(-50%,-60%);
+    font-family: STHeiti,Helvetica;
+    -webkit-animation: x0ppop .45s ease;
+    animation: x0ppop .45s ease;
+    z-index: 100000;
+    min-height: 200px;
+    width: 800px;
+    border-radius: 10px;
+    left: 50%;
+    left: 25%\9;
+    display: none;
+}
+
+
+
+.m-table-s1{border-collapse:collapse; margin-top:15px;}
+.m-table-s1 th{background-color:#DFDFDF;}
+.m-table-s1 th,.m-table-s1 td{padding:5px;line-height:20px;border:1px solid #d0d0d0; text-align:center;color:#000;font-family: '微软雅黑';}
+.m-table-s1 thead tr{background:#f1f1f1;}
+.m-table-s1 a{color:#333;}
+
+
+/* basic style */
+.close {
+    /* still bad on picking color */
+ /*    background: #d0d0d0; */
+    color: #111;
+    /* make a round button */
+    border-radius: 30px;
+    /* center text */
+    line-height: 20px;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    font-size: 18px;
+    padding: 4px;
+}
+/* use cross as close button */
+.close::before {
+    content: "\2716";
+}
+/* place the button on top-right */
+.close {
+    top: 4px;
+    right: 10px;
+    position: absolute;
+    cursor:pointer;
+}
+
+.m-table-s1 tr:hover{
+	background: #f5f5f5!important;
+}
+
+
+ /*header*/
+/* .header{}
+.header-top{height:40px; line-height:40px; background:#eeeeee;}
+.header-top .header-time{float:left; color:#333333;}
+.header-top .header-ul{float:right;}
+.header-top .header-ul ul li{float:left; margin-left:10px;color:#333333;}
+.header-top .header-ul ul li a{color:#333333;}
+.header-top .header-ul ul li a:hover{color:#ffb400;}
+
+.header-center{min-height:112px; background:#660000;}
+.header-center .logo{float:left; width:300px; height:112px; background:url(../../../../images/CN/caiShenCP/pc/logo.png) center left no-repeat;    background-size: contain;}
+.login{float:right;}
+.login ul{ position:relative;}
+.login ul li{float:left; margin-top:30px; position:relative;}
+.login ul li input{border:none; background:url(../../../../images/CN/caiShenCP/pc/input_text.png) center no-repeat; width:140px; height:35px; margin-left:10px; padding-left:30px;}
+.login ul .login-p{ position:absolute; top:40px; left:0px;}
+.login ul .login-p a{margin-left:10px;}
+.login ul .login-p span{margin-left:10px;}
+.dl-btn{ display:block; width:100px; height:35px; background:url(../../../../images/CN/caiShenCP/pc/btn.png) center no-repeat; float:right; text-align:center; line-height:35px; margin-left:10px;}
+.login ul li .title{ width:30px; height:27px; background:url(../../../../images/CN/caiShenCP/pc/input-title.png) no-repeat; position:absolute; top:8px; left:13px;}
+.login ul li .user-title{ background-position:4px 1px;}
+.login ul li .psd-title{ background-position:4px -32px;}
+.login ul li .code-title{ background-position:4px -65px;}
+  */
+
+/*menu*/
+.header-bottom{height:50px; line-height:50px; background:#770000;}
+.menu ul li{float:left; position:relative;}
+.menu ul li .nav-bg{ display:block; width:100px; text-align:center; float:left; position:relative; color:#fff;}
+.menu ul li .nav-bg:hover{background:#ffb400; color:#000;}
+.menu ul .active{background:#ffb400; color:#000!important;}
+.menu ul .active>a{ color:#000!important;}
+.menu ul ul {visibility:hidden;position:absolute;left:-5px; top:50px;background:#770000; width:110px; display:block; z-index:333;} 
+.menu ul ul li a{color:#fff;}
+.menu table {position:absolute; top:0; left:0;}
+.menu ul li:hover ul, 
+.menu ul a:hover ul{visibility:visible;} 
+.menu ul ul li a:hover{} 
+.menu ul ul{} 
+.menu ul ul li {clear:both;font-size:12px; margin:0; height:30px; line-height:30px;} 
+.menu ul ul li a{display:block; width:110px;height:30px; line-height:30px;margin:0;border:0;border-bottom:1px solid #660000;
+font-size:14px; font-weight:normal; text-align:center;} 
+.menu ul ul li a:hover{border:none; background:#ffb400; color:#000;}
+
+
+
+
+.banner { position:relative; overflow:hidden; height:435px; width:100%;}
+/* .banner .slides { position:absolute; width:20000em;}
+.banner .slides .item { float:left;}
+.banner .slides .item a { display:block; height:438px;}
+.row{width:1000px; margin:0 auto; position:relative;}
+.navi { width:200px; margin: 0px auto; position:absolute; left:0px;  top:400px; z-index:12;}
+.navi a { width:13px; height:13px; float:left; margin:2px; display:block; background: url(../../../../images/CN/caiShenCP/pc/ico_dot.png) no-repeat left top;}
+.navi a:hover , .navi a.active {background: url(../../../../images/CN/caiShenCP/pc/ico_dot.png) no-repeat left bottom; height:13px;}
+
+.pager { width:1000px; position:absolute; left:50%; margin-left:-500px; height:438px; pointer-events:none;}
+.banner .prev, .banner .next { top:174px; width:60px; height:60px; position:absolute; cursor:pointer; pointer-events:auto;}
+.banner .prev { background:url(../../../../images/CN/caiShenCP/pc/home_prev.png) no-repeat; left:0px;}
+.banner .next { background:url(../../../../images/CN/caiShenCP/pc/home_next.png) no-repeat; right:0px;}
+@media screen and (min-width:1200px) {
+.pager { width:100%; position:relative; left:0; right:0; margin:0}
+.banner .prev{ left:100px;}
+.banner .next { right:100px;}
+}
+
+ */
+.lottery-top{height:200px; background:#770000; overflow:hidden;}
+
+/*最新消息*/
+.news{height:38px; line-height:38px; background:#880000;}
+.news .new-title{float:left; width:80px; text-align:left; color:#e09e00;}
+
+.news .new-cont{float:right; color:#e09e00; width:900px; }
+
+
+/*lottery*/
+.lottery{height:237px; background:#770000;padding-top: 5px;}
+.overlay{ position: absolute; top: 0;  left: 0;  width: 100%;  height: 100%; z-index: 10; background-color: rgba(0,0,0,0.5); /*dim the background*/  text-align:center; display:none;}
+#overlay_pic { margin:200px auto;  width:400px; }
+.jscarousal{width:1056px;height: 167px;	margin:0 auto;padding: 0;position: relative; /*overflow: hidden;*/ margin-top:35px;}
+.jscarousal .jscarousal-left, .jscarousal .jscarousal-right{float: left;width:28px;height:167px;color: White;position: relative;cursor: pointer;}
+.jscarousal .jscarousal-left{background-image:url("../../../../images/CN/caiShenCP/pc/arrow_left.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/arrow_left.png*/;background-repeat: no-repeat;background-position: left;}
+.jscarousal .jscarousal-right{background-image:url("../../../../images/CN/caiShenCP/pc/arrow_right.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/arrow_right.png*/;background-repeat: no-repeat;background-position: right;}
+.jscarousal-contents{width:1000px;height:167px;float: left;position: relative;	overflow: hidden;}
+.jscarousal-contents > div{	position: absolute;	width: 100%;height: 178px; cursor:pointer;}
+.jscarousal-contents > div > div{float: left;}
+.hidden{display: none;}
+.visible{display: block;}
+.lott a{ display:block; width:167px; height:167px; background:#990000;}
+.lott0{margin-right:2px;}
+.lott{width:165px; height:167px; background:#e09e00;}
+.lott dl dt{width:100%; height:126px; overflow:hidden;}
+.lott dl dd{width:100%; height:41px; line-height:41px; text-align:center; color:#770000;}
+.lott:hover dd{ background:#cc2200; color:#fff;}
+
+.main{min-height:560px; background:#880000;}
+.casino{/* margin-top:40px; */}
+.casino-live{float:left; width:258px; height:507px;}
+.casino-right{float:right;}
+.casino-right .casino-lottery{width:719px; height:195px; margin-top:30px;}
+.casino-right .casino-l{float:left;}
+
+
+.casino-right .casino-bottom{width:719px; height:258px; margin-top:30px;}
+.casino-sports{margin-left:2px;}
+
+.shared img{
+	-webkit-transition: 0.5s; 
+	 -moz-transition: 0.5s; 
+	 -o-transition: 0.5s; 
+	 transition: 0.5s;
+	 cursor:pointer;
+	}
+.shared img:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);		
+	}
+
+
+
+
+.foot-lx{height:66px; background:#990000 url("../../../../images/CN/caiShenCP/pc/foot-lx.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/foot-lx.png*/ center no-repeat;}
+
+.game_main{min-height: 900px;}
+
+
+
+
+
+/*版权*/
+.footer{min-height:140px; background:#660000;}
+.foot-logo{height:60px;background:url("../../../../images/CN/caiShenCP/pc/foot-logo.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/foot-logo.png*/ center no-repeat;}
+.foot-ul{height:40px; line-height:40px; margin-left:143px;}
+.foot-ul ul li{float:left; margin-left:22px; color:#ffce21;}
+.foot-ul ul li a{color:#ffce21;}
+.foot-ul ul li a:hover{color:#fff;}
+.footer p{height:30px; line-height:30px; text-align:center; color:#ffce21;}
+.lott0-1{margin-right: 20px;margin-left: 0px;}
+
+
+
+
+/*casnio*/
+.casino{min-height:483px; background:#880000;}
+.casino ul li{float:left;}
+.casino ul li a{ display:block; width:240px; height:380px; float:left; border-bottom:3px #c9c9c9 solid; background:#fff; margin-top:50px;}
+.casino-l{margin-left:13px;}
+.casino ul li a:hover{border-bottom:3px #EA0D0D solid;}
+.casino ul li a p{color:#000; }
+.casino ul li a .ttl{
+	margin: 18px 20px 18px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+	border-bottom: 1px solid #D7D7D7;
+	padding-bottom: 20px;	
+	}
+.casino ul li a .text01 {
+    margin: 0 20px 8px;
+    font-size: 12px;
+    color: #ea0d0d;
+}
+.casino ul li a .text02 {
+    font-size: 12px;
+    margin: 0 10px 20px 20px;
+    line-height: 1.5;
+    min-height: 36px;
+}
+.casino ul li a .link {
+    margin-left: 20px;
+    width: 98px;
+    line-height: 28px;
+    text-align: center;
+    position: relative;
+    border: 1px solid #D8D8D8;
+	color:#000;
+}
+.casino ul li a .link img {
+    position: absolute;
+    left: -12px;
+    top: 10px;
+}
+.casino ul li a:hover .link img {
+    left: 89px;
+    transition: all 0.6s;
+}
+
+/*关于我们*/
+.btmAbout{min-height:250px; background:#770000 url("../../../../images/CN/caiShenCP/pc/certificate.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/certificate.png*/ center no-repeat;}
+.btmAbout-left{width:250px; float:left;}
+.btmAbout dl{margin-top:30px;}
+.btmAbout dl dt{ background:url("../../../../images/CN/caiShenCP/pc/btmAbout_title.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/btmAbout_title.jpg*/ bottom left no-repeat;}
+.btmAbout-left dl dt{height:50px; line-height:50px; font-size:16px; font-weight:bold;}
+.btmAbout-left dl dd{height:25px; line-height:25px; margin-top:10px;}
+.btmAbout-right{width:300px; float:right;}
+.btmAbout-right dl dt{height:50px; line-height:50px; font-size:16px; font-weight:bold;}
+.btmAbout-right dl dd{float:left; width:120px; margin-top:10px;}
+.btmAbout-right dl dd img{margin-top:12px;}
+.btmAbout-right dl dd p{margin-top:8px;}
+.btmAbout-right dl dd p a{ display:block; width:100px; height:30px; line-height:30px; text-align:center; color:#770000; background:#e09e00;}
+
+/*关于我们*/
+.welcome-banner{height:250px; background:url("../../../../images/CN/caiShenCP/pc/welcome-banner.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/welcome-banner.jpg*/ center no-repeat;}
+.welcome-main{min-height:850px; background:#880000; padding-top:20px;}
+.welcome-left{width:300px; float:left; }
+.welcome-left ul{background:#dddddd;}
+.welcome-left ul li{}
+.welcome-left ul li a{ display:block; width:300px; height:50px; line-height:50px; text-align:center; color:#000; background:url("../../../../images/CN/caiShenCP/pc/about-title.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/about-title.png*/ no-repeat;}
+
+.welcome-left ul li:hover{ background:#e09e00;}
+.agentclk{
+	background:#e09e00!important;
+}
+.welcome-title{ background:url("../../../../images/CN/caiShenCP/pc/welcome-img1.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/welcome-img1.jpg*/ center no-repeat; width:300px; height:137px;}
+.welcome-title1{ background:url("../../../../images/CN/caiShenCP/pc/welcome-img2.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/welcome-img2.jpg*/ center no-repeat; width:300px; height:228px; margin-top:10px;}
+
+.welcome-right{width:680px; float:right; background:#990000;}
+
+.welcome-right dl{width:640px; margin:0 auto;}
+.welcome-right dl dt{ margin-top:25px;color: #ffb400; font-size:18px;}
+.welcome-right dl dd{margin-top:10px; padding-bottom:20px;}
+
+.welcome-left ul li .gywm{background-position: 70px -8px;}
+.welcome-left ul li .lxwm{background-position: 69px -80px;}
+.welcome-left ul li .lmhz{background-position: 68px -148px;}
+.welcome-left ul li .ckbz{background-position: 70px -218px;}
+.welcome-left ul li .qkbz{background-position: 70px -288px;}
+.welcome-left ul li .cjwt{background-position: 68px -354px;}
+
+
+
+/*注册*/
+.welcome-r{width:680px; float:right;}
+.welcome-r .welcome-img{width:680px; background:url("../../../../images/CN/caiShenCP/pc/welcome-img.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/welcome-img.jpg*/ center no-repeat; height:150px;}
+.welcome-r .regits-t{border:1px #770000 solid; margin-top:20px; padding-bottom:20px;}
+.welcome-r .regits-b{border:1px #770000 solid; margin-top:20px; padding-bottom:20px;}
+.welcome-r p{hieght:40px; line-height:40px; background:#770000; color:#dddddd; padding-left:20px;}
+.welcome-r ul li{margin-top:15px; padding-left:50px; height:30px; line-height:30px;}
+.welcome-r ul li label{ display:block; width:100px; text-align:left; float:left;}
+.welcome-r ul li input{border:none; height:30px; background:#dddddd; width:180px; float:left;text-indent: 8px;}
+.welcome-r ul li span{ display:block; float:left; margin-left:10px;}
+.welcome-r .regits-bo{margin-top:20px;}
+.welcome-r .checked{ color:#af8667; margin-left:62px;font-size:13px;}
+.btn-que a{ display:block; float:left; width:100px; height:28px; margin-left:50px; margin-top:20px;}
+.btn-que .btn-z{ background:url("../../../../images/CN/caiShenCP/pc/btn-z.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/btn-z.jpg*/ center no-repeat;margin-left:111px;margin-bottom: 35px;}
+.btn-que .btn-cz{ background:url("../../../../images/CN/caiShenCP/pc/btn-cz.jpg")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/btn-cz.jpg*/ center no-repeat;}
+

@@ -1,0 +1,76 @@
+/* ::::: https://dsn02.co/js/jquery-ui/styles/jquery-ui.css ::::: */
+
+.ui-helper-clearfix::before, .ui-helper-clearfix::after { content: ""; display: table; border-collapse: collapse; }
+.ui-helper-clearfix::after { clear: both; }
+input.ui-button::-moz-focus-inner, button.ui-button::-moz-focus-inner { border: 0px none; padding: 0px; }
+/* ::::: https://dsn02.co/newdsn/css/fonts/stylesheet.css ::::: */
+
+@font-face {
+	font-family: "Helvetica Neue LT Std";
+	font-style: normal;
+	font-weight: 100;
+	src: url('subset-helveticaneueltstd-thex.eot') format("embedded-opentype"), url('subset-helveticaneueltstd-thex.woff2') format("woff2"), url('subset-helveticaneueltstd-thex.woff') format("woff"), url('subset-helveticaneueltstd-thex.ttf') format("truetype"), url('subset-helveticaneueltstd-thex.svg') format("svg");
+}
+@font-face {
+	font-family: "Helvetica Neue LT";
+	font-style: normal;
+	font-weight: 100;
+	src: url('helveticaneuelt-thincond.eot') format("embedded-opentype"), url('helveticaneuelt-thincond.woff2') format("woff2"), url('helveticaneuelt-thincond.woff') format("woff"), url('helveticaneuelt-thincond.ttf') format("truetype"), url('helveticaneuelt-thincond.svg') format("svg");
+}
+/* ::::: https://dsn02.co/newdsn/css/cash/main.css?v=1226 ::::: */
+
+body { font-family: "Microsoft YaHei",Tahoma,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif; width: 100%; background-color: rgb(255, 255, 255); margin: 0px; }
+div, ul, ol, li, form, images, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, pre, code, form, fieldset, legend, button, input, textarea { margin: 0px; padding: 0px; border: 0px none; list-style: outside none none; overflow: hidden; }
+a { text-decoration: none; }
+/* ::::: https://dsn02.co/newdsn/css/cash/style.css ::::: */
+
+body { font-family: "Microsoft YaHei",Tahoma,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif; width: 100%; background-color: rgb(255, 255, 255); }
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+.clearfix::after { clear: both; }
+.game-panel-1 div.drawDescription::before, .game-panel-2 div.drawDescription::before, .game-panel-3 div.drawDescription::before { content: " "; clear: both; }
+@media screen and (max-width: 1044px) {
+}
+/* ::::: https://dsn02.co/newdsn/css/cash/index.css?v=01212017 ::::: */
+
+* { margin: 0px; padding: 0px; }
+*::-moz-selection { background: rgb(0, 122, 255) none repeat scroll 0% 0%; color: white; text-shadow: none; }
+body { font-size: 13px; background-color: rgb(255, 255, 255); font-family: "Microsoft YaHei",Arial; }
+body, button, input, select, textarea { font: 13px/1 Tahoma,"微软雅黑",sans-serif,Arial,Helvetica,"宋体"; }
+a { text-decoration: none; color: black; }
+a:hover { text-decoration: underline; }
+a:visited { text-decoration: none; }
+a:link { text-decoration: none; }
+a { cursor: pointer; }
+images { border: medium none; }
+body { min-width: 1000px; }
+.socialnavi { position: fixed; right: 10px; top: 250px; overflow: visible; z-index: 10; }
+
+.qq, .wechat, .phone, .livechat, .download, .phoneback { border-radius: 38px; height: 50px; width: 50px; margin-bottom: 3px; cursor: pointer; }
+.qq { background: rgb(0, 153, 204) url('../images/support_qq.png') repeat scroll center center; }
+.qq:hover { border: 3px solid rgb(125, 223, 255); height: 44px; width: 44px; }
+
+.qqqr { background-image: url('../images/qq_bg.png'); position: absolute; top: 5px; left: -160px; width: 158px; height: 61px; display: none; }
+.qqqr p { margin-top: 13px; text-align: center; line-height: 17px; }
+
+.wechat { background: rgb(0, 153, 0) url('../images/support_wechat.png') repeat scroll center center; }
+.wechat:hover { border: 3px solid rgb(154, 250, 154); height: 44px; width: 44px; }
+.wechatqr { position: absolute; top: -50px; left: -167px; display: none; }
+/*
+.downloadqr { background-image: url('../images/download_bg.png'); position: absolute; top: 160px; left: -160px; width: 158px; height: 61px; display: none; }
+.downloadqr p { margin-top: 13px; text-align: center; line-height: 17px; }
+*/
+.phonebackqr { background-image: url('../images/phoneback_bg.png'); position: absolute; top: 110px; left: -160px; width: 158px; height: 61px; display: none; }
+.phonebackqr p { margin-top: 13px; text-align: center; line-height: 17px; }
+
+.livechat { background: rgb(255, 174, 0) url('../images/livechat.png') repeat scroll center center; }
+.livechat:hover { border: 3px solid rgb(255, 200, 170); height: 44px; width: 44px; }
+
+.download { background: rgb(83, 107, 185) url('../images/download.png') repeat scroll center center; }
+.download:hover { border: 3px solid rgb(255, 200, 170); height: 44px; width: 44px; }
+.downloadqr { position: absolute; top: 55px; left: -167px; display: none; }
+
+.left_adv { height: 270px; position: fixed; left: 0px; top: 20%; z-index: 9; }
+
+.firebugResetStyles { z-index: 2147483646 !important; top: 0px !important; left: 0px !important; display: block !important; border: 0px none !important; margin: 0px !important; padding: 0px !important; outline: 0px none !important; min-width: 0px !important; max-width: none !important; min-height: 0px !important; max-height: none !important; position: fixed !important; transform: rotate(0deg) !important; transform-origin: 50% 50% 0px !important; border-radius: 0px !important; box-shadow: none !important; background: transparent none repeat scroll 0% 0% !important; pointer-events: none !important; white-space: normal !important; }
+style.firebugResetStyles { display: none !important; }
+.firebugResetStyles::before, .firebugResetStyles::after { content: "" !important; }

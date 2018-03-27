@@ -1,0 +1,1095 @@
+#lotAward .bw-bg,#lotAward .dew-bg,#lotAward .dsw-bg,#lotAward .dyw-bg,#lotAward .gw-bg,#lotAward .qw-bg,#lotAward .sw-bg,#lotAward .ww-bg,#lotTable td .blueball,#lotTable td .blueball-m,#lotTable td .redball,#lotTable td .redball-m,.betBox .ballrow li b,.betBox .ballrow li b.blueball,.betBox .ballrow li b.selected,.betBox .ballrow-lt-b li b,.betBox .ballrow-lt-b li b.selected,.betBox .ballrow-lt-r li b,.betBox .ballrow-lt-r li b.selected,.betBox .ballrow-s li b,.betBox .ballrow-s li b.selected,.betBox .dtrow li b,.betBox .dtrow li b.selected {
+	background: url("/images/new/ball_base.png")no-repeat;
+}
+
+.lotMain {
+	border-right: 1px solid #eae9e9;
+	border-left: 1px solid #eae9e9;
+	background: #fff;
+}
+
+#lotNav li .lt {
+	font-size: 14px;
+	line-height: 38px;
+}
+
+#lotNav {
+	height: 50px;
+	background: url("/images/new/navBg.png") repeat-x;
+}
+
+#lotNav li {
+	float: left;
+	padding-top: 6px;
+	width: 79px;
+	height: 43px;
+	border-right: 1px solid #ebebeb;
+	text-align: center;
+	cursor: pointer;
+}
+
+#lotNav li em,#lotNav li span {
+	display: block;
+	color: #666;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#lotNav li em {
+	color: #c8c4c4;
+}
+
+#lotNav li.on {
+	width: 79px;
+	height: 39px;
+	border-top: 4px solid #fe7c31;
+	background: #fff;
+}
+
+#lotNav li.on em,#lotNav li.on span {
+	color: #fe7c31;
+}
+
+#lotNav li.on span {
+	line-height: 15px;
+}
+
+#lotNav li.on em {
+	line-height: 21px;
+}
+
+#lotNav li.on .lt {
+	line-height: 30px;
+}
+
+#lotNav .gameTime {
+	float: right;
+	padding-top: 6px;
+	padding-right: 16px;
+	width: auto;
+	border-right: 0;
+	color: #666;
+	text-align: right;
+	line-height: 20px;
+}
+
+#lotAward {
+	z-index: 1;
+	width: 100%;
+}
+
+#lotAward .hidden {
+	display: none;
+}
+
+#lotAward .rule {
+	position: absolute;
+	top: 4px;
+	left: 12px;
+	z-index: 10;
+	color: #fe7c31;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+#lotAward .rule:hover {
+	color: #fe7c31;
+	text-decoration: none;
+}
+
+#lotAward .bw-bg,#lotAward .dew-bg,#lotAward .dsw-bg,#lotAward .dyw-bg,#lotAward .gw-bg,#lotAward .qw-bg,#lotAward .sw-bg,#lotAward .ww-bg {
+	position: absolute;
+	display: inline-block;
+	width: 60px;
+	height: 29px;
+}
+
+#lotAward .ww-bg {
+	background-position: -42px 0;
+}
+
+#lotAward .qw-bg {
+	background-position: -51px -31px;
+}
+
+#lotAward .bw-bg {
+	background-position: -51px -70px;
+}
+
+#lotAward .sw-bg {
+	background-position: -52px -108px;
+}
+
+#lotAward .gw-bg {
+	background-position: -52px -147px;
+}
+
+#lotAward .dyw-bg {
+	width: 90px;
+	height: 28px;
+	background-position: -51px -186px;
+}
+
+#lotAward .dew-bg {
+	width: 90px;
+	height: 28px;
+	background-position: -51px -225px;
+}
+
+#lotAward .dsw-bg {
+	width: 90px;
+	height: 28px;
+	background-position: -51px -263px;
+}
+
+.lotTable-lt th {
+	font-weight: 400;
+}
+
+#lotTable {
+	position: relative;
+	z-index: 1;
+}
+
+#lotTable thead {
+	background: #f2f2f2;
+}
+
+#lotTable th {
+	overflow: hidden;
+	height: 28px;
+	border-bottom: 1px solid #eae9e9;
+	color: #989898;
+	font-size: 14px;
+}
+
+#lotTable th.own {
+	padding-left: 11px;
+	color: #fe7c31;
+	text-align: left;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#lotTable td {
+	overflow: hidden;
+	height: 38px;
+	border-bottom: 1px solid #eae9e9;
+	color: #b1afaf;
+	text-align: center;
+	font-size: 12px;
+}
+
+#lotTable td.own {
+	padding-left: 11px;
+	color: #666;
+	text-align: left;
+	font-size: 14px;
+}
+
+#lotTable td .redball {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 28px;
+}
+
+#lotTable td .blueball {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background-position: 0 -31px;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 28px;
+}
+
+#lotTable td .redball-m {
+	width: 20px;
+	height: 21px;
+	background-position: -24px -169px;
+	line-height: 21px;
+}
+
+#lotTable td .blueball-m {
+	width: 20px;
+	height: 21px;
+	background-position: -24px -191px;
+	line-height: 21px;
+}
+
+#lotTable td .bn {
+	position: absolute;
+	top: -6px;
+	right: 13px;
+	color: #6daff2;
+}
+
+#lotTable .numg {
+	background: #80d9ae;
+	color: #fff;
+}
+
+#lotTable .bor-r {
+	border-right: 1px solid #eae9e9;
+}
+
+#lotTable .bor {
+	display: inline-block;
+	width: 2px;
+	height: 100%;
+	background: #eae9e9;
+}
+
+#lotTable .hzb {
+	border-right: 2px solid #eae9e9;
+	border-left: 2px solid #eae9e9;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+#lotTable .numb {
+	background: #82beec;
+	color: #fff;
+}
+
+#lotTable .numo {
+	background: #fbbb91;
+	color: #fff;
+}
+
+#lotTable .numv {
+	background: #d9acf0;
+	color: #fff;
+}
+
+#lotTable .numr {
+	background: #ff7d7d;
+	color: #fff;
+}
+
+#lotTab {
+	position: absolute;
+	top: 31px;
+	right: 1px;
+}
+
+#lotTab li {
+	height: 39px;
+	line-height: 39px;
+}
+
+#lotTab .cname {
+	display: inline-block;
+	overflow: hidden;
+	padding-left: 6px;
+	width: 90px;
+	color: #666;
+	text-align: left;
+}
+
+#lotTab .lottype {
+	display: inline-block;
+	overflow: hidden;
+	width: 62px;
+	color: #666;
+	text-align: left;
+}
+
+#lotTab .bonus {
+	display: inline-block;
+	overflow: hidden;
+	width: 61px;
+	color: #fe7c31;
+	text-align: left;
+	font-weight: 700;
+}
+
+.betTimer {
+	height: 38px;
+	border-bottom: 1px solid #eae9e9;
+	background: #fff;
+	color: #666;
+	font-size: 14px;
+	line-height: 38px;
+}
+
+.betTimer .issueNumber {
+	display: inline-block;
+	padding-left: 11px;
+	width: 138px;
+	text-align: left;
+}
+
+.curIss {
+	height: 38px;
+	border-bottom: 1px solid #eae9e9;
+	background: #f2f2f2;
+	line-height: 38px;
+}
+
+.curIss .jc {
+	display: inline-block;
+	margin-left: 20px;
+	color: #666;
+}
+
+.curIss .iss {
+	display: inline-block;
+	padding-left: 11px;
+	color: #fe7c31;
+	font-size: 18px;
+}
+
+.curIss a {
+	top: 12px;
+}
+
+.curIss .arrow-ccc {
+	right: 92px;
+}
+
+.curIss .arrow-ccc-z {
+	right: 30px;
+}
+
+.betBox {
+	border-bottom: 1px solid #ececec;
+	background: #fff;
+}
+
+.betresult {
+	height: 70px;
+	line-height: 70px;
+}
+
+.betresult .resultInfo {
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.betresult .noOne {
+	border-top: 1px solid #e2e1df;
+	border-right: 1px solid #e2e1df;
+	background: #e2e1df;
+	color: #464543;
+}
+
+.random {
+	display: inline-block;
+	margin-right: 2px;
+	width: 44px;
+	height: 25px;
+	border: 1px solid #dee2e5;
+	background: #f5f5f5;
+	color: #000;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.random:hover {
+	border: 1px solid #e37230;
+	background: #fe7c31;
+	color: #fff;
+	text-decoration: none;
+}
+
+.codeList {
+	margin: 28px auto 0;
+	width: 900px;
+	height: 195px;
+	border: 1px solid #ebeaea;
+}
+
+.jixuanBox {
+	margin: 0 auto;
+	padding-top: 9px;
+	width: 538px;
+	height: 38px;
+}
+
+.jixuanBox .fl {
+	margin-right: 6px;
+}
+.betSubmit {
+	margin-top: 11px;
+	padding-left: 27px;
+	height: 60px;
+	text-align:center;
+	border-top: 1px solid #eae9e9;
+	border-bottom: 1px solid #eae9e9;
+	background: #f2f2f2;
+	line-height: 60px;
+}
+
+.betSubmit .betinfo {
+	width: 398px;
+}
+
+.betSubmit .beiBox {
+	display: inline-block;
+	width: 126px;
+	height: 32px;
+	border: 1px solid #dcdcdc;
+	line-height: 32px;
+}
+
+.betSubmit .beiBox button {
+    border: 0 none;
+	display: inline-block;
+	width: 29px;
+	height: 32px;
+	background: #f5f5f5;
+	color: #000;
+	text-align: center;
+	font-size: 21px;
+	cursor: pointer;
+}
+
+.betSubmit .beiBox input {
+	display: inline-block;
+	width: 66px;
+	height: 32px;
+	border-top: 0;
+	border-right: 1px solid #dcdcdc;
+	border-bottom: 0;
+	border-left: 1px solid #dcdcdc;
+	background: #fff;
+	color: #000;
+	vertical-align: top;
+	text-align: center;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.betSubmit .ml {
+	margin-left: 35px;
+}
+
+.betSubmit .stopSale {
+	border-top: 1px solid #e2e1df;
+	border-right: 1px solid #e2e1df;
+	background: #e2e1df;
+	color: #464543;
+}
+
+.betSubmit .agreement {
+	display: inline-block;
+	margin-left: 14px;
+	vertical-align: middle;
+	line-height: 21px;
+}
+
+.curlot {
+	margin-top: 15px;
+	border: 1px solid #eae9e9;
+	background: #fff;
+}
+
+.todayNumber {
+	width: 270px;
+	border-right: 1px solid #eae9e9;
+}
+
+.todayNumber .todayNumber-tit {
+	position: relative;
+	height: 45px;
+	border-bottom: 1px solid #ebeaea;
+	line-height: 45px;
+}
+
+.todayNumber .todayNumber-tit span {
+	margin: 0 28px 0 12px;
+}
+
+.todayNumber .todayNumber-tit b {
+	display: inline;
+	margin-right: 28px;
+	color: #666;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.todayNumber .todayNumber-tit b.on {
+	color: #fe7c31;
+	font-size: 16px;
+}
+
+.todayNumber .totayNumber-con {
+	overflow: hidden;
+}
+
+.todayNumber .issul {
+	float: left;
+	width: 276px;
+	border-right: 1px solid #ebeaea;
+}
+
+.todayNumber .issul li {
+	margin: 0;
+	padding: 0;
+	height: 33px;
+	width: 273px;
+	border-bottom: 1px solid #ebeaea;
+	color: #666;
+	font-size: 12px;
+}
+
+.todayNumber .issul li.bg {
+	background: #fbfbfb;
+}
+
+.todayNumber .issul li span {
+	float: left;
+	overflow: hidden;
+	margin: 0;
+	padding-top: 0;	
+	width: 110px;
+	height: 33px;
+	border-right: 1px solid #ebeaea;
+	text-align: center;
+	line-height: 33px;
+}
+
+.todayNumber .issul li em {
+	margin: 3px;
+	padding-top: 0;
+	height: 33px;
+	text-align: center;
+	color:#FF9933;;
+	font-weight:600;
+	font-size:14px;
+	line-height: 33px;
+}
+
+.todayNumber .issul li.nobor {
+	border-bottom: 0;
+}
+
+.todayNumber .fcpl-issul {
+	width: 415px;
+}
+
+.todayNumber .fcpl-issul li span {
+	width: 83px;
+}
+
+.todayNumber .fcpl-issul li em {
+	width: 329px;
+}
+
+.todayNumber .fcpl-issul li em .e1 {
+	width: 179px;
+	border-right: 1px solid #ebeaea;
+	font-weight: 400;
+}
+
+.todayNumber .fcpl-issul li em .e2 {
+	width: 72px;
+	border-right: 1px solid #ebeaea;
+	font-weight: 400;
+}
+
+.todayNumber .fcpl-issul li em .e3 {
+	width: 75px;
+	font-weight: 400;
+}
+
+.todayNumber .fcpl-issul li em .e4 {
+	display: inline-block;
+	width: 147px;
+	border-right: 1px solid #ebeaea;
+	font-weight: 400;
+}
+
+.todayNumber .fcpl-issul li em .e5 {
+	display: inline-block;
+	width: 179px;
+	font-weight: 400;
+}
+
+.todayNumber .issul-r {
+	border-right: 0;
+}
+
+.todayNumber .issul-lt {
+	width: 100%;
+}
+
+.todayNumber .issul-lt li span {
+	border-right: 0;
+}
+
+.todayNumber .issul-lt .lt1 {
+	width: 10%;
+}
+
+.todayNumber .issul-lt .lt2 {
+	width: 12%;
+}
+
+.todayNumber .issul-lt .lt3 {
+	width: 22%;
+}
+
+.todayNumber .issul-lt .lt4 {
+	width: 14%;
+}
+
+.todayNumber .issul-lt .lt5 {
+	width: 11%;
+}
+
+.todayNumber .issul-lt .lt6 {
+	width: 10%;
+}
+
+.todayNumber .issul-lt .lt7 {
+	width: 11%;
+}
+
+.todayNumber .issul-lt .lt8 {
+	width: 10%;
+	border-right: 0;
+}
+
+.mylot .refresh,.todayNumber .refresh {
+	position: absolute;
+	top: 16px;
+	right: 0;
+	z-index: 10;
+	display: inline;
+	margin-right: 28px;
+	padding-left: 32px;
+	width: 36px;
+	color: #666;
+	font-weight: 400;
+}
+
+.mylot .refresh:hover,.todayNumber .refresh:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+.todayNumber .ball b,.todayNumber .ball i {
+	margin-top: 6px;
+	margin-right: 3px;
+}
+
+.todayNumber .ball i {
+	margin-top: 0;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.mylot {
+	width: 923px;
+}
+
+.mylot .mylot-tit {
+	position: relative;
+	padding-left: 16px;
+	height: 45px;
+	border-bottom: 1px solid #ebeaea;
+	color: #666;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 45px;
+}
+
+.ballsfilter {
+	display: inline-block;
+}
+
+.ballsfilter a {
+	display: inline-block;
+	margin-right: 2px;
+	width: 28px;
+	height: 25px;
+	border: 1px solid #dee2e5;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.ballsfilter a.on,.ballsfilter a:hover {
+	border: 1px solid #e37230;
+	background: #fe7c31;
+	color: #fff;
+	text-decoration: none;
+}
+
+.chaseBox-head {
+	position: absolute;
+	top: 1px;
+	left: 0;
+	z-index: 20;
+}
+
+.chaseBox-head li {
+	float: left;
+	width: 116px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.chaseBox-head li.cur {
+	border-right: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+	background: #fff;
+	color: #fd7b2f;
+}
+
+.chaseBox {
+	width: 717px;
+	color: #666;
+}
+
+.chaseBox .selBox {
+	position: relative;
+	display: inline-block;
+	padding-left: 4px;
+	width: 161px;
+	height: 25px;
+	border: 1px solid #eaeaea;
+	vertical-align: bottom;
+	line-height: 25px;
+}
+
+.chaseBox .selList {
+	position: absolute;
+	top: 25px;
+	left: -1px;
+	z-index: 100;
+	display: none;
+	overflow: auto;
+	width: 165px;
+	height: 120px;
+	min-height: 120px;
+	border: 1px solid #eaeaea;
+	background: #fff;
+}
+
+.chaseBox .selList em {
+	display: inline-block;
+	padding-left: 4px;
+	width: 144px;
+	height: 25px;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.chaseBox .selList em:hover {
+	background: #f7f7f7;
+}
+
+.chaseTh {
+	height: 46px;
+	border: 1px solid #eae9e9;
+	border-bottom: 0;
+	line-height: 46px;
+}
+
+.chaseList {
+	overflow: auto;
+	max-height: 210px;
+	border: 1px solid #eae9e9;
+}
+
+.chaseList li {
+	overflow: hidden;
+	height: 42px;
+	background: #fff;
+	line-height: 42px;
+}
+
+.chaseList li span,.chaseTh span {
+	display: inline-block;
+	text-align: center;
+}
+
+.chaseList li.bg {
+	background: #f5f5f5;
+}
+
+.chaseBox .i1 {
+	width: 5%;
+}
+
+.chaseBox .i2 {
+	width: 25%;
+	text-align: left;
+}
+
+.chaseBox .i3 {
+	width: 21%;
+}
+
+.chaseBox .i4,.chaseBox .i5 {
+	width: 15%;
+}
+
+.chaseBox .i6 {
+	width: 13%;
+}
+
+.chaseCount {
+	padding-left: 15px;
+	height: 39px;
+	line-height: 39px;
+}
+
+.lotBet-ui-input {
+	display: inline-block;
+	margin-right: 2px;
+	width: 60px;
+	height: 24px;
+	border: 1px solid #eae9e9;
+	background: #f7f7f7;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 24px;
+}
+
+.lotBet-ui-input .text {
+	overflow: hidden;
+	margin-top: 2px;
+	width: 54px;
+	height: 18px;
+	border: 1px solid #fbfbfb;
+	background: #fff;
+	color: #4d4d4d;
+	vertical-align: top;
+	text-align: center;
+}
+
+.chase-multi {
+	display: block;
+	padding: 5px;
+	line-height: 22px;
+}
+
+.chase-multi li {
+	padding: 5px 3px 5px 25px;
+}
+
+.chase-multi li.pd {
+	margin-left: 60px;
+}
+
+.chase-multi li input.radio {
+	margin: 3px;
+	padding: 5px;
+	border: 0;
+	vertical-align: -2px;
+}
+
+.hemai-popBox {
+	width: 731px;
+	color: #666;
+}
+
+.hemai-popBox .pop-form {
+	width: 659px;
+}
+
+.hemai-popBox .pop-form-item {
+	margin-bottom: 5px;
+}
+
+.hemai-popBox .pop-form-v {
+	width: 66px;
+	font-size: 12px;
+	line-height: 29px;
+}
+
+.hemai-popBox .textSapn {
+	margin-left: 5px;
+	line-height: 29px;
+}
+
+.hemai-popBox .ylbl {
+	float: left;
+}
+
+.hemai-popBox .ylbl li {
+	float: left;
+	width: 40px;
+	height: 29px;
+	border: 1px solid #ebeaea;
+	border-right: 0;
+	background: #fff;
+	text-align: center;
+	line-height: 29px;
+	cursor: pointer;
+}
+
+.hemai-popBox .ylbl .br {
+	border-right: 1px solid #ebeaea;
+}
+
+.hemai-popBox .ylbl .cur,.hemai-popBox .ylbl li:hover {
+	border-color: #d34d00;
+	background: #fe7c31;
+	color: #fff;
+}
+
+.hemai-popBox .openSpan {
+	float: left;
+	display: inline-block;
+	margin-right: 9px;
+	padding: 0 11px;
+	height: 29px;
+	border: 1px solid #ebeaea;
+	background: #fff;
+	line-height: 29px;
+	cursor: pointer;
+}
+
+.hemai-popBox .openSpan-cur,.hemai-popBox .openSpan:hover {
+	border-color: #d34d00;
+	background: #fe7c31;
+	color: #fff;
+}
+
+.lotBetBtn {
+	margin: 0 auto;
+	width: 346px;
+	color: #666;
+	text-align: center;
+}
+
+.lotBetBtn .postBtn {
+	display: inline-block;
+	width: 336px;
+	height: 39px;
+	background: #fe7c31;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 39px;
+	cursor: pointer;
+}
+
+.lotBetBtn .link {
+	height: 46px;
+	line-height: 46px;
+}
+
+.hmList {
+	overflow: auto;
+}
+
+.hmList li {
+	padding-top: 7px;
+	height: 35px;
+	border-bottom: 1px solid #eae9e9hmList;
+	line-height: 25px;
+}
+
+.hmList li .bd {
+	float: left;
+	display: inline-block;
+	margin-left: 9px;
+	width: 60px;
+	text-align: center;
+}
+
+.hmList li .bd .box {
+	height: 19px;
+	background: #fe7c31;
+	color: #fff;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.hmList li .desc {
+	float: left;
+	margin-left: 13px;
+	color: #666;
+	text-align: left;
+}
+
+.hmList li .money {
+	float: right;
+	margin-right: 4px;
+	text-align: center;
+}
+
+.ksBall-s {
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 5px;
+	width: 24px;
+	height: 24px;
+	background: url("/images/new/sezi.png") no-repeat;
+}
+
+.ksBall-s-2 {
+	background-position: 0 -27px;
+}
+
+.ksBall-s-3 {
+	background-position: 0 -54px;
+}
+
+.ksBall-s-4 {
+	background-position: 0 -82px;
+}
+
+.ksBall-s-5 {
+	background-position: 0 -110px;
+}
+
+.ksBall-s-6 {
+	background-position: 0 -137px;
+}
+
+.introduceTab {
+	width: 100%;
+	border: 1px solid #e4e4e4;
+	border-top: 0;
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.introduceTab tr td {
+	padding: 0 8px;
+	border-top: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+	text-align: center;
+}
+
+.introduceTab tr .tdLast {
+	border-right: 0;
+}
+
+.introduceTab tr .tdRight {
+	color: #fe7c31;
+	text-align: right;
+	font-weight: 700;
+}
+
+.introduceTab tr .tdLeft {
+	text-align: left;
+}
+
+.introduceTab .introBallBox i {
+	float: left;
+	margin-right: 4px;
+}

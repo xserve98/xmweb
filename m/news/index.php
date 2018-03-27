@@ -1,0 +1,1 @@
+﻿<?php include_once("../member/sys_msg.php"); ?>

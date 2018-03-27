@@ -1,0 +1,136 @@
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+10 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+10 where uid="
+false
+"update k_user set money = money+0.01 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+10 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+10 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+10 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+0.01 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+10 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+10 where uid="
+false
+"update k_user set money = money+0.01 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false
+"update k_user set money = money+1 where uid="
+false

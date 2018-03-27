@@ -1,0 +1,136 @@
+var main = {
+    version: 'v=2016040901',
+    get_url: function(href,params) {
+        if(href.indexOf("?") <= 0){
+            href = href + "?" + this.version;
+        }else{
+            href = href + "&" + this.version;
+        }
+        return href + (params || "");
+    },
+    to_frame_page: function (href,params,frame_id){
+        SetCookie("to_view", this.get_url(href,params));
+        $("#"+frame_id,window.parent.document).attr('src', this.get_url(href,params));
+    }
+};
+
+var BASE = {
+    user_id: "",
+    balance_timer: null,
+    unread_message_timer: null,
+    gold_pool_timer: null,
+    init: function(){
+        $(".flex-direction-nav").hide();
+        load_prj_info();
+        niceScroll();
+        if(this.user_id != ""){
+            $("#my_balance").on('click',function(){
+                BASE.get_balance();
+            });
+            this.get_balance();
+            this.get_unread_message_count();
+        }
+    },
+    get_balance: function(){
+        clearTimeout(BASE.balance_timer);
+        $('#my_balance').html('刷新中...');
+        ajax_post('/user/get', {command: 'get_user_balance'}, function(rs){
+            $('#my_balance').html(rs.data['money'] || 0.00);
+        });
+        BASE.balance_timer = setTimeout(function(){BASE.get_balance();}, 300000);
+    },
+    get_unread_message_count: function(){
+        clearTimeout(BASE.unread_message_timer);
+        $.post("/message/get",{command:'get_user_unread_message_count'},function(rs){
+            if(rs.success && rs.data.count > 0){
+                $("#unread_msg").html(rs.data.count);
+            }else{
+                $("#unread_msg").html("0");
+            }
+        });
+        BASE.unread_message_timer = setTimeout(function(){BASE.get_unread_message_count();},60000);
+    },
+    gold_pool: function (i,index){
+        clearTimeout(BASE.gold_pool_timer);
+        var last_num = Number($(".gold_pool span:last").html())+i;
+        if(last_num > 9){
+            $(".gold_pool span:last").html(last_num % 10);
+            var num = Number($(".gold_pool span:eq("+index+")").html())+1;
+            if(num > 9){
+                $(".gold_pool span:eq("+index+")").html("0");
+                BASE.gold_pool(i,index-1);
+            }else{
+                $(".gold_pool span:eq("+index+")").html(num);
+                i = 1;
+                index = 9;
+            }
+        }else{
+            $(".gold_pool span:last").html(last_num);
+        }
+        BASE.gold_pool_timer = setTimeout(function(){
+            i = parseInt(Math.random() * 100) + 1;
+            BASE.gold_pool(i,index);
+        },350);
+    }
+};
+
+//$(".loginBtn").on("click", function () {
+//    $("#main_frame", window.parent.document).attr("src", "/login");
+//});
+//
+//$(".regBtn").on("click", function () {
+//    $("#main_frame", window.parent.document).attr("src", "/register");
+//});
+
+
+function niceScroll(){
+    $("body").niceScroll({
+        scrollspeed: 60,
+        mousescrollstep: 40,
+        cursorwidth: 0,
+        cursorborder: 0,
+        cursorcolor: '#2D3032',
+        cursorborderradius: 6,
+        autohidemode: 'hidden',
+        horizrailenabled: false
+    });
+    $("body").css({'overflow-y':'auto'});
+}
+
+$(window).scroll(function () {
+    var $scrollTop = $(window).scrollTop();
+    if ($scrollTop > 190) {
+        $('.backToTop').fadeIn();
+    } else {
+        $('.backToTop').fadeOut();
+    }
+});
+
+//$('.topBtn').on('click', function () {
+//    $('body,html').animate({ scrollTop: 0 }, 500);
+//    return false;
+//});
+
+$(".flexslider").hover(function(){
+    $(".flex-direction-nav").show();
+},function(){
+    $(".flex-direction-nav").hide();
+});
+
+$('.flexslider').flexslider({
+    directionNav: true,
+    pauseOnAction: false,
+    prevText: "",
+    nextText: ""
+});
+
+function get_scroll_notice(){
+    $.post("/notice/get",{command:'get_scroll_notice'},function(rs){
+        if(rs.success && rs.data.content != null){
+            var cont = rs.data.content.replace(/<[^>]+>/g,"");
+            $("#notice").html(cont);
+        }else{
+            $("#notice").html("暂无公告..");
+        }
+    });
+}

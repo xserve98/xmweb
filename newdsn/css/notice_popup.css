@@ -1,0 +1,343 @@
+.back_body{
+	width:100%;
+	height:1000px;
+	top:0px;
+	left:0px;
+	position:absolute;
+	filter: Alpha(opacity=50);
+	opacity:0.5;
+	background:#000000;
+	/*display:none;*/
+}
+.notice_div{
+	position:absolute;
+	width:300px; 
+	padding: 0 0 2% 0;
+	left:50%; 
+	top:50%; 
+	margin:-200px 0 0 -150px; 
+	border-radius: 5px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.skin_gold .notice_div, .skin_gold .details_div {
+	background: rgb(30,87,153); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(252,211,88,1) 0%, rgba(229,167,45,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(252,211,88,1) 0%,rgba(229,167,45,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(252,211,88,1) 0%,rgba(229,167,45,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#e5a72d',GradientType=0 ); /* IE6-9 */
+}
+.skin_blue .notice_div, .skin_blue .details_div {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,00dbff+0,00a5ff+100 */
+	background: rgb(30,87,153); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(0,219,255,1) 0%, rgba(0,165,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(0,219,255,1) 0%,rgba(0,165,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(0,219,255,1) 0%,rgba(0,165,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#00a5ff',GradientType=0 ); /* IE6-9 */
+}
+.skin_red .notice_div, .skin_red .details_div {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,fc5c44+0,fc3168+100 */
+	background: rgb(30,87,153); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(252,92,68,1) 0%, rgba(252,49,104,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(252,92,68,1) 0%,rgba(252,49,104,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(252,92,68,1) 0%,rgba(252,49,104,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#fc3168',GradientType=0 ); /* IE6-9 */
+}
+.close_icon , .close_icon_grren , .close_icon_red{
+	float: right;
+	margin: 10px;
+    width: 14px;
+    height: 16px;
+    background: url('../images/popup_icon.png');
+    background-repeat: no-repeat;
+}
+.close_icon{
+    background-position: -555px -2px;
+}
+.close_icon_grren{
+    background-position: -303px 0px ;
+}
+.close_icon_red{
+    background-position: -435px -2px;
+}
+.notice_icon{
+	margin: 15px auto 0;
+	width: 149px;
+}
+.nicon_icon1{
+	margin-top: 25px;
+    width: 155px;
+    height: 148px;
+    background: url('../images/popup_icon.png');
+    background-position: -161px -14px;
+    background-repeat: no-repeat;
+}
+
+.nicon_button a{
+	margin: -63px -41px 0px 0px;
+	font-weight: 900;
+	float: right;
+	width: 40px;
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+	padding: 0.5px 2px;
+	border-radius: 3px;
+	color: red;
+	text-decoration: none;
+	text-shadow: none;
+}
+.notice_button{
+	width: 150px;
+	margin: 20px auto 0;
+}
+
+.notice_button a{
+	font-weight: 900;
+    float: right;
+    width: 140px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    padding: 10px 6px;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+.notice_font{
+	font-size: 13px;
+	color: #fff;
+	width: 252px;
+	text-align: center;
+	margin: 10px auto 0;
+	line-height: 22px;
+}
+.notice_page{
+	margin:auto;
+	width:40%;
+	text-align:center;
+	color:white;
+	padding-top:7px;
+}
+.notice_next{
+	float:right;
+	color:white;
+}
+.notice_prev{
+	float:left;
+	color:white;
+}
+.white{
+	background-color: #fff;
+	border-bottom: 3px solid #cccccc;
+}
+.yellow{
+	background-color: #fec436;
+	border-bottom: 5px solid #d18922;
+}
+.grren{
+	background-color: #39b87d;
+	border-bottom: 5px solid #1b9e6e;
+}
+.red{
+	background-color: #ee534d;
+	border-bottom: 5px solid #aa1218;
+}
+.animate{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+.nicon_button a:active{
+	transform: translate(0px,3px);
+  	-webkit-transform: translate(0px,3px);
+	border: none;
+}
+.notice_button a:active{
+	transform: translate(0px,5px);
+  	-webkit-transform: translate(0px,5px);
+	border:none;
+}
+.details_div{
+	position:absolute;
+	width:600px; 
+	padding: 0 0 2% 0;
+	left:50%; 
+	top:50%; 
+	margin:-180px 0 0 -300px; 
+	border-radius: 5px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.details_icon{
+	height: 200px;
+	width: 180px;
+	float: left;
+}
+.details_font{
+	float: left;
+	width: 404px;
+	font-size: 14px;
+	line-height:15px;
+	color: #fff;
+	overflow-y:auto;
+	max-height:300px;
+	padding-right: 8px;
+}
+.df_data{
+	font-size: 13px;
+	line-height: 18px;
+}
+.df1 ,
+.df2 ,
+.df3 {
+	margin-top: 15px;
+	padding-bottom: 15px;
+}
+.df1 , .df2{border-bottom: 1px solid rgba(255, 255, 255, 0.71);}
+.details_icon div{
+	margin: 50px 0px 0px 12px;
+	width: 155px;
+    height: 149px;
+    background: url('../images/popup_icon.png');
+    background-position: -5px 0px;
+	background-repeat: no-repeat;
+}
+.failure_success{
+	position:absolute;
+	width:300px; 
+	height:300px; 
+	left:50%; 
+	top:50%; 
+	margin:-200px 0 0 -150px; 
+	border-radius: 5px;
+}
+.back_white{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,e5e5e5+0,fffefe+100 */
+	background: rgb(30,87,153); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(229,229,229,1) 0%, rgba(255,254,254,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(229,229,229,1) 0%,rgba(255,254,254,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(229,229,229,1) 0%,rgba(255,254,254,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#fffefe',GradientType=0 ); /* IE6-9 */
+}
+.fs_icon1 , .fs_icon2{
+	margin: 30px auto 0;
+    width: 120px;
+    height: 135px;
+    background: url('../images/popup_icon.png');
+    
+    background-repeat: no-repeat;
+}
+.fs_icon1{background-position: -447px -16px;}
+.fs_icon2{background-position: -318px -16px;}
+
+.prompt_font{
+	text-align: center;
+	font-size: 14px;
+	margin: 25px auto 0px;
+}
+
+.details{
+	display: none;
+}
+
+.redpack_body{
+	position:absolute;
+	top:25%;
+	left:30%;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.redpack_close{
+	position:absolute;
+	right:10px;
+	cursor:pointer
+}
+
+.redpack_amt_con{
+	color:yellow;
+	position:absolute;
+	top:68%;
+	left:30%;
+	font-size:large;
+	text-align:center;
+	width:120px;
+}
+.redpack_remark{
+	color:black;
+	position:absolute;
+	top: 81%;
+	left: 54px;
+	font-size:small;
+	text-align:center;
+	width: 225px;
+	height: 50px;
+	background-color: #FFE7AE;
+	border-radius: 5px;
+	word-wrap: break-word;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.redpack_icon{
+	width:62px;
+	height:45px;
+	position:absolute;
+	right:5px;
+}
+.redpack_no {
+	position: absolute;
+	right: 5px;
+	top: 41px;
+	height: 16px;
+    width: 16px;
+}
+.redpack_no img{
+	position: absolute;
+	height: 16px;
+    width: 16px;
+}
+.redpack_no span{
+	position: absolute;
+    width: 16px;
+    top: -2px;
+    text-align: center;
+    color:orange;
+    font-size: 11px;
+}
+.redpack_no {
+	position: absolute;
+	right: 5px;
+	top: 41px;
+	height: 16px;
+    width: 16px;
+}
+.redpack_no img{
+	position: absolute;
+	height: 16px;
+    width: 16px;
+}
+.redpack_no span{
+	position: absolute;
+    width: 16px;
+    top: -2px;
+    text-align: center;
+    color:orange;
+    font-size: 11px;
+}

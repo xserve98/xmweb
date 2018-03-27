@@ -1,0 +1,33 @@
+<ion-view view-title="微信在线支付">
+	<ion-nav-buttons side="left">
+    	<a class="button button-icon icon-prepage" ng-click="back();"></a>
+  	</ion-nav-buttons>
+	<ion-content>
+
+	<div class="item-online">
+		<form id="onlinepay-form" name="onlinepayForm" novalidate target="_blank" action="/userrech/onlinePay.do" method="post">
+			<input name="x-session-token" type="hidden" ng-value="xSessionToken" />
+			<input name="token" type="hidden" ng-value="xSessionToken" />
+			<div class="item item-input">
+				<input type="text" name="amount" ng-model="onlinepayData.depositMoney"
+				 placeholder="请填写存款金额" ng-keyup="parseFloatMoneyInDepositPage($event)" required class="reset-field">
+			</div>
+			<p class="item-warn text-light">单笔最低10元最高5000元，如无法支付请降低额度。支付成功自动到账，无需提交存款信息</p>
+			<label class="item item-select">
+				<select name="rechId" ng-model="onlinepayData.payWay" ng-options="('微信支付' + v.order) for v in rechTypeList track by v.id" required>
+					<option value="">选择支付账户</option>
+				</select>
+				<input type="hidden" name="payId" ng-value="onlinepayData.payWay.payCode" />
+			</label>
+			<input ng-disabled="onlinepayForm.$invalid" type="button" ng-click="onlinePay()" class="button button-block button-positive button-positive-theme" value="开始充值">
+		</form>
+	</div>
+
+	</ion-content>
+	<script id="submitData-template" type="text/ng-template">
+	<p>支付方式: 微信在线支付</p>
+	<p>支付金额: <font color="red">¥{{onlinepayData.depositMoney}}</font></p>
+	<p>1.成功付款后将会自动到账。</p>
+	<p>2.长时间无反应，请联系客服。</p>
+</script>
+</ion-view>

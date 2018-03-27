@@ -1,0 +1,41 @@
+<ion-view class="m-login" view-title="欢迎登录使用">
+	<ion-nav-bar class="bar-header bar-light">
+		<ion-nav-buttons side="left">
+	    	<a class="button button-icon icon-prepage" ng-click="back();"></a>
+	  	</ion-nav-buttons>
+	</ion-nav-bar>
+	
+	<ion-content class="padding">
+		<form role="form" name="loginForm" class="form-horizontal" novalidate>
+		<div class="list list-inset">
+			<div class="item item-input">
+				<img src="./images/icon-user.png">
+				<span>帐&nbsp;&nbsp;&nbsp;号&nbsp;:&nbsp;</span>
+				<input class="reset-field" ng-model="loginData.username" name="username" type="text" required />
+			</div>
+			
+			<div class="item item-input">
+				<img src="./images/icon-pwd.png">
+				<span>密&nbsp;&nbsp;&nbsp;码&nbsp;:&nbsp;</span>
+				<input class="reset-field" ng-model="loginData.password" name="password" type="password" required />
+			</div>
+			<div class="item item-input">
+		        <img src="./images/icon-pwd.png">
+				<span>验证码&nbsp;:&nbsp;</span>
+				<input class="validcode-field" ng-model="loginData.vcode" name="vcode" type="text" ng-keyup="checkUserName();" required />
+			</div>
+			
+			<p class="text-assertive padding-top" ng-show="msg">{{msg}}</p>
+		
+			<button class="button button-block button-positive" ng-disabled="loginForm.$invalid" ng-click="login()">登录</button>
+		</div>
+		
+		
+		<div class="row row-no-padding">
+			<div class="col col-33 text-center"><a class="button button-clear button-dark" href="#/reg">马上注册</a></div>
+			<div class="col col-33 text-center"><a class="button button-clear button-dark" ng-click="guestLogin();">免费试玩</a></div>
+			<div class="col col-33 text-center"><a class="button button-clear button-dark" target="_blank" ng-href="{{pcUrl}}?from=m">电脑版</a>
+		</div> -->
+		</form>
+	</ion-content>
+</ion-view>

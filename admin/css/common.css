@@ -1,0 +1,1255 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+html, body, form {
+	width:100%;
+	height:100%;
+	color:#344B50;
+	font-family:Verdana, "宋体", Arial,Sans;
+	font-size:12px;
+	/*overflow-x:hidden;*/
+}
+.aase{
+	width:20px;
+	height:20px;
+	 line-height:3px;
+	 border:none;
+	 cursor:pointer;
+}
+.aase_a {
+	background:url(/Admin/temp/images/img_3.gif);
+	background-repeat:no-repeat;
+	background-position: 1px 0;
+}
+.aase_b {
+	background:url(/Admin/temp/images/img_2.gif);
+	background-repeat:no-repeat;
+	background-position: 1px 0;
+}
+.limegreen {
+	color:limegreen;
+}
+.red {
+	color:red;
+}
+.green {
+	color:#339166;
+}
+a {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+	color:#0099CC;
+}
+.closepo{
+	cursor:pointer;
+}
+.yu {
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#333;
+}
+#s_table{
+	width:50%;
+	position:relative;
+	display:block;
+	left:23%;
+}
+.l {
+	width:26px;
+	height:26px;
+	line-height:25px;
+	font-weight:bold;
+	float:left;
+	margin:0 15px 0 0;
+	background:url(/Admin/temp/images/l.gif) no-repeat;
+	background-repeat:no-repeat;
+}
+.h {
+	width:26px;
+	height:26px;
+	line-height:25px;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/h.gif) no-repeat;
+	background-repeat:no-repeat;
+}
+.q {
+	width:26px;
+	height:26px;
+	line-height:25px;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/q.gif) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/null.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc1 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/xg.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc2 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg02.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc3 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg03.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc4 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg04.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc5 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg05.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc6 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg06.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc7 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg07.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc8 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg08.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc9 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg09.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+
+.nc10 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg10.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc11 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg11.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc12 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg12.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc13 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg13.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc14 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg14.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc15 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg15.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc16 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg16.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc17 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg17.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc18 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg18.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+.nc19 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg19.jpg) no-repeat;
+	background-repeat:no-repeat;
+}.nc20 {
+	width:60px;
+	height:50px;
+	line-height:88px;
+	text-align:right;
+	font-weight:bold;
+	margin:0 15px 0 0;
+	float:left;
+	background:url(/Admin/temp/images/sg20.jpg) no-repeat;
+	background-repeat:no-repeat;
+}
+
+
+.td_text {
+	text-align:center;
+	height:28px;
+}
+.td_text_nc {
+	text-align:center;
+	height:32px;
+}
+.inp1{
+	color:#000; 
+	width:120px;
+	height:15px;
+	border:1px #ccc solid;
+}
+.dfg {
+	background:url(/Admin/temp/images/TD_R.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+.bg_l {
+	background-color:#FFFBFD;
+}
+.bg_a { background-color:#eee;}
+.bg_b { background-color:beige}
+.nones {
+	border:none !important;
+}
+table.a tr td.c {
+	vertical-align:text-top;
+}
+.main {
+	width:99%;
+}
+.main tr td.t {
+	background:url(/Admin/temp/images/tab_12.gif);
+	background-repeat:repeat-y;
+	background-position:0 2px;
+}
+.main tr td.c {
+	vertical-align:text-top;
+}
+.main tr td.r {
+	background:url(/Admin/temp/images/tab_15.gif);
+	background-repeat:repeat-y;
+	background-position:right;
+}
+.main tr td.f {
+	background:url(/Admin/temp/images/tab_19.gif);
+}
+
+.main1 {
+	width:100%;
+}
+.main1 tr td.t {
+	background:url(/Admin/temp/images/tab_12.gif);
+	background-repeat:repeat-y;
+	background-position:0 2px;
+}
+.main1 tr td.c {
+	vertical-align:text-top;
+}
+.main1 tr td.r {
+	background:url(/Admin/temp/images/tab_15.gif);
+	background-repeat:repeat-y;
+	background-position:right;
+}
+.main1 tr td.f {
+	background:url(/Admin/temp/images/tab_19.gif);
+}
+
+.t_odds {
+	margin-top:0px;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	float:left;
+	border-color:#b0c47a;
+}
+.t_odds_1 {
+	margin-top:5px;
+	margin: 0 auto;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	border-color:#b0c47a;
+}
+.t_odds_1 tr td {
+	border:1px inactivecaption solid;
+	padding-left:1px;
+	padding-right:1px;
+	height:22px;
+	border-color:#b0c47a;
+}
+.t_odds tr td {
+	border:1px inactivecaption solid;
+	height:18px;
+	border-color:#b0c47a;
+}
+a.tt {
+	color:#0000FF!important;
+}
+a.tt:hover {
+	text-decoration:underline!important;
+}
+.ll{
+	background-color:#EEEEF7;
+}
+.caption_11 {
+	background-color: #f6fed3;
+}
+.con {
+	width:40%;
+	margin:0 auto;
+	border:1px #D9ECFF solid;
+	border-collapse:collapse;
+}
+.con tr td {
+	border:1px #D9ECFF solid;
+	height:22px;
+	text-align:center;
+}
+.conter {
+	width:100%;
+	margin-top:5px;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	border-color:#b0c47a;
+}
+.conter tr td {
+	border:1px inactivecaption solid;
+	height:22px;
+	border-color:#b0c47a;
+}
+.conter2 {
+	width:100%;
+	margin-top:5px;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	border-color:#b0c47a;
+}
+.conter2 tr td {
+	border:1px inactivecaption solid;
+	height:27px;
+	border-color:#b0c47a;
+}
+.conter1 {
+	width:100%;
+	margin-top:5px;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	border-color:#b0c47a;
+}
+.conter1 tr td {
+	border:1px inactivecaption solid;
+	height:28px;
+	border-color:#b0c47a;
+}
+.contergd {
+	width:566px;
+	margin-top:5px;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	border-color:#b0c47a;
+}
+.contergd tr td {
+	border:1px inactivecaption solid;
+	height:25px;
+	border-color:#b0c47a;
+}
+.contercq {
+	width:490px;
+	margin-top:5px;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	border-color:#b0c47a;
+}
+.contercq tr td {
+	border:1px inactivecaption solid;
+	height:25px;
+	border-color:#b0c47a;
+}
+.conterpk {
+	width:590px;
+	margin-top:5px;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	border-color:#b0c47a;
+}
+.conterpk tr td {
+	border:1px inactivecaption solid;
+	height:25px;
+	border-color:#b0c47a;
+}
+.conterjs {
+	width:409px;
+	margin-top:5px;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	border-color:#b0c47a;
+}
+.conterjs tr td {
+	border:1px inactivecaption solid;
+	height:25px;
+	border-color:#b0c47a;
+}
+.tr_top {
+	height:25px;
+	color:#344B50;
+	text-align:center;
+	background:url(/Admin/temp/images/bg.gif);
+	background-repeat:repeat-x;	
+}
+.tr_topHY {
+	height:25px;
+	color:#344B50;
+	text-align:center;
+	background:url(/Admin/temp/images/bg.gif);
+	background-repeat:repeat-x;	
+}
+.tr_topalai {
+	height:22px;
+}
+.tr_toppk1 {
+	height:29px;
+	color:#344B50;
+	text-align:center;
+	background:url(/Admin/temp/images/bg.gif);
+	background-repeat:repeat-x;
+}
+td.left_p5 {
+	padding-left:5px;
+}
+td.left_p6 {
+	padding-left:5px;
+	height:35px;
+    padding-top:5px;	
+}
+td.left_p61 {
+	padding-left:3px;
+    align:left;
+}
+td.hj {
+	width:400px;
+	padding-left:50px;
+}
+
+td.hj1 { 
+	width:60px;
+	padding-left:40px;
+}
+
+td.bj {
+	background-color:#f6fed3;
+	width:330px;
+	height:30px;
+	text-align:right;
+	padding-right:5px;
+}
+td.bj1 {
+	width:334px;
+	height:30px !important;
+    text-align:right;
+	padding-right:5px;
+	background-color:#f6fed3;
+}
+td.bj14 {
+	height:30px !important;
+    text-align:right;
+	padding-right:5px;
+	background-color:#f6fed3;
+}
+td.bj2 {
+	width:220px;
+	height:30px;
+	text-align:center;
+	padding-right:5px;
+	background-color:#f6fed3;
+}
+td.ball {
+	width:90px;
+	height:20px;
+	text-align:center;
+	font-weight:bold;
+	color:#0000FF;
+	background-color:#f6fed3;
+}
+td.ball_pk {
+	width:60px;
+	height:18px;
+	text-align:center;
+	font-weight:bold;
+    color:#344B50;
+	background-color:#f6fed3;	
+	font-size:12px;
+}
+
+td.ball_k3 {
+	width:90px;
+	height:20px;
+	font-weight:bold;
+	color:#0000FF;
+	background-color:#f6fed3;
+}
+
+td.ball_4 {
+	width:60px;
+	height:20px;
+	text-align:center;
+	font-weight:bold;
+	color:#0000FF;
+	background-color:#f6fed3;
+}
+td.ball_1 {
+	width:90px;
+	height:20px;
+	text-align:center;
+	font-weight:bold;
+	color:#344B50;
+	background-color:#f6fed3;
+}
+td.ball_2 {
+	height:20px;
+	text-align:center;
+	font-weight:bold;
+	color:#333;
+	background-color:#f6fed3;
+}
+td.ball_3 {
+	height:20px;
+	text-align:center;
+	color:#333;
+	background-color:#f6fed3;
+}
+td.red {
+	width:90px;
+	height:20px;
+	text-align:center;
+	font-weight:bold;
+	color:red;
+	background-color:#f6fed3;
+}
+.oddsalai {
+	color:#00CC00!important;
+	height:22px;
+	width:35px;
+}
+.odds {
+	color:#0000FF!important;
+	height:22px;
+	width:85px;
+	text-align:center;	
+}
+.odds1 {
+	color:#0000FF!important;
+	height:22px;
+	width:35px;
+}
+.odds SPAN.oddshow {
+	DISPLAY: block; FLOAT: left
+}
+.odds INPUT {
+	DISPLAY: block; FLOAT: left
+}
+.odds SPAN.oddshow2 {
+	DISPLAY: block; FLOAT: left
+}
+.odds SPAN.oddshowgd {
+	DISPLAY: block; FLOAT: left
+}
+.odds SPAN.oddshow {
+	LINE-HEIGHT: 20px; WIDTH: 42px; HEIGHT: 20px
+}
+.odds SPAN.oddshow2 {
+	LINE-HEIGHT: 20px; WIDTH: 82px; HEIGHT: 20px
+}
+.odds SPAN.oddshowgd {
+	LINE-HEIGHT: 20px; WIDTH: 62px; HEIGHT: 20px
+}
+.odds INPUT {
+	WIDTH: 20px
+}
+.inputs {
+	width:66px;
+	height:17px;
+	padding-top:3px;
+	background:url(/Admin/temp/images/frame1.gif);
+	background-position:-943px 0;
+	border:none;
+}
+.input2 {
+	width:66px;
+	height:17px;
+	padding-top:3px;
+	background:url(/Admin/temp/images/frame1.gif);
+	background-position:-943px 0;
+	border:none;
+}
+.input2_2 {
+	width:66px;
+	height:17px;
+	padding-top:3px;
+	background:url(/Admin/temp/images/frame1.gif);
+	background-position:-943px 0;
+	border:none;
+}
+.inputsalai {
+	height:22px;
+	width:35px;	
+}
+.inputsalai1 {
+	height:22px;
+	width:55px;	
+}
+.text {
+	width:150px;
+	height:18px;
+	line-height:18px;
+	border:1px #ccc solid;
+	background-color:#F9F9F9;
+}
+.text1a {
+	width:90px;
+	height:15px;
+	line-height:18px;
+	border:1px #ccc solid;
+	background-color:#F9F9F9;
+}
+.text1b {
+	width:110px;
+	height:15px;
+	line-height:18px;
+	border:1px #ccc solid;
+	background-color:#F9F9F9;
+}
+.text1c {
+	width:80px;
+	height:15px;
+	line-height:18px;
+	border:1px #ccc solid;
+	background-color:#F9F9F9;
+}
+.texta {
+	width:35px;
+	height:15px;
+	line-height:16px;
+	border:1px #ccc solid;
+}
+.textb {
+	width:100px;
+	height:15px;
+	line-height:15px;
+	border:1px #ccc solid;
+}
+.ls {
+	color:#009900;
+	font-weight:bold;
+}
+.zh {
+	background-color:#f6fed3;
+	text-align:left;
+	padding-left:5px;
+	cursor:pointer;
+}
+.balls {
+	color:#0000FF;
+	font-weight:bold;
+}
+.balls1 {
+	color:#0000FF;
+	font-weight:bold;
+}
+.ballr {
+	color:red;
+	font-weight:bold;
+}
+.uo {
+	background-color:#E7E8FD;
+	text-align:left;
+	padding-left:3px;
+	color:#0000FF;
+}
+.fe {
+	background-color:#FFFFFF;
+	color:red;
+}
+.hbv {
+	padding-top:25px;
+	padding-left:5px;
+	padding-bottom:10px;
+	text-align:center;	
+}
+.hbvgd {
+	padding-top:30px;
+	padding-left:10px;
+	padding-bottom:10px;
+	text-align:left;	
+}
+.hbvpk1 {
+	padding-top:90px;
+	padding-left:10px;
+	padding-bottom:10px;	
+}
+.hbvalai{
+	text-align:center;	
+}
+.fr {
+	color:red;
+	font-size:14px;
+}
+a.psp {
+color:black;
+cursor:pointer;
+}
+.psp:hover {
+	text-decoration:underline;
+}
+#oddsPop {
+	position:absolute;
+	width:150px;
+	height:150px;
+	display:none;
+}
+.textc {
+	width:70px;
+	border:1px #FF9900 solid;
+	background-color:#FFF2EC;
+}
+.textc1 {
+	width:200px;
+	border:1px #FF9900 solid;
+	background-color:#FFF2EC;
+}
+.inputa {
+	width:44px;
+	height:17px;
+	border:none;
+	background:url(/Admin/temp/images/frame1.gif);
+	background-position: -1122px 0;
+	cursor:pointer;
+}
+.texts {
+	height:23px;
+	background-color:#f6fed3;
+}
+.so {
+	font-weight:bold;
+	color:#990000;
+	padding-left:5px;
+}
+.rights {
+padding-right:5px;
+}
+#sOddsPop {
+	position:absolute;
+	width:280px;
+	height:318px;
+	display:none;
+}
+#kOddsPop {
+	position:absolute;
+	top:25%;
+	left:25%;
+	width:580px;
+	height:auto;
+	display:none;
+	z-index:9;
+}
+
+
+.No_1, .No_2, .No_3, .No_4, .No_5, .No_6, .No_7, .No_8, .No_9, .No_10 {
+	background-image: url(/Admin/temp/images/ball_3.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.No_ {
+	background-image: url(/Admin/temp/images/NO_.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.No_1 {
+	background-position:1px 0px
+}
+.No_2 {
+    background-position:1px -27px
+}
+.No_3 {
+    background-position:1px -54px
+}
+.No_4 {
+    background-position:1px -81px
+}
+.No_5 {
+    background-position:1px -108px
+}
+.No_6 {
+    background-position:1px -135px
+}
+.No_7 {
+    background-position:1px -162px
+}
+.No_8 {
+    background-position:1px -189px
+}
+.No_9 {
+    background-position:1px -216px
+}
+.No_10 {
+    background-position:1px -243px
+}
+
+.No_gd1, .No_gd2, .No_gd3, .No_gd4, .No_gd5, .No_gd6, .No_gd7, .No_gd8, .No_gd9, .No_gd10, .No_gd11, .No_gd12, 
+
+.No_gd13, .No_gd14, .No_gd15, .No_gd16, .No_gd17, .No_gd18, .No_gd19, .No_gd20 {
+	background-image: url(/Admin/temp/images/ball_1.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.No_gd1 {
+	background-position:2px 0px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd2 {
+    background-position:2px -27px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd3 {
+    background-position:2px -54px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd4 {
+    background-position:2px -81px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd5 {
+    background-position:2px -108px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd6 {
+    background-position:2px -135px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd7 {
+    background-position:2px -162px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd8 {
+    background-position:2px -189px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd9 {
+    background-position:2px -216px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd10 {
+    background-position:2px -243px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd11 {
+    background-position:2px -270px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd12 {
+    background-position:2px -297px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd13 {
+    background-position:2px -324px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd14 {
+    background-position:2px -351px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd15 {
+    background-position:2px -378px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd16 {
+    background-position:2px -405px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd17 {
+    background-position:2px -432px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd18 {
+    background-position:2px -459px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd19 {
+    background-position:2px -486px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gd20 {
+    background-position:2px -513px;WIDTH: 28px; HEIGHT: 28px
+}
+
+
+
+.No_nc1, .No_nc2, .No_nc3, .No_nc4, .No_nc5, .No_nc6, .No_nc7, .No_nc8, .No_nc9, .No_nc10, .No_nc11, .No_nc12,.No_nc13, .No_nc14, .No_nc15, .No_nc16, .No_nc17, .No_nc18, .No_nc19, .No_nc20 {
+	background-image: url(/user/images/ball_9.png);
+	width: 32px;
+	height: 32px;
+	margin: 0;
+}
+
+.No_nc1 {
+	background-position: 0 0;
+}
+.No_nc2 {
+    background-position: 0 -33px;
+}
+.No_nc3 {
+    background-position: 0 -66px;
+}
+.No_nc4 {
+    background-position: 0 -99px;
+}
+.No_nc5 {
+    background-position: 0 -132px;
+}
+.No_nc6 {
+    background-position: 0 -165px;
+}
+.No_nc7 {
+    background-position: 0 -198px;
+}
+.No_nc8 {
+    background-position: 0 -231px;
+}
+.No_nc9 {
+    background-position: 0 -264px;
+}
+.No_nc10 {
+    background-position: 0 -297px;
+}
+.No_nc11 {
+    background-position: 0 -330px;
+}
+.No_nc12 {
+    background-position: 0 -363px;
+}
+.No_nc13 {
+    background-position: 0 -396px;
+}
+.No_nc14 {
+    background-position: 0 -429px;
+}
+.No_nc15 {
+    background-position: 0 -462px;
+}
+.No_nc16 {
+    background-position: 0 -495px;
+}
+.No_nc17 {
+    background-position: 0 -528px;
+}
+.No_nc18 {
+    background-position: 0 -561px;
+}
+.No_nc19 {
+    background-position: 0 -594px;
+}
+.No_nc20 {
+    background-position: 0 -627px;
+}
+
+
+
+.No_cq0, .No_cq1, .No_cq2, .No_cq3, .No_cq4, .No_cq5, .No_cq6, .No_cq7, .No_cq8, .No_cq9 {
+	background-image: url(/Admin/temp/images/ball_2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.No_cq0 {
+	background-position:2px 0px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_cq1 {
+    background-position:2px -27px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_cq2 {
+    background-position:2px -54px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_cq3 {
+    background-position:2px -81px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_cq4 {
+    background-position:2px -108px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_cq5 {
+    background-position:2px -135px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_cq6 {
+    background-position:2px -162px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_cq7 {
+    background-position:2px -189px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_cq8 {
+    background-position:2px -216px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_cq9 {
+    background-position:2px -243px;WIDTH: 28px; HEIGHT: 28px
+}
+
+
+.No_gx1, .No_gx2, .No_gx3, .No_gx4, .No_gx5, .No_gx6, .No_gx7, .No_gx8, .No_gx9, .No_gx10, .No_gx11, .No_gx12, 
+
+.No_gx13, .No_gx14, .No_gx15, .No_gx16, .No_gx17, .No_gx18, .No_gx19, .No_gx20,.No_gx21 {
+	background-image: url(/Admin/temp/images/ball_4.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.No_gx1 {
+	background-position:2px 0px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx2 {
+    background-position:2px -27px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx3 {
+    background-position:2px -54px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx4 {
+    background-position:2px -81px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx5 {
+    background-position:2px -109px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx6 {
+    background-position:2px -136px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx7 {
+    background-position:2px -163px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx8 {
+    background-position:2px -190px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx9 {
+    background-position:2px -217px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx10 {
+    background-position:2px -244px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx11 {
+    background-position:2px -272px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx12 {
+    background-position:2px -299px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx13 {
+    background-position:2px -325px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx14 {
+    background-position:2px -352px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx15 {
+    background-position:2px -379px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx16 {
+    background-position:2px -406px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx17 {
+    background-position:2px -433px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx18 {
+    background-position:2px -458px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx19 {
+    background-position:2px -485px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx20 {
+    background-position:2px -512px;WIDTH: 28px; HEIGHT: 28px
+}
+.No_gx21 {
+    background-position:2px -539px;WIDTH: 28px; HEIGHT: 28px
+}
+.Font_R {
+	color: #FF0000;
+}
+.Font_B {
+	color: #2836F4;
+}
+.Font_G {
+	color: #299A26;
+}
+.F_bold {
+	font-weight: bold;
+}
+
+.Man_Conter {
+	WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.Man_Conter TD {
+	BORDER-BOTTOM: #b0c47a 1px solid; BORDER-LEFT: #b0c47a 1px solid; BORDER-TOP: #b0c47a 1px solid; BORDER-RIGHT: #b0c47a 1px solid
+}
+.pop {
+	PADDING-LEFT: 15px; PADDING-RIGHT: 15px; COLOR: #000
+}
+.R_pop {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 144px; DISPLAY: none; BACKGROUND: #fff
+}
+.Conter_top {
+	BACKGROUND: url(/images/bg22.jpg) repeat-x; HEIGHT: 26px; COLOR: #000 !important
+}
+.Conter_top TD {
+	COLOR: #000 !important
+}
+.Conter_top TH {
+	COLOR: #000 !important
+}
+.Conter_Report_List {
+	HEIGHT: 21px !important
+}
+.Conter_Report_List_R {
+	BACKGROUND: #f1f1f1; HEIGHT: 23px !important
+}
+.Conter_Report_List .rc {
+	BACKGROUND: #edf7e8
+}
+.re {
+	BACKGROUND: #edf7e8
+}
+.p_k {
+	PADDING-LEFT: 4px; DISPLAY: block; PADDING-TOP: 2px
+}
+.oddsbox th{height:30px}
+.oddsbox td{text-align:center;font-weight:bold}
+.oddsbox input{width:100px;text-align:center;color:blueviolet;font-size:14px;font-weight:bold}
+.inp1MM, .inp1mMM{border:1px solid #ABB2C5;height:15px;height:15px;padding-top:1px;padding-left:1px!important;color:#000}
+.inp1MM{
+	background:url(/images/Admin/ss.png);
+	color:#000;
+	height:15px;
+}
+.inp1mMM{
+	height:15px;
+	border:1px solid #A7BBD3;
+	color:#000;
+	border-color:#FF8800;
+	background:#FFFFCC;
+}
+
+.odds11 {
+WIDTH: 20px
+}

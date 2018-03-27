@@ -1,0 +1,38 @@
+<ion-view view-title="今日已结" class="lottery-list">
+	<ion-nav-buttons side="left">
+    	<a class="button button-icon icon-prepage" ng-click="back();"></a>
+  	</ion-nav-buttons>
+  	
+	<ion-content class="has-header" scroll="false">
+		<div class="row text-center no-title pm">
+			<div class="col col-31 radiu">期号</div>
+			<div class="col col-23 radiu">下注明细</div>
+			<div class="col col-23 radiu">下注金额</div>
+			<div class="col col-23 radiu">输赢金额</div>
+		</div>
+		
+		<ion-content class="list">
+			<!-- <ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher> -->
+			<div ng-repeat="data in dataList" class="row text-center">
+				<div class="col col-31 text-left tal ti"><div ng-bind-html="data.turnNum"></div></div>
+				<div class="col col-23 text-center tal ti"><div ng-bind-html="data.detail"></div></div>
+				<div class="col col-23 text-center tal ti"><div>{{data.money|money}}</div></div>
+				<div class="col col-23 text-center tal ti"><div><span class="{{data.resultMoney > 0 ? 't-red' : 't-green'}}">{{data.resultMoney|money}}</span></div></div>
+			</div>
+			<div ng-if="dataList.length == 0" class="empty-tip">暂无数据</div>
+			<div ng-show="!dataList" class="spinner-warp"><ion-spinner class="spinner spinner-ios"></ion-spinner></div>
+		</ion-content>
+		<ion-infinite-scroll ng-if="isMore" on-infinite="onQuery()" icon="ion-loading-c" distance="1%"></ion-infinite-scroll>
+	</ion-content>
+	
+	<ion-footer-bar>
+		<div class="row">
+			<div class="col text-right pdr-15 pdt-10">
+				下注金额： <span>{{totalBetMoney}}</span>
+			</div>
+			<div class="col text-right pdr-15 pdt-10">
+				输赢金额： <span class="{{totalResultMoney > 0 ? 't-red' : 't-green'}}">{{totalResultMoney}}</span>
+			</div>
+		</div>
+	</ion-footer-bar>
+</ion-view>

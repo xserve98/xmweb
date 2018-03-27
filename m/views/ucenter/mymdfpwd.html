@@ -1,0 +1,41 @@
+<ion-view view-title="登录密码">
+	<ion-nav-buttons side="left">
+    	<a class="button button-icon icon-prepage" ng-click="back();"></a>
+  	</ion-nav-buttons>
+  	<ion-content class="m-center m-info">
+  	<div class="tab-label">
+	<ul class="tab-nav">
+		<li class="col active">
+			<a ng-if="!mdfLoginPwdData.t">登录密码</a>
+			<a ng-if="mdfLoginPwdData.t">您的账号长时间未更改密码，请修改您的密码</a>
+		</li>
+	</ul>
+	<div class="tab-content">
+		<div class="tab-pane active" tabscale="col" title="登录密码">
+			<form name="mdfLoginPwdForm" novalidate>
+				<div class="list list-inset input-placeholder">
+					<div class="item item-input">
+						<input class="reset-field" type="password" name="OldLoginPwd" 
+						placeholder="请输入旧密码" ng-model="mdfLoginPwdData.OldLoginPwd" required ng-minlength="6" ng-maxlength="20"/>
+					</div>
+					<p ng-if="((mdfLoginPwdForm.$submitted || mdfLoginPwdForm.OldLoginPwd.$touched)&&(mdfLoginPwdForm.OldLoginPwd.$error.required||mdfLoginPwdForm.OldLoginPwd.$error.maxlength||mdfLoginPwdForm.OldLoginPwd.$error.minlength))" class="item-warn2 text-assertive">* 6-20位字符</p>
+					
+					<div class="item item-input">
+						<input class="reset-field" type="password" name="NewLoginPwd"
+						 placeholder="请输入新密码" required ng-model="mdfLoginPwdData.NewLoginPwd" ng-minlength="6" ng-maxlength="20"/>
+					</div>
+					<p class="item-warn2 text-assertive" ng-if="((mdfLoginPwdForm.$submitted || mdfLoginPwdForm.NewLoginPwd.$touched)&&(mdfLoginPwdForm.NewLoginPwd.$error.minlength||mdfLoginPwdForm.NewLoginPwd.$error.maxlength||mdfLoginPwdForm.NewLoginPwd.$error.required))" style="">* 6-20位字符</p>
+				
+					<div class="item item-input">
+						<input class="reset-field" type="password" name="NewLoginPwdRpt"
+						 placeholder="请再次输入新密码" ng-model="mdfLoginPwdData.NewLoginPwdRpt" required/>
+					</div>
+					<p class="item-warn2 text-assertive" ng-if="mdfLoginPwdForm.NewLoginPwdRpt.$touched&&mdfLoginPwdData.NewLoginPwdRpt!=mdfLoginPwdData.NewLoginPwd&&mdfLoginPwdData.NewLoginPwdRpt">* 密码不一致</p>
+				</div>
+				<button type="submit" ng-disabled="mdfLoginPwdForm.$invalid||mdfLoginPwdData.NewLoginPwdRpt!=mdfLoginPwdData.NewLoginPwd" class="button button-block button-positive" ng-click="updatePwd();">确定修改</button>
+			</form>
+		</div>
+	</div>
+</div>
+  	</ion-content>
+</ion-view>

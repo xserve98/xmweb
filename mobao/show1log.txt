@@ -1,0 +1,136 @@
+"update huikuan set status=1 where orderid='20170810155051' "
+true
+"update huikuan set status=1 where orderid='20170810142749' "
+true
+"update huikuan set status=1 where orderid='20170810160101' "
+true
+"update huikuan set status=1 where orderid='20170810160326' "
+true
+"update huikuan set status=1 where orderid='20170810152912' "
+true
+"update huikuan set status=1 where orderid='20170810150101' "
+true
+"update huikuan set status=1 where orderid='20170810155303' "
+true
+"update huikuan set status=1 where orderid='20170810161202' "
+true
+"update huikuan set status=1 where orderid='20170810155400' "
+true
+"update huikuan set status=1 where orderid='20170810153117' "
+true
+"update huikuan set status=1 where orderid='20170810161202' "
+true
+"update huikuan set status=1 where orderid='20170810153527' "
+true
+"update huikuan set status=1 where orderid='20170810161202' "
+true
+"update huikuan set status=1 where orderid='20170810161202' "
+true
+"update huikuan set status=1 where orderid='20170810160101' "
+true
+"update huikuan set status=1 where orderid='20170810160326' "
+true
+"update huikuan set status=1 where orderid='20170810154154' "
+true
+"update huikuan set status=1 where orderid='20170810141848' "
+true
+"update huikuan set status=1 where orderid='20170810155051' "
+true
+"update huikuan set status=1 where orderid='20170810152139' "
+true
+"update huikuan set status=1 where orderid='20170810161202' "
+true
+"update huikuan set status=1 where orderid='20170810151954' "
+true
+"update huikuan set status=1 where orderid='20170810152237' "
+true
+"update huikuan set status=1 where orderid='20170810155400' "
+true
+"update huikuan set status=1 where orderid='20170810142436' "
+true
+"update huikuan set status=1 where orderid='20170810155303' "
+true
+"update huikuan set status=1 where orderid='20170810152912' "
+true
+"update huikuan set status=1 where orderid='20170810142749' "
+true
+"update huikuan set status=1 where orderid='20170810153117' "
+true
+"update huikuan set status=1 where orderid='20170810160101' "
+true
+"update huikuan set status=1 where orderid='20170810160326' "
+true
+"update huikuan set status=1 where orderid='20170810150101' "
+true
+"update huikuan set status=1 where orderid='20170810153527' "
+true
+"update huikuan set status=1 where orderid='20170810154154' "
+true
+"update huikuan set status=1 where orderid='20170810161202' "
+true
+"update huikuan set status=1 where orderid='20170810155051' "
+true
+"update huikuan set status=1 where orderid='20170810151954' "
+true
+"update huikuan set status=1 where orderid='20170810152139' "
+true
+"update huikuan set status=1 where orderid='20170810152237' "
+true
+"update huikuan set status=1 where orderid='20170810155303' "
+true
+"update huikuan set status=1 where orderid='20170810155400' "
+true
+"update huikuan set status=1 where orderid='20170810152912' "
+true
+"update huikuan set status=1 where orderid='20170810160326' "
+true
+"update huikuan set status=1 where orderid='20170810150101' "
+true
+"update huikuan set status=1 where orderid='20170810160101' "
+true
+"update huikuan set status=1 where orderid='20170810153117' "
+true
+"update huikuan set status=1 where orderid='20170810153527' "
+true
+"update huikuan set status=1 where orderid='20170810154154' "
+true
+"update huikuan set status=1 where orderid='20170810161202' "
+true
+"update huikuan set status=1 where orderid='20170810155051' "
+true
+"update huikuan set status=1 where orderid='20170810152139' "
+true
+"update huikuan set status=1 where orderid='20170810151954' "
+true
+"update huikuan set status=1 where orderid='20170810152237' "
+true
+"update huikuan set status=1 where orderid='20170810155303' "
+true
+"update huikuan set status=1 where orderid='20170810155400' "
+true
+"update huikuan set status=1 where orderid='20170810152912' "
+true
+"update huikuan set status=1 where orderid='20170810160101' "
+true
+"update huikuan set status=1 where orderid='20170810153117' "
+true
+"update huikuan set status=1 where orderid='20170810160326' "
+true
+"update huikuan set status=1 where orderid='20170810153527' "
+true
+"update huikuan set status=1 where orderid='20170810154154' "
+true
+"update huikuan set status=1 where orderid='20170810161202' "
+true
+"update huikuan set status=1 where orderid='20170810155051' "
+true
+"update huikuan set status=1 where orderid='20170810155303' "
+true
+"update huikuan set status=1 where orderid='20170810155400' "
+true
+"update huikuan set status=1 where orderid='20170810160101' "
+true
+"update huikuan set status=1 where orderid='20170810160326' "
+true
+"update huikuan set status=1 where orderid='20170810161202' "
+true

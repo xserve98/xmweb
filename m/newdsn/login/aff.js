@@ -1,0 +1,1 @@
+$(function(){var a=LIBS.getUrlParam("a");if(a){LIBS.cookie("affKey",a)}else{a=LIBS.cookie("affKey")}if(a){$("#affKey").val(a)}});function registerAff(){location.href="register?a="+LIBS.getUrlParam("a")};

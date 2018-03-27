@@ -1,0 +1,57 @@
+.gm_left{overflow-x:hidden;width: 190px; color: #333; left: 0; top: 0px; bottom: 0; overflow: auto; background-color: #ecf4ff; border-right: 1px solid #b5d6e5; font-size: 12px; text-align: center; padding: 0 5px}
+.gm_left div{margin-bottom: 10px;padding: 5 5px;
+}
+.gm_left table{width: 190px; border-right: 1px solid #b5d6e6; border-bottom: 1px solid #b5d6e6; font-family: Verdana,Arial,Sans,sans-serif; margin-top: 5px}
+.gm_left table:first-child{margin-top: 1}
+.gm_left table th, .gm_left table td{border-left: 1px solid #b5d6e6; border-top: 1px solid #b5d6e6}
+.gm_left table th{height: 25px; background-color: #e4edf9; color: #000}
+.gm_left table td{height: 18px; background-color: #fff}
+.gm_left table td.bg1{background-color: #ebf4ff}
+.gm_left table td.bg2{background-color: #fefff3}
+.gm_left table td input{height: 15px; color: #000; border-radius: 2px; padding: 1px 2px 0; background: url("dy/frame1.gif") no-repeat}
+.gm_left table td input.inp1{background-position: 0 0; border: 1px solid #abb2c5}
+.gm_left table td input.inp1m{background-position: -476px 0; border: 1px solid #ff8800}
+.gm_left table td button{width: 66px; height: 27px; color: #38539a; cursor: pointer; margin: 0 5px; font-weight: bold; border: 1px solid #b5d6e6; background-color: #e4edf9}
+.gm_left table td button:hover{background-color: #cfdef1}
+.gm_left table .pd5{padding: 0 5px}
+.gm_left table .yc{color: red; float: right; padding-right: 5px; cursor: pointer; font-weight: normal}
+.gm_left table .qh{color: #299a26; font-weight: bold}
+.gm_left table .gt{color: #2836f4}
+.gm_left table .od{color: #ff0000; font-weight: bold}
+.gm_left table .sub{font-size: 13px}
+
+.gm_left table .sub a{color: #fff; margin: 0 3px; padding: 2px 4px; border-radius: 2px; background-color: #999}
+.gm_left table .sub a.cur{background-color: #333; font-weight: bold}
+.gm_left table .pk10 i{width:16px; line-height:18px; color:#fff; text-align:center; font-weight: bold; font-family: Tahoma, sans-serif; display:inline-block; padding:0 1px 0 1px; border-radius: 2px; text-shadow: #555 1px 0 0, #555 0 1px 0, #555 -1px 0 0, #555 0 -1px 0}
+.gm_left table .pk10 i.n_1{background-color: #ffcc00}
+.gm_left table .pk10 i.n_2{background-color: #0089ff}
+.gm_left table .pk10 i.n_3{background-color: #4d4d4d}
+.gm_left table .pk10 i.n_4{background-color: #ff7300}
+.gm_left table .pk10 i.n_5{background-color: #3399CC}
+.gm_left table .pk10 i.n_6{background-color: #5200ff}
+.gm_left table .pk10 i.n_7{background-color: #bbb}
+.gm_left table .pk10 i.n_8{background-color: #ff0000}
+.gm_left table .pk10 i.n_9{background-color: #760000}
+.gm_left table .pk10 i.n_10{background-color: #28c200}
+.gm_left table .ssc i{font-weight: 500}
+.gm_left table .ssc i.n_0{color: #0066cc}
+.gm_left table .ssc i.n_1{color: #333}
+.gm_left table .ssc i.n_2{color: #666666}
+.gm_left table .ssc i.n_3{color: #ff6600}
+.gm_left table .ssc i.n_4{color: #0066cc}
+.gm_left table .ssc i.n_5{color: #ff0000}
+.gm_left table .ssc i.n_6{color: #9933cc}
+.gm_left table .ssc i.n_7{color: #339900}
+.gm_left table .ssc i.n_8{color: #cc6600}
+.gm_left table .ssc i.n_9{color: #006600}
+.gm_left table .ssc .sum i{color: #333}
+
+.gm_left table .kl8 .c_r{color: red}
+.gm_left table .kl8 .c_b{color: #0000ff}
+.gm_left table .six i.n_1, .gm_left table .six i.n_2, .gm_left table .six i.n_7, .gm_left table .six i.n_8, .gm_left table .six i.n_12, .gm_left table .six i.n_13, .gm_left table .six i.n_18, .gm_left table .six i.n_19, .gm_left table .six i.n_23, .gm_left table .six i.n_24, .gm_left table .six i.n_29, .gm_left table .six i.n_30, .gm_left table .six i.n_34, .gm_left table .six i.n_35, .gm_left table .six i.n_40, .gm_left table .six i.n_45, .gm_left table .six i.n_46{color: red}
+.gm_left table .six i.n_3, .gm_left table .six i.n_4, .gm_left table .six i.n_9, .gm_left table .six i.n_10, .gm_left table .six i.n_14, .gm_left table .six i.n_15, .gm_left table .six i.n_20, .gm_left table .six i.n_25, .gm_left table .six i.n_26, .gm_left table .six i.n_31, .gm_left table .six i.n_36, .gm_left table .six i.n_37, .gm_left table .six i.n_41, .gm_left table .six i.n_42, .gm_left table .six i.n_47, .gm_left table .six i.n_48{color: blue}
+.gm_left table .six i.n_5, .gm_left table .six i.n_6, .gm_left table .six i.n_11, .gm_left table .six i.n_16, .gm_left table .six i.n_17, .gm_left table .six i.n_21, .gm_left table .six i.n_22, .gm_left table .six i.n_27, .gm_left table .six i.n_28, .gm_left table .six i.n_32, .gm_left table .six i.n_33, .gm_left table .six i.n_38, .gm_left table .six i.n_39, .gm_left table .six i.n_43, .gm_left table .six i.n_44, .gm_left table .six i.n_49{color: green}
+.gm_left table .xy28 i.n_0, .gm_left table .xy28 i.n_13, .gm_left table .xy28 i.n_14, .gm_left table .xy28 i.n_27{color: #000}
+.gm_left table .xy28 i.n_1, .gm_left table .xy28 i.n_4, .gm_left table .xy28 i.n_7, .gm_left table .xy28 i.n_10, .gm_left table .xy28 i.n_16, .gm_left table .xy28 i.n_19, .gm_left table .xy28 i.n_22, .gm_left table .xy28 i.n_25{color: #339900}
+.gm_left table .xy28 i.n_2, .gm_left table .xy28 i.n_5, .gm_left table .xy28 i.n_8, .gm_left table .xy28 i.n_11, .gm_left table .xy28 i.n_17, .gm_left table .xy28 i.n_20, .gm_left table .xy28 i.n_23, .gm_left table .xy28 i.n_26{color: #0066cc}
+.gm_left table .xy28 i.n_3, .gm_left table .xy28 i.n_6, .gm_left table .xy28 i.n_9, .gm_left table .xy28 i.n_12, .gm_left table .xy28 i.n_15, .gm_left table .xy28 i.n_18, .gm_left table .xy28 i.n_21, .gm_left table .xy28 i.n_24{color: #ff0000}

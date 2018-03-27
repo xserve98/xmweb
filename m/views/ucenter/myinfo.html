@@ -1,0 +1,65 @@
+<ion-view view-title="个人资料">
+	<ion-nav-buttons side="left">
+    	<a class="button button-icon icon-prepage" ng-click="back();"></a>
+  	</ion-nav-buttons>
+  	
+	<ion-content class="m-center m-info">
+		<!-- <div class="content content-mytheme">
+			<p>
+				国别：<span>中国</span>
+			</p>
+			<p>
+				币别：<span>RMB</span>
+			</p>
+			<p>
+				会员等级：<span>普通会员</span>
+			</p> -->
+			<!-- ngIf: showLevel -->
+		<!--</div> -->
+		<div class="row top-info">
+			<div class="col col-33">
+				<img class="avatar" src="/images/avatar.png">
+			</div>
+			<div class="col col-66" style="margin: auto 0">
+				<h5>{{My.getUserName()}}</h5>
+				<p>用户余额：<span><span class="money">{{My.getMoney()}}</span>RMB</span></p>
+			</div>
+		</div>
+		<div class="list list-mytheme">
+			<a class="item">
+				 <span>帐号：</span><span class="item-note">{{My.getUserName()}}</span>
+			</a>
+			 <a class="item">
+		 	 	<span>真实姓名：</span>
+		 	 	<span ng-if="My.getFullName()"	class="item-note">{{My.getFullName()}}</span>
+				<span ng-if="!My.getFullName()" class="item-note-edit item-note" ng-click="addRealName();">添加</span>
+			</a>
+			<!-- <a class="item">
+				 <span>邮箱：</span>
+				 <span class="item-note" ng-if="My.getEmail()">{{My.getEmail()}}</span>
+				 <span ng-if="!My.getEmail()" class="item-note-edit item-note" ng-click="showEmailModel()">添加</span>
+			</a> -->
+			<a class="item">
+				<span>币别：</span>
+				<span class="item-note">RMB</span>
+			</a>
+		</div>
+	</ion-content>
+<script id="realname-template" type="text/ng-template">
+	<div class="info-mdf-tip">请务必填写真实姓名(<span class="text-assertive">填写后不可修改</span>)</div>
+	<div class="row">
+		<div class="col">
+			<div class="item item-input"><input type="text" class="txt-info reset-field" ng-pattern="/[\u4e00-\u9fa5]{2,5}$/" name="realname" ng-model="modalData.realname" placeholder="真实姓名"></div>
+		</div>
+	</div>
+</script>
+ <script id="email-template" type="text/ng-template">
+	<div class="info-mdf-tip">请务必填写邮箱(<span class="text-assertive">填写后不可修改</span>)</div>
+	<div class="row">
+		<div class="col">
+			<div class="item item-input"><input type="text" class="txt-info reset-field" name="email" ng-model="modalData.email"  placeholder="邮箱"></div>
+		</div>
+	</div>
+</script>
+
+</ion-view>

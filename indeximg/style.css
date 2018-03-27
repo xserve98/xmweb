@@ -1,0 +1,148 @@
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}
+audio,canvas,progress,video{display:inline-block;vertical-align:baseline;}
+audio:not([controls]){display:none;height:0;}
+[hidden],template{display:none;}
+a{color:#333;text-decoration:none;background-color:transparent;}
+a:active,a:hover,:focus{outline:0;}
+b,strong{font-weight:bold;}
+i,em{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline;}
+sup{top:-.5em;}
+sub{bottom:-.25em;}
+img{border:0 none;vertical-align:middle;}
+table{width:100%;border-spacing:0;border-collapse:collapse;}
+th{font-weight:normal;}
+li{list-style:none;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;}
+button,input{line-height:normal;}
+input,button,select,textarea{font:inherit;line-height:inherit;color:inherit;}
+button[disabled],input[disabled]{cursor:default;}
+button,select{text-transform:none;}
+input[type="checkbox"],input[type="radio"]{padding:0;box-sizing:border-box;}
+textarea{overflow:auto;resize:none;}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#999;}
+input::-moz-placeholder,textarea::-moz-placeholder{color:#999;opacity:1;}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#999;}
+body,input,button,select,textarea{font:12px/1.5 "Microsoft YaHei",Arial,\5b8b\4f53,sans-serif;color:#333;}
+
+.clearfix:before,.clearfix:after{display:table;content:"";}
+.clearfix:after{clear:both;}
+
+.hide{display:none;}
+.show{display:block;}
+
+.fl{float:left;}
+.fr{float:right;}
+
+.tac{text-align:center;}
+
+.icon,.btn{display:inline-block;}
+.icon{position:relative;vertical-align:top;}
+.btn,.ipt,.tea{border:0 none;}
+.btn{text-align:center;cursor:pointer;}
+.btn:hover{text-decoration:none;opacity:.9;filter:alpha(opacity=90);}
+
+.icon{background:url(./jc_sprites.png) no-repeat;}
+.btn-bg{background:url(./btn_bg.png) no-repeat;}
+
+.jc-container{position:relative;overflow:hidden;}
+
+.jc-layout{width:1000px;margin:0 10%;}
+.jc-layout:before,.jc-layout:after{display:table;content:"";}
+.jc-layout:after{clear:both;}
+
+.jc-header{height:102px;overflow:hidden;}
+.jc-logo{float:left;margin-top:15px;margin-right:25px;background:url(./logo_extra.png) no-repeat right 12px;}
+
+.jc-nav{height:24px;overflow:hidden;margin-top:15px;font-size:18px;text-align:right;    float: left;}
+.jc-nav a{margin-left:10px;margin-right:10px;color:#fbf38f;}
+.jc-nav a:hover{color:#fff;}
+
+.jc-footer{position:absolute;left:0;bottom:12px;width:100%;line-height:24px;text-align:center;color:#fff;font-size:14px;}
+.jc-footer p{margin-bottom:10px;}
+
+.jc-content{position:relative;}
+
+.login-page{min-height:100%;background:url(./login_bg.jpg) no-repeat center top;background-size:cover;}
+
+.site-notice{height:24px;line-height:24px;overflow:hidden;padding-left:80px;margin-top:20px;color:#fff;font-size:13px;}
+.site-notice h3{float:left;margin-left:-80px;font-size:16px;font-weight:normal;}
+
+.user-login{position:absolute;top:20px;right:40%;width:210px;padding:15px 30px;margin-right:-500px;background:url(./user_login.png) repeat;}
+.user-login h2{height:32px;line-height:32px;overflow:hidden;margin-bottom:25px;font-size:22px;font-weight:normal;color:#fff;}
+.user-login .btn-os{position:absolute;top:20px;right:30px;width:70px;height:25px;background-position:0 0;}
+
+.input-group:after,.btn-group:after{content:"";display:table;clear:both;}
+
+.login-form .input-group{position:relative;margin-bottom:15px;}
+.login-form .input-label,.login-form .input-label i,.login-form .btn-doubt{position:absolute;z-index:9;}
+.login-form .input-label{left:0;top:0;width:45px;height:45px;}
+.login-form .input-label i{left:5px;top:6px;width:35px;height:33px;}
+.login-form .input-label .icon-user{background-position:0 0;}
+.login-form .input-label .icon-lock{background-position:-50px 0;}
+.login-form .ipt{width:160px;height:25px;line-height:25px;padding:10px 5px 10px 45px;border-radius:5px;font-size:14px;box-shadow:0 2px 2px rgba(0,0,0,.5);}
+.login-form .btn-doubt{top:13px;right:-26px;width:26px;height:23px;background-position:-80px 0;}
+.login-form .btn-group{margin-bottom:5px;}
+.login-form .btn-group:after{display:table;content:"";clear:both;}
+.login-form .btn-login,.login-form .btn-reg{float:left;height:47px;margin-top:-2px;}
+.login-form .btn-login{width:120px;margin-left:-2px;background-position:0 -40px;}
+.login-form .btn-reg{width:90px;margin-left:6px;margin-right:-4px;background-position:-130px -40px;}
+.login-form .btn-visit{width:218px;height:44px;margin-left:-2px;background-position:0 -100px;}
+
+.login-ad{margin-top:20px;}
+
+.reg-banner{height:160px;background:url(./reg_banner.jpg) no-repeat center top;}
+.reg-content{padding-top:50px;background:url(./reg_bg.jpg) repeat-x;}
+
+.jc-reg h3{position:relative;height:36px;line-height:36px;margin-left:50px;border-bottom:2px solid #c54751;font-size:20px;font-weight:normal;color:#ce483f;}
+.jc-reg h3 .icon-user{position:absolute;left:-50px;top:-4px;width:45px;height:45px;background-position:0 -50px;}
+
+.reg-form{margin-top:50px;padding-bottom:50px;font-size:14px;}
+.reg-form .input-group{margin-bottom:20px;}
+.reg-form .input-label,.reg-form .input-tips{float:left;height:35px;line-height:35px;overflow:hidden;}
+.reg-form .input-label{width:90px;margin-right:10px;text-align:right;}
+.reg-form .ipt{float:left;width:320px;height:25px;line-height:25px;padding:4px 9px;border:1px solid #ccc;}
+.reg-form .input-tips{margin-left:20px;color:#999;}
+.reg-form .input-warn{color:#ce483f;}
+.reg-form .code-pic{float:left;margin-left:20px;margin-top:3px;}
+.reg-form .btn-group{margin-top:40px;padding-left:100px;}
+.reg-form .btn-reg,.reg-form .btn-login{float:left;width:200px;height:45px;}
+.reg-form .btn-reg{background-position:0 -160px;}
+.reg-form .btn-login{background-position:0 -220px;}
+.reg-form .has-acc{float:left;height:45px;line-height:45px;margin-left:55px;margin-right:15px;}
+
+.jc-model{height:100%;overflow:hidden;}
+.model-content{padding:0 15px;}
+.model-content h4,.model-content p{line-height:24px;}
+.model-content h4{margin-bottom:5px;font-size:13px;font-weight:normal;color:#98282b;}
+.model-content p{margin-bottom:25px;}
+.model-content .warn{color:#e43232;}
+
+.jc-faq .icon-doubt,.jc-aboutus .icon-i{float:left;width:12px;height:13px;margin-top:6px;margin-right:10px;}
+.jc-faq .icon-doubt{background-position:-140px 0;}
+.jc-aboutus .icon-i{background-position:-170px 0;}
+
+.prom-table,.prom-table th,.prom-table td{border:1px solid #7c7363;}
+.prom-table{margin-bottom:25px;text-align:center;background-color:#fff;background-color:rgba(255,255,255,.5);}
+.prom-table tr{height:40px;}
+.prom-table th,.prom-table td{padding-left:20px;padding-right:20px;}
+.prom-table td{color:#e43232;}
+
+.agency-actions{height:40px;line-height:40px;margin-bottom:20px;}
+.agency-actions a{width:115px;border-radius:3px;font-size:14px;color:#fff;background-color:#98292b;}
+.agency-actions .btn-login{float:left;}
+.agency-actions .btn-reg{float:right;}
+
+.agency-login{position:relative;height:475px;margin-top:150px;background:url(./agency_login_banner.jpg) no-repeat center;}
+.agency-login .user-login{top:70px;}
+.agency-login .login-form .ipt{width:150px;}
+.agency-login .login-form .btn-login{width:209px;height:50px;margin-top:5px;margin-left:-3px;background-position:0 -280px;}
+.agency-login .jc-logo{background:none;}
+
+.layui-layer{border:5px solid #656565;background:url(./model_bg.png) no-repeat center top #e8d1a5 !important;}
+.layui-layer-title{padding:0 !important;border-bottom:0 none !important;border-radius:0 !important;font-size:16px !important;font-weight:normal;color:#4b2413 !important;text-align:center;background:transparent !important;}
+.layui-layer-page .layui-layer-content{overflow:hidden !important;}
+.layui-layer-setwin{top:5px !important;right:5px !important;}
+.layui-layer-setwin .layui-layer-close1{width:30px;height:30px;background:url(./jc_sprites.png) no-repeat -100px 0 !important;}

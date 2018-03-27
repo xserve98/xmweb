@@ -1,0 +1,146 @@
+
+/*弹窗*/
+.popupModal table {border-collapse:collapse;font:14px/1.5 '\5FAE\8F6F\96C5\9ED1','\5b8b\4f53',Arial,Helvetica,sans-serif}
+.popupModal table tr{border-bottom:#CCCCCC solid 1px;}
+.popupModal table tr.nobd{border-bottom:none medium;}
+.popupModal table tr td{padding:5px 0px;}
+.popupModal table tr th{font-weight:bold;}
+.popupModal table tr td.title{width:25%; text-align:center; border-right:#fff solid 1px;background:#cfcfcf;}
+.popupModal table tr td input{background-color:#B7B7BB;}
+.popupModal table tr td em{font-weight:bold; }
+.popupModal table tr td .tzdata{border:#CCCCCC solid 1px;margin-top:5px; padding:5px;word-wrap: break-word;word-break: normal;word-break:break-all; width:98%; height:80px; overflow:scroll;}
+.popupModal table tr td .red{color:#F00;}
+.popupModal table tr td .green{color:#00CC00;}
+.popupModal table tr td .gray{color:#999;}
+.popupBox{width:400px; height:200px; margin:0 auto;autoborder:none; overflow-x:none;overflow-y:none; font-size:16px;}
+
+/*弹窗2*/
+.tr-top tr{border:#CCCCCC solid 1px;background:#FFFBD2; }
+.tr-top tr td{padding:5px 0px;font-weight:bold;}
+.tr-cont tr{border-bottom:#CCCCCC solid 1px;margin-top:10px;}
+.tr-cont tr td{padding:5px 0px;}
+
+/*其它*/
+.bankchoice{float:left; margin:10px 20px 0 0; }
+.bankchoice input{margin-top:10px;line-height:38px; float:left;}
+.bankchoice span{float:left; border:#c1c1c1; width:200px; height:95px; margin-left:6px; cursor:pointer; display:block; }
+.bankimg{float:left; border:#c1c1c1 solid 1px; height:95px; width:200px;}
+
+#voice{width:24px; height:24px; display:block; float:right; margin-top:8px; margin-right:16px; cursor:pointer; border:none medium;}
+.voice-on{background:url(/skin/main/images/voice-on.gif) no-repeat; }
+.voice-off{background:url(/skin/main/images/voice-off.gif) no-repeat;}
+
+.btn-a{background:url(/skin/main/images/img01.png) no-repeat -347px -512px;width:62px; height:23px; text-align:center; cursor:pointer; line-height:24px;border:0; display:inline-block;margin-left:30px;}
+.btn-a:hover{background-position:-347px -450px; }
+
+/*内页样式新版*/
+.pagemain{margin-bottom: 13px;padding: 5px 5px 5px 5px;width: 916px;border: 0px solid #ecebeb;background: #fff; font-size:15px;font-family: '微软雅黑';}
+.pagemain .display{height:auto;min-height:380px;_height:380px;}
+.pagemain .search{line-height: 35px;padding:10px;text-align: left; background: none repeat scroll 0 0 #f2f2f2;border: 1px solid #CCCCCC;}
+.pagemain .search input,.pagemain .search select{margin-right:10px;}
+.pagemain input{border: 1px solid #CCCCCC;border-radius: 5px;height: 24px;margin-left: 10px;margin-right: 10px;width: 100px;vertical-align: middle;}
+.pagemain input.btn
+{
+    background: #fe7c31;
+	line-height:20px;
+	height:30px;
+	width:80px;
+	padding:5px;
+	padding-left:20px;
+	padding-right:20px;
+	border:0;
+	margin-left:5px;
+	margin-right:5px;
+	color:#fff;
+	border-radius:5px;
+	background-repeat:repeat-x;
+	border:1px #dc4545 solid;
+	cursor:pointer;
+}
+.pagemain input.btn:hover{background-color:#e33f3f;}
+.pagemain input.datainput
+{
+	 background-image:url(/images/common/Calendar.png);
+	 background-position:right center;
+	 background-repeat:no-repeat;
+	 background-size:auto;
+	 border:1px #ccc solid;
+	 width:150px;
+}
+.pagemain .tips
+{
+	border:1px #ffa94c solid;
+	background-color:#fffde0;
+	padding:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:auto;
+	margin-bottom:10px;
+	box-sizing:border-box
+}
+.pagemain .tips p,.pagemain .tips dl
+{
+	padding:5px;
+}
+.pagemain .tips .red
+{
+	color:#F00;
+	margin:0px 2px;
+}
+.pagemain .tips dl dt{font-size:14px; font-weight:bold; color:#F00; margin-bottom:10px;}
+.pagemain .tips dl dd{line-height:20px;}
+.pagemain .detail{margin:5px 0 10px;border:1px #ccc solid; padding:10px;}
+.pagemain .detail h1{font-size:16px; font-weight:bold; text-align:center; line-height:40px;}
+.pagemain .detail .cont{padding:20px;}
+
+/*内容显示*/
+.table_b{margin:5px 0 10px;text-align:center;}
+.table_b td{border: 1px solid #dbdbdb; padding:5px;}
+.table_b_th{background:#e8e8e8;height:33px;text-align:center;color: #000000; font-weight:bold; font-size:14px; border-top:3px #dc0000 solid;}
+.table_b_tr_a{background:#2B1D14;height:33px;text-align:center;}
+.table_b_tr_b{height:33px;text-align:center;}
+.table_b_tr_e{background:#24150E;height:33px;text-align:center;}
+.table_b_tr td {
+    background-color: #f6f6f6;
+    color: #333333;
+    text-align: center;
+}
+.table_b_tr td.tl{text-align:left;}
+.table_b_tr a{color: #333333;}
+.table_b_tr {font-size:12px;}
+
+/*内容显示结束*/
+
+/*分页*/
+.bottompage{margin:30px 0;text-align:center; }
+.bottompage .disabled{color:#CCCCCC;}
+.bottompage a{display:inline-block; width:50px; height:22px; line-height:22px;background:none repeat scroll 0 0 #c32828;boder:1px solid #D87D1B;color:#FFFFFF; text-align:center;}
+.bottompage a:hover{background:none repeat scroll 0 0 #e33f3f;color:#B7B7BB;}
+.bottompage a.disabled{background:none repeat scroll 0 0 #e6e6e6;color:#666;}
+.bottompage a.pagecurrent{background: none repeat scroll 0 0 #dc0000;color:#FFFFFF;}
+.bottompage span.disabled{margin-left:10px; font-size:14px; color:#666;}
+
+/*分页结束*/
+
+
+/*blockUI样式*/
+.dialog {font-size: 12px;}
+.dialog .btn {border: 1px solid white; border-radius: 5px;min-width: 25%;width: auto;}
+.dialog .ok-btn {background-color: #ccc;}
+.dialog .cancel-btn {  /*background-color: #aeface;*/ margin-left: 10%;}
+
+/*blockUI样式结束*/
+
+/*弹窗提示*/
+#wanjinDialog {padding-top:15px; font-size:15px; font-family:"微软雅黑"; }
+#wanjinDialog .ui-wjicon-confirm{float:left; width:70px; height:70px; background:url(/images/new/ico_base.png) no-repeat scroll -185px -170px;margin:0 10px 20px 0;}
+#wanjinDialog .ui-wjicon-ok{float:left; width:70px; height:70px; background:url(/images/new/ico_base.png) no-repeat scroll -185px -30px;margin:0 10px 20px 0;}
+#wanjinDialog .ui-wjicon-alert{float:left; width:70px; height:70px; background:url(/images/new/ico_base.png) no-repeat scroll -185px -170px;margin:0 10px 20px 0;}
+#wanjinDialog .ui-wjicon-err{float:left; width:70px; height:70px; background:url(/images/new/ico_base.png) no-repeat scroll -185px -100px;margin:0 10px 20px 0;}
+#wanjinDialog em{color:#F00;}
+#wanjinDialog b{font-weight:bold;}
+#wanjinDialog .wjtips{margin-top:10px;float:left; display:inline;}
+#wanjinDialog .wjtips span{color:#F00; font-weight:bold; font-size:12px;}
+#wanjinDialog  table{width:100%;}
+#wanjinDialog th{font-weight:bold; padding-bottom:5px; border-bottom:1px #CCC solid;}
+#wanjinDialog #all-count,#wanjinDialog #all-amount{font-size:14px; font-weight:bold; font-weight:bold; color:#F00;}

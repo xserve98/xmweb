@@ -1,0 +1,40 @@
+<ion-view view-title="取款密码">
+	<ion-nav-buttons side="left">
+    	<a class="button button-icon icon-prepage" href="#/ucenter/index"></a>
+  	</ion-nav-buttons>
+  	
+  	<ion-content class="m-center m-info">
+  	<div class="tab-label">
+	<ul class="tab-nav">
+		<li class="col active">
+			<a>设置取款密码</a>
+		</li>
+	</ul>
+	<div class="tab-content">
+		<div class="tab-pane active" tabscale="col" title="取款密码">
+			<form name="fundPwdForm"  novalidate>
+				<div class="list list-inset input-placeholder">
+					<div class="item item-input">
+						<input ng-if="!My.hasFundPwd()" class="reset-field" type="password" name="loginPwd" placeholder="输入登录密码" ng-model="fundPwdFormData.loginPwd" required ng-minlength="6" ng-maxlength="20"/>
+						<input ng-if="My.hasFundPwd()" class="reset-field" type="password" name="oldFundPwd" placeholder="输入旧取款密码" ng-model="fundPwdFormData.oldFundPwd" required/>
+					</div>
+					<p ng-if="(!My.hasFundPwd()&&(fundPwdForm.$submitted || fundPwdForm.loginPwd.$touched)&&(fundPwdForm.loginPwd.$invalid) )" class="item-warn2 text-assertive">* 6-20位英文,下划线和数字组合</p>
+					<p ng-if="(My.hasFundPwd() && (fundPwdForm.$submitted || fundPwdForm.oldFundPwd.$touched)&&(fundPwdForm.oldFundPwd.$invalid) )" class="item-warn2 text-assertive">* 至少6位</p>
+					
+					<div class="item item-input">
+						<input class="reset-field" type="password" name="newFundPwd" placeholder="输入新取款密码" ng-model="fundPwdFormData.newFundPwd" required/>
+					</div>
+					<p class="item-warn2 text-assertive" ng-if="((fundPwdForm.$submitted || fundPwdForm.newFundPwd.$touched)&&(fundPwdForm.newFundPwd.$invalid))">* 至少6位</p>
+				
+					<div class="item item-input">
+						<input class="reset-field" type="password" name="newFundPwdRpt" placeholder="再次输入新密码" ng-model="fundPwdFormData.newFundPwdRpt" required/>
+					</div>
+					<p class="item-warn2 text-assertive" ng-if="fundPwdForm.newFundPwdRpt.$touched&&fundPwdFormData.newFundPwdRpt!=fundPwdFormData.newFundPwd&&fundPwdFormData.newFundPwdRpt">* 密码不一致</p>
+				</div>
+				<button type="submit" ng-disabled="fundPwdForm.$invalid||fundPwdFormData.newFundPwdRpt!=fundPwdFormData.newFundPwd" class="button button-block button-positive" ng-click="setFundPwd();">提交</button>
+			</form>
+		</div>
+	</div>
+</div>
+  	</ion-content>
+</ion-view>

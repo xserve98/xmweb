@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+
+
+#drawTable .page_info {
+	width: 691px;
+}
+
+#drawInfo .LH_L {
+	color: #2836F4;
+}
+
+#resultPanel {
+	margin-bottom: 15px;
+}
+
+#resultPanel table {
+	width: 829px!important;
+}
+
+.split_panel .amount{
+	width: 65px;
+}
+
+.split_panel .name {
+  width: 25px;
+}
+
+.split_panel {
+	float: none;
+}
+
+.split_panel table {
+	float: left;
+	width: 163px;
+	margin: 10px 2.25px 0 0;
+}
+
+.table_ball .ballname {
+	width: 27px;
+}
+
+.table_ball .ballodds {
+	width: 79px;
+}
+
+.table_gy .name {
+	font-weight: bold;
+}
+
+.lottery_info .name,#header .result {
+	height: 24px;
+	line-height: 24px;
+}
+
+#drawInfo .draw_number{
+	height: auto;
+  	line-height: inherit;
+  	margin-right: 3px;
+}
+
+.table_ball .name span,#drawInfo .balls b {
+	background: url("images/ball-pk.png") no-repeat;
+	width: 20px;
+	height: 20px;
+	margin: 0 1px;
+	font-size: 0px;
+	text-indent: -99999px;
+	display: inline-block;
+}
+
+#drawInfo .balls b {
+	background: url("images/ball-pk.png") no-repeat;
+	width: 20px;
+	height: 20px;
+	margin: 0 1px;
+	margin-top: 6px;
+}
+
+.table_ball .name .b1,#drawInfo .balls .b1 {
+	background-position: 0 0;
+}
+
+.table_ball .name .b2,#drawInfo .balls .b2 {
+	background-position: 0 -21px;
+}
+
+.table_ball .name .b3,#drawInfo .balls .b3 {
+	background-position: 0 -42px;
+}
+
+.table_ball .name .b4,#drawInfo .balls .b4 {
+	background-position: 0 -63px;
+}
+
+.table_ball .name .b5,#drawInfo .balls .b5 {
+	background-position: 0 -84px;
+}
+
+.table_ball .name .b6,#drawInfo .balls .b6 {
+	background-position: 0 -105px;
+}
+
+.table_ball .name .b7,#drawInfo .balls .b7 {
+	background-position: 0 -126px;
+}
+
+.table_ball .name .b8,#drawInfo .balls .b8 {
+	background-position: 0 -147px;
+}
+
+.table_ball .name .b9,#drawInfo .balls .b9 {
+	background-position: 0 -168px;
+}
+
+.table_ball .name .b10,#drawInfo .balls .b10 {
+	background-position: 0 -189px;
+}
+
+.result_button {
+	cursor:pointer;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.num_button {
+	float:left;
+	margin-right: 4px;
+	width:40px;
+}
+.gylh_button {
+	width:70px;
+}
+.result_button:hover {
+	background-color:#2161b3;
+	color:white;
+}
+
+.table_ball .big_small span, .table_ball .odd_even span {
+	background: url("images/ball-bs.png") no-repeat;
+	width: 20px;
+	height: 20px;
+	margin: 0 1px;
+	font-size: 0px;
+	text-indent: -99999px;
+	display: inline-block;
+}
+
+.table_ball .big_small .b1, .table_ball .big_small .b2, .table_ball .big_small .b3, .table_ball .big_small .b4, .table_ball .big_small .b5 {
+	background-position: 0 -21px;
+}
+
+.table_ball .big_small .b6, .table_ball .big_small .b7, .table_ball .big_small .b8, .table_ball .big_small .b9, .table_ball .big_small .b10 {
+	background-position: 0 0;
+}
+
+.table_ball .odd_even .b1, .table_ball .odd_even .b3, .table_ball .odd_even .b5, .table_ball .odd_even .b7, .table_ball .odd_even .b9 {
+	background-position: 0 -63px;
+}
+
+.table_ball .odd_even .b2, .table_ball .odd_even .b4, .table_ball .odd_even .b6, .table_ball .odd_even .b8, .table_ball .odd_even .b10 {
+	background-position: 0 -42px;
+}

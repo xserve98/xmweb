@@ -1,0 +1,10 @@
+body{margin:0;padding:0;font-size:12px;color:#00141E;background:url(../images/di_bg_01.jpg);}
+.dibg{width:1001px;height:600px;position:absolute; top:50%; left:50%; margin-left:-500px; margin-top:-300px;}
+.border{width:430px;height:295px;background:url(../images/bg10.jpg);float:left;position:absolute; top:50%; left:50%; margin-left:-215px; margin-top:-147px;}
+.shuo{width:338px;height:90px;}
+.shuo_img{width:70px;height:100px;float:left;padding:10px 0 0 90px;}
+.shuo_txt{width:175px;hegiht:52px;float:right;padding:43px 0 0 0;}
+.main{width:309px;float:left;padding:20px 0 0 119px;}
+#tf_name{width:144px;}
+#tf_pwd{width:144px;}
+.button{width:40px;height:18px;background:url(../images/button10.gif);color:#4D707F;border:none;padding:3px 0 0 0;cursor:pointer;}

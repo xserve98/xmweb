@@ -1,0 +1,417 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+a {
+    color: #00e;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #06e;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/* Prevent callout */
+
+.nocallout {
+    -webkit-touch-callout: none;
+}
+
+.pressed {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* A hack for HTML5 contenteditable attribute on mobile */
+
+textarea[contenteditable] {
+    -webkit-appearance: none;
+}
+
+/* A workaround for S60 3.x and 5.0 devices which do not animated gif images if
+   they have been set as display: none */
+
+.gifhidden {
+    position: absolute;
+    left: -100%;
+}
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    direction: ltr;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -999em;
+}
+
+.ir br {
+    display: none;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/**
+ * Clearfix helper
+ * Used to contain floats: h5bp.com/q
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 800px) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+body {
+	background-color: #f4f4f4;	
+}
+
+.container {
+	text-align: center;
+}
+
+.logo {
+	margin-top: 80px;
+	
+}
+
+.cn{
+	font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
+	font-size: 28px;
+	color: #000;
+}
+
+.toptextfield {
+	margin-top: 80px;
+}
+
+.textfieldtop {
+	width: 540px;
+	height: 60px;	
+	padding: 20px 20px 20px 40px;
+	border: 2px solid #e7e7e7;
+	-webkit-border-top-left-radius: 12px;
+	-webkit-border-top-right-radius: 12px;
+	-moz-border-radius-topleft: 12px;
+	-moz-border-radius-topright: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom: none;
+}
+
+.btmtextfield {
+	margin-top: 0px;
+}
+
+.textfieldbtm {
+	width: 540px;
+	height: 60px;	
+	padding: 20px 20px 20px 40px;
+	border: 2px solid #e7e7e7;
+	-webkit-border-bottom-right-radius: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	-moz-border-radius-bottomright: 12px;
+	-moz-border-radius-bottomleft: 12px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	margin-top: -2px;
+	
+}
+
+.capchatextfield{
+	margin-top: 15px;
+	position: relative;
+	width: 600px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.textfieldcapcha {
+	width: 540px;
+	height: 60px;	
+	padding: 20px 20px 20px 40px;
+	border: 2px solid #e7e7e7;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	
+}
+
+.capchaposition {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+		
+}
+
+.submitgap {
+	margin-top: 40px;
+	text-align:center;
+}
+.registergap {
+	margin-top: 20px;
+	text-align:center;
+}
+.registergap a {
+	line-height: 75px;
+	text-decoration: none;
+}
+.registergap a:hover, .registergap a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+
+/* 注册页样式 */
+.reg_te{ width:100%; margin:0 auto; font-size:23px; }
+.reg_te input{ border-top:1px solid #b8b8b8; width: 100%; border-left:1px solid #b8b8b8; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; margin:0 15px 0 0; float:left;}
+.submitregbtn { width: 250px; height: 70px; color: #fff; line-height: 70px; margin-top: 30px; }
+.reg_te .regrow { padding-top: 40px; line-height: 40px;}
+.reg_te li input::-webkit-input-placeholder { color: #C3C3C3; }
+.reg_te li input:-moz-placeholder { color: #C3C3C3; }
+.reg_te li input::-moz-placeholder {  color: #C3C3C3; }
+.reg_te li input:-ms-input-placeholder {  color: #C3C3C3; }
+
+.submitbtn {
+	width: 601px;
+	height: 82px;
+	font-size: 40px !important;
+	background-color: #0772df;
+	font-weight: bold;
+	text-shadow: 1px 1px #0772df;
+	color: #ffffff;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border: 2px solid #0772df;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background: #0772df; /* Old browsers */
+	background: -moz-linear-gradient(top,  #0772df 0%, #102a6e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0772df), color-stop(100%,#102a6e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #0772df 0%,#102a6e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #0772df 0%,#102a6e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #0772df 0%,#102a6e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #0772df 0%,#102a6e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0772df', endColorstr='#102a6e',GradientType=0 ); /* IE6-9 */
+	padding-top: 0px;
+	display: inline-block;	
+}
+
+.registerbtn {
+	width: 300px;
+	height: 82px;
+	font-size: 40px !important;
+	background-color: #4392c3;
+	font-weight: bold;
+	text-shadow: 1px 1px #4392c3;
+	color: #ffffff;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border: 2px solid #76e8e7;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background: #76e8e7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #76e8e7 0%, #4392c3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#76e8e7), color-stop(100%,#4392c3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #76e8e7 0%,#4392c3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #76e8e7 0%,#4392c3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #76e8e7 0%,#4392c3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #76e8e7 0%,#4392c3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76e8e7', endColorstr='#4392c3',GradientType=0 ); /* IE6-9 */
+	padding-top: 0px;
+	display: inline-block;	
+}
+
+.guestbtn {
+	width: 301px;
+	height: 82px;
+	font-size: 40px !important;
+	background-color: #faca68;
+	font-weight: bold;
+	text-shadow: 1px 1px #faca68;
+	color: #ffffff;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border: 2px solid #faca68;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background: #faca68; /* Old browsers */
+	background: -moz-linear-gradient(top,  #faca68 0%, #f59831 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fce3bc), color-stop(100%,#f59831)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #faca68 0%,#f59831 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #faca68 0%,#f59831 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #faca68 0%,#f59831 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #faca68 0%,#f59831 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faca68	', endColorstr='#7f0803',GradientType=0 ); /* IE6-9 */
+	padding-top: 0px;
+	display: inline-block;	
+}
+
+
+.footer {
+	text-align: center;
+	position: fixed;
+	bottom: 20px;	
+	width: 100%;
+	font-family: Arial;
+	font-size:20px;
+	color: #999797;
+}
+
+::-webkit-input-placeholder {
+   color:#676666;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color:#676666; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color:#676666;
+}
+
+:-ms-input-placeholder {  
+   color:#676666;
+}

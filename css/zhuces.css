@@ -1,0 +1,180 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	color: black;
+	font-size: 12px;
+	font-family: "宋体";
+}
+a:link, a:visited, a:active
+{
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover
+{
+	font-size: 12px;
+	color: #282828;
+}
+.clear
+{
+	clear: both;
+}
+#zhuce_top
+{
+	padding: 20px 0 0 0;
+	margin: 0 auto;
+}
+.divborder
+{
+	margin-left: 0px;
+	padding-bottom: 10px;
+	width: 690px;
+	color: #333;
+	/*border: #c9b2a0 solid 1px;*/
+}
+.divlegend
+{
+	color: #AB9956;
+	font-weight: bold;
+	font-size: 12px;
+	word-spacing: 3px;
+	position: relative;
+	top: -20px;
+	left: 10px;
+	/*background: #0A0808;*/
+	width: 65px;
+	text-align: center;
+}
+.marginb20
+{
+	margin-bottom: 20px;
+}
+.zhuce_00
+{
+	padding: 10px 0px 0px 0px;
+	clear: both;
+	color: #ffffff;
+}
+.zhuce_01
+{
+	text-align: right;
+	width: 100px;
+	float: left;
+	line-height: 18px;
+	height: 25px;
+}
+.zhuce_02
+{
+	float: left;
+	width: 210px;
+	padding: 0px;
+	height: 16px;
+}
+.zhuce_02 input
+{
+	height: 16px;
+	border: 1px solid #abadb3;
+	color: #865f5f;
+	background: #FFFFFF;
+}
+.zhuce_02 .xingbie
+{
+	border: 0;
+	background: none;
+}
+.zhuce_02 .yanzh
+{
+	width: 60px;
+}
+.width_00
+{
+	border: 1px solid #abadb3;
+	color: #865f5f;
+	width: 120px;
+}
+.zhuce_04
+{
+	float: left;
+	background: url(../images/zhuce_lan.gif) no-repeat left;
+	line-height: 18px;
+	width: 330px;
+	padding: 0px;
+	height: 18px;
+	color: #333;
+}
+.zhuce_05
+{
+	float: left;
+	line-height: 18px;
+	width: 330px;
+	padding: 0px;
+	height: 18px;
+	color: #999999;
+}
+.zhuce_06
+{
+	float: left;
+	background: url(../images/zhuce_h.gif) no-repeat left;
+	line-height: 18px;
+	width: 330px;
+	padding: 0px;
+	height: 18px;
+}
+.red
+{
+	color: #FF0000;
+}
+.tiao_00
+{
+	clear: both;
+	padding: 8px 0;
+	margin: 0 auto;
+}
+.tiao_01
+{
+	clear: both;
+	padding: 16px 0 20px 190px;
+}
+.tiao_01 input
+{
+	background: url(../images/button1.gif) no-repeat;
+	width: 51px;
+	height: 23px;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+}
+.tiao_01 .ju
+{
+	margin: 0 170px 0 0;
+}
+.fontcolor
+{
+	float: left;
+	background: url(../images/yes.jpg) no-repeat left;
+	line-height: 25px;
+	width: 340px;
+	padding: 0 0 0 26px;
+	height: 25px;
+	color: #000;
+}
+.zhuce_03
+{
+	float: left;
+	background: url(../images/no.jpg) no-repeat left;
+	line-height: 25px;
+	width: 340px;
+	padding: 0 0 0 26px;
+	height: 25px;
+	color: #000;
+}
+body, td, th
+{
+	color: #fff;
+	/*background: #0A0808;*/
+}

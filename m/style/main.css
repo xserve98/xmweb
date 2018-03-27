@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0px; padding:0px; font-size:12px; font-family:Arial, "微软雅黑"; color:#424242; background:url(../image/bodyBg.jpg);}
+a{color:#424242; text-decoration:none; outline:none;}
+a:active{star:expression(this.onFocus=this.blur());} 
+img{border:0px;}
+a:link {text-decoration: none; outline:none;color:#fff;}
+a:visited{text-decoration: none; outline:none;}
+a:hover{text-decoration:none; color:#1c5a97; outline:none;}
+ul, p, dl, dt, dd{padding:0px; margin:0px;}
+li{list-style-position:outside; list-style-type:none;}
+h1, h2, h3, h4, h5{font-size:14px; padding:0px; margin:0px;}
+h1{font-size:16px;}
+h5{font-size:12px;}
+.fl{float:left;}
+.fr{float:right;}
+.clear_f{clear:both; height:0px; padding:0px; margin:0px; display:block; _display:inherit;}
+.h10{height:10px; overflow:hidden; clear:both;}
+.h20{height:20px; overflow:hidden; clear:both;}
+input{background:transparent; padding:0px; font-size:12px; font-family:Arial, "微软雅黑"; color:#888; border:0px;}
+em{font-style:normal;}
+
+.wal{width:993px; margin:0px auto; overflow:hidden;}
+.w1000{width:1000px; margin:0px auto; overflow:hidden;}
+.pageBg{background:#FFF url(../image/pageBg.gif) left repeat-y; min-height:500px; _height:500px;}
+.w224{width:224px; overflow:hidden;}
+.w771{width:771px; background:#FFF; min-height:600px; _height:600px;}
+.w299{width:299px; overflow:hidden;}
+.w686{width:686px; overflow:hidden;}
+
+.headDiv{position:relative; background:url(../image/head.png) center 44px repeat-x; height:155px;}
+.headDiv .wal{height:155px; position:relative;}
+.headDiv .logo{position:absolute; left:0px; top:80px;}
+/*.headDiv .logo{position:absolute; left:0px; top:80px; background:url(../image/logo.png) left top no-repeat; width:204px; height:43px;}*/
+.headDiv .content{position:absolute; right:45px; top:125px; white-space:nowrap; color:#d7d7d7;}
+.headDiv .content a{padding:0 6px; font-size:13px; color:#d7d7d7;}
+.topNotice{position:absolute; left:0px; top:0px; width:645px; height:42px; line-height:42px; overflow:hidden; color:#FFF;  background:url(../image/topNotice.png) 28px center no-repeat;}
+.topNotice em{float:left; display:block; padding-left:58px; width:70px; overflow:hidden;}
+.topNotice a{color:#FFF;}
+.topNotice .list{float:left; width:505px; overflow:hidden;}
+.topSearch{position:absolute; top:12px; right:28px;color:#fff;}
+.topSearch .input1{float:left; margin-right:5px; background:url(../image/input1.png) left top no-repeat; width:119px; height:24px; line-height:24px; text-indent:10px; color:#adadad;}
+.topSearch .btn1{background:url(../image/btn1.png); width:72px; height:25px; cursor:pointer; float:left;}
+.topSearch .btn2{display:block; float:left; background:url(../image/btn2.png) center top no-repeat; width:82px; height:25px; line-height:25px; text-align:center; color:#FFF; overflow:hidden;}
+.topSearch .btn3{float:left; color:#FFF; line-height:25px; white-space:nowrap;}
+.nav{width:678px; height:48px; overflow:hidden; position:absolute; right:0px; top:70px;}
+.nav li{float:left; padding:8px 15px;}
+.nav .li_01{padding:6px 0 0 25px;}
+/**/
+#headDiv .logo{position:absolute; left:0px; top:47px;}
+#headDiv{height:112px; width:100%; overflow:hidden; position:absolute; z-index:20; left:0px; top:0px; background:none;}
+#headDiv .wal{height:112px; position:relative;}
+#headDiv .nav{background:url(../image/indexNav.png) left top no-repeat; top:44px;}
+
+.footDiv{height:124px; overflow:hidden; background:#111; text-align:center;}
+.footDiv .link{padding-top:15px; height:52px; overflow:hidden;}
+.footDiv .link a{padding:0 10px;}
+.footDiv .content{line-height:20px; color:#555;}
+.footDiv .content a{color:#555; padding:0 6px;}
+.footDiv .content a:hover{color:#FFF;}
+
+.footNav{height:545px; width:980px; overflow:hidden; position:relative;}
+.footNav ul{width:200%;}
+.footNav li{float:left; width:222px; overflow:hidden; padding-right:30px;}
+.footNav h1{padding:50px 0 0 0; color:#b3995c; height:35px; overflow:hidden;}
+.footNav h1 img{float:left; position:relative; top:3px; margin-right:5px;}
+.footNav h5{padding:10px 0 8px 0;}
+.footNav h5 a{color:#998048;}
+.footNav .content{line-height:20px; color:#73613b; padding-bottom:10px; text-align:justify; background:url(../image/lline.png) bottom repeat-x; font-family:Arial;}
+
+.tabContent{display:none;}
+
+.selectDiv{cursor:pointer;}
+.selectDiv span{padding-left:10px;}
+.selectDiv select{display:none;}
+/**/
+.selectLayer{position:absolute; z-index:100; display:none; background:#FFF; border:#bababa solid 1px;}
+.selectLayer li{height:22px; line-height:22px; overflow:hidden; padding-left:10px; color:#666;}
+
+.sideTab{height:40px; overflow:hidden; background:url(../image/sideTab.png) left top no-repeat; margin-top:14px;}
+.sideTab_1{background:url(../image/sideTab2.png) left top no-repeat;}
+.sideTab li{float:left; height:40px; line-height:200px; width:50%; overflow:hidden; cursor:pointer;}
+
+.sideTZ{text-shadow:2px 2px 3px #333;}
+.sideTZ h1{background:url(../image/sideTZbg1.gif) left top no-repeat; height:52px; line-height:52px; overflow:hidden; position:relative; cursor:pointer; padding-left:70px; color:#f2e0a8; font-weight:400;}
+.sideTZ h1 img{position:absolute; left:18px; top:10px;}
+.sideTZ h1 span{color:#FFF; position:absolute; top:0px; right:10px;}
+.sideTZ dl{background:#2c2c2c; margin-left:1px; padding:12px 0; font-size:14px; display:none;}
+.sideTZ dl a{display:block; height:36px; line-height:36px; overflow:hidden; position:relative; color:#f2e0a8; padding-left:55px; background:url(../image/ico1.png) 35px center no-repeat;}
+.sideTZ dl a span{position:absolute; top:0px; right:13px; color:#FFF;}
+
+
+
+
+
+
+
+
+
+

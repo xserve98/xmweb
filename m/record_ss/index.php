@@ -1,0 +1,1 @@
+﻿<?php include_once("../member/record_ss.php"); ?>

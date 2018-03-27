@@ -1,0 +1,2757 @@
+@CHARSET "UTF-8";
+
+html {
+	*overflow: hidden;
+}
+
+body {
+	color: #000000;
+	font-family: "Microsoft YaHei",Tahoma,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif; 
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+	width:0px;
+}
+
+.skin_red #layui-layer1 {
+    background: 0 0;
+    box-shadow: none;
+    border: none;
+    background-color: red;
+}
+
+
+ul li {
+	list-style: none outside none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table td,table th {
+	border: 1px solid;
+	padding: 0;
+}
+
+/*layout*/
+#header,#main,#side,.frame{
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+#main {
+	top: 140px;
+	bottom: 27px;
+	background: #b44249 url("../images/red/side_bg.jpg") no-repeat left bottom;
+	min-width: 1225px;
+}
+
+#side {
+	right: auto;
+	width: 283px;
+	border-right: 1px solid #ccc;
+}
+
+.frame {
+	background-color: #fff;
+	left: 283px;
+	width: auto;
+	
+}
+
+#header {
+	bottom: auto;
+	height: 140px;
+	min-width: 1225px;
+	overflow: visible;
+}
+
+a,a:hover {
+	text-decoration: none;
+}
+
+.logo {
+	left: 0px;
+	position: absolute;
+	top: 5px;
+	width: 210px;
+	height: 60px;
+}
+
+.top {
+	overflow: visible;
+}
+
+.header .menu {
+	color: #FDE6EB;
+	height: 67px;
+	padding-right: 0;
+	padding-top: 0;
+	width: 100%;
+}
+
+.menu a {
+	color: #ffffff;
+	text-align: center;
+}
+
+.header .menu a {
+	display: inline-block;
+	text-align: center;
+}
+
+.header .menu2 a {
+	width: 5em;
+}
+
+.header .menu a:hover,.header .menu .selected {
+	color: #FFCC00;
+	font-weight: bold;
+}
+
+.header .menu1 {
+	float: left;
+	height: 52px;
+	margin-left: 178px;
+	width: 538px;
+}
+
+.header .menu2 {
+	float: left;
+	margin: 10px 10px 0 25px;
+	line-height: 22px;
+}
+
+
+
+
+.themepicker {
+	float: left;	
+	margin: 25px 5px 0 0;
+}
+
+.themeicon {
+	float: left;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-image:url(../images/admin/chkboxsprite.png);
+	margin-right: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+}
+
+.icon1 {
+	 background-position: -0px -0px;
+}
+
+.icon2 {
+	background-position: -16px -0px;
+}
+
+
+.icon3 {
+	background-position: -32px -0px;
+}
+
+.icon1active {
+	 background-position: -0px -16px!important;
+}
+
+.icon2active {
+	background-position: -16px -16px!important;
+}
+
+.icon3active {
+	background-position: -32px -16px!important;
+}
+
+.logout {
+	margin-top: 20px;
+	height: 27px;
+	float:left;
+	color: #fff;
+	cursor: pointer;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align:center;
+	border: none;
+	background: url(images/admin/logout.png) no-repeat;
+	background-position: 9px 6px;
+}
+
+.logout * {
+	float: left;
+}
+
+
+.field-c {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#skinPanel {
+	display: inline-block;
+}
+
+#skinPanel ul {
+	padding: 0 0 10px 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	width: 5em;
+	z-index: 999;
+}
+
+#skinPanel ul li {
+	padding: 0 6px;
+	height: 20px;
+	line-height: 20px;
+	clear: both;
+}
+
+#skinPanel i {
+	float: left;
+	display: inline-block;
+	border: 1px solid #ffc8c8;
+	height: 9px;
+	width: 9px;
+	margin-top: 7px;
+}
+
+#skinPanel a {
+	width: 5em;
+}
+
+#skinPanel ul a {
+	width: 3em;
+}
+
+/*.header .menu .logout {
+	color: #FFDE00;
+	width: 3em;
+}*/
+
+
+
+.header .lotterys .show {
+	float: left;
+	margin-left: 38px;
+}
+
+
+
+.header .lotterys a span {
+	display: block;
+	width: 117px;
+	height: 46px;
+	
+}
+
+.more_game {
+	color: #ff0;
+}
+
+
+
+
+.header .lotterys .setting {
+	background: url("../images/setting.png") no-repeat 10px 18px;
+	padding-left: 35px;
+	cursor: pointer;
+	color: rgb(252, 247, 247);
+	position: absolute;
+	left: 1054px;
+}
+
+.header .lotterys .home {
+    background: url("../images/home.png") no-repeat 10px 18px;
+    padding-left: 35px;
+    cursor: pointer;
+    color: rgb(252, 247, 247);
+    margin-left: 15px;
+    position: absolute;
+	left: 1108px;
+}
+
+#lotteryChoose p {
+	color: red;
+}
+
+.popPanel {
+	width: 108px;
+	padding-bottom: 10px;
+	background-color: #490418;
+	position: absolute;
+	z-index: 2000;
+	left: 942px;
+	top: 99px;
+	display: none;
+}
+
+.popPanel a {
+	display: block;
+	width: 106px;
+	height: 30px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+
+.popPanel a:hover {
+	background-color: #823948;
+	color: #ff0;
+}
+
+
+.side_left {
+	
+}
+
+.side_left ul {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+
+.side_left .user_info {
+	overflow: hidden;
+}
+
+.side_left .info {
+	clear: both;
+	overflow: hidden;
+}
+
+.side_left .info span,.side_left .info label {
+	display: block;
+	float: left;
+	height: 22px;
+	line-height: 24px;
+	text-indent: 10px;
+}
+
+.side_left .info label {
+	color: #FEADB5;
+	text-align: right;
+}
+
+.side_left .info span {
+	color: #FFFFFF;
+}
+
+.zhanghu {
+	margin: 6px 0 8px;
+}
+
+.side_left #balance {
+	font-weight: bold;
+}
+
+.side_left .title {
+	background: url("../images/red/left_bg.png") no-repeat 0 0;
+	color: #fff;
+	font-weight: bold;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	width: 189px;
+	margin-top: 4px;
+    margin-left: 6px;
+}
+
+.side_left .worklogo {
+	height: 40px;
+	width: 177px;
+	position: absolute;
+	bottom: 2px;
+	overflow: hidden;
+}
+
+.worklogo img {
+	border: 0;
+	width: 177px;
+}
+
+.side_left #changeVer {
+	color: #162E92;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+}
+
+.left_a li a {
+	color: #FFFFFF;
+}
+
+#drawOfficial {
+	clear: both;
+	overflow: hidden;
+	width: 189px;
+}
+
+#drawOfficial ul {
+	margin: 8px 0 10px;
+	overflow: hidden;
+}
+
+#drawOfficial li {
+	color: #FFFFFF;
+	float: left;
+	line-height: 24px;
+	margin: 0 10px;
+	width: 157px;
+}
+
+#drawOfficial a {
+	color: #fff;
+}
+
+#drawOfficial a:hover {
+	color: red;
+}
+
+.side_left .control {
+	background: white;
+	text-align: center;
+	height: 25px;
+	border: 1px solid;
+}
+
+.side_left .control a {
+	background: url("images/red/btn-bg.png") repeat-x;
+	width: 66px;
+	height: 18px;
+	line-height: 18px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 4px;
+}
+
+.skin_blue .side_left .control a {
+	background: url("images/blue/btn-bg.png") repeat-x;
+}
+
+.side_left p {
+	margin: 0;
+	/*height: 18px;*/
+	line-height: 18px;
+}
+
+.side_left .bets .numbers span {
+	color: #067ece;
+}
+
+.side_left .bets .contents {
+	padding-left: 4em;
+	text-indent: 0;
+}
+
+.side_left .bets .bid {
+	color: #119400;
+}
+
+.side_left .bets .text {
+	color: #0017C7;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.side_left .bets .odds {
+	font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
+	color: red;
+	font-weight: bold;
+}
+
+#betResultPanel {
+	color: black;
+    margin-top: -1px;
+    width: 95%;
+    margin-left: 5px;
+}
+
+#betResultPanel .bresults {
+	max-height: 367px;
+	overflow: auto;
+}
+
+#betResultPanel .bets {
+	text-indent: 5px;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-top: 1px solid;
+}
+
+#betResultPanel li {
+	padding: 1px;
+	background: white;
+	border-top: 1px solid;
+}
+
+#betResultPanel .Paneltitle {
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid;
+	font-weight: bold;
+	text-align: center;
+	font-size: 14px;
+}
+
+#betResultPanel .total tr {
+	text-align: center;
+	height: 24px;
+	text-indent: 10px;
+	background: white;
+}
+
+#betResultPanel .total .label {
+	width: 75px;
+	background: #F8F9FE;
+}
+
+#betResultTotal {
+	font-weight: bold;
+}
+
+#betResultPanel table {
+	width: 100%;
+}
+
+#betResultPanel .bets td {
+	background: white;
+	text-align: center;
+}
+
+#betResultPanel .bets .head {
+	background: #ebd7d7;
+}
+
+#betResultPanel .bets .id {
+	width: 18%;
+}
+
+#betResultPanel .bets .nums {
+	width: 54%;
+}
+
+#betResultPanel .bets .amount {
+	text-align: left;
+	width: 28%;
+	text-indent: 2px;
+}
+
+#lastBets {
+	margin-top: 0px;
+}
+
+#lastBets .title a {
+	background: url("images/blue/btn.png") no-repeat 0 0;
+	position: relative;
+	display: block;
+	width: 37px;
+	height: 18px;
+	line-height: 18px;
+	color: #fff;
+	font-weight: normal;
+	margin: -24px 0 0 180px;
+}
+
+#lastBets .title a:hover {
+	background-position: -38px 0;
+}
+
+#lastBets .bets {
+	text-indent: 5px;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	color: black;
+	max-height: 300px;
+	overflow-y: auto;
+	border-left: 1px solid #E6B3BE;
+	border-right: 1px solid #E6B3BE;
+	border-bottom: 1px solid #E6B3BE;
+	width: 95%;
+    margin-left: 4px;
+}
+
+.skin_blue #lastBets .bets {
+	text-indent: 5px;
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	color: black;
+	max-height: 300px;
+	overflow-y: auto;
+	width: 95%;
+    margin-left: 4px;
+    border-radius: 5px;
+}
+
+#lastBets li {
+	padding: 1px;
+	background: white;
+	border-top: 1px solid #E6B3BE;
+}
+
+#lastBets li:nth-child(even) {
+	background: #efefef;
+}
+
+.skin_blue #lastBets li {
+	padding: 1px;
+	background: white;
+	border-top: 1px solid #b9c2cb;
+}
+
+#lastBets .bets p {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+#frame {
+	width: 100%;
+	height: 100%;
+}
+
+#footer {
+	top: auto;
+	min-width: 1225px;
+	background: url("../images/marquebg.png") repeat-x;
+  	border-bottom: 1px solid #E6B3BE;
+  	border-top: 1px solid #E6B3BE;
+  	line-height: 27px;
+  	height: 27px;
+  	text-indent: 3px;
+}
+
+#footer .info {
+	padding-right: 65px;
+}
+
+#footer .more {
+	position: absolute;
+	right: 18px;
+	top: 0;
+	color: #762D08;
+	/* margin-top: 5px; */
+}
+
+#footer span {
+    color: #35406D;
+}
+
+.skin_blue #footer span {
+    color: #35406D;
+}
+
+#footer span {
+    color: #626262;
+}
+
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #888;
+	opacity: 0.3;
+}
+
+.ui-front {
+	z-index: 100;
+}
+
+.ui-dialog {	
+	border: none;
+	background: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding-bottom: 1px;
+}
+
+.ui-dialog-titlebar {
+	padding: 10px 0;
+	line-height: 16px;
+	text-align: center;	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.ui-dialog-icon {
+	display: inline-block;
+	background-position: -52px -52px;
+	height: 11px;
+	width: 14px;
+	margin: 0 4px 0 10px;
+}
+
+.ui-dialog-title {
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff!important;
+	margin-left: 27px;
+}
+
+.ui-dialog-titlebar-close {
+	background-position: -52px -42px;
+	height: 9px;
+	width: 11px;
+	border: none;
+	margin: 3px 12px 0 0;
+	padding: 0;
+	float: right;
+	text-indent: 99999px;
+	font-size: 0;
+}
+
+.ui-dialog-buttonset {
+	border: 1px solid white;
+	text-align: center;
+	padding: 8px 0;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.ui-dialog-buttonset .ui-button {
+	border: none;
+	width: 66px;
+	height: 18px;
+	line-height: 18px;
+	margin-right: 5px;
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+.ui-dialog-buttonset .ui-state-hover {
+	background-position: 0 -19px;
+	color: #FFE400;
+	font-weight: bold;
+}
+
+.table {
+	word-wrap: break-word;
+	width: 100%;
+}
+
+.table thead th {
+	text-align: center;
+	color: #762d08;
+	height: 24px;
+	line-height: 24px;
+	background: #E57388 url("../images/red/table_headerbg.gif") repeat-x left top;
+}
+
+.skin_blue .table thead th {
+	color: #35406d;
+    background: #ffffff;
+    background: -moz- linear-gradient( top, #ffffff 0%, #ffffff 50%, #f0f0f0 51%, #f0f0f0 100%);
+    background: -webkit- linear-gradient( top, #ffffff 0%,#ffffff 50%,#f0f0f0 51%,#f0f0f0 100%);
+    background: linear-gradient( to bottom, #ffffff 0%,#ffffff 50%,#f0f0f0 51%,#f0f0f0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0f0f0', GradientType=0 );
+    border: 1px solid #cfd9e3;
+}
+
+.skin_red .table thead th {
+	background: rgb(255,255,255);
+    background: -moz- linear-gradient( top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,239,238,1) 51%, rgba(255,239,238,1) 100%);
+    background: -webkit- linear-gradient( top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,239,238,1) 51%, rgba(255,239,238,1) 100%);
+    background: linear-gradient( to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,239,238,1) 51%, rgba(255,239,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffefee', GradientType=0 );
+    color: #5A3038;
+    border: 1px solid #E6B3BE;
+}
+
+.notices tbody td {
+	font-weight: normal;
+	text-align: center;
+	color: #302F2F;
+	font-size: 13px;
+}
+
+.notices .contents {
+	text-align: left;
+	text-indent: 2em;
+}
+
+#betsBox table {
+	text-align: center;
+}
+
+#betsBox table th {
+	height: 24px;
+	white-space: nowrap;
+}
+
+#betsBox table td {
+	height: 26px;
+}
+
+#betsBox .contents {
+	text-align: left;
+	text-indent: 1em;
+}
+
+#betsBox .odds {
+	color: red;
+}
+
+#betsBox .amount input {
+	width: 50px;
+}
+
+#betsBox .check {
+	width: 28px;
+}
+
+#betsBox a {
+	color: blue;
+	cursor: pointer;
+}
+
+#betsBox .multiple ol {
+	position: absolute;
+	background: white;
+	width: 300px;
+	padding: 5px;
+	margin: 0;
+	border: 1px solid;
+	list-style-position: inside;
+}
+
+#betsBox .multiple li {
+	float: left;
+	margin: 0 5px;
+}
+
+#betsBox .multiple li span {
+	color: blue;
+}
+
+#betsBox .bottom {
+	border: 1px solid;
+}
+
+#betsBox .bottom span {
+	display: inline-block;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+}
+
+#bcount {
+	width: 127px;
+	border-right: 1px solid;
+}
+
+#btotal {
+	width: 215px;
+}
+
+#betsBox .betList {
+	max-height: 300px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.skin_red {
+	background: url("../images/red/main_bg.jpg") no-repeat 0 0 #A12F37;
+}
+
+.skin_red .ui-dialog {
+	border-color: #DF678D;
+}
+
+.skin_red .ui-dialog-titlebar {
+	background: url("images/red/openwinbg.png") repeat-x top;
+}
+
+.skin_red .ui-dialog-icon,.skin_red .ui-dialog-titlebar-close {
+	background-image: url("images/red/btn.png");
+}
+
+.skin_red .ui-dialog-content {
+	margin: 10px;
+	    border: 1px solid #d8d8d8;
+    padding: 10px;
+}
+
+.skin_red .ui-dialog-buttonset {
+	background: #FFEAF2;
+}
+
+.skin_red .ui-dialog-buttonset .ui-button {
+	background-image: url("images/red/btn-bg.png");
+}
+
+.skin_red #betResultPanel .bets,.skin_red #betResultPanel li,.skin_red .control,.skin_red table td,.skin_red table th,.skin_red #betsBox .bottom,.skin_red #bcount
+	{
+	border-color: #E6B3BE;
+}
+
+.skin_red .skinHover,.skin_red .skinHover ul {
+	background: #B0565A;
+}
+
+.menu1 .draw_number {
+	margin-top: 10px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	margin-left: 73px;
+	position: relative;
+}
+
+.menu1 .draw_number div {
+	height: 22px;
+	line-height: 22px;
+	text-align: left;
+	
+}
+.speakericon {
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	top: 27px;
+	left: 102px;
+	cursor: pointer;
+}
+
+.menu1 a {
+	display: block;
+	float: left;
+	margin-left: 30px;
+	margin-top: -5px;
+}
+
+.info .input {
+	width: 60px;
+}
+
+.contents .text {
+	color: #2836f4;
+}
+
+#betBox .drawNumber {
+	color: #299a26;
+}
+
+.contents .odds {
+	color: red;
+	font-weight: bold;
+	font-family: Verdana, Arial, Sans;
+}
+
+.plus {
+	height: 24px;
+	line-height: 24px;
+}
+
+.ui-dialog-content {
+	background-color: #fff!important;
+}
+
+/*======================================== skin_blue =========================================*/
+.skin_blue body {
+	color: #495181;
+}
+
+.skin_blue #main {
+	background: #2f6ed7 url("../images/blue/side_bg.jpg") no-repeat left top;
+}
+
+.skin_blue #side {
+	margin: 0 0 0 0;
+	right: auto;
+	width: 283px;
+}
+
+.skin_blue .frame {
+	background-color: #fff;
+}
+
+.skin_blue .header .menu {
+	color: #EBEFF5;
+}
+
+.skin_blue .header .menu a {
+	color: #EBEFF5;
+	display: inline-block;
+	text-align: center;
+}
+
+.skin_blue .header .menu2 a {
+	width: 5em;
+}
+
+.skin_blue .header .menu a:hover,.header .menu .selected {
+	color: #ffff00;
+}
+
+.skin_blue .header .menu1 {
+
+}
+
+.skin_blue .header .lotterys a {
+	color: #fff;
+}
+
+.skin_blue .header .lotterys a:hover {
+	color: #1e579f;
+}
+
+.skin_blue .header .lotterys a span {
+	width: 117px;
+}
+
+.skin_blue .more_game {
+	color: #4b5465;
+}
+
+.skin_blue .header .lotterys .selected, .skin_blue .header .lotterys .selected2, .skin_blue .header .lotterys .menumoregame:hover {
+	background: rgb(254,254,254); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(230,230,230,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(230,230,230,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(254,254,254,1) 0%,rgba(230,230,230,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+	color: #1e579f;
+}
+
+.skin_blue .header .sub {
+	color: #666!important;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 210px;
+}
+
+.skin_blue .header .sub a {
+	padding: 0 0.5em;
+}
+
+.skin_blue .header .sub a:hover,.skin_blue .header .sub .selected {
+	color: #f98d5c;
+	font-weight: bold;
+}
+
+.skin_blue .side_left .info label {
+	color: #36639D;
+}
+
+.skin_blue .side_left .info span {
+	color: #fff;
+	width: 100px;
+}
+
+.skin_blue .side_left .title {
+	background: url("../images/blue/left_bg.png") no-repeat 0 0;
+	font-size: 13px;
+	color: #fff;
+	font-weight: bold;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	width: 183px;
+	margin-top: 4px;
+	margin-left: 6px;
+}
+
+.skin_blue .side_left .worklogo {
+	width: 189px;
+}
+
+.skin_blue #drawOfficial {
+	clear: both;
+	overflow: hidden;
+	width: 189px;
+}
+
+.skin_blue .popPanel a:hover {
+	background-color: #264167;
+}
+
+.skin_blue #drawOfficial li {
+	color: #959595;
+}
+
+.skin_blue #drawOfficial a {
+	color: #fff;
+}
+
+.skin_blue #drawOfficial a:hover {
+	color: red;
+}
+
+.skin_blue #footer {
+  background: url("../images/marquebg.png") repeat-x;
+  border-bottom: 1px solid #B5C6E2;
+  border-top: 1px solid #B5C6E2;
+  line-height: 27px;
+  height: 27px;
+  text-indent: 3px;
+}
+
+.skin_blue #footer .more {
+	color: #3e34fc;
+
+}
+
+.skin_blue .ui-dialog-title {
+	color: #35406d;
+}
+
+.skin_blue .field-c {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skin_red .field-c {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skin_gray .field-c {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.skin_blue .ui-dialog {
+	border-color: #6C8AC2;
+	background-color: #eff2ff;
+}
+
+.skin_red .ui-dialog {
+	border-color: #FFEAF2;
+    background-color: #F5E7ED;
+}
+
+.skin_gold .ui-dialog {
+    border-color: #D6CC9C;
+    background-color: #EAE7D4;
+}
+
+.skin_blue .ui-dialog-content {
+
+}
+
+.skin_blue .ui-dialog-buttonset {
+	background: #edf4fe;
+}
+
+.skin_blue .skinHover,.skin_blue .skinHover ul {
+	background: #234b95;
+}
+
+.skin_blue .ui-dialog-titlebar {
+	background-color: #2161b3;
+}
+
+.skin_red .ui-dialog-titlebar {
+    background-color: #6a1f2d;
+}
+
+.skin_gold .ui-dialog-titlebar {
+    background-color: #8c420b;
+}
+
+.skin_blue .ui-dialog-icon,.skin_blue .ui-dialog-titlebar-close {
+	background-image: url("images/blue/btn.png");
+}
+
+.skin_red .ui-dialog-icon,.skin_red .ui-dialog-titlebar-close {
+	background-image: url("images/red/btn.png");
+}
+
+.skin_gold .ui-dialog-icon,.skin_gold .ui-dialog-titlebar-close {
+	background-image: url("images/gold/btn.png");
+}
+
+.skin_blue .ui-dialog-content {
+	margin: 10px;
+	border: 1px solid #d8d8d8;
+    padding: 10px;
+}
+
+.skin_blue .ui-dialog-buttonset .ui-button {
+	background-image: url("images/blue/btn-bg.png");
+}
+
+.skin_blue #betResultPanel .Paneltitle {
+	background: url("images/blue/th_bg.png") repeat-x 0 -100px;
+	color: #F5F6F8;
+	border-color: #88ABDA;
+	background-color: #88ABDA;
+}
+
+.skin_blue #betResultPanel .bets,.skin_blue #betResultPanel li,.skin_blue .control,.skin_blue table td,.skin_blue table th,.skin_blue #betsBox .bottom,.skin_blue #bcount
+	{
+	border-color: #b9c2cb;
+}
+
+.skin_blue .header .menu3 a{
+    /* background-image: url("../images/blue/logout.png"); */
+}
+
+.skin_blue .header .menu3 a:hover{
+    /* background-image: url("../images/blue/logout_rollover.png"); */
+}
+
+.skin_blue .popPanel {
+	background-color: #386BAD;
+}
+
+.skin_blue .button {
+background: #5b8ac7; /* Old browsers */
+background: -moz-linear-gradient(top,  #5b8ac7 0%, #2765b5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #5b8ac7 0%,#2765b5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #5b8ac7 0%,#2765b5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b8ac7', endColorstr='#2765b5',GradientType=0 ); /* IE6-9 */
+
+	border: 1px solid #1e57a0;
+	font-size:13px;
+	color: #FFFFFF;
+	height: 20px;
+	line-height: 16px;
+	width: 60px; 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.control .button:hover { color: #FFE400;	font-weight: bold;}
+
+/*======================================== skin_gray =========================================*/
+.skin_gray body {
+	color: #495181;
+}
+
+.skin_gray #main {
+	background: #c0c0c0 url("../images/gray/side_bg.jpg") no-repeat left top;
+}
+
+.skin_gray #side {
+	margin: 0 0 0 0;
+	right: auto;
+	width: 200px;
+}
+
+.skin_gray .popPanel {
+	background-color: #BDBDBD;
+}
+
+.skin_gray .frame {
+	background-color: #fff;
+}
+
+.skin_gray #header {
+	background-image: url("../images/gray/nav_bg.png");
+}
+
+.skin_gray .header .menu {
+	color: #000000;
+}
+
+.skin_gray .header .menu a {
+	color: #000000;
+	display: inline-block;
+	text-align: center;
+}
+
+.skin_gray .header .menu2 a {
+	width: 5em;
+}
+
+.skin_red .header .menu a:hover,.skin_red .header .menu .selected {
+	color: #FFFF00;
+}
+
+.skin_gold .header .menu a:hover,.skin_gold .header .menu .selected {
+	color: #6F3408
+}
+
+.skin_gray .header .menu1 {
+	background: url("../images/gray/top_bg.png");
+}
+
+.skin_gray .header .lotterys a {
+	color: #fff;
+}
+
+.skin_gray .header .lotterys a:hover {
+	color: #FFFF00;
+}
+
+.skin_gray .header .lotterys a span {
+	width: 117px;
+	background: url(../images/gray/nav_shuxian.png) no-repeat right 22px;
+}
+
+.skin_gray .more_game {
+	color: #4b5465;
+}
+
+.skin_gray .header .lotterys .selected {
+	background: url(../images/gray/nav_hover.png) no-repeat 4px 0;
+	color: #FFFF00;
+}
+
+.skin_gray .header .sub {
+	color: #FFF;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 210px;
+}
+
+.skin_gray .header .sub a {
+	padding: 0 0.5em;
+}
+
+.skin_gray .header .sub a:hover,.skin_gray .header .sub .selected {
+	color: #FFFF00;
+	font-weight: bold;
+}
+
+.skin_gray .side_left .info label {
+	color: #000000;
+}
+
+.skin_gray .popPanel a:hover {
+	background-color: #cccccc;
+	color: #000000;
+}
+
+.skin_gray .side_left .info span {
+	color: #D8A328;
+	width: 90px;
+}
+
+.skin_gray .side_left .title {
+	background: url("../images/gray/left_bg.png") no-repeat 0 0;
+	font-size: 13px;
+	color: #fff;
+	font-weight: bold;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	width: 183px;
+	margin-top: 4px;
+	margin-left: 6px;
+}
+
+.skin_gray .side_left .worklogo {
+	width: 189px;
+}
+
+.skin_gray #drawOfficial {
+	clear: both;
+	overflow: hidden;
+	width: 189px;
+}
+
+.skin_gray #drawOfficial li {
+	color: #959595;
+}
+
+.skin_gray #drawOfficial a {
+	color: #fff;
+}
+
+.skin_gray #drawOfficial a:hover {
+	color: red;
+}
+
+.skin_gray #footer {
+  background: url("../images/marquebg.png") repeat-x;
+  border-bottom: 1px solid #9B9BA2;
+  border-top: 1px solid #9B9BA2;
+  line-height: 27px;
+  height: 27px;
+  text-indent: 3px;
+}
+
+.skin_gray #footer .more {
+	color: #313133;
+}
+
+.skin_gold .ui-dialog-title {
+	color: #313133;
+}
+
+.skin_gold .ui-dialog-buttonset .ui-button {
+	background: #E3BB4C;
+    background: -moz- linear-gradient( top, #EBCE66 0%, #8C420B 100%);
+    background: -webkit- linear-gradient( top, #EBCE66 0%,#8C420B 100%);
+    background: linear-gradient( to bottom, #EBCE66 0%,#8C420B 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b8ac7', endColorstr='#2765b5', GradientType=0 );
+    border: 1px solid #AF9626;
+    height: 20px;
+    line-height: 16px;
+    width: 60px;
+    margin: 0 0 0 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.skin_gray {
+	background: #C6C6C6;
+}
+
+.skin_gold .ui-dialog {
+	border-color: #AAAAAA;
+}
+
+.skin_gold .ui-dialog-content {
+	margin: 10px;
+	border: 1px solid #d8d8d8;
+    padding: 10px;
+}
+
+.skin_gold .ui-dialog-buttonset {
+	background: #DECFA1;
+}
+
+.skin_gold .ui-dialog-buttonset {
+	border: 1px solid #DECFA1;
+}
+
+.skin_gold #betResultPanel .bets,.skin_gold #betResultPanel li,.skin_gold .control,.skin_gold table td,.skin_gold table th,.skin_gold #betsBox .bottom,.skin_gold #bcount{
+	border-color: #D8CD87;
+}
+
+.skin_gold .table thead th {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(249,244,197,1) 51%, rgba(249,244,197,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(249,244,197,1) 51%,rgba(249,244,197,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(249,244,197,1) 51%,rgba(249,244,197,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9f4c5',GradientType=0 );
+    color: #8C420B!important;
+    border: 1px solid #D8CD87;
+}
+
+.skin_gold #lastBets li {
+    border-top: 1px solid #D8CD87;
+}
+
+.skin_gold #lastBets .bets {
+    border-left: 1px solid #D8CD87;
+    border-right: 1px solid #D8CD87;
+    border-bottom: 1px solid #D8CD87;
+}
+
+.skin_gold .button {
+    background: #8B5730;
+    background: -moz- linear-gradient( top, #5b8ac7 0%, #2765b5 100%);
+    background: -webkit- linear-gradient( top, #5b8ac7 0%,#2765b5 100%);
+    background: linear-gradient( to bottom, #C8AE62 0%,#96623A 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b8ac7', endColorstr='#2765b5', GradientType=0 );
+    border: 1px solid #CAB065;
+    font-size: 13px;
+    color: #FFFFFF;
+    height: 20px;
+    line-height: 16px;
+    width: 60px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.skin_gray .skinHover,.skin_gray .skinHover ul {
+	background: #B2B2B2;
+}
+
+.skin_gray .ui-dialog-titlebar {
+	background: url("images/gray/openwinbg.png") repeat-x top;
+}
+
+.skin_gray .ui-dialog-icon,.skin_gray .ui-dialog-titlebar-close {
+	background-image: url("images/gray/btn.png");
+}
+
+.skin_gray .ui-dialog-content {
+	margin: 10px;
+	border: 1px solid #d8d8d8;
+    padding: 10px;
+}
+
+.skin_gray .ui-dialog-buttonset .ui-button {
+	background-image: url("images/gray/btn-bg.png");
+}
+
+.skin_gray #betResultPanel .Paneltitle {
+	background: url("images/gray/th_bg.png") repeat-x 0 -100px;
+	color: #fff;
+    border-color: #818181;
+    background-color: #818181;
+}
+
+.skin_gray #betResultPanel .bets,.skin_gray #betResultPanel li,.skin_gray .control,.skin_gray table td,.skin_gray table th,.skin_gray #betsBox .bottom,.skin_gray #bcount
+	{
+	border-color: #b9c2cb;
+}
+
+.skin_gray #lastBets li {
+    border-top: 1px solid #CCCCCC;
+}
+
+.skin_gray #lastBets .bets {
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+
+.body_bg{ background:white;}
+
+/* additional css skin blue =========================*/
+
+.skin_blue .themeicon {
+	border: 1px solid #2161b3;
+}
+.skin_blue .header .lotterys {
+	background-color: #2161b3;
+}
+
+.skin_blue .header .lotterys a {
+	color: #fff;
+	background: url(../images/blue/nav_shuxian.png) no-repeat right 9px;
+}
+
+.skin_blue .header .lotterys a:hover {
+	color: #1e579f;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefefe+0,e6e6e6+100 */
+	background: rgb(254,254,254); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(230,230,230,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(230,230,230,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(254,254,254,1) 0%,rgba(230,230,230,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+}
+
+
+.skin_blue .header .sub {
+	color: #666;
+}
+
+.skin_blue .header .sub a {
+	color: #666;
+}
+
+.skin_blue .header .sub a:hover,.skin_blue .header .sub .selected {
+	color: #f98d5c;
+}
+
+
+.skin_blue .logo {
+	/* background-image:url(../images/blue/logo.png); */
+}
+
+.skin_blue #header {
+	background: url("../images/blue/main_bg.jpg") no-repeat 0 0;
+}
+
+.skin_blue .logout {
+	background-color: #2f97f7;
+}
+
+.skin_blue .header .lotterys .selected, .skin_blue .header .lotterys .menumoregame .selected2{
+	background: rgb(254,254,254); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(230,230,230,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(230,230,230,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(254,254,254,1) 0%,rgba(230,230,230,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+	color: #1e579f;
+}
+
+
+.skin_blue .menumoregame .selected2{
+	background: rgb(254,254,254)!important;
+	background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(230,230,230,1) 100%)!important;
+	background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(230,230,230,1) 100%)!important;Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(254,254,254,1) 0%,rgba(230,230,230,1) 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e6e6e6',GradientType=0 )!important;
+	color: #1e579f!important;
+}
+
+.skin_blue  .menumoregame a:hover {
+	background: rgb(254,254,254)!important;
+	background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(230,230,230,1) 100%)!important;
+	background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(230,230,230,1) 100%)!important;Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(254,254,254,1) 0%,rgba(230,230,230,1) 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e6e6e6',GradientType=0 )!important;
+	color: #1e579f!important;
+}
+
+.skin_blue  .spritearrow { background: url('../images/blue/arrowsprite.png') no-repeat top left; width: 38px; height: 38px;  cursor: pointer; position: absolute; top: 0;
+left: 0;} 
+
+
+.skin_blue .gamecontainer {
+	background-color: #e7e7e7;
+	border: 1px solid #2161b3;
+}
+
+.skin_blue  .menuheaderitm {
+	
+	color: #2161b3;
+	border-right: 1px solid #2161b3;
+	border-left: 1px solid #fff;
+	
+}
+
+.skin_blue  .menuitemactive {
+	background-color: #2161b3;
+	color: #fff;
+}
+.skin_blue  .menuheaderitm:hover {
+	background-color: #2161b3;
+	color: #fff;
+}
+
+
+.skin_blue  .gamebtn1 {
+	background-color: #2161b3;
+	border: 1px solid #2161b3;
+}
+
+.skin_blue  .gamebtn2 {
+	background-color: #cccccc;	
+	border: 1px solid #999;
+}
+
+
+
+.skin_blue  .sub {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e6e6e6+0,e7e7e7+100 */
+	background: rgb(230,230,230); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(230,230,230,1) 0%, rgba(231,231,231,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(230,230,230,1) 0%,rgba(231,231,231,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(230,230,230,1) 0%,rgba(231,231,231,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+	
+	border-bottom: 1px solid #ccc;
+}
+
+
+.skin_blue  .lpheader {
+	color: #fff;
+	background-color: #2161b3;
+}
+
+
+.lpcontent, .lpcontent2 {
+	border: 1px solid #999;
+	background-color: #fff;
+}
+
+
+.skin_blue  .sidenavibtn {
+	
+	border: 1px solid #f4521b;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9461+0,ff6835+100 */
+	background: rgb(255,148,97); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,148,97,1) 0%, rgba(255,104,53,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,148,97,1) 0%,rgba(255,104,53,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,148,97,1) 0%,rgba(255,104,53,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9461', endColorstr='#ff6835',GradientType=0 ); /* IE6-9 */
+	
+}
+
+.skin_blue  .sidenavibtn:hover , .skin_blue .sidenaviactive{
+	background-image: url(../images/blue/orangebtnbg.jpg);
+	background-position: bottom center;
+}
+
+
+.skin_blue .exlinkbtn {
+	border: 1px solid #2866b5;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e8cc8+1,2866b5+100 */
+background: rgb(94,140,200); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(94,140,200,1) 1%, rgba(40,102,181,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(94,140,200,1) 1%,rgba(40,102,181,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(94,140,200,1) 1%,rgba(40,102,181,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e8cc8', endColorstr='#2866b5',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+}
+
+.skin_blue .exlinkbtn:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#346fb9+0,346fb9+100 */
+background: rgb(52,111,185); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(52,111,185,1) 0%, rgba(52,111,185,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(52,111,185,1) 0%,rgba(52,111,185,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(52,111,185,1) 0%,rgba(52,111,185,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#346fb9', endColorstr='#346fb9',GradientType=0 ); /* IE6-9 */
+	
+}
+
+.skin_blue .lpheader2 {
+
+	border: 1px solid #2866b5;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e8cc8+1,2866b5+100 */
+	background: rgb(94,140,200); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(94,140,200,1) 1%, rgba(40,102,181,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(94,140,200,1) 1%,rgba(40,102,181,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(94,140,200,1) 1%,rgba(40,102,181,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e8cc8', endColorstr='#2866b5',GradientType=0 ); /* IE6-9 */
+
+}
+
+/*  blue skin end */
+
+/* additional css skin red ==========================*/
+
+.skin_red .themeicon {
+	border: 1px solid #6a1f2d;
+}
+
+.skin_red .header .lotterys {
+	background-color: #6a1f2d;
+}
+
+
+.skin_red .header .lotterys a {
+	color: #fff;
+	background: url(../images/red/nav_shuxian.png) no-repeat right 9px;
+}
+
+.skin_red .header .lotterys a:hover {
+	color: #54131e;
+	background: none;
+	background-color: #d67a84;
+}
+
+.skin_red .header .sub {
+	color: #fff;
+}
+
+.skin_red .header .sub a {
+	color: #fff;
+}
+
+
+.skin_red .header .sub a:hover,.skin_red .header .sub .selected {
+	color: #54131e!important;
+}
+
+.skin_red  .sub {
+
+	background-color: #d87c86;
+}
+
+.skin_red .logo {
+	/* background-image:url(../images/red/logo.png); */
+}
+
+.skin_red #header {
+	background: url("../images/red/main_bg.jpg") no-repeat 0 0;
+}
+
+.skin_red .logout {
+	background-color: #751d28;
+}
+
+.skin_red .header .lotterys .selected, .skin_red .header .lotterys .selected2, .skin_red .header .lotterys .menumoregame .selected2, .skin_red .header .lotterys .menumoregame:hover{
+	background:none;
+	background-color: #d67a84;
+	color: #54131e!important;
+}
+
+
+.skin_red .menumoregame .selected2{
+	background: none;
+	background-color: #e7e7e7!important;
+	color: #54131e!important;
+}
+
+.skin_red  .menumoregame a:hover {
+	background: none;
+	background-color: #d67a84!important;
+	color: #54131e!important;
+}
+
+.skin_red  .spritearrow { background: url('../images/red/arrowsprite.png') no-repeat top left; width: 38px; height: 38px;  cursor: pointer; position: absolute; top: 0;
+left: 0;} 
+
+
+.skin_red .gamecontainer {
+	background-color: #e7e7e7;
+	border: 1px solid #6a1f2d;
+}
+
+.skin_red  .gamebtn1 {
+	background-color: #ad394b;
+	border: 1px solid #ad394b;
+}
+
+.skin_red  .gamebtn2 {
+	background-color: #cccccc;	
+	border: 1px solid #999;
+}
+
+.skin_red  .menuheaderitm {
+	
+	color: #ac384a;
+	border-right: 1px solid #ac384a;
+	border-left: 1px solid #fff;
+	
+}
+
+.skin_red  .menuitemactive {
+	background-color: #ac384a;
+	color: #fff;
+}
+.skin_red  .menuheaderitm:hover {
+	background-color: #ac384a;
+	color: #fff;
+}
+
+
+.skin_red  .lpheader {
+	color: #ffffff;
+    background: rgb(216, 124, 134);
+    background: -moz- linear-gradient( top, rgba(216, 124, 134) 0%, rgba(199, 94, 114) 100%);
+    background: -webkit- linear-gradient( top, rgba(216, 124, 134) 0%, rgba(199, 94, 114) 100%);
+    background: linear-gradient( to bottom, rgb(216, 124, 134) 0%, rgb(199, 94, 114) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbd0d0', endColorstr='#d47686', GradientType=0 );
+    border: 1px solid #B53550;
+    width: 270px!important;
+}
+
+
+.skin_red .lpcontent {
+	padding: 6px 20px 8px 20px;
+    border: 1px solid #B53550;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+.skin_red  .sidenavibtn {
+	
+	border: 1px solid #f4521b;
+    background: rgb(255,148,97);
+    background: -moz-linear-gradient(top, rgba(255,148,97,1) 0%, rgba(255,104,53,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,148,97,1) 0%,rgba(255,104,53,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,148,97,1) 0%,rgba(255,104,53,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9461', endColorstr='#ff6835',GradientType=0 );
+
+
+	
+}
+
+.skin_red  .sidenavibtn:hover , .skin_red .sidenaviactive{
+	background-image: url(../images/blue/orangebtnbg.jpg);
+	background-position: bottom center;
+	color: #fff;
+}
+
+
+.skin_red .exlinkbtn {
+
+	color: #ffffff;
+    background: rgb(216, 124, 134);
+    background: -moz- linear-gradient( top, rgba(216, 124, 134) 0%, rgba(199, 94, 114) 100%);
+    background: -webkit- linear-gradient( top, rgba(216, 124, 134) 0%, rgba(199, 94, 114) 100%);
+    background: linear-gradient( to bottom, rgb(216, 124, 134) 0%, rgb(199, 94, 114) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbd0d0', endColorstr='#d47686', GradientType=0 );
+    border: 1px solid #B53550;
+
+}
+
+.skin_red .exlinkbtn:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d67b8a+0,fcd2d2+100 */
+	background: rgb(216, 124, 134);
+    background: -moz- linear-gradient( top, rgba(216, 124, 134) 0%, rgba(173, 53, 76) 100%);
+    background: -webkit- linear-gradient( top, rgba(216, 124, 134) 0%, rgba(173, 53, 76) 100%);
+    background: linear-gradient( to bottom, rgb(216, 124, 134) 0%, rgb(173, 53, 76) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbd0d0', endColorstr='#d47686', GradientType=0 );
+	
+}
+
+.skin_red .lpheader2 {
+
+	color: #ffffff;
+    background: rgb(216, 124, 134);
+    background: -moz- linear-gradient( top, rgba(216, 124, 134) 0%, rgba(199, 94, 114) 100%);
+    background: -webkit- linear-gradient( top, rgba(216, 124, 134) 0%, rgba(199, 94, 114) 100%);
+    background: linear-gradient( to bottom, rgb(216, 124, 134) 0%, rgb(199, 94, 114) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbd0d0', endColorstr='#d47686', GradientType=0 );
+    border: 1px solid #B53550;
+
+}
+
+.skin_red .button {
+    background: #C08087;
+    background: -moz- linear-gradient( top, #5b8ac7 0%, #2765b5 100%);
+    background: -webkit- linear-gradient( top, #5b8ac7 0%,#2765b5 100%);
+    background: linear-gradient( to bottom, #AE596B 0%,#94535F 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b8ac7', endColorstr='#2765b5', GradientType=0 );
+    border: 1px solid #AE586A;
+    font-size: 13px;
+    color: #FFFFFF;
+    height: 20px;
+    line-height: 16px;
+    width: 60px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* additional gold skin ==================*/
+.skin_gold .themeicon {
+	border: 1px solid #8c420b;
+}
+
+
+.skin_gold .header .lotterys {
+	background-color: #8c420b;
+}
+
+
+.skin_gold .header .lotterys a {
+	color: #fff;
+	background: url(../images/gold/nav_shuxian.png) no-repeat right 9px;
+}
+
+.skin_gold .header .lotterys a:hover {
+	color: #9e3905;
+	background: none;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3de7b+1,f8e9a5+100 */
+background: rgb(243,222,123); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(243,222,123,1) 1%, rgba(248,233,165,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(243,222,123,1) 1%,rgba(248,233,165,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(243,222,123,1) 1%,rgba(248,233,165,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3de7b', endColorstr='#f8e9a5',GradientType=0 ); /* IE6-9 */
+
+}
+
+.skin_gold .header .sub {
+	color: #666;
+}
+
+.skin_gold .header .sub a {
+	color: #666;
+}
+
+.skin_gold .draw_number div {
+	color: #fff!important;
+}
+
+.skin_gold .menu2, .skin_gold .menu2 a{
+	color: #832e02;
+}
+
+.skin_gold .menu2, .skin_gold .menu2 a:hover{
+	color: #c17b32;
+}
+
+.skin_gold .header .sub a:hover,.skin_gold .header .sub .selected {
+	color: #9e3905!important;
+}
+
+.skin_gold  .sub {
+	background-color: #f8e9a5;
+}
+
+.skin_gold .logo {
+	/* background-image:url(../images/gold/logo.png); */
+}
+
+.skin_gold #header {
+	background: url(../images/gold/main_bg.jpg) no-repeat 0 0;
+}
+
+.skin_gold .logout {
+background-color: rgb(189, 135, 59); /* Old browsers */
+
+}
+
+.skin_gold .header .lotterys .selected, .skin_gold .header .lotterys .selected2, .skin_gold .header .lotterys .menumoregame .selected2, .skin_gold .header .lotterys .menumoregame:hover{
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3de7b+1,f8e9a5+100 */
+background: rgb(243,222,123); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(243,222,123,1) 1%, rgba(248,233,165,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(243,222,123,1) 1%,rgba(248,233,165,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(243,222,123,1) 1%,rgba(248,233,165,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3de7b', endColorstr='#f8e9a5',GradientType=0 ); /* IE6-9 */
+
+	color: #9e3905!important;
+}
+
+
+.skin_gold .menumoregame .selected2{
+	background: none;
+	background-color: #e7e7e7!important;
+	color: #9e3905!important;
+}
+
+.skin_gold  .menumoregame a:hover {
+	background: none;
+	background-color: #f8e9a5!important;
+	color: #9e3905!important;
+}
+
+.skin_gold  .spritearrow { background: url('../images/gold/arrowsprite.png') no-repeat top left; width: 38px; height: 38px;  cursor: pointer; position: absolute; top: 0;
+left: 0;} 
+
+
+.skin_gold .gamecontainer {
+	background-color: #e7e7e7;
+	border: 1px solid #c58514;
+}
+
+.skin_gold  .gamebtn1 {
+	background-color: #daa633;
+	border: 1px solid #daa633;
+}
+
+.skin_gold  .gamebtn2 {
+	background-color: #cccccc;	
+	border: 1px solid #999;
+}
+
+.skin_gold  .menuheaderitm {
+	
+	color: #8c420b;
+	border-right: 1px solid #8c420b;
+	border-left: 1px solid #fff;
+	
+}
+
+.skin_gold  .menuitemactive {
+	background-color: #8c420b;
+	color: #fff;
+}
+.skin_gold  .menuheaderitm:hover {
+	background-color: #8c420b;
+	color: #fff;
+}
+
+
+.skin_gold  .lpheader {
+	color: #973504;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8e9ad+0,e3bc5d+100 */
+background: rgb(248,233,173); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(248,233,173,1) 0%, rgba(227,188,93,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(248,233,173,1) 0%,rgba(227,188,93,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(248,233,173,1) 0%,rgba(227,188,93,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8e9ad', endColorstr='#e3bc5d',GradientType=0 ); /* IE6-9 */
+
+	border: 1px solid #bb7e12;
+	width: 270px!important;
+}
+
+
+.skin_gold .lpcontent {
+	padding: 6px 20px 8px 20px;
+	border: 1px solid #bb7e12;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+
+
+.skin_gold  .sidenavibtn {
+	
+	border: 1px solid #f4521b;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9461+1,ff6f3c+100 */
+background: rgb(255,148,97); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,148,97,1) 1%, rgba(255,111,60,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,148,97,1) 1%,rgba(255,111,60,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,148,97,1) 1%,rgba(255,111,60,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9461', endColorstr='#ff6f3c',GradientType=0 ); /* IE6-9 */
+
+	color: #fff;
+
+
+	
+}
+
+.skin_gold  .sidenavibtn:hover , .skin_gold .sidenaviactive{
+	background-image: url(../images/gold/orangebtnbg.jpg);
+	background-position: bottom center;
+	color: #fff;
+}
+
+
+.skin_gold .exlinkbtn {
+
+	color: #973504;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8e9ad+0,e3bc5d+100 */
+background: rgb(248,233,173); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(248,233,173,1) 0%, rgba(227,188,93,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(248,233,173,1) 0%,rgba(227,188,93,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(248,233,173,1) 0%,rgba(227,188,93,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8e9ad', endColorstr='#e3bc5d',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #c18314;
+
+}
+
+.skin_gold .exlinkbtn:hover {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e3bc5d+1,f8eaaf+100 */
+background: rgb(227,188,93); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(227,188,93,1) 1%, rgba(248,234,175,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(227,188,93,1) 1%,rgba(248,234,175,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(227,188,93,1) 1%,rgba(248,234,175,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3bc5d', endColorstr='#f8eaaf',GradientType=0 ); /* IE6-9 */
+
+
+	
+}
+
+.skin_gold .lpheader2 {
+
+		color: #973504;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8e9ad+0,e3bc5d+100 */
+background: rgb(248,233,173); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(248,233,173,1) 0%, rgba(227,188,93,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(248,233,173,1) 0%,rgba(227,188,93,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(248,233,173,1) 0%,rgba(227,188,93,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8e9ad', endColorstr='#e3bc5d',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #c18314;
+
+}
+
+
+
+/*  no skin */
+
+.header .sub {
+	height: 36px;
+	line-height: 36px;
+	padding-left: 210px;
+}
+
+.header .sub a {
+	padding: 0 0.5em;
+}
+
+.header .sub a:hover,.header .sub .selected {
+	font-weight: bold;
+}
+
+.header .lotterys a {
+	display: inline-block;
+	float: left;
+	height: 38px;
+	margin: 0;
+	text-align: center;
+	font-size: 13px;
+	line-height: 38px;
+}
+
+.header .lotterys {
+	height: 38px;
+	margin-left: 0;
+	margin-top: -2px;
+	padding-left: 0;
+	position: relative;
+}
+
+
+#side {
+	background-color: #e6e6e6;
+}
+
+#main {
+	z-index: -1;
+}
+
+.mrl5 {
+	margin-left: 5px!important;
+}
+
+.gamebox .row1 {
+	-min-height: 18px;
+	font-size: 13px;
+	color: #000;
+	margin-bottom: 3px;	
+}
+
+.gamebox .row1:last-child {
+	margin-bottom: 0;	
+}
+
+.gamebox .col {
+	width: 33.3%;
+	float: left;	
+}
+
+.gamebox .col input[type="checkbox" i] {
+	margin-right: 5px;
+}
+
+.gamesmltxt {
+	margin-top: 20px;
+	font-size: 12px;
+	color:#333; 
+	float: left;
+}
+
+.gamebtn1, .gamebtn2 {
+	float: right;
+	margin-right: 5px;
+	padding: 8px;
+	text-align:center;
+	width: 90px;
+	color: #fff;
+	margin-top: 10px;
+	cursor: pointer;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.menuheaderitm:first-child {
+	border-left: none;
+}
+
+.menuheaderitm:last-child {
+	border-right: none;
+}
+
+.arrowdown { background-position: 0 0!important;	 } 
+.arrowup { background-position: 0 -38px!important;	 } 
+
+.menumoregame a {
+	background: none!important;	
+}
+
+#moregames {
+    padding: 10px 5px 10px 20px;
+}
+
+#moregameicon {
+    padding: 10px 10px 10px 5px;
+}
+
+.menucontainer {
+    width: 1208px;
+    position: relative;
+}
+
+.menumoregame div {
+    float: left;
+    cursor: pointer;
+}
+
+.menumoregame {
+	height: 38px;
+	width: auto;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 21px;
+	z-index: 9;
+}
+
+.gamecontainer {
+	display: none;
+	position: absolute;
+	top: 37px;
+	left: 676px;
+	width: 480px;
+	height: auto;
+	padding: 0 15px 10px 15px;
+}
+
+.menuheader {
+	padding-top: 5px;
+	height: 28px;
+	text-align:center;
+}
+
+.menuheaderitm {
+	display: inline-block;
+	padding: 5px 20px;
+	cursor: pointer;
+}
+
+.gamebox {
+	padding: 25px 35px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    display: none;
+    height: auto;
+    margin-top: 5px;
+    border-top: none;
+}
+
+.sub {
+	height: 38px;
+}
+
+.lpheader {
+	width: 273px;
+	padding: 8px 0;
+	font-size: 	14px;
+	font-weight: bold;
+	text-align: center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin: 4px 5px 0 5px;
+	position: relative;
+	z-index:2;
+}
+
+
+
+.lpcontent {
+	margin: -2px 0 2px 5px;
+	padding:8px 20px;
+	width: 230px;
+	border-top: none!important;
+	line-height: 20px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	font-size: 13px;
+	position: relative;
+	z-index:1;
+}
+.refresh {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    width: 35px;
+    height: 34px;
+    cursor: pointer;
+    background-image: url(/newdsn/images/refresh.png);
+}
+
+.lpcontent2 {
+	margin: 2px 0 0 5px;
+	padding: 2px;
+	width: 185px;
+	height: 285px;
+	line-height: 20px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 14px;
+	position: relative;
+	background-color: #fff;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	position: relative;
+}
+
+.lpcontent2::-webkit-scrollbar {
+    width: 10px;
+}
+
+.lpcontent2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.lpcontent2::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+	background-color: #CCC;
+}
+
+.lpcontent2::-webkit-scrollbar-thumb:vertical:hover {
+    background: #ccc;
+}
+
+.lpcontent2a {
+	width: 245px;
+	height: auto;
+}
+
+.supportbtn div {
+	float: left;
+}
+
+.sidenavibtn {
+	padding: 6px 0 7px 0;
+	width: 89px;
+	margin-left: 2px;
+	float: left;
+	color: #fff;
+	font-size: 13px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	cursor:pointer;
+	font-weight: bold;
+}
+
+.supportbtn { 
+	padding: 4px 0 3px 0;
+	width: 270px;
+	margin-left: 5px;
+	margin-top: 2px;
+
+	border: 1px solid #29904f;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5dd288+0,39c56d+100 */
+background: rgb(93,210,136); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(93,210,136,1) 0%, rgba(57,197,109,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(93,210,136,1) 0%,rgba(57,197,109,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(93,210,136,1) 0%,rgba(57,197,109,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5dd288', endColorstr='#39c56d',GradientType=0 ); /* IE6-9 */
+
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	cursor:pointer;
+	font-weight: bold;
+}
+
+.supportbtn:hover{
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00c656+0,00c656+100 */
+background: rgb(0,198,86); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(0,198,86,1) 0%, rgba(0,198,86,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,198,86,1) 0%,rgba(0,198,86,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,198,86,1) 0%,rgba(0,198,86,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c656', endColorstr='#00c656',GradientType=0 ); /* IE6-9 */
+	
+}
+
+.lpheader2 {
+	padding: 3px 0 6px 0;
+	width: 268px;
+	margin-left: 5px;
+	margin-top: 3px;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-align:center;
+}
+
+.tableinfo td {
+	font-size: 12px;
+	border: none;
+	height: 20px;
+	padding: 2px 10px;
+	color: #333;
+	border-bottom: 1px solid #ccc;
+}
+
+.tablehead td {
+	background-color: #ccc;
+	color: #333;
+	text-align:center;
+	height: 20px;
+}
+
+
+
+.exlinkbtn {
+	float: left;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+	padding: 6px 0;
+    width: 190px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+
+
+#footer {
+	border-top: 1px solid #cccccc!important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefefe+0,ededed+100 */
+	background: rgb(254,254,254)!important;
+	background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(237,237,237,1) 100%)!important;
+	background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(237,237,237,1) 100%)!important;Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(254,254,254,1) 0%,rgba(237,237,237,1) 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#ededed',GradientType=0 )!important;
+	
+height: 27px!important;
+}
+
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: table;
+}
+
+.clearfix:after {
+clear: both;
+}
+
+/*
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+
+.clearfix {
+*zoom: 1;
+}
+
+
+/* bet settings */
+
+#settingbet {
+	text-align:center;
+	display:none;
+}
+
+#settingbet .ds {
+	border: #B9C2CB 1px solid;
+    padding: 0 4px;
+	width: 110px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+
+.items {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.items li {
+    float: left;
+    margin: 0;
+}
+
+.item, .itemmg {
+    position: relative;
+}
+
+.itemmg {
+    width: 130px;
+    height: 38px;
+    float: left;
+    margin: 1px;
+}
+
+.new {
+    width: 25px;
+    height: 24px;
+    background-image: url(../images/newgame.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.skin_blue .itmselect .removebtn {
+    background-image: url(../images/blue/btnremove_over.png);
+}
+
+.skin_gold .itmselect .removebtn {
+    background-image: url(../images/gold/btnremove_over.png);
+}
+
+.skin_red .itmselect .removebtn {
+    background-image: url(../images/red/btnremove_over.png);
+}
+
+.removebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 127px;
+    height: 38px;
+    background-image: url(../images/btnremove.png);
+    background-repeat: no-repeat;
+    background-position: 110px 13px;
+    cursor: pointer;
+    display: none;
+}
+
+.skin_blue .header .lotterys .gamecontainer a {
+    background: none;
+}
+
+.skin_blue .header .lotterys .gamecontainer a {
+    background-color: #2161b3;
+}
+
+.skin_gold .header .lotterys .gamecontainer a {
+    background: none;
+}
+
+.skin_gold .header .lotterys .gamecontainer a {
+    background-color: #8c420b;
+}
+
+.skin_red .header .lotterys .gamecontainer a {
+    background: none;
+}
+
+.skin_red .header .lotterys .gamecontainer a {
+    background-color: #6a1f2d;
+}
+
+.addbtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 130px;
+    height: 38px;
+    background-image: url(../images/btnadd.png);
+    background-repeat: no-repeat;
+    background-position: 115px 13px;
+    cursor: pointer;
+    display: none;
+}
+
+.itemmg a {
+    width: 130px;
+}
+.lotterys a {
+    position: relative;
+}
+
+.header .lotterys .items a span {
+    display: block;
+    width: 124px;
+    height: 38px;
+    padding-right: 3px;
+}
+
+.skin_blue .header .lotterys .gamecontainer a span {
+    width: 130px;
+}
+
+.skin_blue .header .lotterys .gamecontainer a:hover {
+	background-color:#2161b3;
+	color: #fff;
+}
+
+.skin_red .header .lotterys .gamecontainer a span {
+	width: 130px;
+}
+.skin_red .header .lotterys .gamecontainer a:hover {
+	background-color:#6a1f2d;
+	color: #fff;
+}
+
+.skin_gold .header .lotterys .gamecontainer a span {
+	width: 130px;
+}
+.skin_gold .header .lotterys .gamecontainer a:hover {
+	background-color:#8c420b;
+	color: #fff;
+}
+
+.skin_gold .gamecontainer {
+    background-color: #f8e8a2;
+    border: 1px solid #c58514;
+}
+
+.skin_red .gamecontainer {
+    background-color: #d67a84;
+    border: 1px solid #6a1f2d;
+}
+
+.gamebox .selected span {
+    color: #fff;
+}
+
+.logout div{
+	margin-left: 21px;
+}
+
+.result_stat {
+    width: auto;
+    position: absolute;
+    top: 35px;
+    margin-left: 0px;
+}
+
+.ml4{
+	margin-left: 4px;
+}
+
+.ml8{
+	margin-left: 8px;
+}
+
+.result_stat .statitm {
+    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, .15);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    float: left;
+    text-align: center;
+    padding: 2px 0 4px;
+    width: 33px;
+    margin-left: 4px;
+    font-size: 11px;
+    line-height: 11px;
+}
+
+.result_list {
+	cursor:move;
+	width:400px;
+	height:400px;
+	background:Gainsboro;
+	border-style:solid;
+	border-color:Gainsboro;
+	position:absolute;
+	top:20%;
+	right:0%;
+	box-shadow: 0 0 3px 1px #888888;
+	-webkit-box-shadow: 0 0 3px 1px #888888;
+	-moz-box-shadow: 0 0 3px 1px #888888;
+}
+
+.result_list_header {
+	width:100%;
+	height:5%
+}
+.result_list div span {
+	float: left;
+	font-size: x-small;
+	color: red;
+}
+
+.result_list_block {
+	width:95%;
+	height:86%;
+	position:absolute;
+	bottom:2px;
+}
+
+.result_list_close {
+	float:right;
+	cursor:pointer;
+	font-size: large;
+	width: 20px;
+	text-align: center;
+}
+
+.result_frame {
+	width:100%;
+	height:94%;
+	bottom:2px;
+}

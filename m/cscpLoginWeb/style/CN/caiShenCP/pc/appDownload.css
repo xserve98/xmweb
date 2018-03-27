@@ -1,0 +1,184 @@
+
+@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font: 12px "\5B8B\4F53", san-serif;
+    background: #660000;
+    font-family: "微软雅黑";
+}
+a {
+    text-decoration: none;
+}
+
+.xiazai_top {
+    border-bottom: solid 1px #7c2929;
+    height: 120px;
+    line-height: 74px;
+    background: #770000!important; 
+}
+.xiazai_top_xq {
+    width: 70%;
+    margin: 0 auto;
+}
+.tubao_ming {
+    float: left;
+}
+.tubao_ming img {
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+img {
+    vertical-align: top;
+    border: 0;
+}
+.tubao_ming span {
+    color: #666666;
+    font-size: 24px;
+}
+.banben_m {
+    float: right;
+    color: #e0dede;
+    font-size: 13px;
+    max-width: 450px;
+    line-height: 22px;
+    padding-top: 24px;
+}
+.xiazai_center {
+    /* background: url(../../../../images/CN/caiShenCP/pc/xz_bg.png) no-repeat center; */
+    height: 547px;
+    background-color: #660000;
+    padding-top: 127px;
+}
+.xiazai_center_nav {
+   margin: 0 auto;
+    width: 940px;
+}
+.xiazai_shouji {
+    float: left;
+    /* margin-left:17%; */
+}
+.xiazai_shouji img {
+    background: url("../../../../images/CN/caiShenCP/pc/shouji.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/shouji.png*/ no-repeat;
+    padding: 91px 22px 0 27px;
+    margin-top: 49px;
+    width: 273px;
+    background-size: 100% 100%;
+    height: 443px;
+}
+.xiazai_xuanze {
+    float: left;
+    margin-top: 6%;
+    margin-left:7%;
+}
+.xiazai_xuanze h2 {
+    margin-bottom: 55px;
+}
+.xiazai_xuanze_sj_zuo {
+    float: left;
+}
+.xiazai_xuanze_sj_you {
+    float: left;
+}
+.btn-wrap {
+    min-height: 160px;
+    width: 250px;
+    position: relative;
+    padding-right: 240px;
+}
+.wrap {
+ width: 0px!important;
+ margin: 0px!important;
+}
+.wrap a {
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 22px;
+}
+.wrap a {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    float: left;
+    height: 44px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    padding: 12px 15px 12px 82px;
+    position: relative;
+    width: 151px;
+}
+.btn-wrap a .icon-clitw {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin-top: -21px;
+}
+.icon-clitw {
+    background-image: url("../../../../images/CN/caiShenCP/pc/mb_icon_client_white.png")/*tpa=http://juyou1989.com/cscpLoginWeb/images/CN/caiShenCP/pc/mb_icon_client_white.png*/;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    overflow: hidden;
+}
+.btn-wrap a em {
+    font-size: 12px;
+}
+
+.btn-wrap a span, .btn-wrap a em {
+    display: block;
+}
+.btn-wrap .bw-code {
+    color: #999;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.btn-wrap .bw-code em {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    display: block;
+    padding: 9px;
+    margin-bottom: 10px;
+    width: 160px;
+    color: #000;
+}
+.btn-wrap .bw-code em img {
+    width: 100%;
+    vertical-align: top;
+}
+.bw-code p {
+    color: #fff;
+}
+
+.ictw-android {
+    background-position: -42px 0;
+}
+.llqsm{font-weight: bold;}
+
+
+
+.main{min-height: 159px;border-bottom:1px #3d3d3d solid;width:150%;}
+.main ul li{float:left; color:#4f4f4f;margin-top:60px;}
+.main ul li a{ display:block; width:244px; text-align:center; font-size:16px; color:#a9a9a9; }
+.main ul li a p{color:#4f4f4f;}
+.main ul li a:hover{color:#fff;}
+
+
+.w_ul{
+	margin-left:-20%;
+}
+
+
+
+

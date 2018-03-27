@@ -1,0 +1,58 @@
+.qrcode {
+	width: 188px;
+	height: 377px;
+	position: fixed;
+	top: 140px;
+	right: 10px;
+	background-image:url(../images/qrcode.png);
+}
+
+.qrclose {
+	cursor: pointer;
+	position: absolute;
+	top: 4px;
+    right: 10px;
+}
+
+.qrcode .button{
+	width: 130px;
+	margin: 308px 0px 0px 50px;
+}
+.qrcode .button div{
+	box-shadow:-0.8px -0.8px 0px 0px #FFF,0px 0px 0px 0px rgb(255, 255, 255);
+	border-radius: 5px;
+	margin: 4px auto 0;
+	padding: 5px 3px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	font-weight: 900;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#44b9f9+0,0394ed+100 */
+	background: rgb(68,185,249); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(68,185,249,1) 0%, rgba(3,148,237,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(68,185,249,1) 0%,rgba(3,148,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(68,185,249,1) 0%,rgba(3,148,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44b9f9', endColorstr='#0394ed',GradientType=0 ); /* IE6-9 */
+
+
+}
+.qrcode .button div:hover{
+	box-shadow:0.8px 0.8px 0px 0px #FFF,0px 0px 0px 0px rgb(255, 255, 255);
+	color: #225eae;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#44b9f9+0,0b6de5+100 */
+	background: rgb(68,185,249); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(68,185,249,1) 0%, rgba(11,109,229,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(68,185,249,1) 0%,rgba(11,109,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(68,185,249,1) 0%,rgba(11,109,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44b9f9', endColorstr='#0b6de5',GradientType=0 ); /* IE6-9 */
+
+
+}
+.qrcode .button div p{
+	width: 90px;
+	margin: 0 auto;
+
+}
+.qrcode .button a{
+	text-decoration: none;
+}

@@ -1,0 +1,114 @@
+.indexFlash{height:750px; overflow:hidden; position:relative;}
+.indexFlash li{position:absolute; z-index:1; left:0px; top:0px; width:100%; height:750px;}
+.indexFlash .wal{padding-top:195px; position:relative; left:-10px;}
+
+.indexBtn{position:absolute; z-index:20; left:0px; top:490px; width:100%;}
+.indexBtn .wal{height:230px; position:relative;}
+.indexBtn .btn1{background:url(../image/indexBtn1.png) left top no-repeat; width:721px; height:227px; overflow:hidden; position:relative;}
+.indexBtn .btn1 ul{width:200%;}
+.indexBtn .btn1 li{float:left; width:194px; overflow:hidden; text-align:center; position:relative; top:1px;}
+.indexBtn .btn1 a{display:block; height:227px; position:relative;}
+.indexBtn .btn1 .imgDiv{height:224px; overflow:hidden; position:relative; display:none;}
+.indexBtn .btn1 .li_02{left:-18px;}
+.indexBtn .btn1 .li_03{left:-36px;}
+.indexBtn .btn1 .li_04{left:-54px;}
+.indexBtn .btn1 .name{position:absolute; z-index:10; left:0px; top:100px; width:100%; text-align:center;}
+.indexBtn .btn1 a:hover .imgDiv{display:block;}
+.indexBtn .btn1 a:hover .name{top:188px; width:92%;}
+/**/
+.indexBtn .btn2{background:url(../image/indexBtn2.png) left top no-repeat; width:274px; height:211px; overflow:hidden; position:absolute; right:0px; top:17px;}
+.indexBtn .btn2 li{float:left; width:137px; height:111px; overflow:hidden;}
+.indexBtn .btn2 a{display:block; height:100px; line-height:400px; overflow:hidden;}
+
+.game{padding-top:113px; height:453px; overflow:hidden; width:1002px; position:relative;}
+.game ul{width:120%;}
+.game li{float:left; width:163px; height:302px; overflow:hidden; background:url(../image/limg163.jpg) left top no-repeat; padding-right:4px; text-align:center;} 
+.game .name{height:32px; line-height:32px; overflow:hidden; background:#71140f; font-size:20px;}
+.game a{color:#fff;}
+.game .content{padding-top:45px;}
+.game .content a{padding:0 5px; font-size:13px;}
+.game .content a:hover{text-decoration:underline;}
+
+.memberForm{padding:20px 35px; font-size:13px;}
+.memberForm .name{height:32px; line-height:32px; overflow:hidden; background:#ececec; font-size:15px; color:#000; padding-left:10px;}
+.memberForm .msg{font-size:15px; color:#848484; padding:20px 0 12px 0;}
+/**/
+.memberForm .form li{height:35px; line-height:25px; overflow:hidden; padding-left:90px; position:relative;}
+.memberForm .form em{position:absolute; left:0px; top:0px; display:block; width:85px; text-align:right;}
+.memberForm .input1{float:left; width:178px; text-indent:10px; height:25px; line-height:25px; background:url(../image/linput2.gif) left top no-repeat; color:#666; font-size:14px;}
+.memberForm .input2{width:131px; background:url(../image/linput3.gif) left top no-repeat;}
+.memberForm .selectDiv{width:178px; height:25px; line-height:25px; overflow:hidden; background:url(../image/lselect.gif) left top no-repeat; float:left;}
+.memberForm .tips{float:left; padding-left:10px; white-space:nowrap;}
+.memberForm .tips span{color:#C00; padding-right:6px;}
+.memberForm li dd{float:left; white-space:nowrap; padding-right:12px;}
+.memberForm li dd input{float:left; margin-right:5px; position:relative; top:3px;}
+.memberForm textarea{width:317px; height:116px; border:#e7e7e7 solid 2px; padding:0px 10px; line-height:25px; font-size:12px; font-family:Arial, "微软雅黑"; color:#666;}
+.memberForm li .dl_01 dd{padding:0px; width:46px; height:20px; line-height:20px; text-align:center; background:#f4f4f4; margin-right:2px; position:relative; top:2px;}
+/**/
+.memberForm .radioList{padding:20px 0 0 0;}
+.memberForm .radioList li{height:33px;}
+.memberForm .radioList input{float:left; margin-right:6px; position:relative; top:-1px;}
+.memberForm .btnDiv{padding:5px 0 25px 22px;}
+.memberForm .btnDiv2{text-align:center;}
+.memberForm .btnDiv2 .btn1{margin:0 10px;}
+.memberForm .btn1{width:94px; height:27px; background:url(../image/lbtn.gif); cursor:pointer; font-size:13px; color:#424242;}
+.memberForm .content{line-height:25px; padding:0 0 25px 0;}
+.memberForm .content a{color:#C00;}
+
+.message{padding:20px 35px; font-size:13px;}
+.message .name{height:33px; line-height:33px; overflow:hidden; background:#ececec; padding-left:47px; position:relative;}
+.message .name img{position:absolute; left:22px; top:5px;}
+.message li{height:29px; line-height:29px; overflow:hidden; border-bottom:#ececec solid 1px; padding-left:47px; background:url(../image/lico6.png) 21px center no-repeat; position:relative; border-left:#FFF solid 1px; border-right:#FFF solid 1px;}
+.message li span{position:absolute; top:0px; right:20px; white-space:nowrap;}
+.message .liNow{border:#ececec solid 1px; border-top:0px;}
+.message .msg{height:28px; line-height:28px; overflow:hidden; background:#d0d0d0; padding-left:15px;}
+
+.messageShow{padding:20px 35px; font-size:13px;}
+.messageShow .name{height:32px; line-height:32px; padding-left:15px; overflow:hidden; background:#ececec;}
+.messageShow .content{line-height:25px; padding:10px 15px; text-align:justify; min-height:200px; _height:200px;}
+.messageShow .time{line-height:25px; text-align:right; padding:10px 15px;}
+.messageShow .msg{height:28px; line-height:28px; overflow:hidden; background:#d0d0d0; padding:0 15px; position:relative;}
+.messageShow .msg .fr a{color:#6a100c;}
+
+.dividend{padding:20px 35px; font-size:13px;}
+.dividend .btnDiv{height:32px; line-height:32px; overflow:hidden; background:#ececec;}
+.dividend .btnDiv li{float:left;}
+.dividend .btnDiv a{display:block; float:left; height:32px; padding:0 15px; border-right:#FFF solid 2px;}
+.dividend .msg{height:28px; line-height:28px; overflow:hidden; background:#d0d0d0; padding-left:15px;}
+.dividend th{height:32px; background:#b12620; color:#FFF; font-weight:400; text-align:left; padding-left:15px; border-right:#FFF solid 1px;}
+.dividend td{height:30px; padding-left:15px; border-bottom:#ececec solid 1px; border-right:#ececec solid 1px;}
+
+.deposit{padding:20px 35px; font-size:13px;}
+.deposit h1{height:27px; line-height:27px; overflow:hidden; font-size:17px; color:#721410; white-space:nowrap;}
+.deposit h1 span{float:left; padding-right:15px;}
+.deposit h1 a{display:block; float:left; width:96px; height:27px; text-align:center; overflow:hidden; background:url(../image/lbtn1.png) left top no-repeat; font-size:15px; color:#fff; font-weight:400;}
+.deposit .msg{padding:5px 0 70px 15px; line-height:40px; font-size:15px;}
+.deposit .content{font-size:15px; line-height:24px;}
+
+.phone{text-align:center; padding:60px 0 120px 0;}
+
+.sideNav{background:url(../image/sideNav.gif) center top no-repeat; padding-top:59px; width:300px;}
+.sideNav .list{padding:10px 0; background:#cf4c34;}
+.sideNav a{color:#fff; height:41px; line-height:40px; overflow:hidden; font-size:15px; overflow:hidden; display:block; text-align:center; margin-bottom:1px;}
+.sideNav a:hover, .sideNav .aNow{background:#8a2519;}
+
+.sideNav2{width:298px;}
+.sideNav2 h1{padding:13px 0; background:#7f1c17; text-align:center;}
+.sideNav2 a{height:27px; line-height:27px; text-align:center; overflow:hidden; border-top:#7f1c17 solid 1px; display:block; font-size:15px; color:#1a1a1a;}
+.sideNav2 a:hover, .sideNav2 .aNow{background:#7f1c17 url(../image/lico7.png) right center no-repeat; color:#fff;}
+
+.pageShow{background:#f8f8f8; min-height:500px; _height:500px; padding:20px;}
+.pageShow h1{font-size:17px; font-weight:400; color:#8a2519;}
+.pageShow h5{font-size:13px; font-weight:400; color:#8a2519; padding:20px 0;}
+.pageShow .content{line-height:22px; font-size:13px; color:#292929; text-align:justify;}
+
+.activity{width:1001px; padding-top:45px;}
+.activity li{padding-bottom:60px;}
+.activity .imgDiv{display:none;}
+
+
+
+
+
+
+

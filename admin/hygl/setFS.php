@@ -1,0 +1,1 @@
+update k_um set fs=0 where fs<1

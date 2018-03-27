@@ -1,0 +1,195 @@
+body{background: url(../images/ssc_backjp.jpg);	
+}
+.lottery_clear{ clear:both; height:0; width:0;}
+.lottery_main{ width:789px; margin:0; color:#FFF}
+.ssc_left{ float:left; display:inline; width:789px;}
+.ssc_left .flash{height:160px;}
+.ssc_left .flash .f_left{float:left; left:0px; display:inline; width:183px; height:160px; background:url(../images/ssc_sf_nl.png) no-repeat; position:relative}
+.ssc_left .flash .f_right{float:left; left:0px; display:inline; width:606px; height:160px; background:url(../images/ssc_sf_nr.png) no-repeat; position:relative; color:#FFF}
+.ssc_left .flash .f_left .time{position:absolute; height:17px; width:34px;}
+.ssc_left .flash .f_left .minute{top:83px; left:43px;}
+.ssc_left .flash .f_left .second{top:83px; left:97px;}
+.ssc_left .flash .f_left .colon{position:absolute; height:24px; width:11px; top:83px; left:83px;}
+.ssc_left .flash .f_left .qh{width:160px; height:30px; position:absolute; left:5px;top:15px; text-align:center; line-height:30px;font-weight:500; font-size:13px;color: #FFF;}
+.ssc_left .flash .f_left .qh span{ color:#fff500; font-weight:500; }
+
+.ssc_left .flash .f_left .laba_c{background-position:0 -15px;}
+.ssc_left .flash .f_right .tops{height:24px; line-height:20px; text-align:center; position:absolute; left:140px;top:88px;color: #FFF;}
+.ssc_left .flash .f_right .tops span{margin-left:3px}
+.ssc_left .flash .f_right .fot{text-align: center;position: absolute;height: 40px;width: 500px;left:70px;top: 113px;font-size:12px;color: #e9f004;}
+.ssc_left .flash .f_right .fot span{font-weight:500;color:#fcfcfb; margin-right:5px;}
+.ssc_left .flash .f_right .fot b{color:#FFF}
+.ssc_left .flash .f_right .kick{
+	width:48px;
+	height:45px;
+	position:absolute;
+	top:32px;
+	left: 36px;
+}
+.ssc_left .flash .f_right .er{
+	left:84px;
+}
+.ssc_left .flash .f_right .san{
+	left:132px;
+}
+.ssc_left .flash .f_right .si{
+	left:180px;
+}
+.ssc_left .flash .f_right .wu{
+	left:228px;
+}
+.ssc_left .flash .f_right .liu{
+	left:276px;
+}
+.ssc_left .flash .f_right .qi{
+	left:324px;
+}
+.ssc_left .flash .f_right .ba{
+	left:372px;
+}
+.sj {
+	position: absolute;
+	left: 12px;
+	top: 78px;
+	width:150px;
+	height:50px;
+	font-weight:bold;
+	font-size:33px;
+	text-align:center;
+	color:#FFF;
+}
+.cpsm {
+	position: absolute;
+	left: -173px;
+	top: 141px;
+	font-weight:500;
+	font-size:12px;
+	text-align:center;
+	color:#000;
+}
+
+.cpsm a{
+	color: #000;
+	text-decoration: none;
+	font-weight: 500;
+	cursor:pointer;
+}
+
+.gfwz {
+	position: absolute;
+	left: 416px;
+	top: 140px;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+	color:#ffff00;
+}
+
+.gfwz a{
+	color: #ffff00;
+	text-decoration: none;
+	font-weight: 500;
+	cursor:pointer;
+}
+
+.kjjg {
+	position: absolute;
+	left: 482px;
+	top: 140px;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+	color:#FFF;
+}
+
+.kjjg a{
+	color: #ffff00;
+	text-decoration: none;
+	font-weight: 500;
+	cursor:pointer;
+}
+
+.wfgz {
+	position: absolute;
+	left: 545px;
+	top: 140px;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+	color:#FFF;
+}
+
+.wfgz a{
+	color: #ffff00;
+	text-decoration: none;
+	font-weight: 500;
+	cursor:pointer;
+}
+
+.kjhm {
+	position: absolute;
+	left: 430px;
+	top: 12px;
+	width:170px;
+	height:80px;
+	text-align:center;
+	
+
+}
+.kjhm a{
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	cursor:pointer;
+}
+
+#cqc_sound{ position:relative; left:-8px;top:90px; cursor:pointer;}
+#cqc_sound img {border:none; padding:0; margin:0;}
+
+.ssc_left .touzhu{ width:776px; margin-top:5px;margin-left:7px;}
+.ssc_left .touzhu ul {list-style-type: none;width:776px;height:24px;overflow:hidden; padding:0; margin:0;}
+.ssc_left .touzhu ul li {float:left; margin-right:0px; font-weight:bold}
+.ssc_left .touzhu ul li span{ font-size:12px;}
+.ssc_left .touzhu ul li.current {background:#fff url(../images/ssc_btl01_n.png); width:96px; height:24px; line-height:24px; text-align:center; font-size:13px;color:#fdfd03}
+.ssc_left .touzhu ul li.current_n {background:#fff url(../images/ssc_btl01.png); width:96px; height:24px; line-height:24px; text-align:center; font-size:13px; margin-top:1px;cursor:hand; color:#510000}
+.ssc_left .touzhu .bian{width:776px;background-color:#77421d;}
+.ssc_left .touzhu .bian .bian_tr_bg{line-height: 24px;text-align:center; font-size:13px;font-weight:bold; background-image:url(../images/ssc_btl01_jp.jpg);color:#510000}
+.ssc_left .touzhu .bian .bian_tr_title{line-height: 24px;text-align:center;color: #fefefe;font-size:12px;font-weight:500; background-image:url(../images/ssc_btl02.gif);}
+.ssc_left .touzhu .bian .bian_tr_txt{line-height: 29px;text-align:center;color: #4d4d4d; background-color:#fff;}
+.ssc_left .touzhu .bian .bian_td_qiu{ font-weight:bold;color:#413e3c}
+.ssc_left .touzhu .bian .bian_td_odds{line-height: 29px;text-align:center; color:#c53737; font-family:Verdana, Geneva, sans-serif; font-size:14px; font-weight:bold;}
+.ssc_left .touzhu .bian .bian_td_inp{line-height: 29px;text-align:center;color: #4d4d4d; background-color:#fff;}
+.ssc_left .touzhu .bian .inp1, .inp1m{border:1px solid #000;height:20px;height/**/:18px;padding-top:1px;padding-left:1px!important;padding-left:2px;color:#000;text-align:center;}
+.ssc_left .touzhu .bian .inp1{color:#000; width:50px;height:15px;text-align:center; background-color:#fff;}
+.ssc_left .touzhu .bian .inp1m{width:50px;height:15px;border:1px solid #000;color:#F00;background:#FFF;}
+.ssc_left .touzhu .button_body { width:776px; text-align:center; margin-top:10px; height:42px;}
+.ssc_left .touzhu .button_body a.submit {background-position: 0 -37px;}
+.ssc_left .touzhu .button {}
+
+.ssc_right{ float:right; width:180px;}
+.ssc_right .clbian{width:100%;background-color:#000000;}
+.ssc_right .clbian .clbian_tr_title{line-height: 29px;text-align:center;color: #fff;font-weight:bold; background-image:url(../images/content-title.jpg);}
+.ssc_right .clbian .clbian_tr_txt{line-height: 29px;text-align:center;color: #fff; background-color:#4D4D50;}
+.ssc_right .pankou{ color:#FFF;}
+.ssc_right .qishu{ color:#F9E101;}
+.ssc_right .qihao{ color:#FFF; font-family:Verdana, Geneva, sans-serif;}
+.ssc_right .haoma{ color:#F9E101;font-family:Verdana, Geneva, sans-serif; line-height:16px;}
+
+.order_info{width:500px;background-color:#5f3518;color:#fff;}
+.order_info th{background-image:url(../images/ssc_zdlb01.jpg); line-height:29px;text-align:center; font-weight:bold;}
+.order_info td{background-color:#FFF; line-height:27px;text-align:center;}
+.order_info .caizhong{ color:#040404}
+.order_info .qihao{ color:#040404; font-family:Verdana, Geneva, sans-serif;}
+.order_info .wanfa{ color:#040404}
+.order_info .neirong{ color:#040404}
+.order_info .jine{ color:#040404}
+.order_info .peilv{ color:#040404}
+.order_info .keying{ color:#040404}
+
+.hj {width:100%;margin:0 auto;background-color:#3E3E40;}
+.z_cl {vertical-align:text-top;text-align:center;font-weight:bold;color:#FFF;font-family:Verdana, Geneva, sans-serif; line-height:20px;}
+.z_cl a{ display:block;cursor:pointer;}
+.hhg {background:#4D4D50;color:#F9E101;}
+.shg {background:#464648;}
+.line_list{font-size:13px;padding:0px 0px 0px 0px;line-height:20px;}
+.cp_list_table{width:90%;margin-top:0px;padding:8px 0 0 15px;}

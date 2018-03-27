@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/**************************/
+.login_bu {
+	margin-left: 25px;
+	overflow: hidden;
+}
+
+.login_bu input {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+}
+
+.enter {
+	width: 120px;
+	height: 52px;
+	background: url(login/login_bu.png) no-repeat left top;
+	text-indent: -9999em;
+	float: left;
+}
+
+.enter:hover {
+	background: url(login/login_bu.png) no-repeat left -52px;
+}
+
+.reg {
+	width: 88px;
+	height: 52px;
+	background: url(login/login_bu.png) no-repeat left -104px;
+	text-indent: -9999em;
+	float: left;
+}
+
+.reg:hover {
+	background: url(login/login_bu.png) no-repeat left -156px;
+}
+
+.test {
+	width: 221px;
+	height: 46px;
+	background: url(login/login_bu.png) no-repeat left -208px;
+	text-indent: -9999em;
+	float: left;
+}
+
+.test:hover {
+	background: url(login/login_bu.png) no-repeat left -254px;
+}
+
+.login {
+	background: rgba(0, 0, 0, 0.3);
+	padding: 10px 0;
+	height: auto;
+	width: 310px;
+	border-radius: 15px;
+	border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.login .info {
+	clear: both;
+	width: 270px;
+	background: url("login/input_bg.png") no-repeat;
+}
+
+.login .title {
+	display: block;
+	float: left;
+	color: white;
+	font-size: 24px;
+	font-weight: bolder;
+	margin: 10px 0 20px 20px;
+}
+
+.login .support {
+	display: inline-block;
+    background: url(images/support.png) no-repeat;
+    width: 70px;
+    height: inherit;
+    margin: -25px 0px 0px 115px
+}
+
+.login .info input {
+	width: 130px;
+}
+
+.login_bu {
+	margin-left: 19px;
+}
+
+.login_bu .reg {
+	width: 98px;
+	margin-left: 40px;
+}
+
+.test {
+	width: 270px;
+}

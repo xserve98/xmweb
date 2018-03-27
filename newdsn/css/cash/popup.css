@@ -1,0 +1,421 @@
+.popupinternal{
+	width: 600px;
+	height: 100%;
+	position: relative;
+	border-top: 1px solid #dfdfdf;
+    margin-left: 10px;
+}
+
+.popupinternals{
+	height: 100%;
+	position: relative;
+	border-top: 1px solid #dfdfdf;
+    margin-left: 10px;
+}
+
+
+.popuptitle {
+	font-size: 22px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.popupinternal p{
+	font-size: 14px;
+}
+
+.order-submit p{
+	margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    width: 152px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+}
+
+#popup-verifymobile table,#popup-verifyeditmobile table,#popup-verifyeditemail table, #popup-verifyemail table, #popup-verifycontact table, #popup-changepassword table{
+	margin: 4px auto 0;
+	width: 80%;
+	color: #515861;
+	font-size: 13px;
+}
+
+#popup-verifymobile table td,#popup-verifyeditmobile table td,#popup-verifyeditemail table td, #popup-verifyemail table td, #popup-verifycontact table td, #popup-changepassword table td{
+	text-align: left;
+	padding: 15px 0 10px 10px;
+}
+
+
+#popup-verifymobile table td.alignRight,#popup-verifyeditmobile table td.alignRight,#popup-verifyeditemail table td.alignRight, #popup-verifyemail table td.alignRight, #popup-verifycontact table td.alignRight, #popup-changepassword table td.alignRight{
+	text-align: right;
+}
+
+#popup-verifymobile table td input,#popup-verifyeditmobile table td input,#popup-verifyeditemail table td input, #popup-verifyemail table td input, #popup-verifycontact table td input, #popup-changepassword table td input{
+	width: 180px;
+	padding: 5px!important;
+}
+
+#popup-verifymobile .merged-cell,#popup-verifyeditmobile .merged-cell,#popup-verifyeditemail .merged-cell, #popup-verifyemail .merged-cell, #popup-verifycontact .merged-cell, #popup-changepassword .merged-cell{
+	text-align: center;
+}
+
+.substeps ul{
+	margin-top: 15px;
+}
+
+.substeps ul li{
+	float: left;
+	width: 195px;
+	height: 30px;
+	background: url(../../images/cash/arrow-grey-2.png) no-repeat;
+}
+
+.substeps ul li:first-child{
+	background: url(../../images/cash/arrow-grey-1.png) no-repeat;
+}
+
+.substeps ul li.active:first-child{
+	background: url(../../images/cash/arrow-blue-1.png) no-repeat;
+}
+
+.substeps ul li.active{
+	background: url(../../images/cash/arrow-blue-2.png) no-repeat;
+}
+
+.substeps ul li p{
+	color: #fff;
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+.submitbtn3 {
+	color: #fff;
+	padding: 7px 35px;
+	cursor:pointer;
+	font-size: 17px;
+	background: #39a9ff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #39a9ff 0%, #38a7fe 51%, #288af1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#39a9ff), color-stop(51%,#38a7fe), color-stop(100%,#288af1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #39a9ff 0%,#38a7fe 51%,#288af1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #39a9ff 0%,#38a7fe 51%,#288af1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #39a9ff 0%,#38a7fe 51%,#288af1 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #39a9ff 0%,#38a7fe 51%,#288af1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39a9ff', endColorstr='#288af1',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+.order-submit table{
+	border: 1px solid #d9d9d9;
+}
+
+.order-submit2{
+	color:#515861;
+}
+
+.order-submit2 p{
+	padding-top: 10px;
+	/*padding-bottom: 10px;*/
+}
+
+.order-submit2 .col-left{
+	width: 48%;
+	float: left;
+}
+
+.order-submit2 .col-right{
+	padding:5px;
+	width: 40%;
+}
+
+.order-submit2 .col-right p{
+
+	font-size: 13px;
+	margin-top: -15px;
+	margin-left: 10px;
+}
+
+.order-submit2 .col-right h4{
+	font-size: 16px;
+	color: #66c75c;
+	font-weight: lighter;
+	padding-top: 0px;
+	margin-left: 10px;
+	padding-bottom: 6px;
+}
+
+.order-submit2 .bank-info-button{
+	width: 100%;
+
+}
+
+.order-submit2 .bank-info-button ul{
+	margin-left: 100px;
+}
+
+.order-submit2 .bank-info-button ul li{
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 999px;
+	background-color: #d9d9da;
+}
+
+.order-submit2 .bank-info-button ul li a{
+	color: #fff;
+}
+
+.order-submit2 .col-right .bank-info{
+	width: 100%;
+	height: 215px;
+	border-radius: 3px;
+    border: 1px solid #b9b9b9;
+    overflow: visible;
+    margin-top: 3px;
+}
+
+.order-submit2 .col-right .bank-info1{
+	width: 100%;
+	height: 244px;
+	border-radius: 3px;
+    border: 1px solid #b9b9b9;
+    overflow: visible;
+    margin-top: 3px;
+}
+
+.jc-info{
+	border-radius: 3px;
+    border: 1px solid #b9b9b9;
+    overflow: visible;
+    margin-top: 34px;
+    width: 240px;
+}
+
+.order-submit2 .col-right .bank-info p{
+	margin-top: -6px;
+}
+.order-submit2 .col-right .bank-info p a{
+	color: #515861;
+}
+
+.order-submit2 .col-right .bank-info .bank-info-left{
+	float: left;
+	width: 100px;
+	margin-left: 30px;
+}
+
+.order-submit2 .fullwidth{
+	width: 100%;
+}
+
+.order-submit2 .fullwidth .container{
+	height: 100%;
+	margin: 7px auto 0;
+}
+
+.order-submit2 .fullwidth .container input{
+	margin-right: 0px;
+}
+
+.order-submit2 .fullwidth .container p{
+	color: #217eec;
+}
+
+.order-submit2 table{
+	width: 99%;
+	border-spacing: 5px;
+	border: 1px solid #b9b9b9!important;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.order-submit2 table tr:first-child{
+	border-bottom: 1px solid #b9b9b9!important;
+}
+
+.order-submit2 table tr td{
+	text-align: left;
+	/*padding: 5px 5px!important;*/
+}
+
+.order-submit2 table tr:nth-child(2) td{
+	/*padding: 10px 5px!important;*/
+}
+
+.order-submit2 table tr td:first-child{
+	width: 50px;
+	text-align: right;
+}
+
+.order-submit2 table tr td:last-child{
+	width: 50px;
+}
+
+.order-submit2 table tr:first-child td{
+	text-align: left;
+}
+
+.order-submit2 table tr:last-child td{
+	padding-bottom: 15px!important;
+}
+
+.order-submit2 .three-second{
+	width: 98%;
+	border-radius: 3px;
+	border: 1px solid #b9b9b9;
+	overflow: visible;
+}
+
+.order-submit2 .three-second h4{
+	width: 73px;
+	font-size: 18px;
+	color: #66C75C;
+	margin-top: -15px;
+	margin-left: 20px;
+	background-color: #fff;
+}
+
+.order-submit2 .three-second p{
+	padding: 3px 8px 6px;
+}
+
+.order-submit2 .three-second p input{
+	border: 1px solid #DDDFE2;
+	width: 190px;
+	height:18px;
+}
+
+.order-submit2 .three-second p .grey{
+	color: #217eec;
+	font-size: 17px;
+}
+
+.green{
+	color: #66c75c;
+}
+
+.copy{
+	color: #217eec;
+	cursor:pointer;
+}
+
+.order-submit{
+}
+
+.order-submit table{
+	border:1px solid #d9d9d9;
+	width: 90%;
+	margin: 20px;
+}
+
+.order-submit table td:first-child{
+	padding: 10px;
+}
+
+.order-submit .button-container{
+	margin-top: 13px;
+	margin-bottom: 10px;
+}
+
+.loading-container{
+	width: 310px;
+    border-radius: 3px;
+    border: 1px solid #217eec;
+    overflow: visible;
+    margin-top: 15px;
+}
+
+.loading-container p{
+	font-size: 14px;
+}
+
+.loading-img{
+	text-align: center;
+	margin: 25px 0;
+}
+
+.loading-container h4{
+	width: 74px;
+    font-size: 18px;
+    color: #217eec;
+    margin-top: -15px;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
+
+.loading-time{
+	margin: 10px 0 30px;
+}
+
+.loading-container p{
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.loading-time p{
+	text-align: center;
+	padding: 8px;
+	border: 1px solid #dfdfdf;
+	font-size: 13px;
+	margin-bottom: 0;
+}
+
+.loading-time p span{
+	font-size: 48px;
+	color: #217eec;
+}
+
+.order-submit .submit{
+	margin-left: 20px;
+}
+
+.detaisubmits {
+    height: 40px;
+    margin-top: 10px;
+    width: 600px;
+    position: relative;
+    border-top: 1px solid #dfdfdf;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+.bank-info img{
+	margin-left: 30px;
+}
+
+.bank-info1 img{
+	margin-left: 7px;
+}
+
+.col-left .table tr{
+	height: 42px;
+}
+
+.col-left .table .trs{
+	height: 30px;
+}
+
+.section{
+	margin: 0 20px 10px;
+}
+.section .row{
+	margin-bottom: 10px;
+}
+
+.section .txttheme{
+	color: #217eec;
+}
+
+.section .txttheme_s{
+	color: red;
+}

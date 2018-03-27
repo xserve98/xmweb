@@ -1,0 +1,2 @@
+INSERT INTO `money_log` (`user_id`,`order_num`,`about`,`update_time`,`type`,`order_value`,`assets`,`balance`)
+                            VALUES ('653293262','201605242014208732','系统额度转入MG电子',now(),'MG转账系统额度','1','887.00','886');

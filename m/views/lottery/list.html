@@ -1,0 +1,36 @@
+<ion-view class="index" view-title="游戏大厅">
+	<ion-nav-bar class="bar-positive">
+		<ion-nav-buttons side="left">
+	    	<a class="button button-icon icon-homehover" href="#/home"></a>
+	  	</ion-nav-buttons>
+	  	
+		<ion-nav-buttons side="right">
+	    	<button class="button button-icon icon icon-liebiao" ng-click="showPoper($event);"></button>
+	  	</ion-nav-buttons>
+	</ion-nav-bar>
+	
+	<ion-content scroll="false" class="has-header">
+		<div class="no-title">
+	    	<div class="left lh-23px"><a class="backgrounduser" href="#/ucenter/index">{{My.getUserName()}}</a></div>
+	    	<div class="lh-23px">
+	    		<span class="backgroundmoney">{{My.getMoney()}}</span>
+	    		<a href="#/bank/withdraw" class="right ry-button button button-small">提现</a>
+	    		<a href="#/bank/deposit" class="right ry-button button button-small mr-5">充值</a>
+	    	</div>
+	    </div>
+	    
+	    <div class="row notice">
+	    	<div class="notice-icon"><i class="ion-volume-medium"></i></div>
+	    	<div class="col col-90 notice-content">
+	    		<zl-notice></zl-notice>
+	    	</div>
+	    </div>
+	    
+	    <ion-content class="lottery-list">
+		    <div class="row">
+		    	<lottery-timer></lottery-timer>
+		    </div>
+	  	</ion-content>
+	</ion-content>
+  	
+</ion-view>

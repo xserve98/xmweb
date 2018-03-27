@@ -1,0 +1,26 @@
+/*------------公告弹框右边---------*/
+.newsbg {border: 6px solid rgba(250, 250, 250, 0.2) !important;}
+.newsbg .layui-layer-content{background-color: #fff;}
+.newsbg .layui-layer-title{letter-spacing: 15px; background-color: #2061b3 !important;background: #2061b3 !important;color: #fff;font-size: 18px;font-weight: bold;text-align: center;}
+.layui-layer-title{background-color: #2061b3 !important;background: #2061b3 !important;color: #fff;font-size: 18px;font-weight: bold;}
+.layer_containerMore{ display:none;height: 100%;}
+.MoreNewsCont {width: 490px;background: #fff;height: 100%;overflow: auto;border-left: 1px solid #ccc;float: right;}
+/*------------公告弹框左边---------*/
+.MainListUl_More {color: #333;font-size: 12px;/*padding: 10px 0px 10px 10px;*/width: 348px;}
+.MainListUl_More ul { width:100%;}
+.MainListUl_More ul li { height:30px; line-height:30px;  width:100%; border-bottom:1px solid #ccc;}
+.MainListUl_More ul li:hover {  height:30px; line-height:30px;  width:100%; background:#fff; border-bottom:1px solid #ccc; border-right:none;}
+.MainListUl_More ul li .listpart { float:left; padding-left:20px; background:url(../images/light_blue/listtip_02.png) no-repeat 5px 12px;  overflow:hidden;}
+.MainListUl_More ul li .listpart a { color: #333;display: block;float: left; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 19em;}
+.MainListUl_More ul li .listpart img { float:left; margin-top:9px; padding-left:8px; }
+.MainListUl_More ul li .listpart a:hover { color:#f60; }
+.MainListUl_More ul li .time { float:right; color:#999; padding-right:5px; }
+.MainListUl_More ul li .listpart strong{ font-weight:100; padding:0 1px; color:#333; cursor:pointer;}
+.MainListUl_More ul li .listpart strong:hover{color:#f60; padding:0 2px; text-decoration:underline;}
+.layer_container{ display:none;}
+.popNewsLayer{ line-height:25px; color:#333; padding:20px; height:100%; overflow:hidden; overflow-y:auto; font-size:14px;background:url(../images/light_blue/newPopLayerBg.png) repeat-y;}
+.popNewsLayer h2{ color: #2061b3;font-size:22px; text-align:center; margin:0 auto 20px auto; border-bottom:1px dotted #ccc; padding-bottom:20px; }
+.popNewsLayer p{text-justify:inter-ideograph;text-align:justify;color: #5c5c5c;letter-spacing: 0;text-indent: 2em;}
+.popNewsLayer .tabnew1113 { width:100%; margin:10px auto;}
+.popNewsLayer .tabnew1113 th{ border:1px solid #ccc; background:#f0f0f0;}
+.popNewsLayer .tabnew1113 td{ border:1px solid #ccc;}

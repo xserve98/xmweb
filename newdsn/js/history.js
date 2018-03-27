@@ -1,0 +1,1 @@
+function queryMemberHistory(){var a="/member/history?";a+="begin="+$("#begin").val()+"&end="+$("#end").val();location.href=a};

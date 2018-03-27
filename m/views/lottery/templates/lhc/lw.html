@@ -1,0 +1,365 @@
+<ion-content class="bet-view" scroll="false">
+	<div class="sub-Navs" item-class="col-31">
+		<ion-scroll id="sub-navs" direction="x" scrollbar-x="false" delegate-handle="sub-navs" ng-init="selectFirstSub();">
+			<div class="row" ng-init="shareData.subIndex=1">
+				<div class="col sub-col col-31" ng-class="{navActive:shareData.subIndex==1}">
+					<a class="item nav-item" ng-click="selectSubnav(1, $event);" data-id="0" play-type="LXLW" min-size="2" max-size="12">二连尾</a>
+				</div>
+				
+				<div class="col sub-col col-31" ng-class="{navActive:shareData.subIndex==2}">
+					<a class="item nav-item" ng-click="selectSubnav(2, $event);" data-id="0" play-type="LXLW" min-size="3" max-size="12">三连尾</a>
+				</div>
+				
+				<div class="col sub-col col-31" ng-class="{navActive:shareData.subIndex==3}">
+					<a class="item nav-item" ng-click="selectSubnav(3, $event);" data-id="0" play-type="LXLW" min-size="4" max-size="12">四连尾</a>
+				</div>
+				
+				<div class="col sub-col col-31" ng-class="{navActive:shareData.subIndex==4}">
+					<a class="item nav-item" ng-click="selectSubnav(4, $event);" data-id="0" play-type="LXLW" min-size="5" max-size="12">五连尾</a>
+				</div>
+			</div>
+		</ion-scroll>
+	
+		<div class="nav-content">
+			<ion-content class="tp40">
+				<div ng-if="shareData.subIndex==1">
+					<div class="row text-center"><div class="col title-no">二连尾</div></div>
+			
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709949">
+							<div class="bet-content left pd3">0尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">10</span><span class="round-3 blue">20</span><span class="round-3 red">30</span><span class="round-3 red">40</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709950">
+							<div class="bet-content left pd3">1尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">01</span><span class="round-3 green">11</span><span class="round-3 green">21</span><span class="round-3 blue">31</span><span class="round-3 blue">41</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709951">
+							<div class="bet-content left pd3">2尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">02</span><span class="round-3 red">12</span><span class="round-3 green">22</span><span class="round-3 green">32</span><span class="round-3 blue">42</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709952">
+							<div class="bet-content left pd3">3尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">03</span><span class="round-3 red">13</span><span class="round-3 red">23</span><span class="round-3 green">33</span><span class="round-3 green">43</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709953">
+							<div class="bet-content left pd3">4尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">04</span><span class="round-3 blue">14</span><span class="round-3 red">24</span><span class="round-3 red">34</span><span class="round-3 green">44</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709954">
+							<div class="bet-content left pd3">5尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 green">05</span><span class="round-3 blue">15</span><span class="round-3 blue">25</span><span class="round-3 red">35</span><span class="round-3 red">45</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709955">
+							<div class="bet-content left pd3">6尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 green">06</span><span class="round-3 green">16</span><span class="round-3 blue">26</span><span class="round-3 blue">36</span><span class="round-3 red">46</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709956">
+							<div class="bet-content left pd3">7尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">07</span><span class="round-3 green">17</span><span class="round-3 green">27</span><span class="round-3 blue">37</span><span class="round-3 blue">47</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709957">
+							<div class="bet-content left pd3">8尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">08</span><span class="round-3 red">18</span><span class="round-3 green">28</span><span class="round-3 green">38</span><span class="round-3 blue">48</span></div>
+						</div>
+					</div>
+					
+					<div class="row end">
+						<div class="col sub-bet ok" data-id="709958">
+							<div class="bet-content left pd3">9尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">09</span><span class="round-3 red">19</span><span class="round-3 red">29</span><span class="round-3 green">39</span><span class="round-3 green">49</span></div>
+						</div>
+					</div>
+				</div>
+				
+				<div ng-if="shareData.subIndex==2">
+					<div class="row text-center"><div class="col title-no">三连尾</div></div>
+			
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709959">
+							<div class="bet-content left pd3">0尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">10</span><span class="round-3 blue">20</span><span class="round-3 red">30</span><span class="round-3 red">40</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709960">
+							<div class="bet-content left pd3">1尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">01</span><span class="round-3 green">11</span><span class="round-3 green">21</span><span class="round-3 blue">31</span><span class="round-3 blue">41</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709961">
+							<div class="bet-content left pd3">2尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">02</span><span class="round-3 red">12</span><span class="round-3 green">22</span><span class="round-3 green">32</span><span class="round-3 blue">42</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709962">
+							<div class="bet-content left pd3">3尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">03</span><span class="round-3 red">13</span><span class="round-3 red">23</span><span class="round-3 green">33</span><span class="round-3 green">43</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709963">
+							<div class="bet-content left pd3">4尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">04</span><span class="round-3 blue">14</span><span class="round-3 red">24</span><span class="round-3 red">34</span><span class="round-3 green">44</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709964">
+							<div class="bet-content left pd3">5尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 green">05</span><span class="round-3 blue">15</span><span class="round-3 blue">25</span><span class="round-3 red">35</span><span class="round-3 red">45</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709965">
+							<div class="bet-content left pd3">6尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 green">06</span><span class="round-3 green">16</span><span class="round-3 blue">26</span><span class="round-3 blue">36</span><span class="round-3 red">46</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709966">
+							<div class="bet-content left pd3">7尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">07</span><span class="round-3 green">17</span><span class="round-3 green">27</span><span class="round-3 blue">37</span><span class="round-3 blue">47</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709967">
+							<div class="bet-content left pd3">8尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">08</span><span class="round-3 red">18</span><span class="round-3 green">28</span><span class="round-3 green">38</span><span class="round-3 blue">48</span></div>
+						</div>
+					</div>
+					
+					<div class="row end">
+						<div class="col sub-bet ok" data-id="709968">
+							<div class="bet-content left pd3">9尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">09</span><span class="round-3 red">19</span><span class="round-3 red">29</span><span class="round-3 green">39</span><span class="round-3 green">49</span></div>
+						</div>
+					</div>
+				</div>
+				
+				<div ng-if="shareData.subIndex==3">
+					<div class="row text-center"><div class="col title-no">四连尾</div></div>
+			
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709969">
+							<div class="bet-content left pd3">0尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">10</span><span class="round-3 blue">20</span><span class="round-3 red">30</span><span class="round-3 red">40</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709970">
+							<div class="bet-content left pd3">1尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">01</span><span class="round-3 green">11</span><span class="round-3 green">21</span><span class="round-3 blue">31</span><span class="round-3 blue">41</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709971">
+							<div class="bet-content left pd3">2尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">02</span><span class="round-3 red">12</span><span class="round-3 green">22</span><span class="round-3 green">32</span><span class="round-3 blue">42</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709972">
+							<div class="bet-content left pd3">3尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">03</span><span class="round-3 red">13</span><span class="round-3 red">23</span><span class="round-3 green">33</span><span class="round-3 green">43</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709973">
+							<div class="bet-content left pd3">4尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">04</span><span class="round-3 blue">14</span><span class="round-3 red">24</span><span class="round-3 red">34</span><span class="round-3 green">44</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709974">
+							<div class="bet-content left pd3">5尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 green">05</span><span class="round-3 blue">15</span><span class="round-3 blue">25</span><span class="round-3 red">35</span><span class="round-3 red">45</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709975">
+							<div class="bet-content left pd3">6尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 green">06</span><span class="round-3 green">16</span><span class="round-3 blue">26</span><span class="round-3 blue">36</span><span class="round-3 red">46</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709976">
+							<div class="bet-content left pd3">7尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">07</span><span class="round-3 green">17</span><span class="round-3 green">27</span><span class="round-3 blue">37</span><span class="round-3 blue">47</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709977">
+							<div class="bet-content left pd3">8尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">08</span><span class="round-3 red">18</span><span class="round-3 green">28</span><span class="round-3 green">38</span><span class="round-3 blue">48</span></div>
+						</div>
+					</div>
+					
+					<div class="row end">
+						<div class="col sub-bet ok" data-id="709978">
+							<div class="bet-content left pd3">9尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">09</span><span class="round-3 red">19</span><span class="round-3 red">29</span><span class="round-3 green">39</span><span class="round-3 green">49</span></div>
+						</div>
+					</div>
+				</div>
+				
+				<div ng-if="shareData.subIndex==4">
+					<div class="row text-center"><div class="col title-no">五连尾</div></div>
+			
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709979">
+							<div class="bet-content left pd3">0尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">10</span><span class="round-3 blue">20</span><span class="round-3 red">30</span><span class="round-3 red">40</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709980">
+							<div class="bet-content left pd3">1尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">01</span><span class="round-3 green">11</span><span class="round-3 green">21</span><span class="round-3 blue">31</span><span class="round-3 blue">41</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709981">
+							<div class="bet-content left pd3">2尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">02</span><span class="round-3 red">12</span><span class="round-3 green">22</span><span class="round-3 green">32</span><span class="round-3 blue">42</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709982">
+							<div class="bet-content left pd3">3尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">03</span><span class="round-3 red">13</span><span class="round-3 red">23</span><span class="round-3 green">33</span><span class="round-3 green">43</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709983">
+							<div class="bet-content left pd3">4尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">04</span><span class="round-3 blue">14</span><span class="round-3 red">24</span><span class="round-3 red">34</span><span class="round-3 green">44</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709984">
+							<div class="bet-content left pd3">5尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 green">05</span><span class="round-3 blue">15</span><span class="round-3 blue">25</span><span class="round-3 red">35</span><span class="round-3 red">45</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709985">
+							<div class="bet-content left pd3">6尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 green">06</span><span class="round-3 green">16</span><span class="round-3 blue">26</span><span class="round-3 blue">36</span><span class="round-3 red">46</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709986">
+							<div class="bet-content left pd3">7尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">07</span><span class="round-3 green">17</span><span class="round-3 green">27</span><span class="round-3 blue">37</span><span class="round-3 blue">47</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col sub-bet ok" data-id="709987">
+							<div class="bet-content left pd3">8尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 red">08</span><span class="round-3 red">18</span><span class="round-3 green">28</span><span class="round-3 green">38</span><span class="round-3 blue">48</span></div>
+						</div>
+					</div>
+					
+					<div class="row end">
+						<div class="col sub-bet ok" data-id="709988">
+							<div class="bet-content left pd3">9尾</div>
+							<div class="bet-item left lh14">2.09</div>
+							<div class="right mr10 bet-round"><span class="round-3 blue">09</span><span class="round-3 red">19</span><span class="round-3 red">29</span><span class="round-3 green">39</span><span class="round-3 green">49</span></div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</ion-content>
+		</div>
+	</div>
+</ion-content>

@@ -1,0 +1,28 @@
+
+
+
+/* ::::: http://www.988cp.com/css/jquery.bxslider.css ::::: */
+
+/* ::::: http://www.988cp.com/css/jquery-ui.css ::::: */
+
+.ui-helper-clearfix::before, .ui-helper-clearfix::after { content: ""; display: table; border-collapse: collapse; }
+.ui-helper-clearfix::after { clear: both; }
+input.ui-button::-moz-focus-inner, button.ui-button::-moz-focus-inner { border: 0px none; padding: 0px; }
+/* ::::: http://www.988cp.com/css/remodal.min.css ::::: */
+
+.remodal-wrapper::after { display: inline-block; height: 100%; margin-left: -0.05em; content: ""; }
+.remodal, .remodal-wrapper::after { vertical-align: middle; }
+.remodal-close::before { font-family: Arial,"Helvetica CY","Nimbus Sans L",sans-serif !important; font-size: 25px; line-height: 35px; position: absolute; top: 0px; left: 0px; display: block; width: 35px; content: "×"; text-align: center; }
+.remodal-confirm::-moz-focus-inner, .remodal-cancel::-moz-focus-inner, .remodal-close::-moz-focus-inner { padding: 0px; border: 0px none; }
+@media only screen and (min-width: 641px) {
+}
+/* ::::: http://www.988cp.com/css/promo.css ::::: */
+
+body { background-color: rgb(231, 238, 245); }
+.promocontent { margin-top: -15px; overflow: visible; }
+.tabcontainer { position: absolute; bottom: 40px; left: 30px; }
+.tabs { width: 104px; height: 100px; float: left; }
+.tabsmall { margin: 20px; padding-top: 23px; width: 60px; height: 37px; border: 4px solid rgb(255, 255, 255); text-align: center; color: rgb(255, 255, 255); font-size: 14px; border-radius: 35px; background-color: rgb(33, 97, 179); box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); cursor: pointer; }
+.tabbig { margin: 5px; padding-top: 30px; width: 85px; height: 55px; border: 4px solid rgb(255, 255, 255); text-align: center; color: rgb(255, 255, 255); font-size: 20px; border-radius: 50px; background-color: rgb(33, 97, 179); box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); }
+.hline1 { position: absolute; bottom: -6px; left: 78px; height: 45px; border-right: 4px dotted rgb(33, 97, 179); border-style: dotted; }
+.headertxt { font-size: 50px; color: rgb(33, 97, 179); position: absolute; top: 49px; left: 260px; }

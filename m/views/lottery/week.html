@@ -1,0 +1,32 @@
+<ion-view view-title="下注记录">
+	<ion-nav-buttons side="left">
+    	<a class="button button-icon icon-prepage" ng-click="back();"></a>
+  	</ion-nav-buttons>
+	<ion-content class="table-list" scroll="false">
+		<div class="table-head row">
+			<div class="col col-33">时间</div>
+			<div class="col col-33">笔数</div>
+			<div class="col col-33">输赢</div>
+		</div>
+		
+		<ion-content class="table-body">
+			<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+			
+			<div class="row" ng-repeat="item in weekRecordList" ng-click="detail(item.statDate, item.betCount);">
+				<div class="col col-33 text-left relative">{{item.statDate}}<br>{{item.week}}</div>
+				<div class="col col-33 row-data" ng-class="{'text-underline':data.count>0}">{{item.betCount}}</div>
+				<div class="col col-33 row-data"><strong>{{item.rewardRebate}}</strong></div>
+			</div>
+			
+			<div class="tips padding">点击日期可查看下注详情</div>
+		</ion-content>
+	</ion-content>
+	
+	<ion-footer-bar class="bar bar-footer">
+		<div class="row">
+			<div class="col text-right pdr-15 pdt-10">总笔数： <span class="t-green">{{allBetCount}}</span></div>
+			<div class="col text-right pdr-15 pdt-10">总输赢： <span class="t-green">{{allRewardRebate}}</span></div>
+		</div>
+		
+	</ion-footer-bar>
+</ion-view>

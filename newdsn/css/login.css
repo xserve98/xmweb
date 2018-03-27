@@ -1,0 +1,340 @@
+@charset "UTF-8";
+html{
+    min-height: 100%;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+body{
+    font-size: 14px;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;   
+    min-height: 100%;
+    color: #5c5c5c; 
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.cb{
+    clear: both;
+}
+.yuan5{
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -ms-border-radius:5px;
+}
+.yuan10{
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -ms-border-radius:10px;
+}
+
+.wrapper{
+    width: 100%;
+    min-width: 1100px;
+    background-color: #fff;
+    position: relative;
+}
+.login_header{
+    width: 1100px;
+    margin:0 auto;
+    padding:5px 0;
+}
+.logo_a{
+    display: block;
+    margin-left: 80px;
+}
+.logo_a img{
+    display: block;
+}
+.header_right a{
+    text-decoration: none;
+    color: #64aaf1;
+    outline: none;
+    display: block;
+    margin-right: 35px;
+    text-align: center;
+    margin-top: 13px;
+    font-size: 19px;
+    padding:5px 10px;
+}
+.header_right a:hover{
+    color: #fff;
+    outline: none;
+    background-color: #64aaf1;
+}
+
+.login{
+    width: 100%;
+    position: relative;
+}
+.login_back{
+    min-width: 1100px;
+    height: 640px;
+}
+.login_img{
+    min-width: 1100px;
+    height: 640px;
+    background: url("../images/back.png");
+}
+.login_auto{
+    width: 1100px;
+    margin:0 auto;
+}
+.login_left{
+    min-width: 360px;
+    height: 360px;
+    background: url("../images/cheng.png");
+    margin-top: 85px;
+    margin-left:192px;
+    position: relative;
+}
+.login_hb{
+    position: absolute;
+    left: -10px;
+    top: 170px;
+}
+.hb_img{
+    width: 55px;
+    height: 55px;
+    background: url("../images/woshou.png");
+    display: block;
+}
+
+@keyframes myfirst
+{
+    0%{top:11px;left:259px;}
+    20%{top:1px;left:299px;}
+    40%{top:11px;left:349px;}
+    60%{top:11px;left:299px;}
+    80%{top:21px;left:299px;}
+    100%{top:11px;left:259px;}
+}
+
+@-moz-keyframes myfirst Firefox
+{
+    0%{top:11px;left:259px;}
+    20%{top:1px;left:299px;}
+    40%{top:11px;left:349px;}
+    60%{top:11px;left:299px;}
+    80%{top:21px;left:299px;}
+    100%{top:11px;left:259px;}
+}
+
+@-webkit-keyframes myfirst Safari 和 Chrome
+{
+    0%{top:11px;left:259px;}
+    20%{top:1px;left:299px;}
+    40%{top:11px;left:349px;}
+    60%{top:11px;left:299px;}
+    80%{top:21px;left:299px;}
+    100%{top:11px;left:259px;}
+}
+
+@-o-keyframes myfirst Opera
+{
+    0%{top:11px;left:259px;}
+    20%{top:1px;left:299px;}
+    40%{top:11px;left:349px;}
+    60%{top:11px;left:299px;}
+    80%{top:21px;left:299px;}
+    100%{top:11px;left:259px;}
+}
+
+.rota{
+position:absolute;
+animation: myfirst 5s;
+-moz-animation: myfirst 5s;
+-webkit-animation: myfirst 10s;
+-o-animation: myfirst 5s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-fill-mode:forwards;
+}
+
+.login_kf:hover,.login_kf:focus
+{
+    animation-play-state: paused;
+}
+
+.hb_zt{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 2px;
+}
+.login_kf{
+    width: 65px;
+    position: absolute;
+    left: 259px;
+    top: 11px;
+}
+.kf_img{
+    width: 55px;
+    height: 55px;
+    background: url("../images/kefu.png");
+    display: block;
+}
+.kf_zt{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 2px;
+}
+.login_ys{
+    position: absolute;
+    right: 43px;
+    bottom: 6px;
+}
+.ys_img{
+    width: 55px;
+    height: 55px;
+    background: url("../images/chanpin.png");
+}
+.ys_zt{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 2px;
+}
+
+
+.login_right{
+    margin-top: 92px;
+    margin-right: 31px;
+    background-color: #fff;
+    width: 327px;
+    height: 346px;
+    border-radius:20px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    -ms-border-radius:20px;
+    overflow: hidden;
+}
+.login_title{
+    height: 40px;
+    line-height: 40px;
+    padding:0 15px;
+    border-bottom: 1px solid #adadad;
+    font-size: 19px;
+    color: #adadad;
+    background-color: #f1f1f1;
+}
+.login_form{
+    padding: 10px 0 0 33px;
+}
+.login_wai{
+    width: 259px;
+    border: 1px solid #adadad;
+    margin-top: 20px;
+}
+.name_img{
+    width: 20px;
+    height: 26px;
+    background: url("../images/name_img.png");
+    margin:5px 20px;
+}
+.pwd_img{
+    width: 20px;
+    height: 26px;
+    background: url("../images/pwd_img.png");
+    margin:5px 20px;
+}
+.name,.pwd{
+    border:none;
+    font-size: 18px;
+    line-height: 36px;
+    width: 170px;
+    outline: 0;
+    color: #adadad;
+    margin-left:15px;
+}
+.button{
+    width: 261px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #50a1f2;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: 0;
+}
+.login_bottom{
+    width: 261px;
+    margin:20px auto 0;
+}
+.register,.trial{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #50a1f2;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.login_forget{
+    width: 261px;
+    margin:15px auto 0;
+    text-align: right;
+}
+.forget{
+    color: #50a1f2;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+.yun{
+    width: 100%;
+    position: relative;
+    margin-top: -150px;
+}
+.yun_back{
+    min-width: 1100px;
+    height: 320px;
+}
+.yun_img{
+    min-width: 1100px;
+    height: 320px;
+    background: url("../images/yun.png");
+}
+.overflow{
+    overflow: hidden;
+}
+.yun_auto{
+    width: 1100px;
+    margin:0 auto;
+    padding-top: 130px;
+    position: relative;
+}
+.flow_img{
+    width: 735px;
+    height: 148px;
+    background: url("../images/liucheng.png");
+    margin:0 auto;
+}
+.copyright{
+    width: 1100px;
+    margin:0 auto;
+    height: 40px;
+}
+.copyright_img{
+    width: 23px;
+    height: 23px;
+    background: url("../images/tb.png");
+    margin-left:380px;
+}
+.copyright_zt{
+    color: #333;
+    line-height: 23px;
+}
+
+

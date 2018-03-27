@@ -1,0 +1,69 @@
+<ion-view>
+	<ion-nav-buttons side="left">
+    	<button menu-toggle="left" class="button button-icon button-clear"><span class="game-name">{{game.name}}</span></button>
+  	</ion-nav-buttons>
+  	
+	<ion-nav-buttons side="right">
+		<span class="member-balance ng-binding">{{My.getMoney()}}</span>
+    	<button class="button button-icon icon icon-liebiao" ng-click="showPoper($event);"></button>
+	</ion-nav-buttons>
+
+	<ion-side-menus class="lotter-view">
+		<ion-side-menu side="left" class="menu-left view" width="180">
+			<header class="bar bar-header bar-stable"><h1 class="title">系统菜单</h1></header>
+			<ion-content class="has-header">
+			    <ion-list>
+					<ion-item nav-clear menu-close href="#/lottery/list">返回大厅</ion-item>
+					<div ng-repeat="game in gameList">
+	            		<ion-item nav-clear menu-close href="#/lottery/index/{{game.id}}">{{game.name}}</ion-item>
+	            	</div>
+	          </ion-list>
+		  	</ion-content>
+		</ion-side-menu>
+	 		
+		<ion-side-menu-content>
+			<ion-nav-bar class="bar-positive"></ion-nav-bar>
+	
+		  	<ion-content class="lottery-content has-header" scroll="false">
+			    <div class="cur-lottery">
+			    	<div class="perio"></div>
+			    	
+			    	<div class="lottery-bet">
+			    		<div class="cur-menus">
+			    			<ion-content delegate-handle="menus" class="lottery-menu">
+			    				<ul>
+									<li class="nav" ng-repeat="pane in panes" ng-class="{active:currPane.code==pane.code}" ><a class="item col" ng-click="selectCate(pane);">{{pane.name}}<span class="smallround" ng-class="{'menus-choose':betData[pane.code].length>0}"></span></a></li>
+								</ul>
+			    			</ion-content>
+			    			
+			    			<div ng-include="contentTpl"></div>
+			    		</div>
+			    	</div>
+			    </div>
+			    
+		  	</ion-content>
+		  	
+		  	<ion-footer-bar class="bar bar-footer">
+		  		<div class="row">
+		  			<div class="col col-50">
+		  				<div class="inputbox">
+		  					<div class="text-left pb5">已选中<span class="text-yellow">{{shareData.betCount}}</span>注</div>
+		  					<div class="inputbox cel">
+		  						<input type="tel" class="inputbox textinput" ng-model="shareData.betMoney" placeholder="输入金额" />
+		  					</div>
+		  				</div>
+		  			</div>
+		  			
+		  			<div class="col">
+		  				<button class="button button-small button-bet" style="margin-right: 10px;" ng-click="bet($event)">下注</button>
+		  				<button class="button button-small button-reset" ng-click="reset()">重置</button>
+		  			</div>
+		  		</div>
+		  		
+		  		<div ng-show="shareData.lotteryState == 0" class="close-pan"><div class="tip">已封盘</div></div>
+		  		<div ng-show="shareData.lotteryState == -1" class="close-pan"><div class="tip">未开盘</div></div>
+		  	</ion-footer-bar>
+	 		
+		</ion-side-menu-content>
+	</ion-side-menus>
+</ion-view>

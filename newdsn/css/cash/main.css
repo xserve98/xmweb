@@ -1,0 +1,52 @@
+body { 
+	font-family: "Microsoft YaHei",Tahoma,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif; 
+	width: 100%; 
+	background-color: #fff;
+	margin: 0;
+}
+
+div,ul,ol,li,form,img,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,pre,code,form,fieldset,legend,button,input,textarea{ margin:0; padding:0; border:0; list-style:none; overflow:hidden;}
+
+a{ text-decoration:none;}
+
+.body_bg{ background:white;}
+
+.loading_overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 11;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: table;
+	opacity: 0.8;
+	background: #666;
+}
+
+#share_dialog {
+	background-color: #fff;
+	display: none;
+	height: 347px;
+	left: 35%;
+	margin: -100px 0 0 -200px;
+	padding: 1px;
+	position: fixed !important;
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	z-index: 12;
+	background: url(../images/gifts_popup.png) no-repeat -0px -0px;
+}
+#share_dialog p.close {
+	z-index: 99;
+    height: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+#share_dialog .link, #share_dialog .link a {
+	width: 800px;
+	height: 347px;
+	display: block;
+}

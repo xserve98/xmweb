@@ -1,0 +1,66 @@
+<ion-view class="m-center" view-title="个人中心">
+	<ion-nav-buttons side="left">
+    	<a class="button button-icon icon-homehover" href="#/tab/home"></a>
+  	</ion-nav-buttons>
+  	
+	<ion-nav-buttons side="right">
+      	{{My.ymg6islogin()}}
+    	<a class="button ry-button" ng-click="logout();">退出</a>
+  	</ion-nav-buttons>
+  	
+	<ion-content>
+		<!-- ngIf: currentUser.TestState!=2 -->
+		<div class="row top-info">
+			<div class="col col-33">
+				<img class="avatar" src="/images/avatar.png">
+			</div>
+			<div class="col col-66" style="margin: auto 0">
+				<h5>{{sayhello()}}&nbsp;&nbsp;{{My.getUserName()}}</h5>
+				<p ng-click="getWallet()">
+					用户余额：<span><span class="money">{{My.getMoney()}}</span>RMB</span>
+					<a class="refresh" ng-click="refreshMoney();"><img src="/images/icon-refresh.png"></a>
+				</p>
+				<!-- <p>
+					会员等级：<span>普通会员</span>
+				</p> -->
+			</div>
+		</div>
+		<div class="center-list">
+			<div class="row">
+				<div class="col col-33">
+					<a href="#/ucenter/myinfo"><img src="/images/menu-profile.png"><p>个人资料</p>
+				</div>
+				<div class="col col-33">
+					<a href="#/ucenter/myfpwd"><img src="/images/menu-modifypwd.png"><p>登录密码</p></a>
+				</div>
+				<div class="col col-33">
+					<a href="#/ucenter/notice" class="relative"><img src="/images/menu-message.png">
+					<!-- <span class="notify ng-binding">2</span> -->
+					<p>信息中心</p></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col col-33">
+					<a href="#/bank/deposit"><img src="/images/menu-funds.png"><p>资金管理</p></a>
+				</div>
+				<div class="col col-33">
+					<a href="#/ucenter/fundpwd"><img src="/images/menu-transfer.png"><p>取款密码</p></a>
+				</div>
+				<div class="col col-33">
+					<a href="javascript:void(0);" ng-click="goPageCheckFundPwd('bank.bank')"><img src="/images/menu-bankaccount.png"><p>银行账号</p></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col col-33">
+					<a href="#/lottery/settled"><img src="/images/menu-record.png"><p>今日已结</p></a>
+				</div>
+				<div class="col col-33">
+					<a href="#/lottery/week"><img src="/images/menu-record.png"><p>下注记录</p></a>
+				</div>
+				<div class="col col-33">
+					<a target="_blank" ng-href="{{appConfig.zxkfUrl}}"><img src="/images/menu-service.png"><p>客服</p></a>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

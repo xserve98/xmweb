@@ -1,0 +1,284 @@
+.custom {
+	margin-top: 10px;
+	border-top: 1px solid #ecebeb;
+}
+
+.register-main {
+	margin-top: 36px;
+	width: 824px;
+}
+
+.registerTit {
+	display: block;
+}
+
+.registerTit li {
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 70px;
+	background: #eae9e9;
+	color: #646464;
+	text-align: center;
+	font-size: 24px;
+	line-height: 70px;
+	cursor: pointer;
+}
+
+.registerTit li.on {
+	background: #fe7c31;
+	color: #fff;
+}
+
+.registerTit li.on i {
+	position: absolute;
+	top: 70px;
+	left: 50%;
+	display: inline-block;
+	width: 20px;
+	height: 10px;
+	background: url("../../../images/new/ico_base.png") 0 -88px no-repeat;
+}
+
+.register-speed {
+	margin: 0 auto 24px;
+	width: 620px;
+	text-align: center;
+}
+
+.register-speed li {
+	float: left;
+	display: inline-block;
+	margin-right: 13px;
+	color: #818181;
+	font-size: 14px;
+}
+
+.register-speed li.in {
+	color: #fe7c31;
+}
+
+.register-speed .bor {
+	display: inline-block;
+	margin-top: 24px;
+	width: 191px;
+	border-top: 1px solid #bfbfbf;
+}
+
+.registerBox {
+	border: 1px solid #ebeaea;
+	background: #fff;
+}
+
+.registerBox .mt {
+	margin-top: 17px;
+}
+
+.registerBox .reg-from {
+	padding: 45px 0 125px 103px;
+}
+
+.registerBox .refresh {
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.registerBox-desc {
+	padding: 40px 37px 0;
+}
+
+.registerBox-desc p {
+	color: #646464;
+	font-size: 14px;
+	font-family: '新宋体';
+	line-height: 26px;
+}
+
+.registerBox-desc .desc {
+	display: inline-block;
+	margin: 50px 0;
+	padding-left: 90px;
+}
+
+.registerBox-desc .desc i {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.registerBox-desc .back {
+	height: 36px;
+	border-bottom: 1px dashed #bfbfbf;
+	text-align: right;
+}
+
+.reg-banner {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.registerBtn {
+	display: inline-block;
+	margin-top: 30px;
+	width: 293px;
+	height: 39px;
+	background: #fe7c31;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 39px;
+	cursor: pointer;
+}
+
+.registerBtn:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.registerService {
+	margin-top: 31px;
+	color: #a9a9a9;
+}
+
+.registerService a {
+	color: #6a9dd1;
+}
+
+.register-r {
+	margin-top: 36px;
+	padding-left: 37px;
+	color: #646464;
+}
+
+.register-r h2 {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.register-r .tit {
+	margin-top: 34px;
+	height: 32px;
+	border-bottom: 1px solid #eae9e9;
+	color: #6a9dd1;
+}
+
+.register-r .desc {
+	padding: 9px 0 23px;
+	line-height: 20px;
+}
+
+.register-r a {
+	color: #6a9dd1;
+}
+
+.register-r .loginPtn {
+	margin-top: 22px;
+}
+
+.register-r .loginPtn .tit {
+	height: 26px;
+	border-bottom: 1px solid #eae9e9;
+}
+
+.register-r .loginPtn .lik {
+	margin-top: 14px;
+}
+
+.register-r .loginPtn .lik a {
+	margin-right: 7px;
+	outline: 0;
+}
+
+.register-r .siteTitle {
+	margin-top: 30px;
+	margin-left: 38px;
+	width: 200px;
+	text-align: center;
+	line-height: 16px;
+}
+
+.register-r .siteTitle h2 {
+	font-weight: 400;
+	font-size: 18px;
+	font-family: '楷体';
+}
+
+.register-r .siteTitle h2 span {
+	letter-spacing: 3px;
+}
+
+.register-r .buyInfo {
+	margin-top: 20px;
+	margin-left: 46px;
+	width: 272px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.register-r .buyInfo strong {
+	color: #fe7c31;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.register-safe {
+	margin-top: 30px;
+	color: #a9a9a9;
+}
+
+.register-safe li {
+	position: relative;
+	padding-top: 5px;
+	padding-left: 72px;
+	width: 261px;
+	height: 82px;
+	border-bottom: 1px solid #eae9e9;
+}
+
+.register-safe li.borTop {
+	border-top: 1px solid #eae9e9;
+}
+
+.register-safe li h2 {
+	display: block;
+	height: 30px;
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.register-safe li span {
+	display: block;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.register-safe li i.safe {
+	position: absolute;
+	top: 11px;
+	left: 0;
+	display: inline-block;
+	width: 57px;
+	height: 61px;
+	background: url("../../../images/new/registerSafe.png") no-repeat;
+}
+
+.register-safe li i.pro {
+	position: absolute;
+	top: 12px;
+	left: 0;
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	background: url("../../../images/new/registerSafe.png") -2px -84px no-repeat;
+}
+
+.register-safe li i.sin {
+	position: absolute;
+	top: 13px;
+	left: 0;
+	display: inline-block;
+	width: 57px;
+	height: 56px;
+	background: url("../../../images/new/registerSafe.png") 0 -167px no-repeat;
+}

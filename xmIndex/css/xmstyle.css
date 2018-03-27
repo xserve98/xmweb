@@ -1,0 +1,213 @@
+/* ::::: http://www.988cp.com/css/main.css ::::: */
+
+body { font-family: "Microsoft YaHei",Tahoma,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif; width: 100%; background-color: rgb(255, 255, 255); margin: 0px; }
+div, ul, ol, li, form, img, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, pre, code, form, fieldset, legend, button, input, textarea { margin: 0px; padding: 0px; border: 0px none; list-style: outside none none; overflow: hidden; }
+a { text-decoration: none; }
+/* ::::: http://www.988cp.com/css/style.css ::::: */
+
+body { font-family: "Microsoft YaHei",Tahoma,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif; width: 100%; background-color: rgb(255, 255, 255); }
+.login { float: right; margin-top: 5px; }
+.login div input { font-size: 13px; width: 55px; margin-top: 1px; height: 21px; line-height: 20px; }
+.login div #password { width: 165px; }
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+.clearfix::after { clear: both; }
+.game-panel-1 div.drawDescription::before, .game-panel-2 div.drawDescription::before, .game-panel-3 div.drawDescription::before { content: " "; clear: both; }
+@media screen and (max-width: 1044px) {
+}
+/* ::::: http://www.988cp.com/css/index.css ::::: */
+
+* { margin: 0px; padding: 0px; }
+*::-moz-selection { background: rgb(0, 122, 255) none repeat scroll 0% 0%; color: white; text-shadow: none; }
+body { font-size: 13px; background-color: rgb(255, 255, 255); font-family: "Microsoft YaHei",Arial; }
+body, button, input, select, textarea { font: 13px/1 Tahoma,"微软雅黑",sans-serif,Arial,Helvetica,"宋体"; }
+ul, li { list-style: outside none none; }
+a { text-decoration: none; color: black; }
+a:hover { text-decoration: underline; }
+a:visited { text-decoration: none; }
+a:link { text-decoration: none; }
+a { cursor: pointer; }
+img { border: medium none; }
+button, input, select, textarea { font-size: 100%; }
+body { min-width: 1000px; }
+.greyline { height: 1px; background-color: rgb(221, 221, 221); margin: 20px 0px 0px 66px; width: 228px; }
+.blueline { height: 2px; background-color: rgb(33, 97, 179); }
+.g_w1 { width: 1000px; margin: 0px auto; position: relative; overflow: visible; }
+.topmenu { height: 80px; width: 100%; background: rgb(33, 97, 179) none repeat scroll 0% 0%; }
+.logo { float: left; margin-left: 100px; height: 100px; }
+.logo img { width: 200px; height: 75px; }
+.menulinks { float: right; margin-top: 20px; margin-right: -17px; }
+.sublinks { float: left; width: 93px; padding: 8px 0px; text-align: center; color: rgb(255, 255, 255); text-decoration: none !important; border-radius: 17px; margin-right: 3px; font-size: 15px; margin-top: 0px; text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3); }
+.sublinks:hover { float: left; width: 93px; text-align: center; color: rgb(33, 97, 179); background-color: rgb(255, 255, 255); }
+.notice { width: 1000px; margin: 0px auto; }
+.txtMarquee-right { width: 650px; height: 30px; margin: 0px auto; float: right; }
+.notice .icon { width: 115px; height: 30px; background: transparent url('../img/icon-notice.png') no-repeat scroll 0% 0%; float: left; }
+.notice .text { line-height: 30px; }
+.gamelist { margin-top: 20px; height: 180px; border-bottom: 2px solid rgb(33, 97, 179); }
+.gameitms { text-align: center; }
+
+.hk6, .f3d,  .pl3, .bjpk10, .cqssc,  .gdklsf, .xync,  .bjkl8, .gxk3, .xjssc, .tjssc,   .gxklsf, .gd11x5, .bjpk10bjl, .pcegg, .more,.aulucky5,.aulucky8,.aulucky10,.aulucky20,.pk10jsc,.sscjsc {display: inline-block;  background-image: url('../img/spritebox-sprite.jpg'); background-repeat: no-repeat;  cursor: pointer;}
+
+.bjkl8 {  background-position: -130px -130px;  height: 130px;  width: 130px}
+.f3d {  background-position: -0px -130px;  height: 130px;  width: 130px}
+.hk6 {  background-position: -0px -0px;  height: 130px;  width: 130px}
+.pl3 {  background-position: -0px -260px;  height: 130px;  width: 130px}
+.gdklsf {  background-position: -0px -520px;  height: 130px;  width: 130px}
+.bjpk10 {  background-position: -0px -390px;  height: 130px;  width: 130px}
+.gd11x5 {  background-position: -130px -260px;  height: 130px;  width: 130px}
+.xync {  background-position: -130px -0px;  height: 130px;  width: 130px}
+.xjssc {  background-position: -130px -520px;  height: 130px;  width: 130px}
+.gxk3 {  background-position: -130px -390px;  height: 130px;  width: 130px}
+.cqssc {  background-position: -260px -0px;  height: 130px;  width: 130px}
+.bjpk10bjl {  background-position: -260px -130px;  height: 130px;  width: 130px}
+.tjssc {  background-position: -130px -650px;  height: 130px;  width: 130px}
+.gxklsf {  background-position: -0px -650px;  height: 130px;  width: 130px}
+.pcegg {  background-position: -0px -780px;  height: 130px;  width: 130px}
+.aulucky5 {  background-position: -260px -260px;  height: 130px;  width: 130px}
+.aulucky8 {  background-position: -260px -390px;  height: 130px;  width: 130px}
+.aulucky10 {  background-position: -260px -520px;  height: 130px;  width: 130px}
+.aulucky20 {  background-position: -260px -650px;  height: 130px;  width: 130px}
+.pk10jsc {  background-position: -260px -780px;  height: 130px;  width: 130px}
+.sscjsc {  background-position: 0px -910px;  height: 130px;  width: 130px}
+.more {  background-position: -130px -780px;  height: 130px;  width: 130px}
+
+.gxklsf:hover {  background-position: -390px -650px;  height: 130px;  width: 130px}
+.pl3:hover {  background-position: -390px -260px;  height: 130px;  width: 130px}
+.f3d:hover {  background-position: -390px -130px;  height: 130px;  width: 130px}
+.gdklsf:hover {  background-position: -390px -520px;  height: 130px;  width: 130px}
+.xync:hover {  background-position: -520px -0px;  height: 130px;  width: 130px}
+.bjpk10:hover {  background-position: -390px -390px;  height: 130px;  width: 130px}
+.hk6:hover {  background-position: -390px -0px;  height: 130px;  width: 130px}
+.bjkl8:hover {  background-position: -520px -130px;  height: 130px;  width: 130px}
+.gd11x5:hover {  background-position: -520px -260px;  height: 130px;  width: 130px}
+.tjssc:hover {  background-position: -520px -650px;  height: 130px;  width: 130px}
+.gxk3:hover {  background-position: -520px -390px;  height: 130px;  width: 130px}
+.xjssc:hover {  background-position: -520px -520px;  height: 130px;  width: 130px}
+.cqssc:hover {  background-position: -650px -0px;  height: 130px;  width: 130px}
+.bjpk10bjl:hover {  background-position: -650px -130px;  height: 130px;  width: 130px}
+.pcegg:hover {  background-position: -390px -780px;  height: 130px;  width: 130px}
+.aulucky5:hover {  background-position: -650px -260px;  height: 130px;  width: 130px}
+.aulucky8:hover {  background-position: -650px -390px;  height: 130px;  width: 130px}
+.aulucky10:hover {  background-position: -650px -520px;  height: 130px;  width: 130px}
+.aulucky20:hover {  background-position: -650px -650px;  height: 130px;  width: 130px}
+.pk10jsc:hover {  background-position: -650px -780px;  height: 130px;  width: 130px}
+.sscjsc:hover {  background-position: -390px -910px;  height: 130px;  width: 130px}
+.more:hover {  background-position: -520px -780px;  height: 130px;  width: 130px}
+
+.prodcontainer { height: 445px; }
+.prodcontainer2 { height: 410px !important; }
+.prodcontainer .col1, .prodcontainer .col2, .prodcontainer .col3 { width: 320px; float: left; }
+.divider { float: left; width: 20px; height: 445px; background-image: url('../img/divider.jpg'); }
+.spechd { margin-top: 45px; }
+.specicon { float: left; }
+.specicon2 { float: left; margin-left: 8px; }
+.spectxt { float: left; margin-left: 10px; width: 225px; }
+.spectxt h1 { font-size: 25px; font-weight: normal; color: rgb(33, 97, 179); margin-top: 7px; margin-bottom: 0px; }
+.spectxt h2 { font-size: 18px; font-weight: bold; color: rgb(33, 97, 179); margin-bottom: 0px; line-height: 22px; margin-left: 5px; }
+.orange { color: rgb(255, 153, 0); }
+.textbig { font-size: 24px; font-weight: bold; }
+.spectxt p { font-size: 14px; font-weight: normal; margin-top: 5px; color: rgb(153, 153, 153); }
+.specdetail { margin-left: 56px; margin-top: 34px; }
+.specdetail2 { margin-left: 66px; margin-top: 20px; padding-right: 15px; width: 250px; }
+.specdetail2 .col1 { width: 70px; float: left; }
+.specdetail2 .col2, .specdetail2 .col3 { width: 85px; float: left; }
+.specdetail2 a { color: rgb(102, 102, 102); text-decoration: none; line-height: 20px; width: 100%; }
+.specleft { width: 83px; float: left; }
+.specleft2 { float: left; }
+.specright { float: left; }
+.number1 {
+	font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	float: left;
+	font-size: 50px;
+	line-height: 43px;
+	color: #2161b3;
+	font-style:italic;
+	overflow: visible;
+}
+
+.number1txt {
+	float: left;
+	margin-top: 28px;
+	margin-left:5px;
+	font-size: 14px;
+	color: #666;
+}
+
+.stats1 { width: 200px; height: 12px; border-radius: 6px; overflow: hidden; position: relative; background-color: rgb(204, 204, 204); }
+.stats2 { width: 200px; height: 12px; border-radius: 6px; position: absolute; right: 200px; top: 0px; background-color: rgb(33, 97, 179); }
+.specdetail p, .specdetail2 p { margin-top: 6px; line-height: 20px; font-size: 14px; color: rgb(102, 102, 102); }
+.specgraph { margin-left: 56px; margin-top: 6px; }
+.g_w1 span { padding: 0px 10px; }
+.specdetail .card_count { margin-top: 0px; }
+.cci_title { height: 24px; left: 0px; top: 0px; color: rgb(51, 51, 51); font-size: 18px; line-height: 18px; white-space: nowrap; text-shadow: 0px 1px 0px rgb(255, 255, 255); }
+.bxslider4 { height: 260px !important; }
+.footerindex2 { height: 25px; padding-top: 15px; text-align: center; font-size: 14px; color: rgb(102, 102, 102); background: rgb(246, 245, 250) none repeat scroll 0% 0%; }
+.bank_number { margin-top: 36px; }
+.bank_numbertxt { margin-top: 62px; }
+/* ::::: http://www.988cp.com/css/login_index.css ::::: */
+
+.main { background: rgb(193, 215, 233) url('../img/bg2.jpg') no-repeat scroll 0% 0%; height: 420px; }
+.panel { width: 1000px; height: 1000px; margin: 5px auto; }
+/*.login { background: transparent url('../img/login_win.png') no-repeat scroll 0% 0%; float: right; width: 270px; height: 250px; padding-top: 60px; margin-top: 50px; }
+.login { padding: 0px; height: 320px; }
+.login .support { display: block; background: transparent url('../img/support.png') no-repeat scroll 0% 0%; width: 70px; height: 25px; margin: 23px 30px 0px auto; }
+.login .info { background: transparent url('../img/input_bg.png') no-repeat scroll left top; height: 46px; width: 220px; margin: 10px auto; }
+.login .info label { background: transparent url('../img/login_ico.png') no-repeat scroll center top; display: block; font-size: 0px; text-indent: -99999px; height: 35px; width: 38px; margin: 5px 0px 0px 10px; float: left; }
+input { border: medium none; padding: 0px; }
+.login .tip { color: rgb(153, 153, 153); }
+.login .info input { float: left; font-size: 15px; margin: 3px 0px 0px; width: 165px; font-family: Microsoft YaHei; height: 40px; }
+.login .password label { background-position: center center; }
+.login .validate { width: 277px; height: 45px; padding-bottom: 10px; }
+.login .validatecode { background: transparent url('../img/input_bg.png') no-repeat scroll left top; height: 46px; width: 220px; margin: 0px 6px 0px 24px; float: left; }
+.login .validatecode label { background: transparent url('../img/login_ico.png') no-repeat scroll 0px -66px; font-size: 0px; text-indent: -99999px; height: 34px; width: 38px; margin: 5px 0px 0px 10px; display: block; float: left; }
+.login .validatecode input { font-size: 15px; margin: 5px 0px 0px; width: 90px; font-family: Microsoft YaHei; float: left; display: block; height: 38px; }
+.login .imgCode { height: 43px; line-height: 45px; margin-top: 1px; border-radius: 2px; background: rgb(240, 245, 250) none repeat scroll 0% 0%; text-align: center; }
+.login_bu { margin-left: 25px; overflow: hidden; }
+.enter { width: 120px; height: 48px; background: transparent url('../img/login_bu.png') no-repeat scroll left top; text-indent: -9999em; float: left; }
+.login .login_bu input { display: inline-block; margin: 0px 10px 0px 0px; cursor: pointer; width: 120px; height: 48px; }
+.login .login_bu input.reg { width: 88px; height: 48px; background: transparent url('../img/login_bu.png') no-repeat scroll left -104px; text-indent: -9999em; float: left; }
+.login .login_bu input.test { width: 221px; height: 46px; background: transparent url('../img/login_bu.png') no-repeat scroll left -208px; text-indent: -9999em; float: left; }
+.login img { margin: 5px 4px 5px; float: right; }*/
+.main-info-ad { width: 700px; height: 330px; float: left; position: relative; border-radius: 10px; margin-top: 5px; overflow: hidden; }
+.main-info-ad .bd, .main-info-ad .bd ul, .main-info-ad .bd ul li, .main-info-ad .bd ul li img { width: 700px; height: 330px; display: block; }
+.main-info-ad .bd ul li { float: left; }
+.main-info-ad .hd ul { position: absolute; bottom: 5px; height: 30px; line-height: 30px; text-align: center; width: 100%; left: 0px; z-index: 2; }
+.main-info-ad .hd ul li { width: 10px; height: 10px; overflow: hidden; margin: 0px 2px; text-indent: -999px; cursor: pointer; border-radius: 50%; background: rgb(204, 204, 204) none repeat scroll 0% 0%; display: inline-block; }
+.main-info-ad .hd ul li.on { background: rgb(255, 170, 13) none repeat scroll 0% 0%; }
+/* ::::: http://www.988cp.com/css/jquery.bxslider.css ::::: */
+
+.bx-wrapper { position: relative; margin: 0px; padding: 0px; }
+.bx-wrapper img { max-height: 100%; display: block; }
+.bx-wrapper .bx-viewport { border: medium none; left: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; transform: translateZ(0px); }
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto { position: absolute; bottom: -30px; width: 100%; }
+.bx-wrapper .bx-pager { text-align: center; font-size: 0.85em; font-family: Arial; font-weight: bold; color: rgb(102, 102, 102); margin-bottom: 210px; margin-left: 13px; }
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item { display: block; }
+.bx-wrapper .bx-pager.bx-default-pager a { background: rgb(145, 178, 216) none repeat scroll 0% 0%; text-indent: -9999px; display: block; width: 13px; height: 13px; margin-bottom: 8px; outline: 0px none; border-radius: 9px; }
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active { background: rgb(32, 95, 175) none repeat scroll 0% 0%; }
+/* ::::: http://www.988cp.com/css/jquery-ui.css ::::: */
+
+.ui-helper-clearfix::before, .ui-helper-clearfix::after { content: ""; display: table; border-collapse: collapse; }
+.ui-helper-clearfix::after { clear: both; }
+input.ui-button::-moz-focus-inner, button.ui-button::-moz-focus-inner { border: 0px none; padding: 0px; }
+.icon { text-align: center; }
+/* ::::: http://www.988cp.com/css/remodal.min.css ::::: */
+
+.remodal, [data-remodal-id] { display: none; }
+.remodal-overlay { position: fixed; z-index: 9999; top: -5000px; right: -5000px; bottom: -5000px; left: -5000px; display: none; }
+.remodal-wrapper { position: fixed; z-index: 10000; top: 0px; right: 0px; bottom: 0px; left: 0px; display: none; overflow: auto; text-align: center; }
+.remodal-wrapper::after { display: inline-block; height: 100%; margin-left: -0.05em; content: ""; }
+.remodal-overlay, .remodal-wrapper { backface-visibility: hidden; }
+.remodal { position: relative; outline: 0px none; }
+.remodal-is-initialized { display: inline-block; }
+.remodal-overlay { background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%; }
+.remodal-wrapper { padding: 10px 10px 0px; }
+.remodal { box-sizing: border-box; width: 100%; margin-bottom: 10px; padding: 35px; transform: translate3d(0px, 0px, 0px); color: rgb(43, 46, 56); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.remodal, .remodal-wrapper::after { vertical-align: middle; }
+.remodal-close::before { font-family: Arial,"Helvetica CY","Nimbus Sans L",sans-serif !important; font-size: 25px; line-height: 35px; position: absolute; top: 0px; left: 0px; display: block; width: 35px; content: "×"; text-align: center; }
+.remodal-confirm::-moz-focus-inner, .remodal-cancel::-moz-focus-inner, .remodal-close::-moz-focus-inner { padding: 0px; border: 0px none; }
+@media only screen and (min-width: 641px) {
+	.remodal { max-width: 700px; }
+}
+/* ::::: http://www.988cp.com/common/modelCommon/layer/css/layer.css ::::: */
+
+/* ::::: http://www.988cp.com/common/modelCommon/layer/css/layer.css ::::: */
+

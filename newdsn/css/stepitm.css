@@ -1,0 +1,101 @@
+.section {
+	padding: 20px 25px;	
+}
+
+.section h1 {
+	margin: 0 0 10px 0;
+	font-size: 24px;
+}
+
+.section .subtxt {
+	font-size: 18px;
+	padding: 0 10px 10px 0;
+	background-color: #fff;
+	position: absolute;
+	top: 55px;
+	left: 26px;
+	font-weight: bold;
+}
+
+.section .row * {
+	float: left;
+}
+
+.stepitm {
+	width: 176px;
+    height: 32px;
+    border: 1px solid #999;
+    color: #999;
+    position: relative;
+    overflow: visible;
+    float: left;
+    margin-right: -1px;
+}
+
+.stepitm:first-child {
+	width: 177px;
+}
+
+.stepnotxt {
+    font-size: 16px;
+    float: left;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.hlfcircle {
+	 position: absolute;
+    width: 12px;
+    height: 23px;
+	right: -12px;
+    top: 5px;
+	 background-image: url(../images/blue/hlfcircle1a.png);
+}
+
+
+.skin_blue .stepitm {
+
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(236,236,236,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(236,236,236,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(236,236,236,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
+
+}
+.skin_blue .stepactive {
+    border: 1px solid #1f5fb2;
+    color: #1f5fb2;
+}
+
+.skin_blue .hlfcircleactive { background-image: url(../images/blue/hlfcircle1.png)!important }
+
+.skin_red .stepitm {
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(236,236,236,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(236,236,236,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(236,236,236,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
+
+}
+.skin_red .stepactive {
+    border: 1px solid #aa3749;
+    color: #aa3749;
+}
+
+.skin_red .hlfcircleactive { background-image: url(../images/red/hlfcircle1.png)!important }
+
+.skin_gold .stepitm {
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(236,236,236,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(236,236,236,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(236,236,236,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
+
+}
+.skin_gold .stepactive {
+    border: 1px solid #cf901d;
+    color: #8c420b;
+}
+
+.skin_gold .hlfcircleactive { background-image: url(../images/gold/hlfcircle1.png)!important }

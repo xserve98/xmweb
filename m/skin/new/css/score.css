@@ -1,0 +1,228 @@
+
+input[type="text"],input[type="password"],textarea {
+	outline-style: none;
+	-webkit-appearance: none;
+}
+
+.buybtn {
+	display: inline-block;
+	overflow: hidden;
+	border-color: #ff9b01;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 2px;
+	background-color: #ffa00a;
+	color: white;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.buybtn:hover {
+	background: #ffb847;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,184,71,1)),color-stop(100%,rgba(255,162,16,1)));
+	text-decoration: none;
+}
+
+.buybtn span {
+	display: inline-block;
+	padding: 0 9px 0 10px;
+	height: 18px;
+	border-color: #ffb33b;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 2px;
+	vertical-align: middle;
+	white-space: nowrap;
+	line-height: 17px;
+}
+
+.zzsc-list {
+	margin: 30px auto;
+	width: 700px;
+}
+
+.zzsc-list .dressing {
+	float: left;
+	margin: 8px;
+	margin-top: 5px;
+	_display: inline;
+}
+
+.zzsc-list .dressing_wrap,.zzsc-list .dressing_wrapB {
+	position: relative;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 2px;
+	background: #f1f1f1;
+	_zoom: 1;
+}
+
+.zzsc-list .skinimg {
+	z-index: 2;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.zzsc-list .skinimg a {
+	display: block;
+	overflow: hidden;
+}
+
+.zzsc-list .skinimg img {
+	display: inline-block;
+}
+
+
+.zzsc-list .dressing_wrap {
+	border: 1px solid #c4c4c4;
+	border-color: #d8d8d8;
+	border-radius: 2px;
+	background: #FFF;
+	-webkit-box-shadow: 0 3px 6px -4px rgba(0,0,0,1);
+	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.21);
+	box-shadow: 0 3px 6px -4px rgba(0,0,0,1);
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.21);
+}
+
+.zzsc-list .information_area {
+	margin-bottom: 11px;
+}
+
+.zzsc-list .information_area_wrap {
+	position: relative;
+	margin: auto;
+}
+
+.zzsc-list .item,.zzsc-list .tipinfo {
+	padding: 3px 10px 0 10px;
+}
+
+.zzsc-list .information_area h4,.zzsc-list .W_vline,.zzsc-list .price {
+	margin-top: 6px;
+}
+
+.zzsc-list .information_area h4 a {
+	cursor: default;
+}
+
+.zzsc-list .price {
+	color: #333;
+}
+
+.zzsc-list .price a:hover {
+	text-decoration: underline;
+}
+
+.zzsc-list .op a {
+	color: #0989d1;
+}
+
+.zzsc-list .W_vline {
+	margin-right: 8px;
+	margin-left: 10px;
+	color: #999;
+}
+
+.zzsc-list .t_open {
+	margin-top: 5px;
+}
+
+.zzsc-list .price {
+	color: #f80;
+	font: normal 14px/normal 'microsoft yahei';
+}
+
+.zzsc-list .skinimg img:hover {
+	-webkit-animation: tada 1s .2s ease both;
+	-moz-animation: tada 1s .2s ease both;
+}
+
+@-webkit-keyframes tada {
+	0% {
+		-webkit-transform: scale(1);
+	}
+
+	10%,20% {
+		-webkit-transform: scale(0.9) rotate(-3deg);
+	}
+
+	30%,50%,70%,90% {
+		-webkit-transform: scale(1.1) rotate(3deg);
+	}
+
+	40%,60%,80% {
+		-webkit-transform: scale(1.1) rotate(-3deg);
+	}
+
+	100% {
+		-webkit-transform: scale(1) rotate(0);
+	}
+}
+
+@-moz-keyframes tada {
+	0% {
+		-moz-transform: scale(1);
+	}
+
+	10%,20% {
+		-moz-transform: scale(0.9) rotate(-3deg);
+	}
+
+	30%,50%,70%,90% {
+		-moz-transform: scale(1.1) rotate(3deg);
+	}
+
+	40%,60%,80% {
+		-moz-transform: scale(1.1) rotate(-3deg);
+	}
+
+	100% {
+		-moz-transform: scale(1) rotate(0);
+	}
+}
+
+.zzsc-list .dressing_hover .information_area {
+	-webkit-animation: flipInY 300ms .1s ease both;
+	-moz-animation: flipInY 300ms .1s ease both;
+}
+
+@-webkit-keyframes flipInY {
+	0% {
+		opacity: 0;
+		-webkit-transform: perspective(400px) rotateY(90deg);
+	}
+
+	40% {
+		-webkit-transform: perspective(400px) rotateY(-10deg);
+	}
+
+	70% {
+		-webkit-transform: perspective(400px) rotateY(10deg);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: perspective(400px) rotateY(0deg);
+	}
+}
+
+@-moz-keyframes flipInY {
+	0% {
+		opacity: 0;
+		-moz-transform: perspective(400px) rotateY(90deg);
+	}
+
+	40% {
+		-moz-transform: perspective(400px) rotateY(-10deg);
+	}
+
+	70% {
+		-moz-transform: perspective(400px) rotateY(10deg);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: perspective(400px) rotateY(0deg);
+	}
+}

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+	color: #333;
+	font: 14px/1.231 Verdana, Arial, Helvetica, sans-serif;
+}
+
+input {
+	border: none;
+	padding: 0;
+}
+
+.header {
+	height: 100px;
+	margin: 0 auto;
+	width: 950px;
+}
+
+.header a {
+	display: block;
+	width: 300px;
+	float: right;
+}
+
+.main {
+	background: #b63a42 url("login/bg.jpg") no-repeat;
+	height: 475px;
+}
+
+.panel {
+	background: url("login/2015.png") no-repeat left;
+	width: 950px;
+	height: 475px;
+	margin: 0 auto;
+}
+
+.panel_2018 {
+	background: url("login/2018.png") no-repeat left;
+	width: 950px;
+	height: 475px;
+	margin: 0 auto;
+}
+
+.login {
+	float: right;
+	width: 270px;
+	height: auto;
+	margin-top: 72px;
+	background: rgba(0,0,0,0.3);
+	border-radius: 20px;
+}
+
+.login .info {
+	background: url("login/input_bg.png") no-repeat left top;
+	height: 50px;
+	width: 220px;
+	margin: 10px auto;
+}
+
+.login .info label {
+	background: url("login/login_ico.png") no-repeat top;
+	display: block;
+	font-size: 0;
+	text-indent: -99999px;
+	height: 35px;
+	width: 38px;
+	margin: 6px 0px 0 10px;
+	float: left;
+}
+
+.login .password label {
+	background-position: center;
+}
+
+.login .code label {
+	background-position: bottom;
+}
+
+.login .facode label {
+	background: url("login/login_ico2.png") no-repeat bottom;
+}
+
+.login .info input {
+	float: left;
+	font-size: 16px;
+	margin: 12px 0 0 0;
+	width: 155px;
+	font-family: Microsoft YaHei;
+}
+
+.login .info .tip {
+	color: #999;
+}
+
+.login .code input {
+	width: 60px;
+}
+
+.login .code img {
+	cursor: pointer;
+	float: right;
+	margin: 9px 15px 0 0;
+}
+
+.login .control input {
+	background: url("login/submit.png");
+	display: block;
+	height: 36px;
+	margin: 15px auto 15px auto;
+	width: 215px;
+	text-indent: -9999em;
+}
+
+.c_logo {
+    float: left;
+    padding-top: 58px;
+    margin-top: 285px;
+    margin-left: 35px;
+}
+
+.c_logo img {
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 170px;
+    height: auto;
+}
+
+.form_t {
+	height: 36px;
+    margin-top: 15px;
+    line-height: 36px;
+    margin-left: 30px;
+}
+
+.form_t span {
+	display: inline-block;
+	width: 110px;
+	height: 36px;
+	line-height: 36px;
+	color: #fff;
+	font-weight: 600;
+}
+
+span.user_t {
+	font-size: 24px;
+}
+
+span.user_f {
+	background: url("login/google_auth_icon.png") top center no-repeat;
+	text-indent: 40px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.login .facode {
+	display: none;
+}

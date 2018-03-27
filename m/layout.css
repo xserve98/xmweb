@@ -1,0 +1,78 @@
+*{ margin:0; padding:0;}
+body{ font-size:14px; font-family:"微软雅黑"; color:#b8aab9;}
+img{ border:none;}
+p{ line-height:22px;}
+h2{ font-size:24px;}
+
+.but02{ float:left; background:#631044; width:72px; height:30px; border:none; color:#ffffff; font-size:14px; font-family:'微软雅黑';}
+
+.top{ background:#1b112c; height:45px; width:100%; color:#b8aab9;}
+.top .zc{ width:970px; margin:0 auto; height:45px; overflow:hidden; clear:both;}
+.top .zc .bt{ float:left;}
+.top .zc .dl{ float:left; margin-right:10px; height:30px; margin-top:12px; width:440px;}
+.top .zc .dr{ float:right; margin-right:30px; height:30px; width:450px; line-height:30px; margin-top:7px;text-align:right}
+.top .zc .dr a{ text-decoration:none; color:#FFFFFF; }
+.top .zc .img{ float:right; width:320px; line-height:30px; height:30px; margin-top:10px;}
+.top .zc .img img{ float:left;}
+.top .zc .img .but01{ float:left; background:#eacb85; width:62px; height:30px; border:none; color:#2a1616; font-size:14px; font-family:'微软雅黑'; margin-left:30px;}
+.top .zc .img a{color:#b8aab9;} 
+.top .zc .dl input{ background:#291a31; border:1px solid #3d2c3f; height:28px; line-height:28px;color:#FFFFFF}
+.top .zc .yz{ text-decoration:none; color:#FFFFFF; background:#1279e2; height:40px; width:40px; padding:5px;}
+.top .zc .dl01{ text-decoration:none; padding:5px 15px; background:#eacb85; color:#2a1616; margin-left:10px;}
+.top .zc a:hover{ text-decoration:underline;}
+.top .zc .zce{ text-decoration:none; padding:5px 8px; background:#631044; color:#ffffff;}
+.top .zc .mima{ color:#b8aab9;}
+
+.banner{ background:url(images/bg_1.jpg) no-repeat center top #490d31; height:587px;}
+.banner .ban{ background:url(images/banner_01.jpg) no-repeat; width:970px; height:587px; margin:0 auto;}
+.banner .ban .nav{ overflow:hidden; clear:both;}
+.banner .ban .logo{ float:left; width:248px;}
+.banner .dh{ float:right;}
+.banner .dh a{ text-decoration:none; color:#FFFFFF; height:54px; line-height:54px; padding:15px 18px;}
+.banner .dh .a{ background:#9e1c68; border-top:2px solid #e7c372;}
+.banner .dh a:hover{ text-decoration:underline;  background:#9e1c68; border-top:2px solid #e7c372;}
+
+.banner .ban .ship{ margin-top:50px;}
+.banner .ban .cp{ margin-top:61px;}
+
+.dibu{ background:url(images/bg_2.jpg) no-repeat center top #1e0815; height:388px;}
+.dibu .db{ width:970px; margin:0 auto; overflow:hidden; clear:both;}
+.dibu .db .xiaoxi{ float:left; width:333px; background:url(images/xx_01.jpg) no-repeat; height:129px; padding-right:130px;}
+.dibu .db .xiaoxi p{ font-size:12px; color:#FFFFFF;}
+.dibu .db .xiaoxi h3{ font-size:16px; color:#FFFF00; height:32px; line-height:32px;}
+.dibu .db .kaih{ float:right; width:507px;}
+.dibu .db .db01{ float:left; width:232px;}
+.dibu .db .db02{ float:left; width:231px;}
+.dibu .db .db03{ float:right; background:url(images/xx_05.jpg) no-repeat; width:457px; height:94px; padding-top:40px; padding-left:50px; color:#FFFFFF;}
+
+.dibu .db .db04{ float:left; width:274px;}
+.dibu .db .db05{ float:right; width:696px; background:url(images/dib01.jpg) no-repeat; height:125px;}
+.dibu .db .db05 p{ text-align:center; margin-top:10px; line-height:24px;}
+.dibu .db .db05 a{ text-decoration:none; color:#b8aab9;}
+.dibu .db .db05 a:hover{ color:#FFFF00;}
+
+/* ----------下注页面---------- */
+.ban01{ background:url(images/bg_3.jpg) no-repeat center top #490d31; height:106px; } 
+.ban01 .nav01{ overflow:hidden; clear:both; width:970px; margin:0 auto; height:90px;}
+.ban01 .nav01 .logo{ float:left; width:248px;}
+.ban01 .dh{ float:right;}
+.ban01 .dh a{ text-decoration:none; color:#FFFFFF; height:64px; line-height:64px; padding:20px 18px;}
+.ban01 .dh .a{ background:#9e1c68; border-top:2px solid #e7c372;}
+.ban01 .dh a:hover{ text-decoration:underline;  background:#9e1c68; border-top:2px solid #e7c372;}
+.ban01 .nav01 .tis{ font-size:12px; float:right;}
+.ban01 .nav01 .tis a{ text-decoration:none; margin:0 10px; color:#b8aab9;}
+.ban .nav .tis a:hover{ color:#FFFF00;}
+.ban .nav .tis{ font-size:12px; float:right; width:600px;}
+.ban .nav .tis a{ text-decoration:none; margin:0 10px; color:#b8aab9;}
+.ban .nav .tis a:hover{ color:#FFFF00;}
+
+.xiaz{ background:url(images/bg_4.jpg); height:auto;}
+.xiaz .xz{ width:1000px; margin:0 auto; padding-top:20px; overflow:hidden; clear:both;} 
+
+.dibu01{ background:url(images/bg_4.jpg); height:388px; padding-top:20px;}
+.dibu01 .db{ width:970px; margin:0 auto; overflow:hidden; clear:both;}
+.dibu01 .db .db04{ float:left; width:274px;}
+.dibu01 .db .db05{ float:right; width:696px;}
+.dibu01 .db .db05 p{ text-align:center; margin-top:10px; line-height:24px;}
+.dibu01 .db .db05 a{ text-decoration:none; color:#b8aab9;}
+.dibu01 .db .db05 a:hover{ color:#FFFF00;}

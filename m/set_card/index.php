@@ -1,0 +1,1 @@
+﻿<?php include_once("../member/set_card.php"); ?>

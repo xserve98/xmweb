@@ -1,0 +1,1 @@
+<?php include_once("./jnd28/auto_1680.php");?>

@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+  text-decoration: none;
+}
+
+.menu1 div span {display:block; float:left;}
+.menu1 div b{ display:block; width: 27px;height: 27px; font-size: 0px;text-indent: -99999px; margin-top: 10px;}
+.menu1 div i{display:block;text-align: center; font-style: normal; font-weight: bolder; color: #000000;}
+.skin_gray .menu1 div i{color: #000000;}
+/*重庆时时彩开奖样式*/
+
+/*以下是关于弹窗的样式*/
+.modal-title {
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+    z-index: -9999999;
+    height: 30px;
+    color: #313131;
+}
+.close-pos-r-t {
+	position: absolute;
+    width: 30px;
+    height: 30px;
+	line-height: 30px;
+	text-align: center;
+    top: 0;
+    right: 0;
+}
+.modal-close {
+  cursor: pointer;
+}
+.modal-close img{
+  margin-top: 6px;
+}
+.modal-promot-mess {
+    margin: -31px 0;
+    padding: 13px 25px;
+    font-size: 16px;
+    z-index: 9999999;
+    line-height: 24px;
+}
+.pk_name{
+  width: 240px;
+  height: 10px;
+  
+}
+.pn_1{
+  float: left;
+  font-weight: 900;
+  width: 80%;
+  padding: 4px 13% 74px 7%;
+  position: absolute;
+}
+.pn_2{
+  font-size: 15px;
+  float: right;
+  height: 24px;
+  margin: 6px 68px 0px 0;
+}
+#result_balls{
+  width: 320px;
+}
+
+#result_balls b{
+  float: left;
+}
+
+.result_stat div{
+    margin: 5px 0 0 5px;
+    float: left;
+    border: 1px solid #ced5d9;
+    height: 19px;
+    text-align: center;
+    line-height: 22px;
+    color: #313131;
+    width: 32px;
+    font-size: 14px;
+}
+
+.view_lottery{
+    border: 1px solid #ff6835;
+    font-size: 13px;
+    color: #FFFFFF;
+    height: 20px;
+    line-height: 16px;
+    width: 68px;
+    margin: 0 0 0 8px;
+    border-radius: 3px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fe7272+0,f40000+100 */
+    background: rgb(254,114,114); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(254,114,114,1) 0%, rgba(244,0,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(254,114,114,1) 0%,rgba(244,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(254,114,114,1) 0%,rgba(244,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7272', endColorstr='#f40000',GradientType=0 ); /* IE6-9 */
+    cursor: pointer;
+}

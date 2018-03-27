@@ -1,0 +1,75 @@
+<ion-view view-title="银行转账">
+	<ion-nav-buttons side="left">
+		<a class="button button-icon icon-prepage" ng-click="back();"></a>
+	</ion-nav-buttons>
+	<ion-content>
+		<div class="item-online item-bank">
+			<!-- 第一步，用户选择 -->
+			<div ng-show="bankStep==1">
+				<div class="offline-pay-tip"><span>!</span>请先转账成功后再点下一步提交存款信息！</div>
+				<form name="depositBankForm1" novalidate>
+					<div class="row">
+						<div class="col" style="max-width: 100%">
+							<label class="item item-select">
+								<select name="bankObj" ng-model="depositData.bankObj" ng-options="v.rechName for v in rechTypeList" required>
+									<option value="">选择银行</option>
+								</select>
+							</label>
+						</div>
+					</div>
+					<div ng-show="depositData.bankObj" class="item-round">
+						银行名称: {{depositData.bankObj.rechName}}<br>
+						收&nbsp;款&nbsp;人&nbsp;: {{depositData.bankObj.payeeName}}<br>
+						开户网点: {{depositData.bankObj.address}}<br>
+						银行账号: <input style="background-color: transparent; border: 0px;" readonly="readonly" ng-value="depositData.bankObj.payee"/><br>
+					</div>
+					<button ng-click="setBankStep(2);" ng-disabled="depositBankForm1.$invalid" class="button button-block button-positive button-positive-theme">下一步</button>
+				</form>
+			</div>
+
+			<!-- 第二步，填写存款信息 -->
+			<div ng-show="bankStep==2">
+				<form name="depositBankForm2" novalidate>
+					<div class="item item-input" style="margin-bottom: 0px">
+						<input type="text" class="input-number reset-field" name="depositMoney" ng-model="depositData.depositMoney" placeholder="请填写存款金额" required ng-keyup="parseFloatMoneyInDepositPage($event)" />
+					</div>
+					<p class="item-warn text-light">
+						单笔下限<span class="red">10</span>,单笔上限<span class="red">9999999</span>
+					</p>
+					<div class="item item-input" style="margin-bottom: 0px">
+						<input type="text" class="input-number reset-field" name="depositUsername" ng-model="depositData.depositUsername" placeholder="请填写实际转账人姓名" required />
+					</div>
+					<div class="list item item-input" style="margin-bottom: 0px">
+						<input type="datetime-local" name="depositDate" ng-model="depositData.depositDate" required />
+					</div>
+					<button ng-click="bankNextStep(depositData)" ng-disabled="depositBankForm2.$invalid" class="button button-block button-positive button-positive-theme">下一步</button>
+				</form>
+			</div>
+
+			<!-- 第三步，确认提交内容 -->
+			<div ng-if="bankStep==3">
+				<div class="confirmbox-theme">
+					<div class="confirm-title"><span>!</span>为了加快入款速度,请务必于转账后再提交资料！</div>
+					<div class="confirm-con">
+						<div class="confirm-contitle">存款信息</div>
+						<div class="confirm-context">
+							<p>存入金额: {{depositData.depositMoney}}</p>
+							<p>用户姓名: {{depositData.depositUsername}}</p>
+							<p>存款时间: {{depositData.depositDate | date: 'yyyy-MM-dd HH:mm:ss'}}</p>
+							<p>存款方式: 银行转账</p>
+						</div>
+						<div class="confirm-contitle">银行信息</div>
+						<div class="confirm-context">
+							<p>开户银行: {{depositData.bankObj.rechName}}</p>
+							<p>开户网点: {{depositData.bankObj.address}}</p>
+							<p>开户姓名: {{depositData.bankObj.payeeName}}</p>
+							<p>银行卡号: {{depositData.bankObj.payee}}</p>
+						</div>
+					</div>
+				</div>
+				<button id="btnDeposit" ng-click="doPay(depositData)" class="button button-block button-positive button-positive-theme">提交申请</button>
+			</div>
+
+		</div>
+	</ion-content>
+</ion-view>

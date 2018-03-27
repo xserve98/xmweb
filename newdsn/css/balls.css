@@ -1,0 +1,400 @@
+@charset "utf-8";
+
+.menu1 a span {display:block; float:left;}
+.menu1 a b{ display:block; width: 27px;height: 27px; font-size: 0px;text-indent: -99999px; margin-top: 10px;}
+.menu1 a i{display:block;text-align: center; font-style: normal; font-weight: bolder; color: #ffffff;}
+.skin_gray .menu1 a i{color: #000000;}
+
+/*重庆时时彩开奖样式*/
+.menu1 .T_SSC b{  margin-left:10px; background: url("images/ball_2.png") no-repeat;}
+.menu1 .T_SSC .b0 {	background-position: 0 0;}
+.menu1 .T_SSC .b1 {	background-position: 0 -27px;}
+.menu1 .T_SSC .b2 {	background-position: 0 -54px;}
+.menu1 .T_SSC .b3 {	background-position: 0 -81px;}
+.menu1 .T_SSC .b4 {	background-position: 0 -108px;}
+.menu1 .T_SSC .b5 {	background-position: 0 -135px;}
+.menu1 .T_SSC .b6 {	background-position: 0 -162px;}
+.menu1 .T_SSC .b7 {	background-position: 0 -189px;}
+.menu1 .T_SSC .b8 {	background-position: 0 -216px;}
+.menu1 .T_SSC .b9 {	background-position: 0 -243px;}
+
+/*百人牛牛开奖样式*/
+.menu1 .T_niuniu b{  margin-left:10px; background: url("images/niuniu_kj.png") no-repeat;}
+.menu1 .T_niuniu .bball_1 {	background-position: 0 0;}
+.menu1 .T_niuniu .bball_2 {	background-position: 0 -27px;}
+.menu1 .T_niuniu .bball_3 {	background-position: 0 -54px;}
+.menu1 .T_niuniu .bball_4 {	background-position: 0 -81px;}
+.menu1 .T_niuniu .bball_5 {	background-position: 0 -108px;}
+
+/*11选5开奖样式*/
+.menu1 .T_11X5 b{  margin-left:10px; background: url("images/ball_1.png") no-repeat;}
+.menu1 .T_11X5 .b1 {	background-position: 0 0;}
+.menu1 .T_11X5 .b2 {	background-position: 0 -27px;}
+.menu1 .T_11X5 .b3 {	background-position: 0 -54px;}
+.menu1 .T_11X5 .b4 {	background-position: 0 -81px;}
+.menu1 .T_11X5 .b5 {	background-position: 0 -108px;}
+.menu1 .T_11X5 .b6 {	background-position: 0 -135px;}
+.menu1 .T_11X5 .b7 {	background-position: 0 -162px;}
+.menu1 .T_11X5 .b8 {	background-position: 0 -189px;}
+.menu1 .T_11X5 .b9 {	background-position: 0 -216px;}
+.menu1 .T_11X5 .b10 {	background-position: 0 -243px;}
+.menu1 .T_11X5 .b11 {	background-position: 0 -270px;}
+
+
+/*广东快乐十分开奖样式*/
+.menu1 .T_KLSF b{  margin-left:8px;	background: url("images/ball_1.png") no-repeat;}
+.menu1 .T_KLSF .b1 {	background-position: 0 0;}
+.menu1 .T_KLSF .b2 {	background-position: 0 -27px;} 
+.menu1 .T_KLSF .b3 {	background-position: 0 -54px;}
+.menu1 .T_KLSF .b4 {	background-position: 0 -81px;}
+.menu1 .T_KLSF .b5 {	background-position: 0 -108px;}
+.menu1 .T_KLSF .b6 {	background-position: 0 -135px;}
+.menu1 .T_KLSF .b7 {	background-position: 0 -162px;}
+.menu1 .T_KLSF .b8 {	background-position: 0 -189px;} 
+.menu1 .T_KLSF .b9 {	background-position: 0 -216px;}
+.menu1 .T_KLSF .b10 {	background-position: 0 -243px;}
+.menu1 .T_KLSF .b11 {	background-position: 0 -270px;}
+.menu1 .T_KLSF .b12 {	background-position: 0 -297px;}
+.menu1 .T_KLSF .b13 {	background-position: 0 -324px;}
+.menu1 .T_KLSF .b14 {	background-position: 0 -351px;}
+.menu1 .T_KLSF .b15 {	background-position: 0 -378px;}
+.menu1 .T_KLSF .b16 {	background-position: 0 -405px;}
+.menu1 .T_KLSF .b17 {	background-position: 0 -432px;}
+.menu1 .T_KLSF .b18 {	background-position: 0 -459px;}
+.menu1 .T_KLSF .b19 {	background-position: 0 -486px;}
+.menu1 .T_KLSF .b20 {	background-position: 0 -513px;} 
+
+/*重庆幸运农场开奖样式*/
+.menu1 .L_XYNC b{  width:32px;height:32px; margin-left:5px;	background: url("images/ball_nc_top.png") no-repeat;}
+.menu1 .L_XYNC .b1 {	background-position: 0 0;}
+.menu1 .L_XYNC .b2 {	background-position: 0 -33px;}
+.menu1 .L_XYNC .b3 {	background-position: 0 -66px;}
+.menu1 .L_XYNC .b4 {	background-position: 0 -99px;}
+.menu1 .L_XYNC .b5 {	background-position: 0 -132px;}
+.menu1 .L_XYNC .b6 {	background-position: 0 -165px;}
+.menu1 .L_XYNC .b7 {	background-position: 0 -198px;}
+.menu1 .L_XYNC .b8 {	background-position: 0 -231px;} 
+.menu1 .L_XYNC .b9 {	background-position: 0 -264px;}
+.menu1 .L_XYNC .b10 {	background-position: 0 -297px;}
+.menu1 .L_XYNC .b11 {	background-position: 0 -330px;}
+.menu1 .L_XYNC .b12 {	background-position: 0 -363px;}
+.menu1 .L_XYNC .b13 {	background-position: 0 -396px;}
+.menu1 .L_XYNC .b14 {	background-position: 0 -429px;}
+.menu1 .L_XYNC .b15 {	background-position: 0 -462px;}
+.menu1 .L_XYNC .b16 {	background-position: 0 -495px;}
+.menu1 .L_XYNC .b17 {	background-position: 0 -528px;}
+.menu1 .L_XYNC .b18 {	background-position: 0 -561px;}
+.menu1 .L_XYNC .b19 {	background-position: 0 -594px;}
+.menu1 .L_XYNC .b20 {	background-position: 0 -627px;}
+
+/*福彩3D开奖样式*/
+.menu1 .T_3D span{ margin-left:15px;}
+.menu1 .T_3D b{margin-top: 3px; background: url("images/ball_2.png") no-repeat;}
+.menu1 .T_3D .b0 {	background-position: 0 0;}
+.menu1 .T_3D .b1 {	background-position: 0 -27px;}
+.menu1 .T_3D .b2 {	background-position: 0 -54px;}
+.menu1 .T_3D .b3 {	background-position: 0 -81px;}
+.menu1 .T_3D .b4 {	background-position: 0 -108px;}
+.menu1 .T_3D .b5 {	background-position: 0 -135px;}
+.menu1 .T_3D .b6 {	background-position: 0 -162px;}
+.menu1 .T_3D .b7 {	background-position: 0 -189px;}
+.menu1 .T_3D .b8 {	background-position: 0 -216px;}
+.menu1 .T_3D .b9 {	background-position: 0 -243px;}
+
+/*PC蛋蛋*/
+.menu1 .T_PCEGG span{ margin-left:15px;}
+.menu1 .T_PCEGG b{margin-top: 15px; background: url("images/ball_grey.png") no-repeat;}
+.menu1 .T_PCEGG .b0 {	background-position: 0 0;}
+.menu1 .T_PCEGG .b1 {	background-position: 0 -27px;}
+.menu1 .T_PCEGG .b2 {	background-position: 0 -54px;}
+.menu1 .T_PCEGG .b3 {	background-position: 0 -81px;}
+.menu1 .T_PCEGG .b4 {	background-position: 0 -108px;}
+.menu1 .T_PCEGG .b5 {	background-position: 0 -135px;}
+.menu1 .T_PCEGG .b6 {	background-position: 0 -162px;}
+.menu1 .T_PCEGG .b7 {	background-position: 0 -189px;}
+.menu1 .T_PCEGG .b8 {	background-position: 0 -216px;}
+.menu1 .T_PCEGG .b9 {	background-position: 0 -243px;}
+
+/*PC蛋蛋开奖样式*/
+.menu1 .T_PCEGG span{ margin-left:15px;}
+.menu1 .T_PCEGG .bg {margin-top: 15px; background: url("images/ball_cols.png") no-repeat;}
+.menu1 .T_PCEGG .b_0 {	background-position: 0 0;}
+.menu1 .T_PCEGG .b_1 {	background-position: 0 -27px;}
+.menu1 .T_PCEGG .b_2 {	background-position: 0 -54px;}
+.menu1 .T_PCEGG .b_3 {	background-position: 0 -81px;}
+.menu1 .T_PCEGG .b_4 {	background-position: 0 -108px;}
+.menu1 .T_PCEGG .b_5 {	background-position: 0 -135px;}
+.menu1 .T_PCEGG .b_6 {	background-position: 0 -162px;}
+.menu1 .T_PCEGG .b_7 {	background-position: 0 -189px;}
+.menu1 .T_PCEGG .b_8 {	background-position: 0 -216px;}
+.menu1 .T_PCEGG .b_9 {	background-position: 0 -243px;}
+.menu1 .T_PCEGG .b_10 {	background-position: 0 -270px;}
+.menu1 .T_PCEGG .b_11 {	background-position: 0 -297px;}
+.menu1 .T_PCEGG .b_12 {	background-position: 0 -324px;}
+.menu1 .T_PCEGG .b_13 {	background-position: 0 -351px;}
+.menu1 .T_PCEGG .b_14 {	background-position: 0 -378px;}
+.menu1 .T_PCEGG .b_15 {	background-position: 0 -405px;}
+.menu1 .T_PCEGG .b_16 {	background-position: 0 -432px;}
+.menu1 .T_PCEGG .b_17 {	background-position: 0 -459px;}
+.menu1 .T_PCEGG .b_18 {	background-position: 0 -486px;}
+.menu1 .T_PCEGG .b_19 {	background-position: 0 -513px;}
+.menu1 .T_PCEGG .b_20 {	background-position: 0 -540px;}
+.menu1 .T_PCEGG .b_21 {	background-position: 0 -567px;}
+.menu1 .T_PCEGG .b_22 {	background-position: 0 -594px;}
+.menu1 .T_PCEGG .b_23 {	background-position: 0 -621px;}
+.menu1 .T_PCEGG .b_24 {	background-position: 0 -648px;}
+.menu1 .T_PCEGG .b_25 {	background-position: 0 -675px;}
+.menu1 .T_PCEGG .b_26 {	background-position: 0 -702px;}
+.menu1 .T_PCEGG .b_27 {	background-position: 0 -729px;}
+
+ /*北京pk开奖样式*/
+.menu1 .T_PK10 b{ margin:15px 0 0 5px;height: 20px;	background: url("images/ball-pk.png") no-repeat;}
+.menu1 .T_PK10 .b1 {background-position: 0 0;}
+.menu1 .T_PK10 .b2 {background-position: 0 -21px;}
+.menu1 .T_PK10 .b3 {background-position: 0 -42px;}
+.menu1 .T_PK10 .b4 {background-position: 0 -63px;}
+.menu1 .T_PK10 .b5 {background-position: 0 -84px;}
+.menu1 .T_PK10 .b6 {background-position: 0 -105px;}
+.menu1 .T_PK10 .b7 {background-position: 0 -126px;}
+.menu1 .T_PK10 .b8 {background-position: 0 -147px;}
+.menu1 .T_PK10 .b9 {background-position: 0 -168px;}
+.menu1 .T_PK10 .b10 {	background-position: 0 -189px;}
+
+ /*江苏快三开奖样式*/
+.menu1 .T_K3 b{ margin-left:8px;	background: url("images/ball_4.png") no-repeat; }
+.menu1 .T_K3 .b1 {background-position: 0 0;}
+.menu1 .T_K3 .b2 {background-position: 0 -27px;}
+.menu1 .T_K3 .b3 {background-position: 0 -54px;}
+.menu1 .T_K3 .b4 {background-position: 0 -81px;}
+.menu1 .T_K3 .b5 {background-position: 0 -108px;}
+.menu1 .T_K3 .b6 {background-position: 0 -135px;}
+
+ /*北京快乐8开奖样式*/
+.menu1 .T_KL8{ width: 320px;}  
+.menu1 .T_KL8 b { margin:2px 0 0 8px;height:22px; width:22px; background: url("images/ball_5_small.png") no-repeat;}
+.menu1 .T_KL8 .b1 {	background-position: 0 0px;}
+.menu1 .T_KL8 .b2 {	background-position: 0 -23px;}
+.menu1 .T_KL8 .b3 {	background-position: 0 -46px;}
+.menu1 .T_KL8 .b4 {	background-position: 0 -69px;}
+.menu1 .T_KL8 .b5 {	background-position: 0 -92px;}
+.menu1 .T_KL8 .b6 {	background-position: 0 -115px;}
+.menu1 .T_KL8 .b7 {	background-position: 0 -138px;}
+.menu1 .T_KL8 .b8 {	background-position: 0 -161px;}
+.menu1 .T_KL8 .b9 {	background-position: 0 -184px;}
+.menu1 .T_KL8 .b10 {	background-position: 0 -207px;}
+.menu1 .T_KL8 .b11 {	background-position: 0 -230px;}
+.menu1 .T_KL8 .b12 {	background-position: 0 -253px;}
+.menu1 .T_KL8 .b13 {	background-position: 0 -276px;}
+.menu1 .T_KL8 .b14 {	background-position: 0 -299px;}
+.menu1 .T_KL8 .b15 {	background-position: 0 -322px;}
+.menu1 .T_KL8 .b16 {	background-position: 0 -345px;}
+.menu1 .T_KL8 .b17 {	background-position: 0 -368px;}
+.menu1 .T_KL8 .b18 {	background-position: 0 -391px;}
+.menu1 .T_KL8 .b19 {	background-position: 0 -414px;}
+.menu1 .T_KL8 .b20 {	background-position: 0 -437px;}
+.menu1 .T_KL8 .b21 {	background-position: 0 -460px;}
+.menu1 .T_KL8 .b22 {	background-position: 0 -483px;}
+.menu1 .T_KL8 .b23 {	background-position: 0 -506px;}
+.menu1 .T_KL8 .b24 {	background-position: 0 -529px;}
+.menu1 .T_KL8 .b25 {	background-position: 0 -552px;}
+.menu1 .T_KL8 .b26 {	background-position: 0 -575px;}
+.menu1 .T_KL8 .b27 {	background-position: 0 -598px;}
+.menu1 .T_KL8 .b28 {	background-position: 0 -621px;}
+.menu1 .T_KL8 .b29 {	background-position: 0 -644px;}
+.menu1 .T_KL8 .b30 {	background-position: 0 -667px;}
+.menu1 .T_KL8 .b31 {	background-position: 0 -690px;}
+.menu1 .T_KL8 .b32 {	background-position: 0 -713px;}
+.menu1 .T_KL8 .b33 {	background-position: 0 -736px;}
+.menu1 .T_KL8 .b34 {	background-position: 0 -759px;}
+.menu1 .T_KL8 .b35 {	background-position: 0 -782px;}
+.menu1 .T_KL8 .b36 {	background-position: 0 -805px;}
+.menu1 .T_KL8 .b37 {	background-position: 0 -828px;}
+.menu1 .T_KL8 .b38 {	background-position: 0 -851px;}
+.menu1 .T_KL8 .b39 {	background-position: 0 -874px;}
+.menu1 .T_KL8 .b40 {	background-position: 0 -897px;}
+.menu1 .T_KL8 .b41 {	background-position: 0 -920px;}
+.menu1 .T_KL8 .b42 {	background-position: 0 -943px;}
+.menu1 .T_KL8 .b43 {	background-position: 0 -966px;}
+.menu1 .T_KL8 .b44 {	background-position: 0 -989px;}
+.menu1 .T_KL8 .b45 {	background-position: 0 -1012px;}
+.menu1 .T_KL8 .b46 {	background-position: 0 -1035px;}
+.menu1 .T_KL8 .b47 {	background-position: 0 -1058px;}
+.menu1 .T_KL8 .b48 {	background-position: 0 -1081px;}
+.menu1 .T_KL8 .b49 {	background-position: 0 -1104px;}
+.menu1 .T_KL8 .b50 {	background-position: 0 -1127px;}
+.menu1 .T_KL8 .b51 {	background-position: 0 -1150px;}
+.menu1 .T_KL8 .b52 {	background-position: 0 -1173px;}
+.menu1 .T_KL8 .b53 {	background-position: 0 -1196px;}
+.menu1 .T_KL8 .b54 {	background-position: 0 -1219px;}
+.menu1 .T_KL8 .b55 {	background-position: 0 -1242px;}
+.menu1 .T_KL8 .b56 {	background-position: 0 -1265px;}
+.menu1 .T_KL8 .b57 {	background-position: 0 -1288px;}
+.menu1 .T_KL8 .b58 {	background-position: 0 -1311px;}
+.menu1 .T_KL8 .b59 {	background-position: 0 -1334px;}
+.menu1 .T_KL8 .b60 {	background-position: 0 -1357px;}
+.menu1 .T_KL8 .b61 {	background-position: 0 -1380px;}
+.menu1 .T_KL8 .b62 {	background-position: 0 -1403px;}
+.menu1 .T_KL8 .b63 {	background-position: 0 -1426px;}
+.menu1 .T_KL8 .b64 {	background-position: 0 -1449px;}
+.menu1 .T_KL8 .b65 {	background-position: 0 -1472px;}
+.menu1 .T_KL8 .b66 {	background-position: 0 -1495px;}
+.menu1 .T_KL8 .b67 {	background-position: 0 -1518px;}
+.menu1 .T_KL8 .b68 {	background-position: 0 -1541px;}
+.menu1 .T_KL8 .b69 {	background-position: 0 -1564px;}
+.menu1 .T_KL8 .b70 {	background-position: 0 -1587px;}
+.menu1 .T_KL8 .b71 {	background-position: 0 -1610px;}
+.menu1 .T_KL8 .b72 {	background-position: 0 -1633px;}
+.menu1 .T_KL8 .b73 {	background-position: 0 -1656px;}
+.menu1 .T_KL8 .b74 {	background-position: 0 -1679px;}
+.menu1 .T_KL8 .b75 {	background-position: 0 -1702px;}
+.menu1 .T_KL8 .b76 {	background-position: 0 -1725px;}
+.menu1 .T_KL8 .b77 {	background-position: 0 -1748px;}
+.menu1 .T_KL8 .b78 {	background-position: 0 -1771px;}
+.menu1 .T_KL8 .b79 {	background-position: 0 -1794px;}
+.menu1 .T_KL8 .b80 {	background-position: 0 -1817px;}
+
+ /*香港六合彩开奖样式*/
+.menu1 .T_HK6 span{margin-left:10px;}
+.menu1 .T_HK6 b {margin-top:3px; width:25px; background: url("images/ball_hk6.png") no-repeat;}
+.menu1 .T_HK6 .b1 {	background-position: 0 0px;}
+.menu1 .T_HK6 .b2 {	background-position: 0 -27px;}
+.menu1 .T_HK6 .b3 {	background-position: 0 -54px;}
+.menu1 .T_HK6 .b4 {	background-position: 0 -81px;}
+.menu1 .T_HK6 .b5 {	background-position: 0 -108px;}
+.menu1 .T_HK6 .b6 {	background-position: 0 -135px;}
+.menu1 .T_HK6 .b7 {	background-position: 0 -162px;}
+.menu1 .T_HK6 .b8 {	background-position: 0 -189px;}
+.menu1 .T_HK6 .b9 {	background-position: 0 -216px;}
+.menu1 .T_HK6 .b10 {	background-position: 0 -243px;}
+.menu1 .T_HK6 .b11 {	background-position: 0 -270px;}
+.menu1 .T_HK6 .b12 {	background-position: 0 -297px;}
+.menu1 .T_HK6 .b13 {	background-position: 0 -324px;}
+.menu1 .T_HK6 .b14 {	background-position: 0 -351px;}
+.menu1 .T_HK6 .b15 {	background-position: 0 -378px;}
+.menu1 .T_HK6 .b16 {	background-position: 0 -405px;}
+.menu1 .T_HK6 .b17 {	background-position: 0 -432px;}
+.menu1 .T_HK6 .b18 {	background-position: 0 -459px;}
+.menu1 .T_HK6 .b19 {	background-position: 0 -486px;}
+.menu1 .T_HK6 .b20 {	background-position: 0 -513px;}
+.menu1 .T_HK6 .b21 {	background-position: 0 -540px;}
+.menu1 .T_HK6 .b22 {	background-position: 0 -567px;}
+.menu1 .T_HK6 .b23 {	background-position: 0 -594px;}
+.menu1 .T_HK6 .b24 {	background-position: 0 -621px;}
+.menu1 .T_HK6 .b25 {	background-position: 0 -648px;}
+.menu1 .T_HK6 .b26 {	background-position: 0 -675px;}
+.menu1 .T_HK6 .b27 {	background-position: 0 -701px;}
+.menu1 .T_HK6 .b28 {	background-position: 0 -728px;}
+.menu1 .T_HK6 .b29 {	background-position: 0 -755px;}
+.menu1 .T_HK6 .b30 {	background-position: 0 -782px;}
+.menu1 .T_HK6 .b31 {	background-position: 0 -809px;}
+.menu1 .T_HK6 .b32 {	background-position: 0 -836px;}
+.menu1 .T_HK6 .b33 {	background-position: 0 -863px;}
+.menu1 .T_HK6 .b34 {	background-position: 0 -890px;}
+.menu1 .T_HK6 .b35 {	background-position: 0 -917px;}
+.menu1 .T_HK6 .b36 {	background-position: 0 -944px;}
+.menu1 .T_HK6 .b37 {	background-position: 0 -971px;}
+.menu1 .T_HK6 .b38 {	background-position: 0 -998px;}
+.menu1 .T_HK6 .b39 {	background-position: 0 -1025px;}
+.menu1 .T_HK6 .b40 {	background-position: 0 -1052px;}
+.menu1 .T_HK6 .b41 {	background-position: 0 -1079px;}
+.menu1 .T_HK6 .b42 {	background-position: 0 -1106px;}
+.menu1 .T_HK6 .b43 {	background-position: 0 -1133px;}
+.menu1 .T_HK6 .b44 {	background-position: 0 -1160px;}
+.menu1 .T_HK6 .b45 {	background-position: 0 -1187px;}
+.menu1 .T_HK6 .b46 {	background-position: 0 -1214px;}
+.menu1 .T_HK6 .b47 {	background-position: 0 -1242px;}
+.menu1 .T_HK6 .b48 {	background-position: 0 -1269px;}
+.menu1 .T_HK6 .b49 {	background-position: 0 -1296px;}
+.menu1 .T_HK6 .b0 {	background-position: 0 -1323px;}
+.menu1 .T_HK6 .b50 {	background-position: 0 -1350px;}
+
+
+/*广西快乐十分开奖样式*/
+.menu1 .T_GXKLSF b {
+	margin-left:10px; background: url("images/ball_10.png") no-repeat;
+}
+
+.menu1 .T_GXKLSF .b01 {
+	background-position: 0 0;
+}
+
+.menu1 .T_GXKLSF .b02 {
+	background-position: 0 -27px;
+}
+
+.menu1 .T_GXKLSF .b03 {
+	background-position: 0 -54px;
+}
+
+.menu1 .T_GXKLSF .b04 {
+	background-position: 0 -82px;
+}
+
+.menu1 .T_GXKLSF .b05 {
+	background-position: 0 -108px;
+}
+
+.menu1 .T_GXKLSF .b06 {
+	background-position: 0 -136px;
+}
+
+.menu1 .T_GXKLSF .b07 {
+	background-position: 0 -163px;
+}
+
+.menu1 .T_GXKLSF .b08 {
+	background-position: 0 -190px;
+}
+
+.menu1 .T_GXKLSF .b09 {
+	background-position: 0 -216px;
+}
+
+.menu1 .T_GXKLSF .b10 {
+	background-position: 0 -244px;
+}
+
+.menu1 .T_GXKLSF .b11 {
+	background-position: 0 -271px;
+}
+
+.menu1 .T_GXKLSF .b12 {
+	background-position: 0 -298px;
+}
+
+.menu1 .T_GXKLSF .b13 {
+	background-position: 0 -325px;
+}
+
+.menu1 .T_GXKLSF .b14 {
+	background-position: 0 -352px;
+}
+
+.menu1 .T_GXKLSF .b15 {
+	background-position: 0 -379px;
+}
+
+.menu1 .T_GXKLSF .b16 {
+	background-position: 0 -405px;
+}
+
+.menu1 .T_GXKLSF .b17 {
+	background-position: 0 -432px;
+}
+
+.menu1 .T_GXKLSF .b18 {
+	background-position: 0 -460px;
+}
+
+.menu1 .T_GXKLSF .b19 {
+	background-position: 0 -487px;
+}
+
+.menu1 .T_GXKLSF .b20 {
+	background-position: 0 -514px;
+}
+
+.menu1 .T_GXKLSF .b21 {
+	background-position: 0 -541px;
+}
+

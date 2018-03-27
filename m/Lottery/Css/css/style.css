@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+/***
+ * uimaker
+ * http://www.uimaker.com
+ * e-mail: admin@uimaker.com
+ */
+*{border:0;margin:0;padding:0;}
+body{font-family: Microsoft YaHei,宋体,arial,sans-serif;font-size: 12px;background-color: #F0EDE7}
+ul{display:block;margin:0;padding:0;list-style:none;}
+li{display:block;margin:0;padding:0;list-style: none;}
+img{border:0;}
+/* dl,dt,dd,span{margin:0;padding:0;display:block;} 以下是彩票分页显示的修改*/  
+dl,dt,dd,span{margin:0;padding:0;list-style:none;list-style:none;}
+a,a:focus{text-decoration:none;color:#000;outline:none;blr:expression(this.onFocus=this.blur());}
+a:hover{color:#00a4ac;text-decoration:none;}
+table{border-collapse: separate;border-spacing: 1px;}
+cite{font-style:normal;}
+h2{font-weight:normal;}
+
+/*cloud*/
+
+#mainBody {width:100%;height:100%;position:absolute;z-index:-1;}
+.cloud {position:absolute;top:0px;left:0px;width:100%;height:100%;background:url(../../images/cloud.html) no-repeat;z-index:1;opacity:0.5;}
+#cloud2 {z-index:2;}
+
+.place{height:50px;line-height: 50px}
+.place span{float:left; margin-left:10px; color:#3d3d3d;font-size: 14px;font-weight: bold}
+.placeul li{float:left; padding-left:7px; padding-right:12px; background:url(../../images/rlist.html) no-repeat right;}
+.placeul li:last-child{background:none;}
+.placeul li i{margin-left:100px; }
+.bfglinfo{padding:10px 0; overflow: hidden}
+.bfglnav{float:right; margin-right: 5px}
+.bfglnav li{width:92px; background:url(../../images/ssc_right_03.png) repeat-x; float:left; height:30px; line-height:30px; padding-right:8px; margin-right:5px; border-radius: 3px; behavior:url(js/pie.html); cursor:pointer;}
+.bfglnav li a{display:block; width:92px; height:30px;-moz-transition: none; transition: background-color 0.3s linear; -moz-transition: background-color 0.3s linear; -webkit-transition: background-color 0.3s linear; -o-transition: background-color 0.3s linear; }
+.bfglnav li a.selected{background:url(../../images/ssc_right_04.png) no-repeat; }
+.bfglnav li a:hover{background:url(../../images/ssc_right_04.png) no-repeat;}
+.bfglnav li img{float:left; margin-left:5px; margin-right:5px; margin-top:5px;}
+.bfglnav li a{padding-left:28px; color:#fff}
+
+.place2{margin-left:4px;height:50px; background:url(../../images/ssc_right_01.png);}
+.place2 span{padding:3px 0px 0px 20px;line-height:50px; font-weight:500;float:left; margin-left:15px; color:#FFFFFF}
+.placeul2 li{float:left; line-height:40px; padding-left:7px; padding-right:12px; background:url(../../images/rlist.html) no-repeat right;}
+.placeul2 li:last-child{background:none;}
+.placeul2 li i{margin-left:100px; }
+.bfglinfo2{padding:8px; }
+.bfglnav2{float:right; margin:0px 8px 0px 0px;}
+.bfglnav2 li{margin:3px 0px 0px 0px; width:92px; background:url(../../images/ssc_right_03.png) repeat-x;  float:left;height:30px; line-height:30px; height:30px; border:solid 1px #753911; float:left; padding-right:8px; margin-right:5px;border-radius: 3px; behavior:url(js/pie.html); cursor:pointer;}
+.bfglnav2 li a{display:block; width:92px; height:30px;-moz-transition: none; transition: background-color 0.3s linear; -moz-transition: background-color 0.3s linear; -webkit-transition: background-color 0.3s linear; -o-transition: background-color 0.3s linear; }
+.bfglnav2 li a.selected{background:url(../../images/ssc_right_04.png) no-repeat; }
+.bfglnav2 li a:hover{background:url(../../images/ssc_right_04.png) no-repeat;}
+.bfglnav2 li img{float:left; margin-left:5px; margin-right:5px; margin-top:5px;}
+.bfglnav2 li a{padding-left:28px; color:#fff}
+.lottery_main2{ width:774px; margin:0px 0px 0px 8px;}
+
+.bfglinfo3{padding:8px; }
+.bfglnav3{float:right; margin:0px 22px 0px 0px;}
+.bfglnav3 li{margin:3px 0px 0px 0px; width:92px; background:url(../../images/ssc_right_03.png) repeat-x;  float:left;height:30px; line-height:30px; height:30px; border:solid 1px #753911; float:left; padding-right:8px; margin-right:5px;border-radius: 3px; behavior:url(js/pie.html); cursor:pointer;}
+.bfglnav3 li a{display:block; width:92px; height:30px;-moz-transition: none; transition: background-color 0.3s linear; -moz-transition: background-color 0.3s linear; -webkit-transition: background-color 0.3s linear; -o-transition: background-color 0.3s linear; }
+.bfglnav3 li a.selected{background:url(../../images/ssc_right_04.png) no-repeat; }
+.bfglnav3 li a:hover{background:url(../../images/ssc_right_04.png) no-repeat;}
+.bfglnav3 li img{float:left; margin-left:5px; margin-right:5px; margin-top:5px;}
+.bfglnav3 li a{padding-left:28px; color:#fff}
+.lottery_main3{ width:774px; height:auto; margin:0px 0px 0px 8px;}
+
+.lottery_main{padding: 0}
+.rightinfo{background-color: #E0DCD5; padding: 0 10px}
+.rightbt{font-size:13px;font-weight:500;color:#b73638;height: 35px;line-height: 35px}
+
+.rightcon{padding: 0 10px 10px 10px}
+.hygllelist{width:100%; margin-top: 10px; background-color: #c6c6c6}
+.hygllelist tr{height:30px; line-height:30px; text-align: center; background-color: #fff}
+.hygllelist th{background-color: #a69b91; color:#fff;}
+.hygllelist th a{color:#fff;}
+.hygllelist td{text-align: center}
+.hygllelist td li{float:right; margin-right:3px; }
+.hygllelist tbody tr.odd{background:#f5f8fa;}
+.hygllelist tbody tr:hover{background:#e5ebee;}
+
+.gglelist{border:solid 1px #cbcbcb; width:779px; clear:both;}
+.gglelist th{background:url(../../images/noticle778.gif) repeat-x; height:30px; line-height:30px; border-bottom:solid 1px #b6cad2; text-indent:11px; text-align:left; color:#fff;}
+.gglelist th a{color:#fff;}
+.gglelist td{line-height:1.6em; text-indent:8px; border-right: dotted 1px #c7c7c7; border-bottom:1px dotted #c7c7c7;}
+.gglelist td li{float:right; margin-right:3px; }
+.gglelist tbody tr.odd{background:#f5f8fa;}
+.gglelist tbody tr:hover{background:#e5ebee;}

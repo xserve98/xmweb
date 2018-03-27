@@ -1,0 +1,471 @@
+a{outline: none;}
+.page-game_niuniu{
+
+}
+.page-game_niuniu .page-wrap{
+    width:980px;
+  
+}
+.game-timer{
+    height: 107px;
+}
+.game-timer .issue{
+    display: inline-block;
+    vertical-align: top;
+    width:480px;
+    font-size: 18px;
+    color:#fff;
+    line-height: 106px;
+    padding-left: 48px;
+}
+.game-timer .issue b{
+    font-size: 36px;
+    color:#ffff00;
+}
+.game-timer .lefttime{
+    display: inline-block;
+    vertical-align: top;
+    width:418px;
+    padding-top:16px;
+    padding-left:10px;
+}
+.game-menu{
+    margin-top:50px;
+    text-align: center;
+}
+.game-menu a{
+    display: inline-block;
+    margin-left:118px;
+    color:#fff;
+    width: 227px;
+    height: 227px;
+    background:url('../images/niuniu_menu.png') no-repeat;
+    background-position: -228px top;
+}
+.game-menu a:first-child{
+    margin-left:0;
+}
+.game-menu a.active{
+    background-position: left top;
+}
+.game-menu a span,.game-menu .active:hover span{
+    display: inline-block;
+    padding: 94px 0 0 108px;
+    text-align: left;
+    line-height: 40px;
+    color:#fff7d5;
+    font-size: 28px;
+}
+.game-menu a:hover span{
+    color:#f60;
+}
+.game-area{
+    padding:5px;
+    width:932px;
+ 
+    min-height: 200px;
+    border:1px solid #29213a;
+    background:url('../images/niuniu_grain.gif') repeat;
+}
+.game-area .lastcode{
+    position: relative;
+    padding:20px 0 20px 44px;
+    border-bottom:1px solid #0b0910;
+}
+.game-area .lastcode .issue{
+    display: inline-block;
+    color:#fff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.game-area .lastcode .issue b{
+    color:#ffff00;
+    font-weight: bold;
+    font-size: 28px;
+}
+.game-area .lastcode #last-code-zj{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 28px;
+    color:#ff0000;
+}
+.game-area .lastcode #last-code{
+    display: inline-block;
+    margin-left:48px;
+    font-weight: bold;
+    font-size: 20px;
+    color:#fcd20b;
+}
+#help-more{
+    position: absolute;
+    right:24px;top:16px;
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    background:url('../images/niuniu_icons.png') no-repeat left top;
+}
+.game-area .lastcode .help-more:hover{
+    background-position: -48px top;
+}
+.game-area .betarea{
+    width:932px;margin:0 auto;
+    border-top:1px solid #36333d;
+}
+.game-area .betrow{
+    margin-top:8px;
+}
+.game-area .betrow:first-child{
+    background: rgba(255,255,255,.2);
+}
+.game-area .selrow{
+    display: inline-block;
+    padding:8px 0px 6px 0px;
+    margin-left:48px;
+    width: 716px;
+    border:2px solid transparent;
+    border-radius:4px;
+    text-align: left;
+}
+.game-area .selrow:hover{
+    border-color: #262736;
+}
+.game-area .selected .selrow{
+    border-color: #EB3600;
+}
+.game-area .betarea .rowhead{
+    display: inline-block;
+    text-align: center;
+    width: 108px;
+    vertical-align: middle;
+}
+.game-area .betarea .cardrow{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.game-area .betarea .status{
+    display: inline-block;
+    text-align: center;
+    width: 152px;
+    vertical-align: middle;
+}
+.game-area .betarea .status span{
+    display: inline-block;
+    padding:0 16px;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    color:#fcd20b;
+    background-color: #452b10;
+    line-height: 37px;
+    border-radius: 32px;
+}
+.game-area .betarea .type{
+    display: inline-block;
+    width:80px;height: 80px;
+    background:url('../images/niuniu_label.png') no-repeat;
+}
+.game-area .betarea .rowhead i{
+    display: inline-block;
+    font-size: 14px;
+    font-style: normal;
+    width: 108px;
+    text-align: center;
+    color:#77651c;
+    line-height: 24px;
+}
+.game-area .help-zj{
+    display: inline-block;
+    width:24px;height: 24px;
+    vertical-align: middle;
+    margin-left: 2px;
+    cursor: pointer;
+    background:url('../images/niuniu_icons.png') no-repeat -240px top;
+}
+.game-area .help-zj:hover{
+    background-position: -276px top;
+}
+.game-area .betarea .type_z{background-position: left top;}
+.game-area .betarea .type_t{background-position: left -80px;}
+.game-area .betarea .type_d{background-position: left -160px;}
+.game-area .betarea .type_x{background-position: left -240px;}
+.game-area .betarea .type_h{background-position: left -320px;}
+.game-area .btn{
+    display: inline-block;
+    padding:0 12px;
+    height: 38px;
+    line-height: 38px;
+    color:#fff;
+    border-radius: 3px;
+    background-color:#990000;
+    vertical-align: middle;
+}
+.game-area .btn:hover{background-color:#ca2b00;}
+.game-area .btn:active{box-shadow: inset 1px 1px 4px rgba(0,0,0,.3)}
+
+
+.game-area .betarea .back,.game-area .betarea .front{
+    display: inline-block;
+    position: absolute;
+    z-index: 20;
+    left:0;top:0;
+    width:83px;
+    height: 111px;
+    transition: transform 1s ease;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    background:url('../images/niuniu_poker.png') no-repeat left top;
+}
+.game-area .card1 .back,.game-area .card1 .front{transition-delay:0s;}
+.game-area .card2 .back,.game-area .card2 .front{transition-delay:.08s;}
+.game-area .card3 .back,.game-area .card3 .front{transition-delay:.16s;}
+.game-area .card4 .back,.game-area .card4 .front{transition-delay:.24s;}
+.game-area .card5 .back,.game-area .card5 .front{transition-delay:.32s;}
+.game-area .betarea .front{
+    z-index: 10;
+    transform:rotateY(-180deg);
+    background: url('../images/niuniu_poker_on.png') no-repeat 84px 112px;
+}
+.game-area .betarea .poker_0 {background-position: left top;}
+.game-area .betarea .poker_1 {background-position: left -112px;}
+.game-area .betarea .poker_2 {background-position: left -224px;}
+.game-area .betarea .poker_3 {background-position: left -336px;}
+.game-area .betarea .poker_4 {background-position: -84px top;}
+.game-area .betarea .poker_5 {background-position: -84px -112px;}
+.game-area .betarea .poker_6 {background-position: -84px -224px;}
+.game-area .betarea .poker_7 {background-position: -84px -336px;}
+.game-area .betarea .poker_8 {background-position: -168px top;}
+.game-area .betarea .poker_9 {background-position: -168px -112px;}
+.game-area .betarea .poker_10{background-position: -168px -224px;}
+.game-area .betarea .poker_11{background-position: -168px -336px;}
+.game-area .betarea .poker_12{background-position: -252px top;}
+.game-area .betarea .poker_13{background-position: -252px -112px;}
+.game-area .betarea .poker_14{background-position: -252px -224px;}
+.game-area .betarea .poker_15{background-position: -252px -336px;}
+.game-area .betarea .poker_16{background-position: -336px top;}
+.game-area .betarea .poker_17{background-position: -336px -112px;}
+.game-area .betarea .poker_18{background-position: -336px -224px;}
+.game-area .betarea .poker_19{background-position: -336px -336px;}
+.game-area .betarea .poker_20{background-position: -420px top;}
+.game-area .betarea .poker_21{background-position: -420px -112px;}
+.game-area .betarea .poker_22{background-position: -420px -224px;}
+.game-area .betarea .poker_23{background-position: -420px -336px;}
+.game-area .betarea .poker_24{background-position: -504px top;}
+.game-area .betarea .poker_25{background-position: -504px -112px;}
+.game-area .betarea .poker_26{background-position: -504px -224px;}
+.game-area .betarea .poker_27{background-position: -504px -336px;}
+.game-area .betarea .poker_28{background-position: -588px top;}
+.game-area .betarea .poker_29{background-position: -588px -112px;}
+.game-area .betarea .poker_30{background-position: -588px -224px;}
+.game-area .betarea .poker_31{background-position: -588px -336px;}
+.game-area .betarea .poker_32{background-position: -672px top;}
+.game-area .betarea .poker_33{background-position: -672px -112px;}
+.game-area .betarea .poker_34{background-position: -672px -224px;}
+.game-area .betarea .poker_35{background-position: -672px -336px;}
+.game-area .betarea .poker_36{background-position: -756px top;}
+.game-area .betarea .poker_37{background-position: -756px -112px;}
+.game-area .betarea .poker_38{background-position: -756px -224px;}
+.game-area .betarea .poker_39{background-position: -756px -336px;}
+.game-area .betarea .poker_40{background-position: -840px top;}
+.game-area .betarea .poker_41{background-position: -840px -112px;}
+.game-area .betarea .poker_42{background-position: -840px -224px;}
+.game-area .betarea .poker_43{background-position: -840px -336px;}
+.game-area .betarea .poker_44{background-position: -924px top;}
+.game-area .betarea .poker_45{background-position: -924px -112px;}
+.game-area .betarea .poker_46{background-position: -924px -224px;}
+.game-area .betarea .poker_47{background-position: -924px -336px;}
+.game-area .betarea .poker_48{background-position: -1008px top;}
+.game-area .betarea .poker_49{background-position: -1008px -112px;}
+.game-area .betarea .poker_50{background-position: -1008px -224px;}
+.game-area .betarea .poker_51{background-position: -1008px -336px;}
+.game-area .card{
+    height: 111px;width: 83px;
+    margin-left: 36px;
+    display: inline-block;
+    position: relative;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+}
+.game-area .card-on .back{
+    z-index: 10;
+    transform:rotateY(180deg);
+}
+.game-area .card-on .front{
+    z-index: 20;
+    transform:rotateY(0deg);
+}
+
+.game-actions{
+       padding: 10px 150px;
+}
+.game-actions .reloadbox{
+    display: inline-block;
+    width:60px;
+    height:60px;
+    vertical-align: middle;
+    text-align: center;
+	    padding-top: 20px;
+}
+.game-actions .reload,.game-actions .loading{
+    display: inline-block;
+    width:50px;
+    height:60px;
+}
+.game-actions .reload{    
+    cursor: pointer;
+    background:url('../images/niuniu_icons.png') no-repeat -40px top;
+}
+.game-actions .reload:hover{
+    background-position: -40px top;
+}
+.game-actions .loading{
+    cursor: default;
+    background:url('../images/loader.gif') no-repeat center center;
+}
+.game-actions .balance{
+    display: inline-block;
+    padding-left:24px;
+    width:236px;
+    line-height: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    vertical-align: middle;
+    color:#fcd20b;
+}
+.game-actions .money{
+    padding:16px 20px;
+    width:236px;
+    color:#c00;
+    font-size: 20px;
+    line-height: 24px;
+    background:#fff;
+    box-shadow: inset 1px 1px 8px rgba(0,0,0,.2);
+    border-radius: 5px;
+    outline:none;
+    vertical-align: middle;
+}
+.game-actions .placeholder{
+    color:#aaa;
+}
+.game-actions .money-active{
+    color:#c8c8c8;
+    font-size: 18px;
+}
+.game-actions .submit{
+    display: inline-block;
+    width: 232px;
+    height: 70px;
+    line-height: 70px;
+    margin-left:64px;
+    background-color: #990000;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 28px;
+    vertical-align: middle;
+    color:#fff;
+    text-decoration: none;
+}
+.game-actions .submit:hover{
+    background-color: #a60e0e;
+}
+.game-actions .submit:active{
+    box-shadow: inset 1px 4px 6px rgba(0,0,0,.3);
+}
+.game-help{
+    display: none;
+    position:absolute;
+    color:#000;
+    padding: 20px 25px;
+    width: 890px;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 27px;
+}
+.game-help:after{
+    display: block;
+    content: '';
+    height: 0;
+    width: 0;
+    top: -5px;
+    right: 41px;
+    position: absolute;
+    border-bottom:5px solid #fff;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+}
+.game-help i.help-close{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right:22px;
+    top:18px;
+    background-image: url('../images/niuniu_icons.png');
+    background-position: -99px -3px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.game-help i.help-close:hover{
+    background-position: -131px -3px;
+}
+.game-help i.help-close:active{
+    border-radius: 4px;
+    background-position: -99px -3px;
+    box-shadow: inset -1px 1px 4px rgba(0,0,0,.3);
+}
+.game-help h3{
+    margin:12px 0;
+    height: 32px;
+    line-height: 32px;
+    padding-left:12px;
+    font-size: 14px;
+    background:url('../images/game-niuniu-helphead.gif') no-repeat left top;
+}
+.game-help table{
+    border-collapse:collapse;
+    width: 100%;
+    color:#666;
+    border:1px solid #e9e9e9;
+}
+.game-help table th{
+    line-height: 34px;
+}
+.game-help table th,.game-help table td{
+    padding:0 16px;
+    text-align: center;
+    border:1px solid #e9e9e9;
+    border-top:none;
+    border-left:none;
+}
+.game-help .desc{
+    text-align: left;
+}
+
+/* 确认投注框 */
+.layui-layer .betConfirm{
+    padding:0px 0;
+    margin: 0 auto;
+    width:412px;line-height: 28px;
+}
+.layui-layer .betConfirm .issuelist{line-height: 22px;}
+.layui-layer .betConfirm .cfmtable{width:412px;border: none;padding: 0;margin: 0;}
+.layui-layer .betConfirm tr td{text-align: left;}
+.layui-layer .betConfirm tr td:first-child{text-align: right;padding-right: 8px;width: 80px;}
+.layui-layer .betConfirm tr td.type{text-align: center;width: 120px;}
+.layui-layer .betConfirm b{color:#fe2f5e;}
+.layui-layer .betConfirm b.red{color:#c00;}
+.layui-layer .betConfirm .issuelist{
+    max-height: 254px;
+    max-width: 320px;
+    overflow-y:auto;
+    border: 1px solid #eee;
+    padding:4px 8px;
+    background: #fafafa;
+}
+.layui-layer .betConfirm .issdetail td{
+    padding: 4px 0;
+    word-wrap:break-word;
+    word-break:break-all;
+}

@@ -1,0 +1,177 @@
+.list-table{margin-top:12px;}
+table {
+    border-spacing: 0 !important;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 3px;
+}
+tr {
+    vertical-align: top !important;
+    border-spacing: 0 !important;
+}
+td, th {
+    color: #333;
+    font: 11px Tahoma,Arial,sans-serif;
+}
+.list-table td {
+    width: 180px;
+}
+.list-td {
+    border: 2px solid #EB6206;
+    cursor: default;
+	vertical-align: top;
+}
+.list-img {
+    height: 144px;
+    margin: 3px 3px 0 3px;
+	background-repeat: no-repeat;
+    background-position: center 0;
+    background-size:cover;
+}
+.list-text {
+    border: 0;
+    margin: 0 3px;
+    font-size: 11px;
+    line-height: 14px;
+    height: 14px;
+ 	color: #929aa8;
+    border: 0 solid #6f798c;
+    overflow: hidden;
+}
+.list-text span {
+    float: right;
+    font-size: 10px;
+}
+.list-text em {
+	font-style:normal;
+    font-size: 10px;
+	font-weight:600;
+/* 	color: #000; */
+}
+.list-text a {
+    color: #E70D3E;
+}
+.prod-list a {
+    text-decoration: none;
+}
+ .list-head {
+    border: 0;
+    margin: 0 3px;
+    font-size: 11px;
+    height: 5px;
+    overflow-y: hidden;
+	color: #676767;
+    font-weight: bold;
+}
+.list-link {
+    border: 0;
+    margin: 0 3px 3px 3px;
+    font-size: 11px;
+    line-height: 16px;
+    height: 17px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+ .list-link a {
+    color: #fff;
+    background: #E57F34 /* url('../../../../images/CN/xyzh/pc/bg_button.png') no-repeat 0 -276px */;
+    padding-left: 15px;
+    display: block;
+}
+td.pad {
+    width: 20px;
+    height: 8px;
+    line-height: 0;
+    font-size: 0;
+}
+
+/* .banner{width:100%;  margin-bottom:30px;} */
+
+
+
+.gold{color:gold;}
+
+/* 电子游戏分页按钮 */
+.electroncGamePageingId ul li span{border: 1px solid #FF5B0F; padding: 0 4px; background-color: #FF5B0F;}
+.electroncGamePageingId ul li{float: right;padding: 2px 6px;}
+.electroncGamePageingId ul li:hover{color: red;cursor: pointer;}
+.electroncGamePageingId ul{float: right;}
+.electroncGamePageingId{float: right;margin-right: 6px;}
+
+
+.list-td:hover{cursor: pointer;}
+
+.focusOne{
+	border-left: 0;
+    padding-left: 11px;
+    background-position: 0 -30px;
+    color: red!important;
+}
+
+.list2-title a {
+    background: #e78b14 none repeat scroll 0 0;
+    border-right: 2px solid #da8516;
+    display: block;
+    float: left;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 10%;
+}
+.list2-title a.c { color: gold;}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a, a:active, a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.list2-title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #e78b14;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 0 2px;
+    height: 28px;
+    line-height: 28px;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+.list2-title a{
+	color: black;
+}
+
+
+
+.game_center {width: 1000px;background-color:#8A2611; margin: 20px auto;}
+.titleone {
+	height: 60px;
+	width: 1000px;
+	margin: 20px auto;
+}
+
+.titleone a {
+	float: left;
+	margin-top: 13px;
+	text-align: center;
+	width: 142px;
+	color: #fff;
+}
+.choose { background: #5E0B05 none repeat scroll 0 0 !important;}
+
+
+
+
+
+
+
+

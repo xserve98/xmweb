@@ -1,0 +1,233 @@
+@CHARSET "UTF-8";
+
+#drawTable table {
+	width: 100%;
+}
+
+#drawTable .page_info {
+	width: 600px;
+}
+
+.split_panels {
+	float: none;
+	overflow: hidden;
+}
+
+.split_panels table {
+	float: left;
+	width: 205px;
+	margin: 10px 2.25px 0 0;
+}
+
+.split_panels .name {
+	width: 47px;
+}
+
+.split_panels .odds {
+	width: 70px;
+}
+
+.table_ball .odds {
+	width: 70px;
+}
+
+.table_zh .name {
+	width: 57px;
+}
+
+.table_zh .odds {
+	width: 70px;
+}
+
+.table_ball .name {
+	width: 47px;
+}
+
+.table_ball .name span,#drawInfo .balls b {
+	background: url("images/ball_1.png") no-repeat;
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	font-size: 0px;
+	text-indent: -99999px;
+	margin-top: 4px;
+}
+
+.table_ball .name .b01,#drawInfo .balls .b01 {
+	background-position: 0 0;
+}
+
+.table_ball .name .b02,#drawInfo .balls .b02 {
+	background-position: 0 -27px;
+}
+
+.table_ball .name .b03,#drawInfo .balls .b03 {
+	background-position: 0 -54px;
+}
+
+.table_ball .name .b04,#drawInfo .balls .b04 {
+	background-position: 0 -81px;
+}
+
+.table_ball .name .b05,#drawInfo .balls .b05 {
+	background-position: 0 -108px;
+}
+
+.table_ball .name .b06,#drawInfo .balls .b06 {
+	background-position: 0 -135px;
+}
+
+.table_ball .name .b07,#drawInfo .balls .b07 {
+	background-position: 0 -162px;
+}
+
+.table_ball .name .b08,#drawInfo .balls .b08 {
+	background-position: 0 -189px;
+}
+
+.table_ball .name .b09,#drawInfo .balls .b09 {
+	background-position: 0 -216px;
+}
+
+.table_ball .name .b10,#drawInfo .balls .b10 {
+	background-position: 0 -243px;
+}
+
+.table_ball .name .b11,#drawInfo .balls .b11 {
+	background-position: 0 -270px;
+}
+
+.table_ball .name .b12,#drawInfo .balls .b12 {
+	background-position: 0 -297px;
+}
+
+.table_ball .name .b13,#drawInfo .balls .b13 {
+	background-position: 0 -324px;
+}
+
+.table_ball .name .b14,#drawInfo .balls .b14 {
+	background-position: 0 -351px;
+}
+
+.table_ball .name .b15,#drawInfo .balls .b15 {
+	background-position: 0 -378px;
+}
+
+.table_ball .name .b16,#drawInfo .balls .b16 {
+	background-position: 0 -405px;
+}
+
+.table_ball .name .b17,#drawInfo .balls .b17 {
+	background-position: 0 -432px;
+}
+
+.table_ball .name .b18,#drawInfo .balls .b18 {
+	background-position: 0 -459px;
+}
+
+.table_ball .name .b19,#drawInfo .balls .b19 {
+	background-position: 0 -486px;
+}
+
+.table_ball .name .b20,#drawInfo .balls .b20 {
+	background-position: 0 -513px;
+}
+
+.L_XYNC .table_ball .name span,.L_XYNC  #drawInfo .balls b {
+	background: url("images/ball_nc.png") no-repeat;
+	width: 32px;
+	height: 32px;
+	margin: 0;
+}
+
+.L_XYNC .table_ball .name .b01,.L_XYNC #drawInfo .balls .b01 {
+	background-position: 0 0;
+}
+
+.L_XYNC .table_ball .name .b02,.L_XYNC #drawInfo .balls .b02 {
+	background-position: 0 -33px;
+}
+
+.L_XYNC .table_ball .name .b03,.L_XYNC #drawInfo .balls .b03 {
+	background-position: 0 -66px;
+}
+
+.L_XYNC .table_ball .name .b04,.L_XYNC #drawInfo .balls .b04 {
+	background-position: 0 -99px;
+}
+
+.L_XYNC .table_ball .name .b05,.L_XYNC #drawInfo .balls .b05 {
+	background-position: 0 -132px;
+}
+
+.L_XYNC .table_ball .name .b06,.L_XYNC #drawInfo .balls .b06 {
+	background-position: 0 -165px;
+}
+
+.L_XYNC .table_ball .name .b07,.L_XYNC #drawInfo .balls .b07 {
+	background-position: 0 -198px;
+}
+
+.L_XYNC .table_ball .name .b08,.L_XYNC #drawInfo .balls .b08 {
+	background-position: 0 -231px;
+}
+
+.L_XYNC .table_ball .name .b09,.L_XYNC #drawInfo .balls .b09 {
+	background-position: 0 -264px;
+}
+
+.L_XYNC .table_ball .name .b10,.L_XYNC #drawInfo .balls .b10 {
+	background-position: 0 -297px;
+}
+
+.L_XYNC .table_ball .name .b11,.L_XYNC #drawInfo .balls .b11 {
+	background-position: 0 -330px;
+}
+
+.L_XYNC .table_ball .name .b12,.L_XYNC #drawInfo .balls .b12 {
+	background-position: 0 -363px;
+}
+
+.L_XYNC .table_ball .name .b13,.L_XYNC #drawInfo .balls .b13 {
+	background-position: 0 -396px;
+}
+
+.L_XYNC .table_ball .name .b14,.L_XYNC #drawInfo .balls .b14 {
+	background-position: 0 -429px;
+}
+
+.L_XYNC .table_ball .name .b15,.L_XYNC #drawInfo .balls .b15 {
+	background-position: 0 -462px;
+}
+
+.L_XYNC .table_ball .name .b16,.L_XYNC #drawInfo .balls .b16 {
+	background-position: 0 -495px;
+}
+
+.L_XYNC .table_ball .name .b17,.L_XYNC #drawInfo .balls .b17 {
+	background-position: 0 -528px;
+}
+
+.L_XYNC .table_ball .name .b18,.L_XYNC #drawInfo .balls .b18 {
+	background-position: 0 -561px;
+}
+
+.L_XYNC .table_ball .name .b19,.L_XYNC #drawInfo .balls .b19 {
+	background-position: 0 -594px;
+}
+
+.L_XYNC .table_ball .name .b20,.L_XYNC #drawInfo .balls .b20 {
+	background-position: 0 -627px;
+}
+
+#resultPanel .ballTable .head .b19,#resultPanel .ballTable .head .b20 {
+	color: red;
+}
+
+.balls_panel {
+	width: auto;
+}
+
+.balls_panel .table_ball td {
+	height: 27px;
+}

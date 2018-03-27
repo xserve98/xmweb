@@ -1,0 +1,46 @@
+.games{background-color: #fff; text-align: center; padding: 5px 0; overflow: hidden}
+.games .col{width: 33.33333%; float: left; padding-bottom: 5px}
+.games .logo{width: 82px; height: 82px; background: url("../images/dy/cp_logo.png") no-repeat; display: inline-block; margin-top: 10px}
+.games .logo.cqssc{background-position: 0 0}/*重庆时时彩*/
+.games .logo.tjssc{background-position: -84px 0}/*天津时时彩*/
+.games .logo.xjssc{background-position: -168px 0}/*新疆时时彩*/
+.games .logo.pk10{background-position: 0 -84px}/*北京赛车*/
+.games .logo.xyft{background-position: -84px -84px}/*幸运飞艇*/
+.games .logo.xync{background-position: -168px -84px}/*重庆幸运农场*/
+.games .logo.gdsf{background-position: 0 -168px}/*广东快乐十分*/
+.games .logo.kl8{background-position: -84px -168px}/*北京快乐8*/
+.games .logo.fc3d{background-position: -168px -168px}/*福彩3D*/
+.games .logo.pl3{background-position: 0 -252px}/*体彩排列三*/
+.games .logo.azsf{background-position: -84px -252px}/*澳洲快乐十分*/
+.games .logo.pcdd{background-position: -168px -252px}/*PC蛋蛋*/
+.games .logo.wfc{background-position: 0 -336px}/*澳洲五分彩*/
+.games .logo.lfc{background-position: -168px -336px}/*澳洲两分彩*/
+.games .logo.ffc{background-position: -84px -336px}/*澳洲分分彩*/
+.games .logo.jnd28{background-position: 0 -420px}/*加拿大28*/
+.games .logo.jspcdd{background-position: -84px -420px}/*极速PC蛋蛋*/
+.games .logo.jssc{background-position: -168px -420px}/*极速赛车(PK10)*/
+.games .gm_txt{color: #005ab5; display: block}
+
+.games1{background-color: #fff; text-align: center; padding: 5px 0; overflow: hidden}
+.games1 .col{width: 33.33333%; float: left; padding-bottom: 5px}
+.games1 .logo{width: 82px; height: 82px; background: url("../images/dy/cp_logo1.png") no-repeat; display: inline-block; margin-top: 10px}
+.games1 .logo.gd11x5{background-position: 0 0}/*广东11选5*/
+.games1 .logo.xjp28{background-position: -84px 0}/* 新加坡28 */
+.games1 .logo.azxy28{background-position: -168px 0}/*澳洲幸运28*/
+.games1 .logo.az5{background-position: 0 -84px}/*澳洲幸运5*/
+.games1 .logo.az8{background-position: -84px -84px}/*澳洲幸运8*/
+.games1 .logo.az10{background-position: -168px -84px}/*澳洲幸运10*/
+.games1 .logo.az20{background-position: 0 -168px}/*澳洲幸运20*/
+.games1 .logo.azssc{background-position: -84px -168px}/*澳洲时时彩*/
+.games1 .logo.shssc{background-position: -168px -168px}/*上海时时乐*/
+.games1 .logo.six{background-position: 0 -252px}/*香港六合彩*/
+.games1 .logo.cqsix{background-position: -84px -252px}/*澳洲六合彩*/
+.games1 .logo.xjp8{background-position: -168px -252px}/* 新加坡快乐8 */
+/* 暂时未使用 */
+.games .logo.jnd28{background-position: 0 -420px}
+.games1 .logo.jsssc{background-position: -84px -336px}
+.games1 .logo.jslfc{background-position: -168px -336px}
+.games1 .logo.jslhc{background-position: 0 -420px}
+.games1 .logo.jspcdd{background-position: -84px -420px}
+.games1 .logo.jssc{background-position: -168px -420px}
+.games1 .gm_txt{color: #005ab5; display: block}

@@ -1,0 +1,1 @@
+<?php include_once("./shk3/auto_1680.php");?>

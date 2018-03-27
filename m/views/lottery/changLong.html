@@ -1,0 +1,23 @@
+<ion-view view-title="两面长龙" class="chang-long">
+	<ion-nav-buttons side="left">
+    	<a class="button button-icon icon-prepage" ng-click="back();"></a>
+  	</ion-nav-buttons>
+	<ion-content scroll="false">
+			<div class="selectLottery item-select">
+				<select ng-model="queryData.gameId" ng-options="g.id as g.name for g in gameList" ng-change="onQuery()"  class="disable-user-behavior"></select>
+			</div>
+			<div class="row no-title text-center">
+				<div class="col col-50 radiu">彩种</div>
+				<div class="col col-50 radiu">期数</div>
+			</div>
+			<ion-content class="list">
+			<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+				<div ng-repeat="data in curStatList" class="row text-center" >
+					<div class="col-50 tal tip"><div>{{data.playCateName}}-{{data.playName}}</div></div>
+					<div class="col-50 tal tip"><div>{{data.count}}</div></div>
+				</div>
+				
+				<div ng-show="!curStatList" class="spinner-warp"><ion-spinner class="spinner spinner-ios"></ion-spinner></div>
+			</ion-content>
+	</ion-content>
+</ion-view>
